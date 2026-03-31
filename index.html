@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catherine C. Hunt | Realtor® | Minden & Northwest Louisiana</title>
+  <meta name="description" content="Catherine Charping-Hunt is your trusted local REALTOR® serving Minden, Sibley, Haughton, Bossier City, and all of Northwest Louisiana. Search homes, get a free market analysis, or just start a conversation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <span>📞 <a href="tel:3182680854">(318) 268-0854</a></span>
+    <span>✉ <a href="mailto:forsalebyhunt@gmail.com">forsalebyhunt@gmail.com</a></span>
+    <div class="topbar-social">
+      <a href="https://www.facebook.com/CatherineHuntRealtor/" aria-label="Facebook" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/realtorcatherinehunt/" aria-label="Instagram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <a href="https://www.zillow.com/profile/Catherine%20Hunt" aria-label="Zillow" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 9.5l1.5 1L12 4.5l8.5 6L22 9.5z"/><path d="M12 6.5L5 11.5V22h5v-6h4v6h5V11.5z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#" class="logo">
+        <span class="logo-name">Catherine C. Hunt</span>
+        <span class="logo-title">REALTOR® | LaState Realty LLC</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#search" class="nav-link">Search Homes</a></li>
+          <li class="nav-dropdown">
+            <a href="#neighborhoods" class="nav-link nav-link--dropdown">Find Your Home <span class="caret">▾</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#search">Minden Area Homes</a></li>
+              <li><a href="#search">Sibley / Haughton / Bossier</a></li>
+              <li><a href="#search">Lake &amp; Waterfront Properties</a></li>
+              <li><a href="#search">Near Barksdale AFB</a></li>
+              <li><a href="#search">Rural / Acreage Properties</a></li>
+              <li><a href="#search">Under $200K</a></li>
+              <li><a href="#search">New Construction</a></li>
+              <li><a href="#search">Millwood Landing</a></li>
+            </ul>
+          </li>
+          <li><a href="#buyers-sellers" class="nav-link">Buyers</a></li>
+          <li><a href="#buyers-sellers" class="nav-link">Sellers</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Minden &amp; Northwest Louisiana</p>
+      <h1 class="hero-headline">Your Neighbor.<br>Your Realtor.<br>Your Advocate.</h1>
+      <p class="hero-sub">Serving Minden, Sibley, Haughton, Bossier City, and all of NW Louisiana with trusted, personal real estate guidance.</p>
+      <div class="hero-ctas">
+        <a href="#search" class="btn btn--primary">Search Homes</a>
+        <a href="#valuation" class="btn btn--outline">What's My Home Worth?</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-number">18+</span>
+        <span class="stat-label">Years Serving NW Louisiana</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">5★</span>
+        <span class="stat-label">Rated on Google &amp; Zillow</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">8</span>
+        <span class="stat-label">Parishes Served</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Dedicated to You</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEARCH ===== -->
+  <section class="search-section" id="search">
+    <div class="container search-wrapper">
+      <h2 class="section-title">Find Your Next Home</h2>
+      <p class="section-sub">Search the full NW Louisiana MLS — every active listing, updated daily.</p>
+      <div class="search-bar-wrap">
+        <div class="search-row">
+          <div class="search-field">
+            <label>Location / Address</label>
+            <input type="text" placeholder="City, neighborhood, zip, or address…" />
+          </div>
+          <div class="search-field search-field--sm">
+            <label>Min Price</label>
+            <select>
+              <option value="">No Min</option>
+              <option>$50,000</option>
+              <option>$100,000</option>
+              <option>$150,000</option>
+              <option>$200,000</option>
+              <option>$250,000</option>
+              <option>$300,000</option>
+              <option>$400,000</option>
+              <option>$500,000+</option>
+            </select>
+          </div>
+          <div class="search-field search-field--sm">
+            <label>Max Price</label>
+            <select>
+              <option value="">No Max</option>
+              <option>$100,000</option>
+              <option>$150,000</option>
+              <option>$200,000</option>
+              <option>$250,000</option>
+              <option>$300,000</option>
+              <option>$400,000</option>
+              <option>$500,000</option>
+              <option>$750,000+</option>
+            </select>
+          </div>
+          <div class="search-field search-field--sm">
+            <label>Beds</label>
+            <select>
+              <option value="">Any</option>
+              <option>1+</option>
+              <option>2+</option>
+              <option>3+</option>
+              <option>4+</option>
+            </select>
+          </div>
+          <button class="btn btn--search">Search</button>
+        </div>
+      </div>
+      <div class="quick-searches">
+        <span class="quick-label">Popular:</span>
+        <a href="#" class="quick-tag">Minden Homes</a>
+        <a href="#" class="quick-tag">Waterfront</a>
+        <a href="#" class="quick-tag">Near Barksdale AFB</a>
+        <a href="#" class="quick-tag">Under $200K</a>
+        <a href="#" class="quick-tag">Acreage &amp; Rural</a>
+        <a href="#" class="quick-tag">New Construction</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT CATHERINE ===== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo-wrap">
+        <div class="about-photo-placeholder">
+          <div class="photo-inner">
+            <p>Catherine's<br>Professional<br>Photo</p>
+            <span>Replace with headshot</span>
+          </div>
+        </div>
+        <div class="about-badges">
+          <div class="badge">REALTOR®</div>
+          <div class="badge">LaState Realty LLC</div>
+          <div class="badge">NTREIS MLS</div>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-eyebrow">Meet Catherine</p>
+        <h2 class="section-title section-title--left">A Realtor Who Knows<br>This Community</h2>
+        <p class="about-text">
+          Real estate in Northwest Louisiana isn't just about square footage and listing prices — it's about neighbors, communities, schools, and the way of life here. I've spent over 18 years helping families in Minden, Sibley, Haughton, Bossier City, and beyond find not just a house, but a home.
+        </p>
+        <p class="about-text">
+          Whether you're buying your first home, selling a family property, or relocating to our area, I bring the knowledge of someone who lives here, the dedication of someone who takes your trust seriously, and the honesty to always tell you what you need to hear — not just what you want to.
+        </p>
+        <div class="about-ctas">
+          <a href="#contact" class="btn btn--primary">Let's Talk</a>
+          <a href="#contact" class="btn btn--ghost">Free Market Analysis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEIGHBORHOODS ===== -->
+  <section class="neighborhoods-section" id="neighborhoods">
+    <div class="container">
+      <p class="section-eyebrow center">Explore the Area</p>
+      <h2 class="section-title center">Find Your Place in NW Louisiana</h2>
+      <p class="section-sub center">From small-town charm in Minden to the energy of Bossier City — every community has its own story.</p>
+      <div class="neighborhoods-grid">
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--minden"></div>
+          <div class="nc-body">
+            <h3>Minden</h3>
+            <p>Historic downtown charm, quiet streets, and deep community roots in Webster Parish.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--haughton"></div>
+          <div class="nc-body">
+            <h3>Haughton &amp; Bossier Area</h3>
+            <p>Growing communities near Barksdale AFB with excellent schools and new construction.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--waterfront"></div>
+          <div class="nc-body">
+            <h3>Lake &amp; Waterfront</h3>
+            <p>Dorcheat Bayou, Lake Bistineau, and more — peaceful waterfront living in NW Louisiana.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--rural"></div>
+          <div class="nc-body">
+            <h3>Rural &amp; Acreage</h3>
+            <p>Pine forests, pastures, and space to breathe — acreage properties across multiple parishes.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--sibley"></div>
+          <div class="nc-body">
+            <h3>Sibley &amp; Dubberly</h3>
+            <p>Small-town living with big value — Webster Parish communities with affordable options.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+        <a href="#search" class="neighborhood-card">
+          <div class="nc-img nc-img--shreveport"></div>
+          <div class="nc-body">
+            <h3>Shreveport Area</h3>
+            <p>City amenities, Caddo Parish schools, and a wide range of neighborhoods and price points.</p>
+            <span class="nc-link">View Homes →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUYERS / SELLERS ===== -->
+  <section class="buyers-sellers" id="buyers-sellers">
+    <div class="container bs-grid">
+      <div class="bs-card bs-card--buyer">
+        <div class="bs-icon">🏠</div>
+        <h3>Buying a Home</h3>
+        <p>From your first showing to the closing table, I'll guide you through every step — helping you find the right home at the right price in the right neighborhood for your life.</p>
+        <ul class="bs-list">
+          <li>Full MLS access — every active listing</li>
+          <li>Pre-qualification guidance</li>
+          <li>Neighborhood expertise across 8 parishes</li>
+          <li>Negotiation on your behalf</li>
+          <li>No pressure — just honest guidance</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Start Your Search</a>
+      </div>
+      <div class="bs-card bs-card--seller">
+        <div class="bs-icon">💰</div>
+        <h3>Selling Your Home</h3>
+        <p>Get the price your home deserves. I'll help you prepare, price, and market your property to the right buyers — with a hands-on approach that gets results.</p>
+        <ul class="bs-list">
+          <li>Free, accurate home valuation</li>
+          <li>Strategic pricing for your market</li>
+          <li>Professional marketing &amp; photography</li>
+          <li>Exposure on Zillow, Realtor.com &amp; MLS</li>
+          <li>Guidance from listing to closing</li>
+        </ul>
+        <a href="#valuation" class="btn btn--gold">Get a Free Valuation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <p class="section-eyebrow center">Client Stories</p>
+      <h2 class="section-title center">What My Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Catherine sold our home so quickly! She helped us figure out what to do to attract buyers — and what <em>not</em> to do — and was with us through every step of the process. Our home sold in a matter of weeks!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">E</div>
+            <div>
+              <strong>Emily H.</strong>
+              <span>Home Seller, Minden LA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"As first-time homebuyers, we had no idea what we were doing. Catherine walked us through everything — patiently, clearly, and always with our best interests in mind. We couldn't imagine going through this without her."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Michael &amp; Sara T.</strong>
+              <span>First-Time Buyers, Haughton LA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Catherine is the realtor you want in your corner. She knows this area inside and out, she's honest, and she doesn't waste your time. Sold our Sibley property fast and got us a great price."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <strong>Robert L.</strong>
+              <span>Home Seller, Sibley LA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-link">
+        <a href="https://www.forsalebyhunt.com/testimonials" class="btn btn--ghost" target="_blank" rel="noopener">Read More Reviews</a>
+        <div class="review-platforms">
+          <span>Also reviewed on:</span>
+          <a href="https://www.zillow.com/profile/Catherine%20Hunt" target="_blank" rel="noopener">Zillow</a>
+          <a href="https://www.realtor.com/realestateagents/5878fb2764c51d001032759d" target="_blank" rel="noopener">Realtor.com</a>
+          <a href="https://www.google.com/search?q=catherine+c+hunt+realtor+minden+la" target="_blank" rel="noopener">Google</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOME VALUATION ===== -->
+  <section class="valuation-section" id="valuation">
+    <div class="container valuation-grid">
+      <div class="valuation-content">
+        <p class="section-eyebrow">For Sellers</p>
+        <h2 class="section-title section-title--light">What Is Your<br>Home Worth Today?</h2>
+        <p class="valuation-text">The NW Louisiana market moves fast. A free, no-obligation market analysis from Catherine gives you an accurate, current picture of your home's value — based on real local data, not algorithms.</p>
+        <ul class="valuation-points">
+          <li>Accurate local comparable sales</li>
+          <li>Current market conditions in your neighborhood</li>
+          <li>No obligation — just clear, honest information</li>
+          <li>Delivered personally, not by an algorithm</li>
+        </ul>
+      </div>
+      <div class="valuation-form-wrap">
+        <form class="valuation-form" id="valuation-form">
+          <h3>Get Your Free Home Valuation</h3>
+          <div class="form-field">
+            <label for="val-address">Property Address</label>
+            <input type="text" id="val-address" placeholder="123 Main St, Minden, LA" />
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="val-name">Your Name</label>
+              <input type="text" id="val-name" placeholder="Jane Smith" />
+            </div>
+            <div class="form-field">
+              <label for="val-phone">Phone</label>
+              <input type="tel" id="val-phone" placeholder="(318) 555-1234" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="val-email">Email</label>
+            <input type="email" id="val-email" placeholder="jane@email.com" />
+          </div>
+          <div class="form-field">
+            <label for="val-timeline">When are you thinking of selling?</label>
+            <select id="val-timeline">
+              <option value="">Select a timeframe</option>
+              <option>As soon as possible</option>
+              <option>1–3 months</option>
+              <option>3–6 months</option>
+              <option>6–12 months</option>
+              <option>Just exploring my options</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--gold btn--full">Request My Free Valuation</button>
+          <p class="form-disclaimer">No obligation. No spam. Just honest information from a local expert.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section" id="faq">
+    <div class="container faq-wrap">
+      <p class="section-eyebrow center">Have Questions?</p>
+      <h2 class="section-title center">Common Real Estate Questions<br>in NW Louisiana</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How long does it take to sell a home in the Minden / Webster Parish area?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>In the current NW Louisiana market, well-priced homes in Minden and Webster Parish typically receive offers within 2–6 weeks. Homes that are strategically priced and properly prepared tend to sell significantly faster. I can give you a realistic timeline based on your specific property and current comparable sales.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Do I need to get pre-approved before I start looking at homes?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>You don't have to — but it's strongly recommended. A pre-approval letter tells sellers you're a serious buyer, strengthens your offer, and helps you focus your search on homes in your real budget. I can connect you with trusted local lenders who know the NW Louisiana market.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What are closing costs like in Louisiana?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>In Louisiana, buyers typically pay 2–5% of the purchase price in closing costs, which includes lender fees, title insurance, prepaid taxes and insurance, and other items. Sellers typically cover the real estate commission and their own share of closing costs. I walk every client through an estimated closing cost breakdown before we make or accept any offer — no surprises.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What's the real estate market like right now in NW Louisiana?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>The NW Louisiana market has remained relatively stable compared to other regions. Minden and Webster Parish offer excellent value for buyers, and waterfront properties near Lake Bistineau and Dorcheat Bayou continue to attract strong interest. I publish regular market reports — contact me for the latest data on your specific area.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            I'm relocating to the Barksdale AFB area — where do I start?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Welcome to NW Louisiana! Haughton, Bossier City, and surrounding Bossier Parish communities are the most popular options for Barksdale families due to school quality, proximity to base, and a strong sense of community. I'm happy to put together a relocation guide or schedule virtual tours before you arrive. Contact me and we'll get you oriented.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title section-title--left">Let's Have a Conversation</h2>
+        <p class="contact-text">Whether you're ready to list, just starting to look, or simply want to know what's happening in the market — I'm always glad to talk. No pressure, no obligation. Just honest conversation from a neighbor who knows this area.</p>
+        <div class="contact-details">
+          <a href="tel:3182680854" class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong>Call or Text</strong>
+              <span>(318) 268-0854</span>
+            </div>
+          </a>
+          <a href="mailto:forsalebyhunt@gmail.com" class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <strong>Email</strong>
+              <span>forsalebyhunt@gmail.com</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Office</strong>
+              <span>119 N. Tanglewood Dr, Minden, LA 71055</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-social">
+          <a href="https://www.facebook.com/CatherineHuntRealtor/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/realtorcatherinehunt/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/catherine-charping-hunt-a2464612b" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://www.youtube.com/channel/UCVgbmIvFrv8oc5gp9-ZIa2g" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="c-name">First Name</label>
+              <input type="text" id="c-name" placeholder="Jane" />
+            </div>
+            <div class="form-field">
+              <label for="c-last">Last Name</label>
+              <input type="text" id="c-last" placeholder="Smith" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" placeholder="jane@email.com" />
+          </div>
+          <div class="form-field">
+            <label for="c-phone">Phone</label>
+            <input type="tel" id="c-phone" placeholder="(318) 555-1234" />
+          </div>
+          <div class="form-field">
+            <label for="c-interest">I'm interested in…</label>
+            <select id="c-interest">
+              <option value="">Select one</option>
+              <option>Buying a Home</option>
+              <option>Selling My Home</option>
+              <option>Both Buying &amp; Selling</option>
+              <option>A Free Market Analysis</option>
+              <option>Just Have a Question</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="c-message">Message (optional)</label>
+            <textarea id="c-message" placeholder="Tell me a little about what you're looking for…" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-disclaimer">I typically respond within a few hours. Your information is never shared.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="footer-name">Catherine C. Hunt</span>
+        <span class="footer-subtitle">REALTOR® | LaState Realty LLC</span>
+        <p class="footer-desc">Serving Minden, Sibley, Haughton, Bossier City, Shreveport, and all of Northwest Louisiana with trusted, personal real estate service.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#search">Search Homes</a></li>
+          <li><a href="#valuation">Home Valuation</a></li>
+          <li><a href="#buyers-sellers">Buyers</a></li>
+          <li><a href="#buyers-sellers">Sellers</a></li>
+          <li><a href="#about">About Catherine</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-areas">
+        <h4>Areas Served</h4>
+        <ul>
+          <li>Minden &amp; Webster Parish</li>
+          <li>Sibley &amp; Dubberly</li>
+          <li>Haughton &amp; Elm Grove</li>
+          <li>Bossier City &amp; Bossier Parish</li>
+          <li>Shreveport &amp; Caddo Parish</li>
+          <li>Claiborne Parish</li>
+          <li>Bienville Parish</li>
+          <li>Desoto Parish</li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="tel:3182680854">(318) 268-0854</a></p>
+        <p><a href="mailto:forsalebyhunt@gmail.com">forsalebyhunt@gmail.com</a></p>
+        <p>119 N. Tanglewood Dr<br>Minden, LA 71055</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/CatherineHuntRealtor/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+          <a href="https://www.instagram.com/realtorcatherinehunt/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a href="https://www.linkedin.com/in/catherine-charping-hunt-a2464612b" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+          <a href="https://www.zillow.com/profile/Catherine%20Hunt" target="_blank" rel="noopener" aria-label="Zillow">ZW</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Catherine Charping-Hunt, REALTOR® | LaState Realty LLC | All rights reserved.</p>
+      <p>MLS data provided by NTREIS. Information deemed reliable but not guaranteed. <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
