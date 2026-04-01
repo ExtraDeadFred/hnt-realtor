@@ -621,36 +621,31 @@ input, select, textarea {
   position: relative;
 }
 
-.about-photo-placeholder {
+.about-photo-frame {
   width: 100%;
-  aspect-ratio: 4/5;
-  background: linear-gradient(135deg, var(--bg-alt) 0%, var(--bg) 100%);
   border-radius: var(--radius-lg);
-  border: 2px dashed var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background: #ffffff;
+  position: relative;
 }
 
-.photo-inner {
-  text-align: center;
-  color: var(--text-muted);
-  padding: 24px;
+.about-photo-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 0 0 1px rgba(27,42,74,0.08);
+  pointer-events: none;
 }
 
-.photo-inner p {
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-  line-height: 1.4;
-}
-
-.photo-inner span {
-  font-size: 0.75rem;
-  color: var(--border);
-  font-style: italic;
+.about-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  object-position: top center;
 }
 
 .about-badges {
@@ -1601,7 +1596,7 @@ a.contact-item:hover { color: var(--navy); }
   .btn--search { width: 100%; }
 
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
-  .about-photo-placeholder { aspect-ratio: 3/2; max-width: 400px; }
+  .about-photo-frame { max-width: 400px; margin: 0 auto; }
 
   .neighborhoods-grid { grid-template-columns: 1fr; }
 
