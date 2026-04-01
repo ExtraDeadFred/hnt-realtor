@@ -714,6 +714,7 @@ input, select, textarea {
   background-size: cover;
   background-position: center;
   position: relative;
+  transition: background-image 0.4s ease;
 }
 
 /* Neighborhood image placeholders with distinct colors representing NW Louisiana */
