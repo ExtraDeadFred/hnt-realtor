@@ -1098,7 +1098,7 @@ input, select, textarea {
 
 .valuation-grid {
   display: grid;
-  grid-template-columns: 1fr 480px;
+  grid-template-columns: 1fr minmax(0, 480px);
   gap: 80px;
   align-items: center;
 }
@@ -1147,6 +1147,9 @@ input, select, textarea {
   border-radius: var(--radius-lg);
   padding: 40px;
   box-shadow: var(--shadow-lg);
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .valuation-form h3,
@@ -1283,7 +1286,7 @@ input, select, textarea {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 520px;
+  grid-template-columns: 1fr minmax(0, 520px);
   gap: 80px;
   align-items: start;
 }
