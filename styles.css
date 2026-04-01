@@ -764,6 +764,153 @@ input, select, textarea {
 
 .neighborhood-card:hover .nc-link { color: var(--gold-dark); }
 
+/* === MARKET SNAPSHOT === */
+.market-section {
+  padding: 100px 0;
+  background: var(--bg-alt);
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 56px 0 48px;
+}
+
+.market-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  transition: box-shadow var(--transition), transform var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.market-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.market-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.market-card-top h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--navy);
+  line-height: 1.3;
+}
+
+.market-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.market-badge--active  { background: #EBF4F0; color: #2A7A54; }
+.market-badge--growing { background: #EBF0FB; color: #1B4FB8; }
+.market-badge--value   { background: #FBF4EB; color: #A97228; }
+
+.market-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.market-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.market-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  transition: background var(--transition), color var(--transition);
+  border: 1.5px solid transparent;
+}
+
+.market-link svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.market-link--zillow {
+  background: #EEF4FF;
+  color: #006AFF;
+  border-color: #C4D8FF;
+}
+
+.market-link--zillow:hover {
+  background: #006AFF;
+  color: var(--white);
+  border-color: #006AFF;
+}
+
+.market-link--realtor {
+  background: #FFF0EE;
+  color: #D92228;
+  border-color: #FFCFCC;
+}
+
+.market-link--realtor:hover {
+  background: #D92228;
+  color: var(--white);
+  border-color: #D92228;
+}
+
+.market-cta-wrap {
+  text-align: center;
+  padding: 40px;
+  background: var(--navy);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.market-cta-text {
+  font-size: 1rem;
+  color: rgba(248,245,240,0.85);
+  line-height: 1.6;
+  text-align: left;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .market-grid {
+    grid-template-columns: 1fr;
+  }
+  .market-cta-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .market-cta-text {
+    text-align: center;
+  }
+}
+
 /* === BUYERS / SELLERS === */
 .buyers-sellers {
   padding: 100px 0;
