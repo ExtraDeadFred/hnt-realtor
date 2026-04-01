@@ -218,21 +218,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Each card gets a targeted search query for relevant photos
   const neighborhoodQueries = [
-    { selector: '.nc-img--minden',      query: 'small town southern home street' },
-    { selector: '.nc-img--haughton',    query: 'suburban neighborhood homes Louisiana' },
-    { selector: '.nc-img--waterfront',  query: 'lake house waterfront Louisiana' },
-    { selector: '.nc-img--rural',       query: 'rural farmhouse acreage pine forest' },
-    { selector: '.nc-img--sibley',      query: 'small town america homes neighborhood' },
-    { selector: '.nc-img--shreveport',  query: 'city neighborhood homes residential' },
+    { selector: '.nc-img--minden',      query: 'single family home front yard southern house' },
+    { selector: '.nc-img--haughton',    query: 'new construction suburban house brick home' },
+    { selector: '.nc-img--waterfront',  query: 'lake house home dock residential waterfront' },
+    { selector: '.nc-img--rural',       query: 'farmhouse rural property house acreage' },
+    { selector: '.nc-img--sibley',      query: 'charming cottage house small town residential' },
+    { selector: '.nc-img--shreveport',  query: 'residential house neighborhood front porch' },
   ];
 
   neighborhoodQueries.forEach(({ selector, query }) => {
     const el = document.querySelector(selector);
     if (!el) return;
 
-    // Pick a random page (1–3) so photos vary on each visit
-    const page = Math.floor(Math.random() * 3) + 1;
-    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=10&page=${page}&orientation=landscape&client_id=${UNSPLASH_KEY}`;
+    // Stay on page 1 for highest relevance, pick randomly within top 10 results
+    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=10&page=1&orientation=landscape&content_filter=high&client_id=${UNSPLASH_KEY}`;
 
     fetch(url)
       .then(r => r.json())
