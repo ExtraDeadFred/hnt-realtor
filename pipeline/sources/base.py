@@ -65,4 +65,9 @@ def make_listing(raw, area, source):
                 lst[numf] = float(v) if numf in ("baths", "lot_acres") else int(float(v))
             except (TypeError, ValueError):
                 lst[numf] = None
+    # Extraction fills 0 for fields the search card doesn't show — treat as
+    # unknown (days_on_market 0 is legitimately "listed today", so keep it)
+    for numf in ("price", "beds", "baths", "sqft", "lot_acres", "year_built"):
+        if lst.get(numf) == 0:
+            lst[numf] = None
     return lst

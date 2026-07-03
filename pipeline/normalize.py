@@ -11,8 +11,10 @@ _ABBREV = {
 
 
 def canon_key(address, city):
-    """'123 North Main Street' / Minden -> '123 N MAIN ST|MINDEN'"""
-    a = re.sub(r"[^A-Z0-9 ]", "", (address or "").upper())
+    """'123 North Main Street, Minden, LA 71055' / Minden -> '123 N MAIN ST|MINDEN'
+    The street part is everything before the first comma — sources differ on
+    whether they append city/state/zip."""
+    a = re.sub(r"[^A-Z0-9 ]", "", (address or "").split(",")[0].upper())
     words = [_ABBREV.get(w, w) for w in a.split()]
     return " ".join(words) + "|" + (city or "").upper().strip()
 
