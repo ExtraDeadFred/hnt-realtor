@@ -46,12 +46,22 @@ $emailHtml = $null
 $pulseText = $null
 try {
     $prompt = Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw
-    $raw = claude -p $prompt 2>$null | Out-String
+    # PS 5.1: stderr redirection on a native exe throws under EAP Stop, and
+    # claude warns if piped stdin is empty — pipe the prompt in via stdin.
+    $ErrorActionPreference = "Continue"
+    $raw = ($prompt | claude -p 2>$null | Out-String)
+    $claudeExit = $LASTEXITCODE
+    $ErrorActionPreference = "Stop"
+    if ($claudeExit -ne 0) {
+        Write-Warning "claude exited with code $claudeExit"
+        $raw = ""
+    }
     if ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
         $emailHtml = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
         $pulseText = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
     }
 } catch {
+    $ErrorActionPreference = "Stop"
     Write-Warning "claude -p failed: $_"
 }
 
@@ -99,3 +109,4 @@ $smtp.EnableSsl = $true
 $smtp.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $smtpPass)
 $smtp.Send($msg)
 Write-Host "Sent '$subject' to $mailTo"
+exit 0
