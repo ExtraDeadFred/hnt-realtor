@@ -376,7 +376,7 @@ input, select, textarea {
   align-items: center;
   background:
     linear-gradient(135deg, rgba(27,42,74,0.85) 0%, rgba(17,29,51,0.6) 100%),
-    /* Beautiful placeholder — replace with real photo of NW Louisiana */
+    url('assets/hero.jpg') center / cover no-repeat,
     linear-gradient(160deg, #2d4a6b 0%, #1B2A4A 30%, #3d6b4a 70%, #2C4A3E 100%);
   background-size: cover;
   background-position: center;
@@ -717,13 +717,13 @@ input, select, textarea {
   transition: background-image 0.4s ease;
 }
 
-/* Neighborhood image placeholders with distinct colors representing NW Louisiana */
-.nc-img--minden    { background: linear-gradient(135deg, #2d4a5a 0%, #1B3A4A 100%); }
-.nc-img--haughton  { background: linear-gradient(135deg, #3d5a2d 0%, #2a4A1B 100%); }
-.nc-img--waterfront { background: linear-gradient(135deg, #1B3A5A 0%, #1B4A6A 100%); }
-.nc-img--rural     { background: linear-gradient(135deg, #4a3d1B 0%, #5A4A2A 100%); }
-.nc-img--sibley    { background: linear-gradient(135deg, #3a2d4a 0%, #2A1B5A 100%); }
-.nc-img--shreveport { background: linear-gradient(135deg, #1B2A4A 0%, #2A3A5A 100%); }
+/* Neighborhood card photos (assets/, see assets/CREDITS.txt) with gradient fallback colors */
+.nc-img--minden    { background: url('assets/minden.jpg') center / cover no-repeat, linear-gradient(135deg, #2d4a5a 0%, #1B3A4A 100%); }
+.nc-img--haughton  { background: url('assets/haughton.jpg') center / cover no-repeat, linear-gradient(135deg, #3d5a2d 0%, #2a4A1B 100%); }
+.nc-img--waterfront { background: url('assets/waterfront.jpg') center / cover no-repeat, linear-gradient(135deg, #1B3A5A 0%, #1B4A6A 100%); }
+.nc-img--rural     { background: url('assets/rural.jpg') center / cover no-repeat, linear-gradient(135deg, #4a3d1B 0%, #5A4A2A 100%); }
+.nc-img--sibley    { background: url('assets/sibley.jpg') center / cover no-repeat, linear-gradient(135deg, #3a2d4a 0%, #2A1B5A 100%); }
+.nc-img--shreveport { background: url('assets/shreveport.jpg') center / cover no-repeat, linear-gradient(135deg, #1B2A4A 0%, #2A3A5A 100%); }
 
 /* Overlay label on each card image */
 .nc-img::after {

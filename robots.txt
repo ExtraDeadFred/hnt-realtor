@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/listings.json
+Disallow: /data/snapshots/
+
+Sitemap: https://extradeadfred.github.io/hnt-realtor/sitemap.xml

@@ -131,6 +131,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // === FORM SUBMISSIONS ===
+  // Leads are delivered via FormSubmit.co — no account needed. The FIRST
+  // submission triggers a one-time activation email to LEAD_EMAIL that must
+  // be confirmed before deliveries start.
+  const LEAD_EMAIL = 'forsalebyhunt@gmail.com';
+
+  function sendLead(fields) {
+    return fetch(`https://formsubmit.co/ajax/${LEAD_EMAIL}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(fields),
+    }).then(r => {
+      if (!r.ok) throw new Error(`FormSubmit ${r.status}`);
+      return r.json();
+    });
+  }
+
+  function showFormError(form, btn, originalText) {
+    btn.textContent = originalText;
+    btn.disabled = false;
+    let err = form.querySelector('.form-error');
+    if (!err) {
+      err = document.createElement('p');
+      err.className = 'form-error';
+      err.style.cssText = 'color:#e53e3e; font-size:0.9rem; margin-top:12px; text-align:center;';
+      btn.insertAdjacentElement('afterend', err);
+    }
+    err.innerHTML = 'Something went wrong sending your message. Please try again, or call <a href="tel:3182680854">(318) 268-0854</a>.';
+  }
+
   // Valuation form
   const valuationForm = document.getElementById('valuation-form');
   if (valuationForm) {
@@ -156,8 +185,15 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Sending…';
       btn.disabled = true;
 
-      // Simulate submission — replace with actual form handler
-      setTimeout(() => {
+      sendLead({
+        _subject: 'New Home Valuation Request — forsalebyhunt',
+        form: 'Home Valuation',
+        address: document.getElementById('val-address').value.trim(),
+        name: document.getElementById('val-name').value.trim(),
+        phone: document.getElementById('val-phone').value.trim(),
+        email: document.getElementById('val-email').value.trim(),
+        timeline: document.getElementById('val-timeline').value,
+      }).then(() => {
         valuationForm.innerHTML = `
           <div style="text-align:center; padding: 32px 0;">
             <div style="font-size:3rem; margin-bottom:16px;">✓</div>
@@ -170,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </p>
           </div>
         `;
-      }, 1200);
+      }).catch(() => showFormError(valuationForm, btn, originalText));
     });
   }
 
@@ -180,10 +216,19 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const btn = contactForm.querySelector('button[type="submit"]');
+      const originalText = btn.textContent;
       btn.textContent = 'Sending…';
       btn.disabled = true;
 
-      setTimeout(() => {
+      sendLead({
+        _subject: 'New Website Contact — forsalebyhunt',
+        form: 'Contact',
+        name: `${document.getElementById('c-name').value.trim()} ${document.getElementById('c-last').value.trim()}`.trim(),
+        email: document.getElementById('c-email').value.trim(),
+        phone: document.getElementById('c-phone').value.trim(),
+        interest: document.getElementById('c-interest').value,
+        message: document.getElementById('c-message').value.trim(),
+      }).then(() => {
         contactForm.innerHTML = `
           <div style="text-align:center; padding: 32px 0;">
             <div style="font-size:3rem; margin-bottom:16px;">✓</div>
@@ -196,78 +241,48 @@ document.addEventListener('DOMContentLoaded', () => {
             </p>
           </div>
         `;
-      }, 1000);
+      }).catch(() => showFormError(contactForm, btn, originalText));
     });
   }
 
 
-  // === SEARCH BUTTON (placeholder) ===
+  // === SEARCH BUTTON ===
+  // Builds a Zillow search from the form fields. Swap for IDX search when
+  // MLS/IDX access is available.
   const searchBtn = document.querySelector('.btn--search');
   if (searchBtn) {
     searchBtn.addEventListener('click', () => {
-      // Wire to actual IDX search URL when integrating MLS
       const locationInput = document.querySelector('.search-field input');
-      const query = locationInput ? locationInput.value.trim() : '';
-      const searchUrl = `https://www.forsalebyhunt.com/quick-search${query ? `?location=${encodeURIComponent(query)}` : ''}`;
+      const selects = document.querySelectorAll('.search-row select');
+      const query = (locationInput && locationInput.value.trim()) || 'Minden, LA';
+      const parsePrice = v => Number(v.replace(/[^0-9]/g, '')) || null;
+      const filterState = {};
+      const minPrice = selects[0] && parsePrice(selects[0].value);
+      const maxPrice = selects[1] && parsePrice(selects[1].value);
+      const minBeds = selects[2] && parseInt(selects[2].value, 10);
+      if (minPrice || maxPrice) filterState.price = { ...(minPrice && { min: minPrice }), ...(maxPrice && { max: maxPrice }) };
+      if (minBeds) filterState.beds = { min: minBeds };
+      const state = { usersSearchTerm: query, filterState };
+      const searchUrl = `https://www.zillow.com/homes/for_sale/?searchQueryState=${encodeURIComponent(JSON.stringify(state))}`;
       window.open(searchUrl, '_blank');
     });
   }
-
-  // === UNSPLASH NEIGHBORHOOD PHOTOS ===
-  const UNSPLASH_KEY = '5RdUoM9ShSLFfuaAxXCkjU32sukQYE6jXyMHzUYCLFY';
-
-  // Each card gets a targeted search query for relevant photos
-  const neighborhoodQueries = [
-    { selector: '.nc-img--minden',      query: 'single family home front yard southern house' },
-    { selector: '.nc-img--haughton',    query: 'new construction suburban house brick home' },
-    { selector: '.nc-img--waterfront',  query: 'lake house home dock residential waterfront' },
-    { selector: '.nc-img--rural',       query: 'farmhouse rural property house acreage' },
-    { selector: '.nc-img--sibley',      query: 'charming cottage house small town residential' },
-    { selector: '.nc-img--shreveport',  query: 'residential house neighborhood front porch' },
-  ];
-
-  neighborhoodQueries.forEach(({ selector, query }) => {
-    const el = document.querySelector(selector);
-    if (!el) return;
-
-    // Stay on page 1 for highest relevance, pick randomly within top 10 results
-    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=10&page=1&orientation=landscape&content_filter=high&client_id=${UNSPLASH_KEY}`;
-
-    fetch(url)
-      .then(r => r.json())
-      .then(data => {
-        if (!data.results || data.results.length === 0) return;
-        // Pick a random result from the set
-        const photo = data.results[Math.floor(Math.random() * data.results.length)];
-        const imgUrl = photo.urls.regular; // ~1080px wide, perfect for cards
-        el.style.backgroundImage = `url('${imgUrl}')`;
-        el.style.backgroundSize = 'cover';
-        el.style.backgroundPosition = 'center';
-        // Unsplash attribution (required by their API terms)
-        el.setAttribute('data-photographer', photo.user.name);
-        el.setAttribute('data-photo-link', photo.links.html);
-      })
-      .catch(() => {
-        // Silently fall back to the CSS gradient placeholder if fetch fails
-      });
-  });
-
 
   // Quick search tags
   document.querySelectorAll('.quick-tag').forEach(tag => {
     tag.addEventListener('click', (e) => {
       e.preventDefault();
       const label = tag.textContent.trim();
-      // Map tag labels to IDX search URLs — customize these
+      // Portal searches for now — swap to IDX search when MLS access is available
       const tagMap = {
-        'Minden Homes':        'https://www.forsalebyhunt.com/homes-for-sale-in-minden-la',
-        'Waterfront':          'https://www.forsalebyhunt.com/quick-search?waterfront=1',
-        'Near Barksdale AFB':  'https://www.forsalebyhunt.com/homes-for-sale-in-haughton-la',
-        'Under $200K':         'https://www.forsalebyhunt.com/quick-search?max_price=200000',
-        'Acreage & Rural':     'https://www.forsalebyhunt.com/quick-search?property_type=land',
-        'New Construction':    'https://www.forsalebyhunt.com/quick-search?new_construction=1',
+        'Minden Homes':        'https://www.zillow.com/minden-la/',
+        'Waterfront':          'https://www.realtor.com/realestateandhomes-search/Homer_LA/with_waterfront',
+        'Near Barksdale AFB':  'https://www.zillow.com/haughton-la/',
+        'Under $200K':         'https://www.realtor.com/realestateandhomes-search/Minden_LA/price-na-200000',
+        'Acreage & Rural':     'https://www.realtor.com/realestateandhomes-search/Minden_LA/type-land',
+        'New Construction':    'https://www.zillow.com/bossier-city-la/new-homes/',
       };
-      const url = tagMap[label] || 'https://www.forsalebyhunt.com/quick-search';
+      const url = tagMap[label] || 'https://www.zillow.com/minden-la/';
       window.open(url, '_blank');
     });
   });
