@@ -1,0 +1,48 @@
+# Market intelligence pipeline configuration
+site_base_url: https://extradeadfred.github.io/hnt-realtor
+
+# Areas scraped daily. `tags` mark cohorts (waterfront listings are compared
+# only against waterfront comps).
+areas:
+  # Webster Parish
+  - { city: Minden,       parish: Webster,   zillow_slug: minden-la,       realtor_slug: Minden_LA }
+  - { city: Sibley,       parish: Webster,   zillow_slug: sibley-la,       realtor_slug: Sibley_LA }
+  - { city: Dubberly,     parish: Webster,   zillow_slug: dubberly-la,     realtor_slug: Dubberly_LA }
+  - { city: Doyline,      parish: Webster,   zillow_slug: doyline-la,      realtor_slug: Doyline_LA }
+  - { city: Heflin,       parish: Webster,   zillow_slug: heflin-la,       realtor_slug: Heflin_LA }
+  # Bossier Parish (hot spot)
+  - { city: Haughton,     parish: Bossier,   zillow_slug: haughton-la,     realtor_slug: Haughton_LA }
+  - { city: Elm Grove,    parish: Bossier,   zillow_slug: elm-grove-la,    realtor_slug: Elm-Grove_LA }
+  - { city: Bossier City, parish: Bossier,   zillow_slug: bossier-city-la, realtor_slug: Bossier-City_LA }
+  - { city: Benton,       parish: Bossier,   zillow_slug: benton-la,       realtor_slug: Benton_LA }
+  # Claiborne Parish (hot spot — Lake Claiborne)
+  - { city: Homer,        parish: Claiborne, zillow_slug: homer-la,        realtor_slug: Homer_LA }
+  - { city: Athens,       parish: Claiborne, zillow_slug: athens-la,       realtor_slug: Athens_LA }
+  - { city: Haynesville,  parish: Claiborne, zillow_slug: haynesville-la,  realtor_slug: Haynesville_LA }
+  # Dedicated Lake Claiborne waterfront search (realtor.com only — Zillow has
+  # no stable waterfront URL filter)
+  - { city: Homer,        parish: Claiborne, realtor_slug: Homer_LA/with_waterfront, tags: [waterfront] }
+
+scrape:
+  max_pages: 2          # result pages per area per source
+  timeout_seconds: 90
+
+model:
+  min_comps: 5          # widen search to parish if fewer comps than this
+  comp_year_window: 20  # ± years built
+  comp_sqft_window: 0.30  # ± fraction of sqft
+
+deals:
+  underpriced_spread_pct: 12   # predicted vs list spread to flag "underpriced"
+  high_opportunity_spread_pct: 18  # threshold for the 🔥 email subject
+  stale_dom_days: 90           # DOM above this adds to the deal score
+  min_price: 30000             # ignore lots/teardowns priced below this
+  top_n: 10                    # opportunities included in the email
+
+# HUD Fair Market Rents by parish and bedroom count, used for rental-yield
+# estimates. APPROXIMATE FY2025 values — update annually from
+# https://www.huduser.gov/portal/datasets/fmr.html
+fmr:
+  Webster:   { 1: 662,  2: 787,  3: 1035, 4: 1178 }
+  Bossier:   { 1: 861,  2: 1014, 3: 1345, 4: 1626 }
+  Claiborne: { 1: 630,  2: 715,  3: 940,  4: 1090 }
