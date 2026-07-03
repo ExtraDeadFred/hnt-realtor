@@ -1,0 +1,127 @@
+[
+ {
+  "date": "2026-07-03",
+  "cohorts": {
+   "Arcadia": {
+    "inventory": 4,
+    "median_price": 344450,
+    "median_ppsf": 86.5,
+    "median_dom": 38
+   },
+   "Athens": {
+    "inventory": 1,
+    "median_price": 1050000,
+    "median_ppsf": 28.4,
+    "median_dom": null
+   },
+   "Benton": {
+    "inventory": 16,
+    "median_price": 397450,
+    "median_ppsf": 176.1,
+    "median_dom": 1
+   },
+   "Bossier City": {
+    "inventory": 10,
+    "median_price": 290900,
+    "median_ppsf": 163.4,
+    "median_dom": null
+   },
+   "Bossier Parish": {
+    "inventory": 80,
+    "median_price": 320000,
+    "median_ppsf": 160.5,
+    "median_dom": 16
+   },
+   "Claiborne Parish": {
+    "inventory": 38,
+    "median_price": 259925,
+    "median_ppsf": 107.1,
+    "median_dom": 70
+   },
+   "Doyline": {
+    "inventory": 11,
+    "median_price": 237000,
+    "median_ppsf": 120.4,
+    "median_dom": null
+   },
+   "Dubberly": {
+    "inventory": 4,
+    "median_price": 299500,
+    "median_ppsf": 159.3,
+    "median_dom": null
+   },
+   "Elm Grove": {
+    "inventory": 11,
+    "median_price": 165000,
+    "median_ppsf": 106.1,
+    "median_dom": 126
+   },
+   "Gibsland": {
+    "inventory": 1,
+    "median_price": 1800000,
+    "median_ppsf": 833.3,
+    "median_dom": null
+   },
+   "Haughton": {
+    "inventory": 38,
+    "median_price": 320000,
+    "median_ppsf": 163.9,
+    "median_dom": 17
+   },
+   "Haynesville": {
+    "inventory": 8,
+    "median_price": 124950,
+    "median_ppsf": 67.5,
+    "median_dom": null
+   },
+   "Heflin": {
+    "inventory": 4,
+    "median_price": 118500,
+    "median_ppsf": 89.0,
+    "median_dom": 61
+   },
+   "Homer": {
+    "inventory": 25,
+    "median_price": 369000,
+    "median_ppsf": 198.5,
+    "median_dom": 98
+   },
+   "Minden": {
+    "inventory": 49,
+    "median_price": 149900,
+    "median_ppsf": 104.8,
+    "median_dom": 129
+   },
+   "Shreveport": {
+    "inventory": 10,
+    "median_price": 252500,
+    "median_ppsf": 111.1,
+    "median_dom": null
+   },
+   "Sibley": {
+    "inventory": 7,
+    "median_price": 349000,
+    "median_ppsf": 132.5,
+    "median_dom": 321
+   },
+   "Waterfront": {
+    "inventory": 9,
+    "median_price": 550000,
+    "median_ppsf": 241.2,
+    "median_dom": 70
+   },
+   "Way": {
+    "inventory": 1,
+    "median_price": 159900,
+    "median_ppsf": 69.5,
+    "median_dom": 15
+   },
+   "Webster Parish": {
+    "inventory": 82,
+    "median_price": 202450,
+    "median_ppsf": 110.1,
+    "median_dom": 129
+   }
+  }
+ }
+]

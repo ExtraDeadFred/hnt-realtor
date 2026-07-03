@@ -66,8 +66,10 @@ def make_listing(raw, area, source):
             except (TypeError, ValueError):
                 lst[numf] = None
     # Extraction fills 0 for fields the search card doesn't show — treat as
-    # unknown (days_on_market 0 is legitimately "listed today", so keep it)
-    for numf in ("price", "beds", "baths", "sqft", "lot_acres", "year_built"):
+    # unknown. (Also days_on_market: a real "listed today" is indistinguishable
+    # from "not shown", and the zeros were dragging every DOM median to 0.)
+    for numf in ("price", "beds", "baths", "sqft", "lot_acres", "year_built",
+                 "days_on_market"):
         if lst.get(numf) == 0:
             lst[numf] = None
     return lst
