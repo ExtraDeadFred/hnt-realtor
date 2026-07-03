@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NW Louisiana Housing Market Data | Catherine C. Hunt, Realtor®</title>
+  <meta name="description" content="Live housing market data for Minden, Haughton, Bossier City, Lake Claiborne and Northwest Louisiana — median prices, price per square foot, days on market, updated daily." />
+  <link rel="canonical" href="https://extradeadfred.github.io/hnt-realtor/market.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NW Louisiana Housing Market Data — Updated Daily" />
+  <meta property="og:description" content="Median prices, $/sqft, and days on market for Minden, Haughton, Bossier City, Lake Claiborne and surrounding parishes." />
+  <meta property="og:url" content="https://extradeadfred.github.io/hnt-realtor/market.html" />
+  <meta property="og:image" content="https://extradeadfred.github.io/hnt-realtor/assets/hero.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Page-specific styles for the market dashboard */
+    .market-page { padding: 120px 0 80px; background: var(--bg); }
+    .updated-line { text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 40px; }
+    .cohort-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 56px; }
+    .cohort-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px; box-shadow: var(--shadow-sm); }
+    .cohort-card h3 { font-family: var(--font-serif); color: var(--navy); font-size: 1.15rem; margin-bottom: 4px; }
+    .cohort-card .cohort-tag { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+    .cohort-price { font-family: var(--font-serif); font-size: 2rem; color: var(--navy); margin: 12px 0 2px; }
+    .cohort-price-label { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 14px; }
+    .cohort-row { display: flex; justify-content: space-between; font-size: 0.9rem; padding: 5px 0; border-top: 1px solid var(--bg-alt); }
+    .cohort-row span:first-child { color: var(--text-muted); }
+    .cohort-row span:last-child { color: var(--text); font-weight: 500; }
+    .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; box-shadow: var(--shadow-sm); margin-bottom: 32px; }
+    .chart-card h3 { font-family: var(--font-serif); color: var(--navy); font-size: 1.3rem; margin-bottom: 4px; }
+    .chart-card .chart-sub { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 18px; }
+    .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 12px; font-size: 0.85rem; color: var(--text); }
+    .chart-legend .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+    .chart-wrap { position: relative; overflow-x: auto; }
+    .chart-wrap svg { display: block; width: 100%; height: auto; }
+    .chart-empty { color: var(--text-muted); font-size: 0.95rem; padding: 32px 0; text-align: center; }
+    .chart-tooltip { position: absolute; pointer-events: none; background: var(--navy); color: var(--text-light);
+      font-size: 0.8rem; line-height: 1.5; padding: 8px 12px; border-radius: var(--radius); box-shadow: var(--shadow-md);
+      opacity: 0; transition: opacity 0.1s; white-space: nowrap; z-index: 5; }
+    .axis-label { font-size: 11px; fill: var(--text-muted); font-family: var(--font-sans); }
+    .grid-line { stroke: var(--bg-alt); stroke-width: 1; }
+    .accuracy-card { background: var(--navy); color: var(--text-light); border-radius: var(--radius-lg); padding: 28px; margin-bottom: 32px; }
+    .accuracy-card h3 { font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 8px; color: var(--text-light); }
+    .accuracy-card p { color: rgba(248,245,240,0.75); font-size: 0.92rem; line-height: 1.7; max-width: 640px; }
+    .accuracy-num { font-family: var(--font-serif); font-size: 2.4rem; color: var(--gold-light); }
+    .pulse-card { background: var(--white); border-left: 4px solid var(--gold); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 32px; box-shadow: var(--shadow-sm); }
+    .pulse-card h3 { font-family: var(--font-serif); color: var(--navy); margin-bottom: 8px; }
+    .pulse-card .pulse-date { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 10px; }
+    .data-table-details { margin-bottom: 40px; }
+    .data-table-details summary { cursor: pointer; color: var(--navy); font-weight: 500; padding: 8px 0; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; background: var(--white); }
+    .data-table th, .data-table td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--bg-alt); }
+    .data-table th { color: var(--text-muted); font-weight: 500; }
+    .market-cta-band { text-align: center; padding: 40px 24px; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <span>📞 <a href="tel:3182680854">(318) 268-0854</a></span>
+    <span>✉ <a href="mailto:forsalebyhunt@gmail.com">forsalebyhunt@gmail.com</a></span>
+    <div class="topbar-social">
+      <a href="https://www.facebook.com/CatherineHuntRealtor/" aria-label="Facebook" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/realtorcatherinehunt/" aria-label="Instagram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <a href="https://www.zillow.com/profile/Catherine%20Hunt" aria-label="Zillow" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 9.5l1.5 1L12 4.5l8.5 6L22 9.5z"/><path d="M12 6.5L5 11.5V22h5v-6h4v6h5V11.5z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header scrolled" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="logo">
+        <span class="logo-name">Catherine C. Hunt</span>
+        <span class="logo-title">REALTOR® | LaState Realty LLC</span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html#search" class="nav-link">Search Homes</a></li>
+          <li><a href="index.html#neighborhoods" class="nav-link">Find Your Home</a></li>
+          <li><a href="market.html" class="nav-link" style="color: var(--gold);">Market</a></li>
+          <li><a href="index.html#buyers-sellers" class="nav-link">Buyers &amp; Sellers</a></li>
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#contact" class="nav-link nav-link--cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="market-page">
+    <div class="container">
+      <p class="section-eyebrow center">Live Local Data</p>
+      <h1 class="section-title center">The NW Louisiana Housing Market, By the Numbers</h1>
+      <p class="section-sub center">Real data from active listings across Webster, Bossier, and Claiborne parishes — collected and analyzed daily. No national averages, no guesswork: this is what's actually happening in our neighborhoods.</p>
+      <p class="updated-line">Last updated: <span data-stat-updated>2026-07-03</span></p>
+
+      <!-- Market Pulse (published only after Catherine approves the draft) -->
+      <div class="pulse-card" id="pulse-card" hidden>
+        <h3>Catherine's Market Pulse</h3>
+        <p class="pulse-date" id="pulse-date"></p>
+        <p id="pulse-text"></p>
+      </div>
+
+      <!-- ===== COHORT SNAPSHOT CARDS (static text = crawlable; JS refreshes) ===== -->
+      <div class="cohort-grid">
+        <div class="cohort-card">
+          <span class="cohort-tag">Webster Parish</span>
+          <h3>Minden</h3>
+          <div class="cohort-price" data-stat="Minden:median_price">$169,000</div>
+          <div class="cohort-price-label">median list price</div>
+          <div class="cohort-row"><span>Price per sqft</span><span data-stat="Minden:median_ppsf">$93/sqft</span></div>
+          <div class="cohort-row"><span>Days on market</span><span data-stat="Minden:median_dom">110 days</span></div>
+          <div class="cohort-row"><span>Homes for sale</span><span data-stat="Minden:inventory">13</span></div>
+        </div>
+        <div class="cohort-card">
+          <span class="cohort-tag">Bossier Parish</span>
+          <h3>Haughton</h3>
+          <div class="cohort-price" data-stat="Haughton:median_price">$312,000</div>
+          <div class="cohort-price-label">median list price</div>
+          <div class="cohort-row"><span>Price per sqft</span><span data-stat="Haughton:median_ppsf">$138/sqft</span></div>
+          <div class="cohort-row"><span>Days on market</span><span data-stat="Haughton:median_dom">67 days</span></div>
+          <div class="cohort-row"><span>Homes for sale</span><span data-stat="Haughton:inventory">15</span></div>
+        </div>
+        <div class="cohort-card">
+          <span class="cohort-tag">Bossier Parish</span>
+          <h3>Bossier City</h3>
+          <div class="cohort-price" data-stat="Bossier City:median_price">—</div>
+          <div class="cohort-price-label">median list price</div>
+          <div class="cohort-row"><span>Price per sqft</span><span data-stat="Bossier City:median_ppsf">—</span></div>
+          <div class="cohort-row"><span>Days on market</span><span data-stat="Bossier City:median_dom">—</span></div>
+          <div class="cohort-row"><span>Homes for sale</span><span data-stat="Bossier City:inventory">—</span></div>
+        </div>
+        <div class="cohort-card">
+          <span class="cohort-tag">Claiborne Parish</span>
+          <h3>Lake Claiborne Waterfront</h3>
+          <div class="cohort-price" data-stat="Waterfront:median_price">$252,000</div>
+          <div class="cohort-price-label">median list price</div>
+          <div class="cohort-row"><span>Price per sqft</span><span data-stat="Waterfront:median_ppsf">$148/sqft</span></div>
+          <div class="cohort-row"><span>Days on market</span><span data-stat="Waterfront:median_dom">50 days</span></div>
+          <div class="cohort-row"><span>Homes for sale</span><span data-stat="Waterfront:inventory">7</span></div>
+        </div>
+      </div>
+
+      <!-- ===== SCATTER: $/sqft vs year built ===== -->
+      <div class="chart-card">
+        <h3>Price per Square Foot vs. Age of Home</h3>
+        <p class="chart-sub">Every active listing in the tracked area. Newer homes command more per square foot — homes priced well below their age group can be opportunities (or projects).</p>
+        <div class="chart-legend" id="scatter-legend"></div>
+        <div class="chart-wrap" id="scatter-wrap"><p class="chart-empty">Data updates daily — the first market snapshot is on its way.</p></div>
+      </div>
+
+      <!-- ===== TREND LINES: median $/sqft over time ===== -->
+      <div class="chart-card">
+        <h3>Median $/sqft Over Time</h3>
+        <p class="chart-sub">How asking prices per square foot are trending in each market. History accumulates daily from live listings.</p>
+        <div class="chart-legend" id="trend-legend"></div>
+        <div class="chart-wrap" id="trend-wrap"><p class="chart-empty">Trend lines appear once a few days of history have accumulated.</p></div>
+      </div>
+
+      <!-- ===== TABLE VIEW (accessibility fallback for the charts) ===== -->
+      <details class="data-table-details">
+        <summary>View all market data as a table</summary>
+        <div style="overflow-x:auto"><table class="data-table" id="stats-table">
+          <thead><tr><th>Area</th><th>Homes for sale</th><th>Median price</th><th>Median $/sqft</th><th>Median DOM</th><th>New (7d)</th><th>Price cuts (7d)</th><th>Pending (7d)</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </details>
+
+      <!-- ===== MODEL ACCURACY ===== -->
+      <div class="accuracy-card" id="accuracy-card" hidden>
+        <h3>How Good Are These Estimates?</h3>
+        <div class="accuracy-num" id="accuracy-num">—</div>
+        <p id="accuracy-text">We track every value estimate against what homes actually go for, and publish our accuracy honestly — because data you can't trust isn't worth your time.</p>
+      </div>
+
+      <div class="market-cta-band">
+        <p class="market-cta-text">The data tells part of the story. Catherine tells the rest — what's selling fast, what's overpriced, and where the real opportunities are right now.</p>
+        <a href="index.html#contact" class="btn btn--primary">Ask Catherine About the Market</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>© 2026 Catherine Charping-Hunt, REALTOR® | LaState Realty LLC | All rights reserved.</p>
+      <p>Market statistics are computed from publicly listed properties and are informational only — not an appraisal. <a href="index.html">Home</a></p>
+    </div>
+  </footer>
+
+  <script>
+  (async () => {
+    const PARISH_COLORS = { Webster: '#3459B5', Bossier: '#A9711F', Claiborne: '#2F8A4E' };
+    const fmtPrice = v => v == null ? '—' : '$' + Math.round(v).toLocaleString();
+    const fmtPpsf  = v => v == null ? '—' : '$' + Math.round(v).toLocaleString() + '/sqft';
+    const fetchJson = async p => { try { const r = await fetch(p); return r.ok ? await r.json() : null; } catch { return null; } };
+
+    const [stats, listings, history, metrics, pulse] = await Promise.all([
+      fetchJson('data/market-stats.json'), fetchJson('data/listings.json'),
+      fetchJson('data/history.json'), fetchJson('data/model-metrics.json'),
+      fetchJson('data/pulse.json'),
+    ]);
+
+    // --- Stat cards + table ---
+    if (stats) {
+      document.querySelectorAll('[data-stat]').forEach(el => {
+        const [cohort, field] = el.dataset.stat.split(':');
+        const v = (stats.cohorts[cohort] || {})[field];
+        if (v == null) { el.textContent = '—'; return; }
+        el.textContent = field === 'median_price' ? fmtPrice(v)
+          : field === 'median_ppsf' ? fmtPpsf(v)
+          : field === 'median_dom' ? v + ' days' : v;
+      });
+      document.querySelectorAll('[data-stat-updated]').forEach(el => el.textContent = stats.updated);
+      const tbody = document.querySelector('#stats-table tbody');
+      tbody.innerHTML = Object.entries(stats.cohorts).map(([name, c]) =>
+        `<tr><td>${name}</td><td>${c.inventory}</td><td>${fmtPrice(c.median_price)}</td><td>${fmtPpsf(c.median_ppsf)}</td><td>${c.median_dom ?? '—'}</td><td>${c.new_7d}</td><td>${c.price_cuts_7d}</td><td>${c.pending_7d}</td></tr>`).join('');
+    }
+
+    // --- Pulse (only exists after Catherine approves a draft) ---
+    if (pulse && pulse.text) {
+      document.getElementById('pulse-card').hidden = false;
+      document.getElementById('pulse-date').textContent = pulse.date || '';
+      document.getElementById('pulse-text').textContent = pulse.text;
+    }
+
+    // --- Model accuracy (shown once there's a meaningful sample) ---
+    if (metrics && metrics.n_outcomes >= 10 && metrics.mape_pct != null) {
+      document.getElementById('accuracy-card').hidden = false;
+      document.getElementById('accuracy-num').textContent = `within ${metrics.mape_pct}% on average`;
+      document.getElementById('accuracy-text').textContent =
+        `Across ${metrics.n_outcomes} homes that left the market, our value estimates have been within ${metrics.mape_pct}% of the final price on average` +
+        (metrics.within_10pct != null ? `, and within 10% for ${metrics.within_10pct}% of homes.` : '.') +
+        ' We publish this honestly — data you can\'t trust isn\'t worth your time.';
+    }
+
+    // --- Shared tooltip helper ---
+    function makeTooltip(wrap) {
+      const tip = document.createElement('div');
+      tip.className = 'chart-tooltip';
+      wrap.appendChild(tip);
+      return {
+        show(html, x, y) {
+          tip.innerHTML = html; tip.style.opacity = 1;
+          tip.style.left = Math.min(x + 14, wrap.clientWidth - 170) + 'px';
+          tip.style.top = (y - 10) + 'px';
+        },
+        hide() { tip.style.opacity = 0; },
+      };
+    }
+    const SVG = (tag, attrs) => {
+      const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+      for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+      return el;
+    };
+
+    // --- Scatter: $/sqft vs year built ---
+    const pts = (listings || []).filter(l =>
+      l.status === 'active' && l.year_built && l.price && l.sqft > 200)
+      .map(l => ({ x: l.year_built, y: l.price / l.sqft, parish: l.parish, wf: l.waterfront, city: l.city, sqft: l.sqft }));
+    if (pts.length >= 5) {
+      const wrap = document.getElementById('scatter-wrap');
+      wrap.innerHTML = '';
+      const W = 860, H = 380, M = { t: 16, r: 20, b: 40, l: 56 };
+      const xmin = Math.min(...pts.map(p => p.x)) - 2, xmax = Math.max(...pts.map(p => p.x)) + 2;
+      const ymax = Math.ceil(Math.max(...pts.map(p => p.y)) / 25) * 25;
+      const sx = v => M.l + (v - xmin) / (xmax - xmin) * (W - M.l - M.r);
+      const sy = v => H - M.b - v / ymax * (H - M.t - M.b);
+      const svg = SVG('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Scatter plot of price per square foot versus year built' });
+      for (let gy = 0; gy <= ymax; gy += 25) {
+        svg.appendChild(SVG('line', { x1: M.l, x2: W - M.r, y1: sy(gy), y2: sy(gy), class: 'grid-line' }));
+        const lbl = SVG('text', { x: M.l - 8, y: sy(gy) + 4, 'text-anchor': 'end', class: 'axis-label' });
+        lbl.textContent = '$' + gy; svg.appendChild(lbl);
+      }
+      for (let gx = Math.ceil(xmin / 10) * 10; gx <= xmax; gx += 10) {
+        const lbl = SVG('text', { x: sx(gx), y: H - M.b + 22, 'text-anchor': 'middle', class: 'axis-label' });
+        lbl.textContent = gx; svg.appendChild(lbl);
+      }
+      const tip = makeTooltip(wrap);
+      pts.forEach(p => {
+        const c = PARISH_COLORS[p.parish] || '#6B6B6B';
+        const mark = p.wf
+          ? SVG('rect', { x: sx(p.x) - 4.5, y: sy(p.y) - 4.5, width: 9, height: 9, rx: 2, fill: c, stroke: '#F8F5F0', 'stroke-width': 2, transform: `rotate(45 ${sx(p.x)} ${sy(p.y)})` })
+          : SVG('circle', { cx: sx(p.x), cy: sy(p.y), r: 4.5, fill: c, stroke: '#F8F5F0', 'stroke-width': 2 });
+        const hit = SVG('circle', { cx: sx(p.x), cy: sy(p.y), r: 11, fill: 'transparent' });
+        hit.addEventListener('mousemove', e => {
+          const r = wrap.getBoundingClientRect();
+          tip.show(`<strong>${p.city}${p.wf ? ' · waterfront' : ''}</strong><br>Built ${p.x} · ${p.sqft.toLocaleString()} sqft<br>${fmtPpsf(p.y)}`, e.clientX - r.left, e.clientY - r.top);
+        });
+        hit.addEventListener('mouseleave', tip.hide);
+        svg.appendChild(mark); svg.appendChild(hit);
+      });
+      wrap.appendChild(svg);
+      document.getElementById('scatter-legend').innerHTML =
+        Object.entries(PARISH_COLORS).map(([p, c]) => `<span><span class="swatch" style="background:${c}"></span>${p} Parish</span>`).join('') +
+        `<span><span class="swatch" style="background:#2F8A4E; transform:rotate(45deg)"></span>◆ = waterfront</span>`;
+    }
+
+    // --- Trend lines: median $/sqft over time for key cohorts ---
+    const TREND_COHORTS = [['Minden', '#3459B5'], ['Haughton', '#A9711F'], ['Homer', '#2F8A4E']];
+    const hist = (history || []).filter(h => h.cohorts);
+    if (hist.length >= 2) {
+      const wrap = document.getElementById('trend-wrap');
+      wrap.innerHTML = '';
+      const W = 860, H = 320, M = { t: 16, r: 90, b: 36, l: 56 };
+      const series = TREND_COHORTS.map(([name, color]) => ({
+        name, color,
+        pts: hist.map((h, i) => ({ i, date: h.date, v: (h.cohorts[name] || {}).median_ppsf })).filter(p => p.v != null),
+      })).filter(s => s.pts.length >= 2);
+      if (series.length) {
+        const all = series.flatMap(s => s.pts.map(p => p.v));
+        const ymin = Math.floor(Math.min(...all) * 0.9), ymax = Math.ceil(Math.max(...all) * 1.05);
+        const sx = i => M.l + i / (hist.length - 1) * (W - M.l - M.r);
+        const sy = v => H - M.b - (v - ymin) / (ymax - ymin) * (H - M.t - M.b);
+        const svg = SVG('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Median price per square foot over time by market' });
+        const step = Math.max(1, Math.round((ymax - ymin) / 4));
+        for (let gy = ymin; gy <= ymax; gy += step) {
+          svg.appendChild(SVG('line', { x1: M.l, x2: W - M.r, y1: sy(gy), y2: sy(gy), class: 'grid-line' }));
+          const lbl = SVG('text', { x: M.l - 8, y: sy(gy) + 4, 'text-anchor': 'end', class: 'axis-label' });
+          lbl.textContent = '$' + gy; svg.appendChild(lbl);
+        }
+        const nlbl = Math.min(6, hist.length);
+        for (let k = 0; k < nlbl; k++) {
+          const i = Math.round(k * (hist.length - 1) / (nlbl - 1 || 1));
+          const lbl = SVG('text', { x: sx(i), y: H - M.b + 20, 'text-anchor': 'middle', class: 'axis-label' });
+          lbl.textContent = hist[i].date.slice(5); svg.appendChild(lbl);
+        }
+        const tip = makeTooltip(wrap);
+        // Direct end-labels, nudged apart so close series don't collide
+        const labelYs = series
+          .map(s => ({ s, y: sy(s.pts[s.pts.length - 1].v) }))
+          .sort((a, b) => a.y - b.y);
+        for (let k = 1; k < labelYs.length; k++) {
+          if (labelYs[k].y - labelYs[k - 1].y < 14) labelYs[k].y = labelYs[k - 1].y + 14;
+        }
+        const labelY = new Map(labelYs.map(o => [o.s.name, o.y]));
+        series.forEach(s => {
+          const d = s.pts.map((p, j) => (j ? 'L' : 'M') + sx(p.i) + ' ' + sy(p.v)).join(' ');
+          svg.appendChild(SVG('path', { d, fill: 'none', stroke: s.color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
+          const last = s.pts[s.pts.length - 1];
+          const lbl = SVG('text', { x: sx(last.i) + 8, y: labelY.get(s.name) + 4, class: 'axis-label', style: `fill:${s.color}; font-weight:600` });
+          lbl.textContent = s.name; svg.appendChild(lbl);
+          s.pts.forEach(p => {
+            const hit = SVG('circle', { cx: sx(p.i), cy: sy(p.v), r: 10, fill: 'transparent' });
+            hit.addEventListener('mousemove', e => {
+              const r = wrap.getBoundingClientRect();
+              tip.show(`<strong>${s.name}</strong><br>${p.date}<br>${fmtPpsf(p.v)}`, e.clientX - r.left, e.clientY - r.top);
+            });
+            hit.addEventListener('mouseleave', tip.hide);
+            svg.appendChild(hit);
+          });
+        });
+        wrap.appendChild(svg);
+        document.getElementById('trend-legend').innerHTML =
+          series.map(s => `<span><span class="swatch" style="background:${s.color}"></span>${s.name}</span>`).join('');
+      }
+    }
+  })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

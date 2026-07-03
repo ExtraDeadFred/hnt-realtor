@@ -268,6 +268,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // === LIVE MARKET STATS (index page cards) ===
+  // market.html populates its own stats; here we refresh the injected values.
+  if (document.querySelector('[data-stat]') && !document.getElementById('scatter-wrap')) {
+    fetch('data/market-stats.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(stats => {
+        if (!stats) return;
+        document.querySelectorAll('[data-stat]').forEach(el => {
+          const [cohort, field] = el.dataset.stat.split(':');
+          const v = (stats.cohorts[cohort] || {})[field];
+          if (v == null) return;
+          el.textContent = field === 'median_price' ? '$' + Math.round(v).toLocaleString()
+            : field === 'median_ppsf' ? '$' + Math.round(v).toLocaleString() + '/sqft'
+            : field === 'median_dom' ? v + ' days' : v;
+        });
+      })
+      .catch(() => {});
+  }
+
   // Quick search tags
   document.querySelectorAll('.quick-tag').forEach(tag => {
     tag.addEventListener('click', (e) => {
