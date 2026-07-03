@@ -26,7 +26,8 @@ function Get-Conf($name, $default) {
 $smtpServer = Get-Conf "SMTP_SERVER" "smtp.gmail.com"
 $smtpPort   = [int](Get-Conf "SMTP_PORT" "587")
 $smtpUser   = Get-Conf "SMTP_USERNAME" $null
-$smtpPass   = Get-Conf "SMTP_PASSWORD" $null
+# Gmail shows app passwords grouped with spaces but SMTP rejects them — strip
+$smtpPass   = (Get-Conf "SMTP_PASSWORD" $null) -replace '\s', ''
 $fromEmail  = Get-Conf "SMTP_FROM_EMAIL" $smtpUser
 $mailTo     = Get-Conf "MAIL_TO" $fromEmail
 if (-not $smtpUser -or -not $smtpPass) {
@@ -89,7 +90,7 @@ if ($opps -and $opps.high_opportunity) { $subject = "🔥 High-Opportunity Alert
 
 $msg = New-Object System.Net.Mail.MailMessage
 $msg.From = $fromEmail
-foreach ($to in $mailTo -split ",") { $msg.To.Add($to.Trim()) }
+foreach ($to in ($mailTo -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ })) { $msg.To.Add($to) }
 $msg.Subject = $subject
 $msg.Body = $emailHtml
 $msg.IsBodyHtml = $true
