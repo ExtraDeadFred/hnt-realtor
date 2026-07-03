@@ -133,6 +133,14 @@ def main():
     save_json(DATA / "outcomes.json", outcomes)
     save_json(DATA / "model-metrics.json", metrics)
 
+    # Append today's cohort summary for trend charts (idempotent per day)
+    history = load_json(DATA / "history.json", [])
+    history = [h for h in history if h["date"] != stats["updated"]]
+    history.append({"date": stats["updated"], "cohorts": {
+        name: {k: c[k] for k in ("inventory", "median_price", "median_ppsf", "median_dom")}
+        for name, c in stats["cohorts"].items()}})
+    save_json(DATA / "history.json", history)
+
     with open(DATA / "events.jsonl", "a", encoding="utf-8") as f:
         for e in events:
             f.write(json.dumps(e) + "\n")
