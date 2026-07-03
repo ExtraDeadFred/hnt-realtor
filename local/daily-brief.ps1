@@ -1,18 +1,36 @@
-# Daily market brief: pull fresh data, have Claude (subscription, headless)
+﻿# Daily market brief: pull fresh data, have Claude (subscription, headless)
 # write the email + FB drafts, send via Gmail. Scheduled by install-task.ps1.
 #
-# Requires local\.env (see .env.example): GMAIL_USER, GMAIL_APP_PASSWORD, MAIL_TO
+# SMTP config comes from environment variables (SMTP_SERVER, SMTP_PORT,
+# SMTP_USERNAME, SMTP_PASSWORD, SMTP_FROM_EMAIL, MAIL_TO), with local\.env
+# (see .env.example) as a fallback for any that aren't set.
 
 $ErrorActionPreference = "Stop"
 $repo = Split-Path -Parent $PSScriptRoot
 Set-Location $repo
 
-# --- load .env ---
+# --- config: env vars first, then local\.env ---
+$dotenv = @{}
 $envFile = Join-Path $PSScriptRoot ".env"
-if (-not (Test-Path $envFile)) { throw "Missing local\.env — copy .env.example and fill it in." }
-$conf = @{}
-Get-Content $envFile | Where-Object { $_ -match "^\s*([^#=]+)=(.*)$" } | ForEach-Object {
-    $conf[$Matches[1].Trim()] = $Matches[2].Trim()
+if (Test-Path $envFile) {
+    Get-Content $envFile | Where-Object { $_ -match "^\s*([^#=]+)=(.*)$" } | ForEach-Object {
+        $dotenv[$Matches[1].Trim()] = $Matches[2].Trim()
+    }
+}
+function Get-Conf($name, $default) {
+    $v = [System.Environment]::GetEnvironmentVariable($name)
+    if (-not $v) { $v = $dotenv[$name] }
+    if (-not $v) { $v = $default }
+    return $v
+}
+$smtpServer = Get-Conf "SMTP_SERVER" "smtp.gmail.com"
+$smtpPort   = [int](Get-Conf "SMTP_PORT" "587")
+$smtpUser   = Get-Conf "SMTP_USERNAME" $null
+$smtpPass   = Get-Conf "SMTP_PASSWORD" $null
+$fromEmail  = Get-Conf "SMTP_FROM_EMAIL" $smtpUser
+$mailTo     = Get-Conf "MAIL_TO" $fromEmail
+if (-not $smtpUser -or -not $smtpPass) {
+    throw "SMTP_USERNAME / SMTP_PASSWORD not found in environment variables or local\.env."
 }
 
 # --- fresh data from the overnight Actions run ---
@@ -45,8 +63,10 @@ if (-not $emailHtml) {
     $rows = ""
     if ($opps) {
         foreach ($d in $opps.deals) {
+            $listPrice = '${0:N0}' -f $d.price
+            $estValue = '${0:N0}' -f $d.predicted
             $rows += "<tr><td><a href='$($d.url)'>$($d.address), $($d.city)</a></td>" +
-                     "<td>`$$("{0:N0}" -f $d.price)</td><td>`$$("{0:N0}" -f $d.predicted)</td>" +
+                     "<td>$listPrice</td><td>$estValue</td>" +
                      "<td>$($d.spread_pct)%</td><td>$($d.days_on_market)</td><td>$($d.flags -join ', ')</td></tr>"
         }
     }
@@ -68,13 +88,13 @@ $subject = "Market Brief — $today"
 if ($opps -and $opps.high_opportunity) { $subject = "🔥 High-Opportunity Alert — $today" }
 
 $msg = New-Object System.Net.Mail.MailMessage
-$msg.From = $conf.GMAIL_USER
-foreach ($to in $conf.MAIL_TO -split ",") { $msg.To.Add($to.Trim()) }
+$msg.From = $fromEmail
+foreach ($to in $mailTo -split ",") { $msg.To.Add($to.Trim()) }
 $msg.Subject = $subject
 $msg.Body = $emailHtml
 $msg.IsBodyHtml = $true
-$smtp = New-Object System.Net.Mail.SmtpClient("smtp.gmail.com", 587)
+$smtp = New-Object System.Net.Mail.SmtpClient($smtpServer, $smtpPort)
 $smtp.EnableSsl = $true
-$smtp.Credentials = New-Object System.Net.NetworkCredential($conf.GMAIL_USER, $conf.GMAIL_APP_PASSWORD)
+$smtp.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $smtpPass)
 $smtp.Send($msg)
-Write-Host "Sent '$subject' to $($conf.MAIL_TO)"
+Write-Host "Sent '$subject' to $mailTo"

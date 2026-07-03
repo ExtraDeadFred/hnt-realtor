@@ -4,8 +4,13 @@ Uses the Claude Code subscription (`claude -p`, no API key) to write the
 daily deal-alert email + Facebook drafts, and sends it from Gmail.
 
 ## One-time setup
-1. Copy `.env.example` to `.env` and fill in the Gmail app password.
-2. Test it: `powershell -File daily-brief.ps1` (set MAIL_TO to yourself first).
+1. Set the SMTP_* Windows environment variables (User scope):
+   `SMTP_SERVER`, `SMTP_PORT`, `SMTP_USERNAME`, `SMTP_PASSWORD` (Gmail app
+   password), `SMTP_FROM_EMAIL`, and optionally `MAIL_TO` (comma-separated;
+   defaults to SMTP_FROM_EMAIL). Alternatively copy `.env.example` to `.env` —
+   env vars win over the file for any name set in both.
+2. Test it: `powershell -File daily-brief.ps1` (leave MAIL_TO unset so the
+   test goes only to yourself first).
 3. Schedule it: `powershell -File install-task.ps1` (7:00 AM daily).
 
 ## Weekly pulse approval

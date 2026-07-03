@@ -1,4 +1,4 @@
-# Publishes the pending Market Pulse to the website after Catherine approves
+﻿# Publishes the pending Market Pulse to the website after Catherine approves
 # the draft in the email. Run: .\approve-pulse.ps1
 
 $repo = Split-Path -Parent $PSScriptRoot

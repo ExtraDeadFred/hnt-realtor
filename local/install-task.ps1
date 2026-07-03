@@ -1,4 +1,4 @@
-# Registers the daily brief as a Windows Scheduled Task (7:00 AM daily).
+﻿# Registers the daily brief as a Windows Scheduled Task (7:00 AM daily).
 # Run once from an elevated or normal PowerShell: .\install-task.ps1
 
 $script = Join-Path $PSScriptRoot "daily-brief.ps1"
