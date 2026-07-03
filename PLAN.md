@@ -1,5 +1,33 @@
 # NW Louisiana Market Intelligence Pipeline + Website Upgrades
 
+## Status (2026-07-03)
+
+**Built and pushed:** Phases 1, 1b, 2, 3, 4, 5 are all implemented and live in
+this repo. The pipeline was verified end-to-end with synthetic fixtures
+(dedupe, all five event types, deal flagging, MAPE, MLS CSV ingest).
+
+**Manual steps remaining (in order):**
+1. **Add the Firecrawl key**: repo → Settings → Secrets and variables →
+   Actions → new secret `FIRECRAWL_API_KEY`. Then run the "Daily market data"
+   workflow once by hand (Actions tab → Run workflow) and sanity-check
+   `data/listings.json` against Zillow.
+2. **Activate the lead forms**: submit the contact form once on the live site;
+   FormSubmit sends a one-time activation email to forsalebyhunt@gmail.com —
+   Catherine (or you, if you have access) must click it. Until then leads
+   don't deliver.
+3. **Set up the daily brief on this PC**: see `local/README.md` (Gmail app
+   password → `.env` → test run → `install-task.ps1`).
+4. **Google Search Console**: the verification meta tag is already on the
+   site — add the property at search.google.com/search-console and submit
+   `sitemap.xml`. Also claim her **Google Business Profile**.
+5. **When ready to cancel the $150/mo service**: point forsalebyhunt.com DNS
+   at GitHub Pages and swap the canonical/OG/sitemap URLs (one string,
+   `extradeadfred.github.io/hnt-realtor` → `www.forsalebyhunt.com`).
+
+**Deferred (designed-for, not built):** per-area SEO landing pages, IDX/MLS
+API adapter, Clerk of Court records adapter, scikit-learn model upgrade
+(waits for ~200 resolved outcomes).
+
 ## Context
 
 Catherine Hunt (user's mom, Realtor in Minden/NW Louisiana) pays ~$150/mo to a service mainly for MLS-fed website hosting. The repo already contains a superior static site ([index.html](index.html), [styles.css](styles.css), [script.js](script.js)) ready for GitHub Pages. Goal: build an automated market-intelligence system using the user's Firecrawl API that (1) scrapes area listings daily, (2) computes $/sqft, age, DOM analytics and a price-prediction model with an accuracy feedback loop, (3) surfaces investment opportunities (flip/rental) via email with listing links, (4) drafts copy-paste-ready Facebook posts emailed for her approval (expert in the loop), and (5) powers an interactive market section on the website — all designed so an MLS/IDX API can later replace the scraper without rework.
