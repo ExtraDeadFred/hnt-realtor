@@ -25,7 +25,7 @@ areas:
 
 scrape:
   max_pages: 2          # result pages per area per source
-  timeout_seconds: 90
+  timeout_seconds: 150  # some Zillow/Realtor pages are slow; 90s saw 408s
 
 model:
   min_comps: 5          # widen search to parish if fewer comps than this

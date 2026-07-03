@@ -34,5 +34,9 @@ jobs:
           git config user.name "market-data-bot"
           git config user.email "actions@github.com"
           git add data/ index.html market.html sitemap.xml
-          git diff --cached --quiet || git commit -m "Daily market data $(date -u +%F) [skip ci]"
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily market data $(date -u +%F) [skip ci]"
+          # master may have moved during the long scrape; replay our data
+          # commit on top (ours wins conflicts — the data is freshly generated)
+          git pull --rebase -X theirs origin master
           git push
