@@ -124,6 +124,7 @@ def main():
     stats = analyze.market_stats(current, load_events() + events)
     deals = analyze.score_deals(current, predictions, cfg)
     metrics = analyze.model_metrics(outcomes)
+    metrics["backtest"] = analyze.backtest(solds, cfg)
 
     save_json(DATA / "listings.json", current)
     save_json(DATA / "market-stats.json", stats)

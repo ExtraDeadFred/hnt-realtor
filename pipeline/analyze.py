@@ -53,8 +53,9 @@ def market_stats(listings, events):
 
 
 def _find_comps(subject, pool, cfg):
-    """Comparable listings: same cohort, similar age and size. Waterfront
-    subjects only comp against waterfront. Widens city -> parish if thin."""
+    """Comparable listings: same neighborhood if possible, else same city,
+    else parish — always similar size/age/beds, waterfront-to-waterfront only.
+    Returns the nearest matches by living area."""
     m = cfg["model"]
 
     def matches(l, scope):
@@ -62,6 +63,9 @@ def _find_comps(subject, pool, cfg):
             return False
         if bool(l.get("waterfront")) != bool(subject.get("waterfront")):
             return False
+        if scope == "subdivision":
+            if not subject.get("subdivision") or l.get("subdivision") != subject["subdivision"]:
+                return False
         if scope == "city" and l["city"] != subject["city"]:
             return False
         if scope == "parish" and l["parish"] != subject["parish"]:
@@ -69,15 +73,21 @@ def _find_comps(subject, pool, cfg):
         if subject.get("year_built") and l.get("year_built"):
             if abs(l["year_built"] - subject["year_built"]) > m["comp_year_window"]:
                 return False
+        if subject.get("beds") and l.get("beds") and abs(l["beds"] - subject["beds"]) > 1:
+            return False
         if subject.get("sqft") and l.get("sqft"):
             if abs(l["sqft"] - subject["sqft"]) > m["comp_sqft_window"] * subject["sqft"]:
                 return False
         return True
 
-    comps = [l for l in pool if matches(l, "city")]
-    if len(comps) < m["min_comps"]:
-        comps = [l for l in pool if matches(l, "parish")]
-    return comps
+    comps = []
+    for scope in ("subdivision", "city", "parish"):
+        comps = [l for l in pool if matches(l, scope)]
+        if len(comps) >= m["min_comps"]:
+            break
+    if subject.get("sqft"):
+        comps.sort(key=lambda l: abs((l.get("sqft") or subject["sqft"]) - subject["sqft"]))
+    return comps[:10]
 
 
 def predict_prices(listings, solds, cfg):
@@ -113,7 +123,9 @@ def score_deals(listings, predictions, cfg):
         fmr = fmr_table.get(l["parish"], {}).get(beds)
         gross_yield = round(100 * fmr * 12 / l["price"], 1) if fmr else None
         dom = l.get("days_on_market") or 0
-        score = spread_pct
+        # A spread past ~40% almost always means condition problems the model
+        # can't see, not a bargain — cap its contribution to the ranking
+        score = min(spread_pct, 40)
         if dom > d["stale_dom_days"]:
             score += 5  # long-sitting sellers negotiate
         if gross_yield and gross_yield > 10:
@@ -125,6 +137,8 @@ def score_deals(listings, predictions, cfg):
             flags.append("flip_candidate")
         if gross_yield and gross_yield > 10:
             flags.append("rental_candidate")
+        if spread_pct > 40:
+            flags.append("verify_condition")
         if not flags:
             continue
         deals.append({
@@ -160,6 +174,30 @@ def update_outcomes(outcomes, events, predictions, listings_prev):
             "sold_price": None, "sold_date": None,
         })
     return outcomes
+
+
+def backtest(solds, cfg, max_n=1000):
+    """Leave-one-out accuracy against real MLS sales: predict each sold home
+    from the other solds' $/sqft and compare to its actual close price."""
+    errs = []
+    for s in solds[:max_n]:
+        if not (s.get("sqft") and s.get("price")):
+            continue
+        comps = _find_comps(s, solds, cfg)
+        if len(comps) < 3:
+            continue
+        predicted = median([_ppsf(c) for c in comps]) * s["sqft"]
+        errs.append(abs(predicted - s["price"]) / s["price"])
+    if not errs:
+        return None
+    return {
+        "n": len(errs),
+        # median is the AVM-standard headline: robust to distressed/teardown
+        # sales that no size-based model can price
+        "median_err_pct": round(100 * median(errs), 1),
+        "mape_pct": round(100 * sum(errs) / len(errs), 1),
+        "within_10pct": round(100 * sum(1 for e in errs if e <= 0.10) / len(errs), 1),
+    }
 
 
 def model_metrics(outcomes):

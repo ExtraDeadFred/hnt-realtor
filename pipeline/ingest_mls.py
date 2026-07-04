@@ -18,8 +18,9 @@ _COLUMN_ALIASES = {
     "sold_date": ["sold date", "close date", "closing date", "sale date"],
     "sqft": ["sqft", "living area", "living sqft", "total living area", "sq ft", "heated sqft"],
     "year_built": ["year built", "yr built"],
-    "beds": ["beds", "bedrooms", "br"],
-    "baths": ["baths", "bathrooms", "ba", "total baths"],
+    "subdivision": ["subdivision", "subdivision name", "neighborhood"],
+    "beds": ["beds", "bedrooms", "br", "beds total", "total beds"],
+    "baths": ["baths", "bathrooms", "ba", "total baths", "bath total", "baths total"],
 }
 
 
@@ -65,6 +66,7 @@ def load_solds(folder="ingest/mls-solds"):
                 "price": price, "sqft": _num(get("sqft")),
                 "year_built": _num(get("year_built")),
                 "beds": _num(get("beds")), "baths": _num(get("baths")),
+                "subdivision": get("subdivision") or None,
                 "sold_date": get("sold_date"), "waterfront": False,
             })
     return solds

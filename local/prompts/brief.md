@@ -26,8 +26,11 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
    address (linked to the listing URL), city, list price vs our estimated
    value, spread %, $/sqft, days on market, flags (underpriced / flip /
    rental), estimated gross rental yield when present. One-line plain-English
-   take on why it's interesting and what the catch might be. If there are no
-   deals, say so honestly — never pad.
+   take on why it's interesting and what the catch might be. A
+   `verify_condition` flag means the price is so far below comps that the
+   home almost certainly has condition/title problems — present those as
+   "cheap for a reason, worth a drive-by" rather than as bargains. If there
+   are no deals, say so honestly — never pad.
 2. **Market movement** — a short section from the last few days of events:
    notable new listings, meaningful price cuts (name them), what went pending.
 3. **Facebook post drafts** — 2 or 3 drafts Catherine can copy-paste. Write in

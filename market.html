@@ -234,7 +234,7 @@
       document.getElementById('pulse-text').textContent = pulse.text;
     }
 
-    // --- Model accuracy (shown once there's a meaningful sample) ---
+    // --- Model accuracy (live outcomes when enough exist, else MLS backtest) ---
     if (metrics && metrics.n_outcomes >= 10 && metrics.mape_pct != null) {
       document.getElementById('accuracy-card').hidden = false;
       document.getElementById('accuracy-num').textContent = `within ${metrics.mape_pct}% on average`;
@@ -242,6 +242,12 @@
         `Across ${metrics.n_outcomes} homes that left the market, our value estimates have been within ${metrics.mape_pct}% of the final price on average` +
         (metrics.within_10pct != null ? `, and within 10% for ${metrics.within_10pct}% of homes.` : '.') +
         ' We publish this honestly — data you can\'t trust isn\'t worth your time.';
+    } else if (metrics && metrics.backtest && metrics.backtest.n >= 25 && metrics.backtest.median_err_pct <= 15) {
+      const b = metrics.backtest;
+      document.getElementById('accuracy-card').hidden = false;
+      document.getElementById('accuracy-num').textContent = `within ${b.median_err_pct}% (median)`;
+      document.getElementById('accuracy-text').textContent =
+        `Tested against ${b.n.toLocaleString()} actual MLS sales in our area: half of our estimates land within ${b.median_err_pct}% of the real closing price, and ${b.within_10pct}% land within 10%. Estimates are least reliable for distressed and heavily renovated properties — that's where Catherine's eyes matter most. We publish this honestly, because data you can't trust isn't worth your time.`;
     }
 
     // --- Shared tooltip helper ---
