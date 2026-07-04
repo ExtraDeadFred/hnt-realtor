@@ -10,7 +10,8 @@ Read these files from the repository (skip any that don't exist):
 - `data/market-stats.json` — per-area medians ($/sqft, price, DOM, inventory, 7-day activity)
 - `data/model-metrics.json` — how accurate our value estimates have been
 - `data/events.jsonl` — read the last ~200 lines (a week's worth); new listings / price cuts / pendings / off-market
-- `ingest/my-listings.txt` — Catherine's own active listings (for promo posts)
+- `ingest/my-listings.csv` — Catherine's own listings, exported from her MLS
+  (columns like Address, Current Price, SqFt, Beds Total, Mls Status, PType)
 
 Then output EXACTLY this structure (the markers matter — a script parses them):
 
@@ -55,10 +56,13 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
      area, or a back-on-market home that had strong interest and "fell off
      the radar" — frame those as opportunity, not failure. Talk about the
      market activity, not another agent's specific listing.
-   - **Her own listings**: read `ingest/my-listings.txt`. If any address in it
-     matches a listing in `data/listings.json`, one draft should be a warm
-     promo of that home (hers to advertise — address, price, and details are
-     fine and encouraged). This draft takes priority over one of the others.
+   - **Her own listings**: read `ingest/my-listings.csv` — these are
+     Catherine's OWN listings, hers to advertise, so address, price, and
+     details are fine and encouraged. Rotate through the Active ones so the
+     same house isn't promoted every day; enrich with details from
+     `data/listings.json` when the address matches. Commercial rows (PType
+     COMS) are fair game too, pitched to business owners/investors. One promo
+     draft most days; it takes priority over one of the others.
 
    **Weekly rhythm** (the prompt's first line tells you today's weekday):
    - **Monday**: lead with a start-the-week market snapshot post — where the
