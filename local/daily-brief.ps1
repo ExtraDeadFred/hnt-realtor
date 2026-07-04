@@ -45,7 +45,8 @@ New-Item -ItemType Directory -Force $outDir | Out-Null
 $emailHtml = $null
 $pulseText = $null
 try {
-    $prompt = Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw
+    $prompt = "Today is $(Get-Date -Format 'dddd, MMMM d, yyyy').`n`n" +
+              (Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw)
     # PS 5.1: stderr redirection on a native exe throws under EAP Stop, and
     # claude warns if piped stdin is empty — pipe the prompt in via stdin.
     # Both directions of that pipe must be UTF-8, or em-dashes/quotes arrive

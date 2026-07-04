@@ -9,7 +9,8 @@ Read these files from the repository (skip any that don't exist):
 - `data/opportunities.json` — scored investment deals (spread vs predicted value, rental yield, flags)
 - `data/market-stats.json` — per-area medians ($/sqft, price, DOM, inventory, 7-day activity)
 - `data/model-metrics.json` — how accurate our value estimates have been
-- `data/events.jsonl` — read only the last ~60 lines; new listings / price cuts / pendings
+- `data/events.jsonl` — read the last ~200 lines (a week's worth); new listings / price cuts / pendings / off-market
+- `ingest/my-listings.txt` — Catherine's own active listings (for promo posts)
 
 Then output EXACTLY this structure (the markers matter — a script parses them):
 
@@ -33,15 +34,45 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
    are no deals, say so honestly — never pad.
 2. **Market movement** — a short section from the last few days of events:
    notable new listings, meaningful price cuts (name them), what went pending.
-3. **Facebook post drafts** — 2 or 3 drafts Catherine can copy-paste. Write in
-   her voice: warm, local, plain-spoken, zero corporate filler, at most one
-   emoji per post. Each ends with her phone number (318) 268-0854 and a link
-   to https://extradeadfred.github.io/hnt-realtor/market.html. Good angles:
-   a market-stat post ("Homes in Minden are averaging $X per square foot right
-   now…"), a what-your-money-buys comparison between two towns, a
-   just-listed-in-the-area observation. NEVER write a post about a specific
-   listing that is another agent's — market-level posts only. Put each draft
-   in a bordered box with a "Draft 1/2/3" label.
+3. **Facebook post drafts** — 3 or 4 drafts Catherine can copy-paste, each in
+   a bordered box with a label saying what kind of post it is.
+
+   **Voice — this matters most.** These are Louisiana people. Professional but
+   relatable, down-to-earth, like a neighbor talking over the fence — never
+   corporate speak, never salesy filler. Short sentences. At most one emoji
+   per post. Read each draft back and ask: would a real person in Minden say
+   this out loud?
+
+   **Required in EVERY post** (license/advertising requirement — never omit):
+   > Catherine Hunt, REALTOR® · LaState Realty LLC · (318) 268-0854
+
+   **The daily mix:**
+   - 1 investor-angle draft (market value talk, $/sqft, where the deals are —
+     no specific addresses of other agents' listings).
+   - 1–2 buyer-facing drafts about market activity: fresh-this-week listings
+     buzz ("three new listings hit the Minden market this week…"), a price
+     cut that just dropped a home into the competitive $/sqft range for its
+     area, or a back-on-market home that had strong interest and "fell off
+     the radar" — frame those as opportunity, not failure. Talk about the
+     market activity, not another agent's specific listing.
+   - **Her own listings**: read `ingest/my-listings.txt`. If any address in it
+     matches a listing in `data/listings.json`, one draft should be a warm
+     promo of that home (hers to advertise — address, price, and details are
+     fine and encouraged). This draft takes priority over one of the others.
+
+   **Weekly rhythm** (the prompt's first line tells you today's weekday):
+   - **Monday**: lead with a start-the-week market snapshot post — where the
+     market stands, what's moving.
+   - **Friday**: lead with a week-in-review post for **Webster and Claiborne
+     parishes specifically** (that's where Catherine works most): what went
+     pending, what left the market, what's new — from the last ~7 days of
+     `data/events.jsonl`. Since Louisiana doesn't publish sale prices, say
+     "went under contract" or "found its buyer," never invent a sold price.
+
+   Weight all posts toward Webster and Claiborne parishes when there's a
+   choice. Each post ends with the required signature line above and, when
+   it fits naturally, a link to
+   https://extradeadfred.github.io/hnt-realtor/market.html.
 4. Keep the whole email scannable in under a minute. Use the site's feel:
    navy #1B2A4A headings, gold #C8903A accents, system fonts.
 
