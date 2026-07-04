@@ -48,10 +48,18 @@ try {
     $prompt = Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw
     # PS 5.1: stderr redirection on a native exe throws under EAP Stop, and
     # claude warns if piped stdin is empty — pipe the prompt in via stdin.
+    # Both directions of that pipe must be UTF-8, or em-dashes/quotes arrive
+    # as mojibake (PS 5.1 defaults: ASCII out, OEM codepage in).
+    $prevOut = $OutputEncoding
+    $prevConsole = [Console]::OutputEncoding
+    $OutputEncoding = [System.Text.Encoding]::UTF8
+    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
     $ErrorActionPreference = "Continue"
     $raw = ($prompt | claude -p 2>$null | Out-String)
     $claudeExit = $LASTEXITCODE
     $ErrorActionPreference = "Stop"
+    $OutputEncoding = $prevOut
+    [Console]::OutputEncoding = $prevConsole
     if ($claudeExit -ne 0) {
         Write-Warning "claude exited with code $claudeExit"
         $raw = ""
@@ -104,6 +112,9 @@ foreach ($to in ($mailTo -split "," | ForEach-Object { $_.Trim() } | Where-Objec
 $msg.Subject = $subject
 $msg.Body = $emailHtml
 $msg.IsBodyHtml = $true
+# Default mail encoding is ASCII — force UTF-8 so em-dashes/emoji survive
+$msg.SubjectEncoding = [System.Text.Encoding]::UTF8
+$msg.BodyEncoding = [System.Text.Encoding]::UTF8
 $smtp = New-Object System.Net.Mail.SmtpClient($smtpServer, $smtpPort)
 $smtp.EnableSsl = $true
 $smtp.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $smtpPass)
