@@ -27,6 +27,15 @@ scrape:
   max_pages: 2          # result pages per area per source
   timeout_seconds: 150  # some Zillow/Realtor pages are slow; 90s saw 408s
 
+# NTREIS RESO Web API (IDX feed) — becomes the primary source once the broker
+# authorization goes through. Fill these from NTREIS's packet and set the
+# NTREIS_* secrets; until then this stays empty and the scrapers run.
+# Full activation steps: pipeline/NTREIS.md
+ntreis:
+  base_url: ""    # e.g. https://api.ntreis.net/reso/odata (from their packet)
+  token_url: ""   # OAuth2 token endpoint (omit if they issue a static token)
+  scope: "api"
+
 model:
   min_comps: 5          # widen search to parish if fewer comps than this
   comp_year_window: 20  # ± years built

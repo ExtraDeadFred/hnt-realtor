@@ -41,7 +41,17 @@ def save_json(path, obj):
 
 
 def scrape_all(cfg):
-    from sources import realtor, zillow
+    from sources import ntreis, realtor, zillow
+    # MLS feed is the primary source once credentialed (see pipeline/NTREIS.md);
+    # the scrapers below remain the automatic fallback.
+    if ntreis.enabled(cfg):
+        try:
+            listings = ntreis.fetch_all(cfg)
+            print(f"  ntreis: {len(listings)} listings")
+            if listings:
+                return listings
+        except Exception as e:
+            print(f"  ntreis: FAILED — {e}; falling back to scrapers")
     listings = []
     for area in cfg["areas"]:
         for mod, name in ((zillow, "zillow"), (realtor, "realtor")):
@@ -110,6 +120,11 @@ def main():
         for k in ("new", "price_cut", "pending", "off_market", "back_on_market")))
 
     solds = ingest_mls.load_solds(ROOT / "ingest" / "mls-solds")
+    from sources import ntreis
+    if ntreis.enabled(cfg) and not fixture:
+        api_solds = ntreis.fetch_solds(cfg)
+        known = {s["key"] for s in solds}
+        solds += [s for s in api_solds if s["key"] not in known]
     if solds:
         print(f"{len(solds)} MLS sold comps loaded")
 
