@@ -1,13 +1,13 @@
 {
- "updated": "2026-07-04",
+ "updated": "2026-07-05",
  "cohorts": {
   "Arcadia": {
-   "inventory": 4,
-   "median_price": 344450,
-   "median_ppsf": 86.5,
-   "median_dom": 38,
+   "inventory": 3,
+   "median_price": 239000,
+   "median_ppsf": 110.8,
+   "median_dom": null,
    "ppsf_by_decade": {},
-   "new_7d": 4,
+   "new_7d": 3,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
@@ -22,80 +22,84 @@
    "pending_7d": 0
   },
   "Benton": {
-   "inventory": 29,
-   "median_price": 379900,
-   "median_ppsf": 169.9,
-   "median_dom": 1,
-   "ppsf_by_decade": {
-    "2020s": 189.1
-   },
-   "new_7d": 29,
-   "price_cuts_7d": 0,
+   "inventory": 79,
+   "median_price": 390000,
+   "median_ppsf": 181.4,
+   "median_dom": 42,
+   "ppsf_by_decade": {},
+   "new_7d": 79,
+   "price_cuts_7d": 1,
    "pending_7d": 0
   },
   "Bossier City": {
-   "inventory": 11,
-   "median_price": 294900,
-   "median_ppsf": 167.8,
-   "median_dom": 4,
+   "inventory": 20,
+   "median_price": 361700,
+   "median_ppsf": 171.9,
+   "median_dom": null,
    "ppsf_by_decade": {},
-   "new_7d": 11,
+   "new_7d": 20,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Bossier Parish": {
-   "inventory": 68,
-   "median_price": 322450,
-   "median_ppsf": 159.0,
-   "median_dom": 1,
-   "ppsf_by_decade": {
-    "2020s": 183.6
-   },
-   "new_7d": 68,
-   "price_cuts_7d": 0,
+   "inventory": 136,
+   "median_price": 333888,
+   "median_ppsf": 167.8,
+   "median_dom": 42,
+   "ppsf_by_decade": {},
+   "new_7d": 139,
+   "price_cuts_7d": 2,
    "pending_7d": 0
   },
   "Claiborne Parish": {
-   "inventory": 39,
-   "median_price": 244850,
-   "median_ppsf": 103.4,
-   "median_dom": 70,
+   "inventory": 37,
+   "median_price": 239000,
+   "median_ppsf": 93.6,
+   "median_dom": 53,
    "ppsf_by_decade": {},
-   "new_7d": 39,
+   "new_7d": 37,
+   "price_cuts_7d": 0,
+   "pending_7d": 0
+  },
+  "Cotton Valley": {
+   "inventory": 2,
+   "median_price": 439000,
+   "median_ppsf": 179.8,
+   "median_dom": null,
+   "ppsf_by_decade": {},
+   "new_7d": 2,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Doyline": {
    "inventory": 12,
-   "median_price": 221000,
-   "median_ppsf": 115.6,
-   "median_dom": 60,
+   "median_price": 218000,
+   "median_ppsf": 114.0,
+   "median_dom": 113,
    "ppsf_by_decade": {
-    "1970s": 51.8,
-    "1990s": 130.7,
-    "2000s": 129.2,
-    "2010s": 185.2,
-    "2020s": 86.3
+    "1980s": 107.7,
+    "2000s": 138.1,
+    "2020s": 91.5
    },
    "new_7d": 12,
-   "price_cuts_7d": 0,
+   "price_cuts_7d": 1,
    "pending_7d": 0
   },
   "Dubberly": {
-   "inventory": 3,
-   "median_price": 360000,
+   "inventory": 4,
+   "median_price": 299500,
    "median_ppsf": 159.3,
-   "median_dom": null,
+   "median_dom": 1,
    "ppsf_by_decade": {},
-   "new_7d": 3,
+   "new_7d": 5,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Elm Grove": {
    "inventory": 12,
-   "median_price": 162500,
-   "median_ppsf": 106.1,
-   "median_dom": 126,
+   "median_price": 147450,
+   "median_ppsf": 110.1,
+   "median_dom": 70,
    "ppsf_by_decade": {},
    "new_7d": 12,
    "price_cuts_7d": 0,
@@ -112,69 +116,66 @@
    "pending_7d": 0
   },
   "Haughton": {
-   "inventory": 24,
-   "median_price": 329900,
-   "median_ppsf": 164.9,
-   "median_dom": 519,
+   "inventory": 19,
+   "median_price": 350000,
+   "median_ppsf": 158.9,
+   "median_dom": 520,
    "ppsf_by_decade": {
-    "2020s": 160.2
+    "2020s": 144.8
    },
-   "new_7d": 24,
-   "price_cuts_7d": 0,
+   "new_7d": 22,
+   "price_cuts_7d": 1,
    "pending_7d": 0
   },
   "Haynesville": {
-   "inventory": 8,
-   "median_price": 124950,
-   "median_ppsf": 67.5,
-   "median_dom": null,
+   "inventory": 17,
+   "median_price": 105000,
+   "median_ppsf": 68.2,
+   "median_dom": 101,
    "ppsf_by_decade": {},
-   "new_7d": 8,
+   "new_7d": 17,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Heflin": {
-   "inventory": 4,
-   "median_price": 118500,
-   "median_ppsf": 89.0,
-   "median_dom": null,
-   "ppsf_by_decade": {
-    "2020s": 89.0
-   },
-   "new_7d": 4,
+   "inventory": 6,
+   "median_price": 82500,
+   "median_ppsf": 60.3,
+   "median_dom": 60,
+   "ppsf_by_decade": {},
+   "new_7d": 6,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Homer": {
-   "inventory": 25,
-   "median_price": 369000,
-   "median_ppsf": 198.5,
-   "median_dom": 98,
+   "inventory": 15,
+   "median_price": 384500,
+   "median_ppsf": 220.6,
+   "median_dom": 5,
    "ppsf_by_decade": {},
-   "new_7d": 25,
-   "price_cuts_7d": 0,
-   "pending_7d": 0
-  },
-  "Magnolia": {
-   "inventory": 1,
-   "median_price": 149900,
-   "median_ppsf": 78.7,
-   "median_dom": null,
-   "ppsf_by_decade": {},
-   "new_7d": 1,
+   "new_7d": 15,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Minden": {
    "inventory": 17,
-   "median_price": 209700,
-   "median_ppsf": 112.6,
-   "median_dom": 13,
+   "median_price": 219500,
+   "median_ppsf": 122.3,
+   "median_dom": 15,
    "ppsf_by_decade": {
-    "1960s": 34.6,
     "2020s": 149.9
    },
-   "new_7d": 17,
+   "new_7d": 21,
+   "price_cuts_7d": 0,
+   "pending_7d": 0
+  },
+  "Plain Dealing": {
+   "inventory": 1,
+   "median_price": 75000,
+   "median_ppsf": null,
+   "median_dom": null,
+   "ppsf_by_decade": {},
+   "new_7d": 1,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
@@ -193,20 +194,18 @@
    "median_price": 740000,
    "median_ppsf": 280.8,
    "median_dom": null,
-   "ppsf_by_decade": {
-    "2020s": 280.8
-   },
+   "ppsf_by_decade": {},
    "new_7d": 2,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Shreveport": {
-   "inventory": 10,
-   "median_price": 252500,
-   "median_ppsf": 111.1,
+   "inventory": 9,
+   "median_price": 212000,
+   "median_ppsf": 81.2,
    "median_dom": null,
    "ppsf_by_decade": {},
-   "new_7d": 10,
+   "new_7d": 9,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
@@ -214,7 +213,7 @@
    "inventory": 7,
    "median_price": 349000,
    "median_ppsf": 132.5,
-   "median_dom": 321,
+   "median_dom": 164,
    "ppsf_by_decade": {},
    "new_7d": 7,
    "price_cuts_7d": 0,
@@ -224,7 +223,7 @@
    "inventory": 9,
    "median_price": 550000,
    "median_ppsf": 241.2,
-   "median_dom": 70,
+   "median_dom": 5,
    "ppsf_by_decade": {},
    "new_7d": 9,
    "price_cuts_7d": 0,
@@ -234,27 +233,24 @@
    "inventory": 1,
    "median_price": 159900,
    "median_ppsf": 69.5,
-   "median_dom": 15,
+   "median_dom": 17,
    "ppsf_by_decade": {},
    "new_7d": 1,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Webster Parish": {
-   "inventory": 66,
-   "median_price": 279000,
-   "median_ppsf": 134.9,
-   "median_dom": 10,
+   "inventory": 56,
+   "median_price": 247500,
+   "median_ppsf": 129.3,
+   "median_dom": 52,
    "ppsf_by_decade": {
-    "1960s": 34.6,
-    "1970s": 51.8,
-    "1990s": 130.7,
-    "2000s": 129.2,
-    "2010s": 185.2,
-    "2020s": 160.2
+    "1980s": 107.7,
+    "2000s": 138.1,
+    "2020s": 124.7
    },
-   "new_7d": 66,
-   "price_cuts_7d": 0,
+   "new_7d": 61,
+   "price_cuts_7d": 1,
    "pending_7d": 0
   }
  }

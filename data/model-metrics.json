@@ -1,13 +1,13 @@
 {
- "updated": "2026-07-04",
- "n_outcomes": 45,
+ "updated": "2026-07-05",
+ "n_outcomes": 83,
  "n_true_solds": 0,
- "mape_pct": 24.9,
- "within_10pct": 26.7,
+ "mape_pct": 34.1,
+ "within_10pct": 27.7,
  "backtest": {
-  "n": 2030,
-  "median_err_pct": 12.8,
-  "mape_pct": 35.5,
-  "within_10pct": 43.5
+  "n": 999,
+  "median_err_pct": 12.6,
+  "mape_pct": 34.9,
+  "within_10pct": 44.0
  }
 }
