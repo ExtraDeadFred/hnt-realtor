@@ -34,12 +34,42 @@ if (-not $smtpUser -or -not $smtpPass) {
     throw "SMTP_USERNAME / SMTP_PASSWORD not found in environment variables or local\.env."
 }
 
-# --- fresh data from the overnight Actions run ---
-git pull --ff-only 2>&1 | Out-Null
+function Send-Brief($subject, $body) {
+    $msg = New-Object System.Net.Mail.MailMessage
+    $msg.From = $fromEmail
+    foreach ($to in ($mailTo -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ })) { $msg.To.Add($to) }
+    $msg.Subject = $subject
+    $msg.Body = $body
+    $msg.IsBodyHtml = $true
+    # Default mail encoding is ASCII — force UTF-8 so em-dashes/emoji survive
+    $msg.SubjectEncoding = [System.Text.Encoding]::UTF8
+    $msg.BodyEncoding = [System.Text.Encoding]::UTF8
+    $smtp = New-Object System.Net.Mail.SmtpClient($smtpServer, $smtpPort)
+    $smtp.EnableSsl = $true
+    $smtp.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $smtpPass)
+    $smtp.Send($msg)
+}
 
 $today = Get-Date -Format "yyyy-MM-dd"
 $outDir = Join-Path $PSScriptRoot "out"
 New-Item -ItemType Directory -Force $outDir | Out-Null
+
+# Log the whole run so a failed morning is diagnosable after the fact
+try { Start-Transcript -Path (Join-Path $outDir "last-run.log") -Force -ErrorAction SilentlyContinue | Out-Null } catch {}
+
+# From here on, any unexpected crash emails the error instead of dying silently
+try {
+
+# --- fresh data from the overnight Actions run ---
+# Never fatal: git chatters on stderr (which PS 5.1 can escalate to a crash)
+# and OneDrive can transiently lock .git — stale data still beats no email.
+$ErrorActionPreference = "Continue"
+git pull --ff-only *> $null
+$pullExit = $LASTEXITCODE
+$ErrorActionPreference = "Stop"
+if ($pullExit -ne 0) {
+    Write-Warning "git pull failed (exit $pullExit) — continuing with existing data"
+}
 
 # --- generate with Claude (headless, uses the Claude subscription) ---
 $emailHtml = $null
@@ -107,18 +137,23 @@ if ($pulseText -and $pulseText -ne "NONE") {
 $subject = "Market Brief — $today"
 if ($opps -and $opps.high_opportunity) { $subject = "🔥 High-Opportunity Alert — $today" }
 
-$msg = New-Object System.Net.Mail.MailMessage
-$msg.From = $fromEmail
-foreach ($to in ($mailTo -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ })) { $msg.To.Add($to) }
-$msg.Subject = $subject
-$msg.Body = $emailHtml
-$msg.IsBodyHtml = $true
-# Default mail encoding is ASCII — force UTF-8 so em-dashes/emoji survive
-$msg.SubjectEncoding = [System.Text.Encoding]::UTF8
-$msg.BodyEncoding = [System.Text.Encoding]::UTF8
-$smtp = New-Object System.Net.Mail.SmtpClient($smtpServer, $smtpPort)
-$smtp.EnableSsl = $true
-$smtp.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $smtpPass)
-$smtp.Send($msg)
+Send-Brief $subject $emailHtml
 Write-Host "Sent '$subject' to $mailTo"
+
+} catch {
+    # Never fail silently: log it and email the error so a missing brief
+    # always comes with an explanation
+    $err = "Daily brief crashed at $(Get-Date): $($_ | Out-String)"
+    Write-Warning $err
+    $err | Out-File (Join-Path $outDir "error-$today.log") -Encoding utf8
+    try {
+        Send-Brief "⚠ Daily brief FAILED — $today" ("<p>The daily brief script crashed. Error:</p><pre>" +
+            [System.Net.WebUtility]::HtmlEncode("$_") + "</pre><p>Details: local\out\error-$today.log and last-run.log</p>")
+    } catch {
+        Write-Warning "Could not send failure email: $_"
+    }
+    try { Stop-Transcript | Out-Null } catch {}
+    exit 1
+}
+try { Stop-Transcript | Out-Null } catch {}
 exit 0
