@@ -18,7 +18,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "105 WOODHAVEN DR|MINDEN",
   "sources": [
    "zillow",
@@ -44,7 +44,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "386 COUNTRY CLUB CIR|MINDEN",
   "sources": [
    "zillow"
@@ -69,7 +69,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "213 215 MCDONALD ST|MINDEN",
   "sources": [
    "zillow"
@@ -84,7 +84,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1305,
-  "lot_acres": 1.37,
+  "lot_acres": null,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
@@ -94,11 +94,10 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "3113 GERMANTOWN RD|MINDEN",
   "sources": [
-   "zillow",
-   "realtor"
+   "zillow"
   ]
  },
  {
@@ -120,7 +119,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1426 CANEY LAKE RD|MINDEN",
   "sources": [
    "zillow",
@@ -146,7 +145,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "776 METHODIST CAMP RD|MINDEN",
   "sources": [
    "zillow"
@@ -171,7 +170,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "112 LAUREL CIR|MINDEN",
   "sources": [
    "zillow"
@@ -196,7 +195,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1409 DRAKE DR|MINDEN",
   "sources": [
    "zillow",
@@ -222,7 +221,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "514 RICHARDSON ST|MINDEN",
   "sources": [
    "zillow"
@@ -237,7 +236,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1201,
-  "lot_acres": 0.12,
+  "lot_acres": 0.1198,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
@@ -247,7 +246,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "317 JOEL ST|MINDEN",
   "sources": [
    "zillow",
@@ -273,11 +272,462 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1241 COUNTRY CLUB CIR|MINDEN",
   "sources": [
    "zillow",
    "realtor"
+  ]
+ },
+ {
+  "address": "902 Hinton St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 219500,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2055,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/902-Hinton-St-Minden-LA-71055/106203295_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/207ff779d22212f35b3b6cd371ed7997-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "902 HINTON ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "205 Beck St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 80000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1499,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/205-Beck-St-Minden-LA-71055/106206897_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/84c517dcef2ee3cf8b8c1a920dcef8a2-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "205 BECK ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "1054 Frontage Rd, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 136500,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1257,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1054-Frontage-Rd-Minden-LA-71055/106213781_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/e6bca65063b4beb172a8ba205880da53-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1054 FRONTAGE RD|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "1302 E Todd St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 259000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1730,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1302-E-Todd-St-Minden-LA-71055/106202024_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/edc8f5f17f4c7c9236e1aef3d75ba050-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1302 E TODD ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "323 College St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 179000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2888,
+  "lot_acres": 0.43,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/323-College-St-Minden-LA-71055/106204372_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/5ba6bddb8679782556f9a862c3a1a830-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "323 COLLEGE ST|MINDEN",
+  "sources": [
+   "zillow",
+   "realtor"
+  ]
+ },
+ {
+  "address": "513 Patrick St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 79999,
+  "beds": 3,
+  "baths": 1.0,
+  "sqft": 1140,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/513-Patrick-St-Minden-LA-71055/106203826_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/5f686ae10714b26073350f7f75b6a6ae-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "513 PATRICK ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "328 S Talton St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 99900,
+  "beds": 2,
+  "baths": 2.0,
+  "sqft": 1400,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/328-S-Talton-St-Minden-LA-71055/2068396813_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/9d7a5be8215f2d582ce9ee6f0fcfca93-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "328 S TALTON ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "2643 Germantown Rd, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 418000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 1900,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/2643-Germantown-Rd-Minden-LA-71055/462392413_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/72e50b2e22b1c6b90405456b9bf032c2-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "2643 GERMANTOWN RD|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "803 Drew Ln, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 222000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2249,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/803-Drew-Ln-Minden-LA-71055/230573436_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/497740e5760f64214c4dfd0fa21da082-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "803 DREW LN|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "110 Kirby Pl, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 140000,
+  "beds": 2,
+  "baths": 2.0,
+  "sqft": 1314,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/110-Kirby-Pl-Minden-LA-71055/106205177_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/fb8f328945664cc3fdb169f0ff470443-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "110 KIRBY PL|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "201 Woodhaven Dr, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 498000,
+  "beds": 5,
+  "baths": 5.0,
+  "sqft": 3400,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/201-Woodhaven-Dr-Minden-LA-71055/106211552_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/362f5b3d6d3b15f233182e4b7f06aa3a-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "201 WOODHAVEN DR|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "1217 Ridgewood Cir, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 1500000,
+  "beds": 5,
+  "baths": 4.0,
+  "sqft": 5542,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1217-Ridgewood-Cir-Minden-LA-71055/106201600_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/4b6a2f4305977162c1d3155f363c812b-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1217 RIDGEWOOD CIR|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "159 Chrislo Dr, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 389900,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2771,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/159-Chrislo-Dr-Minden-LA-71055/106202243_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/dc499518d4aef773bba77d6718faaf60-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "159 CHRISLO DR|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "210 Whispering Pines Trl, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 245000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2003,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/210-Whispering-Pines-Trl-Minden-LA-71055/242515903_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/4e19e4d20baf00908c5284442cb354aa-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "210 WHISPERING PINES TRL|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "1302 Turner St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 114900,
+  "beds": 2,
+  "baths": 2.0,
+  "sqft": 1484,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1302-Turner-St-Minden-LA-71055/106215854_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/b48de446d8b4c89ecf47fa8f1c950516-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1302 TURNER ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "109 Washington St, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 49900,
+  "beds": 2,
+  "baths": 1.0,
+  "sqft": 1213,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/109-Washington-St-Minden-LA-71055/106203905_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/fa19cb0f7efe19283f8abef9a6a189e4-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "109 WASHINGTON ST|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "145 Loop Rd, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 134900,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 1946,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/145-Loop-Rd-Minden-LA-71055/106203390_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/13cb4c1269cd8a8d7b13db536462ab1f-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "145 LOOP RD|MINDEN",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "165/169 Red Hill Ln, Minden, LA 71055",
+  "city": "Minden",
+  "parish": "Webster",
+  "zip": "71055",
+  "price": 250000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1657,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": 181,
+  "url": "https://www.zillow.com/homedetails/165-169-Red-Hill-Ln-Minden-LA-71055/459519946_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/ac725f47b9f9e763ef4de9ebcce13524-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "165169 RED HILL LN|MINDEN",
+  "sources": [
+   "zillow"
   ]
  },
  {
@@ -299,33 +749,8 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1206 E TODD ST|MINDEN",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "323 College St",
-  "city": "Minden",
-  "parish": "Webster",
-  "zip": "71055",
-  "price": 179000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 2888,
-  "lot_acres": 0.43,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/323-College-St_Minden_LA_71055_M74072-30759?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/a8fb21c02da8fc20eea39baea6aa0ba6l-m1700354795od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "323 COLLEGE ST|MINDEN",
   "sources": [
    "realtor"
   ]
@@ -349,7 +774,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "413 DOGWOOD TRL|MINDEN",
   "sources": [
    "realtor"
@@ -374,7 +799,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "515 DAVIS ST|MINDEN",
   "sources": [
    "realtor"
@@ -399,7 +824,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "307 EMERALD DR|MINDEN",
   "sources": [
    "realtor"
@@ -424,7 +849,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "132 DUGAN RD|SIBLEY",
   "sources": [
    "zillow",
@@ -443,14 +868,14 @@
   "lot_acres": 1.81,
   "year_built": null,
   "status": "active",
-  "days_on_market": 6,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/350-Brushy-Creek-Rd-Sibley-LA-71073/106213326_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/ae95c8d6bbd0f454ed95e45489b124df-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "350 BRUSHY CREEK RD|SIBLEY",
   "sources": [
    "zillow",
@@ -476,7 +901,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "193 SE 5TH AVE|SIBLEY",
   "sources": [
    "zillow"
@@ -501,7 +926,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "149 SE 6TH AVE|SIBLEY",
   "sources": [
    "zillow",
@@ -527,7 +952,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "155 FRAZIER AVE|SIBLEY",
   "sources": [
    "zillow",
@@ -553,7 +978,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "582 YELLOW PINE RD|SIBLEY",
   "sources": [
    "zillow",
@@ -579,7 +1004,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "179 FRED SANDERS RD|SIBLEY",
   "sources": [
    "realtor"
@@ -604,7 +1029,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "193 5TH AVE|SIBLEY",
   "sources": [
    "realtor"
@@ -629,7 +1054,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "159 YELLOW PINE RD|SIBLEY",
   "sources": [
    "realtor"
@@ -645,7 +1070,7 @@
   "baths": 2.0,
   "sqft": 2005,
   "lot_acres": 0.69,
-  "year_built": 2002,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.realtor.com/realestateandhomes-detail/124-Lawrence-Dr_Haughton_LA_71037_M82092-21112?from=srp_next",
@@ -654,11 +1079,10 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "124 LAWRENCE DR|HAUGHTON",
   "sources": [
-   "realtor",
-   "zillow"
+   "realtor"
   ]
  },
  {
@@ -671,7 +1095,7 @@
   "baths": 2.0,
   "sqft": 1848,
   "lot_acres": 2.43,
-  "year_built": 1996,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.realtor.com/realestateandhomes-detail/3644-Spurgin-Rd_Doyline_LA_71023_M81929-31372?from=srp_next",
@@ -680,211 +1104,8 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "3644 SPURGIN RD|DOYLINE",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "2100 Forest Hills Blvd",
-  "city": "Haughton",
-  "parish": "Webster",
-  "zip": "71037",
-  "price": 382000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2316,
-  "lot_acres": 0.49,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2100-Forest-Hills-Blvd_Haughton_LA_71037_M80510-64452?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/80f7499839e3b42827454eed18096275l-m3354070079od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "2100 FOREST HILLS BLVD|HAUGHTON",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "5092 Highway 2",
-  "city": "Sarepta",
-  "parish": "Webster",
-  "zip": "71071",
-  "price": 980000,
-  "beds": 3,
-  "baths": 3.5,
-  "sqft": 2774,
-  "lot_acres": 43.0,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5092-Highway-2_Sarepta_LA_71071_M88134-76537?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/1935d83849c5453058c02f1937e25873l-m3582602159od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "5092 HWY 2|SAREPTA",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "102 Beau Bridge Cir",
-  "city": "Bossier City",
-  "parish": "Webster",
-  "zip": "71112",
-  "price": 395000,
-  "beds": 4,
-  "baths": 2.5,
-  "sqft": 2144,
-  "lot_acres": 0.54,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/102-Beau-Bridge-Cir_Bossier-City_LA_71112_M87240-91469?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/6d45cad9a85994af4210a7eed18a2617l-m1250772630od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "102 BEAU BRIDGE CIR|BOSSIER CITY",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "186 Cane Bend Dr",
-  "city": "Haughton",
-  "parish": "Webster",
-  "zip": "71037",
-  "price": 375000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1975,
-  "lot_acres": 2.7,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 1,
-  "url": "https://www.realtor.com/realestateandhomes-detail/186-Cane-Bend-Dr_Haughton_LA_71037_M81264-53454?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/ea57ffe6cfdaaa3a4fe248e69a856c5el-m3825119383od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "186 CANE BEND DR|HAUGHTON",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "3013 Sagefield Ln",
-  "city": "Haughton",
-  "parish": "Webster",
-  "zip": "71037",
-  "price": 419900,
-  "beds": 4,
-  "baths": 2.5,
-  "sqft": 3112,
-  "lot_acres": 0.5,
-  "year_built": null,
-  "status": "contingent",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3013-Sagefield-Ln_Haughton_LA_71037_M72183-08329?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/c917012fe1f5dd3365e8e5773ce4c0aal-m3254454774od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "3013 SAGEFIELD LN|HAUGHTON",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "5102 Highway 2",
-  "city": "Sarepta",
-  "parish": "Webster",
-  "zip": "71071",
-  "price": 500000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2400,
-  "lot_acres": 11.6,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5102-Highway-2_Sarepta_LA_71071_M97774-17516?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/ac32535ff5eb83fff962c8c31fce9049l-m2192110025od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "5102 HWY 2|SAREPTA",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "13403 Highway 157",
-  "city": "Haughton",
-  "parish": "Webster",
-  "zip": "71037",
-  "price": 245000,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 2403,
-  "lot_acres": 1.55,
-  "year_built": null,
-  "status": "contingent",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/13403-Highway-157_Haughton_LA_71037_M70849-46267?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/f1a4e45e2929e01c6478e4d5f94c2a34l-m1115201796od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "13403 HWY 157|HAUGHTON",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "508 J R Dr",
-  "city": "Bossier City",
-  "parish": "Webster",
-  "zip": "71112",
-  "price": 329500,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1950,
-  "lot_acres": 0.199,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 1,
-  "url": "https://www.realtor.com/realestateandhomes-detail/508-J-R-Dr_Bossier-City_LA_71112_M79361-34389?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/9f5f0bdcc9976a0ff505edb3de4d687el-m3395637389od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "508 J R DR|BOSSIER CITY",
   "sources": [
    "realtor",
    "zillow"
@@ -909,7 +1130,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1267 JOHNSON RD|DOYLINE",
   "sources": [
    "realtor",
@@ -935,14 +1156,216 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "667 HILBURN RD|COTTON VALLEY",
   "sources": [
    "realtor"
   ]
  },
  {
-  "address": "175 Magnolia Rd",
+  "address": "2100 Forest Hills Blvd",
+  "city": "Haughton",
+  "parish": "Webster",
+  "zip": "71037",
+  "price": 382000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2316,
+  "lot_acres": 0.49,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2100-Forest-Hills-Blvd_Haughton_LA_71037_M80510-64452?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/80f7499839e3b42827454eed18096275l-m3354070079od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "2100 FOREST HILLS BLVD|HAUGHTON",
+  "sources": [
+   "realtor",
+   "zillow"
+  ]
+ },
+ {
+  "address": "5092 Highway 2",
+  "city": "Sarepta",
+  "parish": "Webster",
+  "zip": "71071",
+  "price": 980000,
+  "beds": 3,
+  "baths": 3.5,
+  "sqft": 2774,
+  "lot_acres": 43.0,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5092-Highway-2_Sarepta_LA_71071_M88134-76537?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/1935d83849c5453058c02f1937e25873l-m3582602159od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "5092 HWY 2|SAREPTA",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "102 Beau Bridge Cir",
+  "city": "Bossier City",
+  "parish": "Webster",
+  "zip": "71112",
+  "price": 395000,
+  "beds": 4,
+  "baths": 2.5,
+  "sqft": 2144,
+  "lot_acres": 0.54,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/102-Beau-Bridge-Cir_Bossier-City_LA_71112_M87240-91469?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/6d45cad9a85994af4210a7eed18a2617l-m1250772630od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "102 BEAU BRIDGE CIR|BOSSIER CITY",
+  "sources": [
+   "realtor",
+   "zillow"
+  ]
+ },
+ {
+  "address": "186 Cane Bend Dr",
+  "city": "Haughton",
+  "parish": "Webster",
+  "zip": "71037",
+  "price": 375000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1975,
+  "lot_acres": 2.7,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": 1,
+  "url": "https://www.realtor.com/realestateandhomes-detail/186-Cane-Bend-Dr_Haughton_LA_71037_M81264-53454?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/ea57ffe6cfdaaa3a4fe248e69a856c5el-m3825119383od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "186 CANE BEND DR|HAUGHTON",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "3013 Sagefield Ln",
+  "city": "Haughton",
+  "parish": "Webster",
+  "zip": "71037",
+  "price": 419900,
+  "beds": 4,
+  "baths": 2.5,
+  "sqft": 3112,
+  "lot_acres": 0.5,
+  "year_built": null,
+  "status": "contingent",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3013-Sagefield-Ln_Haughton_LA_71037_M72183-08329?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/c917012fe1f5dd3365e8e5773ce4c0aal-m3254454774od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "3013 SAGEFIELD LN|HAUGHTON",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "5102 Highway 2",
+  "city": "Sarepta",
+  "parish": "Webster",
+  "zip": "71071",
+  "price": 500000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2400,
+  "lot_acres": 11.6,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5102-Highway-2_Sarepta_LA_71071_M97774-17516?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/ac32535ff5eb83fff962c8c31fce9049l-m2192110025od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "5102 HWY 2|SAREPTA",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "13403 Highway 157",
+  "city": "Haughton",
+  "parish": "Webster",
+  "zip": "71037",
+  "price": 245000,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 2403,
+  "lot_acres": 1.55,
+  "year_built": null,
+  "status": "contingent",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/13403-Highway-157_Haughton_LA_71037_M70849-46267?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/f1a4e45e2929e01c6478e4d5f94c2a34l-m1115201796od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "13403 HWY 157|HAUGHTON",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "508 J R Dr",
+  "city": "Bossier City",
+  "parish": "Webster",
+  "zip": "71112",
+  "price": 329500,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 1950,
+  "lot_acres": 0.2,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/508-J-R-Dr_Bossier-City_LA_71112_M79361-34389?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/9f5f0bdcc9976a0ff505edb3de4d687el-m3395637389od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "508 J R DR|BOSSIER CITY",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "175 Magnolia Rd, Dubberly, LA 71024",
   "city": "Dubberly",
   "parish": "Webster",
   "zip": "71024",
@@ -950,7 +1373,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1500,
-  "lot_acres": 0.35,
+  "lot_acres": 1.5,
   "year_built": 2000,
   "status": "active",
   "days_on_market": null,
@@ -960,7 +1383,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "175 MAGNOLIA RD|DUBBERLY",
   "sources": [
    "zillow",
@@ -968,26 +1391,26 @@
   ]
  },
  {
-  "address": "P 1 Stuckey Rd",
+  "address": "0 Bullard Rd, Dubberly, LA 71024",
   "city": "Dubberly",
   "parish": "Webster",
   "zip": "71024",
-  "price": 360000,
+  "price": 55000,
   "beds": null,
   "baths": null,
   "sqft": null,
-  "lot_acres": 62.0,
+  "lot_acres": 17.0,
   "year_built": null,
   "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/P-1-Stuckey-Rd-Dubberly-LA-71024/454047681_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/0f5db25b4e33bfadd303c332c54c5c8b-p_e.webp",
+  "days_on_market": 3,
+  "url": "https://www.zillow.com/homedetails/0-Bullard-Rd-Dubberly-LA-71024/463647850_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/09b2f4433ad8cb02f7b93f295bc2707b-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "P 1 STUCKEY RD|DUBBERLY",
+  "scraped_at": "2026-07-07",
+  "key": "0 BULLARD RD|DUBBERLY",
   "sources": [
    "zillow"
   ]
@@ -1011,7 +1434,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "P1 STUCKEY RD|DUBBERLY",
   "sources": [
    "realtor"
@@ -1027,7 +1450,7 @@
   "baths": 3.0,
   "sqft": 3848,
   "lot_acres": 6.6,
-  "year_built": 2006,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.realtor.com/realestateandhomes-detail/2534-Highway-146_Homer_LA_71040_M75678-34529?from=srp_next",
@@ -1036,7 +1459,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2534 HWY 146|HOMER",
   "sources": [
    "realtor",
@@ -1052,7 +1475,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1626,
-  "lot_acres": 0.179,
+  "lot_acres": 0.18,
   "year_built": null,
   "status": "contingent",
   "days_on_market": null,
@@ -1062,7 +1485,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "316 N HAMPTON ST|HAUGHTON",
   "sources": [
    "realtor"
@@ -1087,7 +1510,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4592 HWY 163|DOYLINE",
   "sources": [
    "realtor",
@@ -1104,7 +1527,7 @@
   "baths": 3.5,
   "sqft": 5355,
   "lot_acres": 0.98,
-  "year_built": 1990,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.realtor.com/realestateandhomes-detail/741-Beverly-Dr_Homer_LA_71040_M75782-31727?from=srp_next",
@@ -1113,7 +1536,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "741 BEVERLY DR|HOMER",
   "sources": [
    "realtor",
@@ -1139,7 +1562,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "600 HORSESHOE BEND RD|DOYLINE",
   "sources": [
    "realtor",
@@ -1155,7 +1578,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1361,
-  "lot_acres": 0.205,
+  "lot_acres": 0.2,
   "year_built": null,
   "status": "active",
   "days_on_market": 1,
@@ -1165,7 +1588,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "520 BIG RED CIR|HAUGHTON",
   "sources": [
    "realtor",
@@ -1191,7 +1614,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "196 DORCHEAT BRIDGE RD 1|DOYLINE",
   "sources": [
    "zillow"
@@ -1216,7 +1639,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "158 EDWARDS RD|DOYLINE",
   "sources": [
    "zillow",
@@ -1242,7 +1665,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "173 BELAIRE DR|DOYLINE",
   "sources": [
    "zillow"
@@ -1267,7 +1690,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "232 MATHES RD|DOYLINE",
   "sources": [
    "zillow"
@@ -1292,7 +1715,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "135 POVERTY PT|DOYLINE",
   "sources": [
    "zillow"
@@ -1317,58 +1740,8 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "275 LAKEVIEW DR|MINDEN",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "891 Pilgrim Rest Rd, Doyline, LA 71023",
-  "city": "Doyline",
-  "parish": "Webster",
-  "zip": "71023",
-  "price": 259900,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 5.7,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/891-Pilgrim-Rest-Rd-Doyline-LA-71023/242521238_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/9bce6cbfb7a6a2e64055638ffaaa9409-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "891 PILGRIM REST RD|DOYLINE",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "0 Boothville Rd, Doyline, LA 71023",
-  "city": "Doyline",
-  "parish": "Webster",
-  "zip": "71023",
-  "price": 147920,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 18.49,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/0-Boothville-Rd-Doyline-LA-71023/462077007_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/0c89cf5a03d5155b993da489437c4cd2-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "0 BOOTHVILLE RD|DOYLINE",
   "sources": [
    "zillow"
   ]
@@ -1392,7 +1765,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1104 FOREMAN RD|DOYLINE",
   "sources": [
    "realtor"
@@ -1417,7 +1790,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "196 DORCHET BRIDGE RD|DOYLINE",
   "sources": [
    "realtor"
@@ -1442,7 +1815,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "224 PRYSOCK RD|DOYLINE",
   "sources": [
    "realtor"
@@ -1467,7 +1840,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "7766 HWY 527|DOYLINE",
   "sources": [
    "realtor"
@@ -1492,14 +1865,14 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "275 LAKEVIEW DR|DOYLINE",
   "sources": [
    "realtor"
   ]
  },
  {
-  "address": "121 Willow St",
+  "address": "121 Willow St, Heflin, LA 71039",
   "city": "Heflin",
   "parish": "Webster",
   "zip": "71039",
@@ -1517,7 +1890,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "121 WILLOW ST|HEFLIN",
   "sources": [
    "zillow",
@@ -1525,32 +1898,7 @@
   ]
  },
  {
-  "address": "0 Bullard Rd",
-  "city": "Dubberly",
-  "parish": "Webster",
-  "zip": "71024",
-  "price": 55000,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 17.0,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 3,
-  "url": "https://www.zillow.com/homedetails/0-Bullard-Rd-Dubberly-LA-71024/463647850_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/09b2f4433ad8cb02f7b93f295bc2707b-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "0 BULLARD RD|DUBBERLY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2077 Burson Rd",
+  "address": "2077 Burson Rd, Heflin, LA 71039",
   "city": "Heflin",
   "parish": "Webster",
   "zip": "71039",
@@ -1568,7 +1916,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2077 BURSON RD|HEFLIN",
   "sources": [
    "zillow",
@@ -1576,7 +1924,7 @@
   ]
  },
  {
-  "address": "4933 Highway 371",
+  "address": "4933 Highway 371, Heflin, LA 71039",
   "city": "Heflin",
   "parish": "Webster",
   "zip": "71039",
@@ -1594,14 +1942,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4933 HWY 371|HEFLIN",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "375 Bossier St",
+  "address": "375 Bossier St, Heflin, LA 71039",
   "city": "Heflin",
   "parish": "Webster",
   "zip": "71039",
@@ -1619,14 +1967,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "375 BOSSIER ST|HEFLIN",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "0 Diamond T Rd",
+  "address": "0 Diamond T Rd, Heflin, LA 71039",
   "city": "Heflin",
   "parish": "Webster",
   "zip": "71039",
@@ -1644,35 +1992,10 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 DIAMOND T RD|HEFLIN",
   "sources": [
    "zillow"
-  ]
- },
- {
-  "address": "Diamond T Rd",
-  "city": "Heflin",
-  "parish": "Webster",
-  "zip": "71039",
-  "price": 75000,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 3.9,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/Diamond-T-Rd_Heflin_LA_71039_M93354-38812?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/93ecc1f837ff9270b8ce39599dc948e8l-m1298152417od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "DIAMOND T RD|HEFLIN",
-  "sources": [
-   "realtor"
   ]
  },
  {
@@ -1694,7 +2017,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2470 HWY 792|HEFLIN",
   "sources": [
    "realtor"
@@ -1719,7 +2042,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "213 BOSSIER ST|HEFLIN",
   "sources": [
    "realtor"
@@ -1744,7 +2067,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1381 FRANKLIN RD|HEFLIN",
   "sources": [
    "realtor"
@@ -1769,7 +2092,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "500 DOGWOOD S LN|HAUGHTON",
   "sources": [
    "zillow"
@@ -1794,7 +2117,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "561 WELLS RD|HAUGHTON",
   "sources": [
    "zillow"
@@ -1819,7 +2142,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1975 HONEYTREE TRL|HAUGHTON",
   "sources": [
    "zillow"
@@ -1844,7 +2167,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "230 LONGHORN DR|BOSSIER CITY",
   "sources": [
    "zillow"
@@ -1869,7 +2192,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "609 HAUGHTON TRACE CT|HAUGHTON",
   "sources": [
    "zillow"
@@ -1894,7 +2217,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "103 BENT TREE LOOP|HAUGHTON",
   "sources": [
    "zillow"
@@ -1919,7 +2242,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4416 HWY 157|HAUGHTON",
   "sources": [
    "zillow"
@@ -1944,61 +2267,35 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "5 FOX TROT CV|HAUGHTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "316 E McKinley Ave",
-  "city": "Haughton",
+  "address": "32000",
+  "city": "321000",
   "parish": "Bossier",
-  "zip": "71037",
-  "price": 335000,
-  "beds": 4,
+  "zip": "223000",
+  "price": 53000,
+  "beds": 3,
   "baths": 2.0,
-  "sqft": 2476,
+  "sqft": 2290,
   "lot_acres": null,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/316-E-McKinley-Ave-Haughton-LA-71037/208128975_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/569b0d76e1410d0be0e5ffeeb45cb4dc-p_e.webp",
+  "url": "https://www.zillow.com/homedetails/5-Fox-Trot-Cv-Haughton-LA-71037/109792570_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/2d6dfc3dd2cac49c431fb24242558127-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "316 E MCKINLEY AVE|HAUGHTON",
+  "scraped_at": "2026-07-07",
+  "key": "32000|321000",
   "sources": [
    "zillow"
-  ]
- },
- {
-  "address": "104 Olive St",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "zip": "71037",
-  "price": 286000,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1871,
-  "lot_acres": 0.216,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/104-Olive-St-Haughton-LA-71037/109783138_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/8ce5c102cf7d74a07d79bababe47d638-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "104 OLIVE ST|HAUGHTON",
-  "sources": [
-   "zillow",
-   "realtor"
   ]
  },
  {
@@ -2020,8 +2317,33 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1002 GREEN WOOD CIR|HAUGHTON",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "104 Olive St",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "zip": "71037",
+  "price": 286000,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 1871,
+  "lot_acres": 0.216,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/104-Olive-St_Haughton_LA_71037_M71195-90847?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/89942d91c81468231884f20a797760aal-m2356930685od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "104 OLIVE ST|HAUGHTON",
   "sources": [
    "realtor"
   ]
@@ -2045,7 +2367,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "212 MILL CREEK LN|HAUGHTON",
   "sources": [
    "realtor"
@@ -2070,7 +2392,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "321 EVANGELINE DR|ELM GROVE",
   "sources": [
    "zillow",
@@ -2096,7 +2418,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "326 EVANGELINE DR|ELM GROVE",
   "sources": [
    "zillow",
@@ -2122,7 +2444,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "504 MOORE RD|ELM GROVE",
   "sources": [
    "zillow",
@@ -2148,7 +2470,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "9114 HWY 71|ELM GROVE",
   "sources": [
    "zillow"
@@ -2173,7 +2495,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2708 HWY 154|ELM GROVE",
   "sources": [
    "zillow"
@@ -2198,7 +2520,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "470 PINE HILL RD|ELM GROVE",
   "sources": [
    "zillow",
@@ -2224,7 +2546,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 ATKINS CLARK RD|ELM GROVE",
   "sources": [
    "zillow"
@@ -2249,7 +2571,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1010 MOORE RD|ELM GROVE",
   "sources": [
    "zillow"
@@ -2274,7 +2596,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 WHITE RD|ELM GROVE",
   "sources": [
    "zillow"
@@ -2299,7 +2621,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1214 CC SANDIDGE RD|ELM GROVE",
   "sources": [
    "zillow"
@@ -2319,12 +2641,12 @@
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/20-White-Rd-ELM-Elm-Grove-LA-71051/458150249_zpid/",
-  "photo_url": "https://maps.googleapis.com/maps/api/streetview?size=575x242&location=32.30192565917969,-93.52556610107422&source=outdoor&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&signature=Z0e_AAcl4ZtweLkCp-F8aVML_vM=",
+  "photo_url": "https://photos.zillowstatic.com/fp/15d11da58db876163703125d40e1f9ae-zillow_web_48_23.jpg",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "20 WHITE RD ELM|ELM GROVE",
   "sources": [
    "zillow"
@@ -2349,7 +2671,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 HWY 157 1|HAUGHTON",
   "sources": [
    "zillow"
@@ -2374,7 +2696,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "179 RANCHTOWN RD|ELM GROVE",
   "sources": [
    "realtor"
@@ -2399,7 +2721,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "183 LAKEFRONT RD|HAUGHTON",
   "sources": [
    "realtor"
@@ -2424,7 +2746,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1925 HWY 527|ELM GROVE",
   "sources": [
    "realtor"
@@ -2449,7 +2771,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "422 MERESTONE XING|BENTON",
   "sources": [
    "realtor",
@@ -2475,7 +2797,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1214 C C SANDIDGE RD|ELM GROVE",
   "sources": [
    "realtor"
@@ -2500,461 +2822,33 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "CAMELLIA V A PLAN|BENTON",
   "sources": [
    "realtor"
   ]
  },
  {
-  "address": "402 Brighton Ct",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71115",
-  "price": 279000,
-  "beds": 4,
-  "baths": 2.5,
-  "sqft": 2439,
-  "lot_acres": 0.25,
-  "year_built": 2004,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/402-Brighton-Ct_Shreveport_LA_71115_M78837-97784?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/c14c0cfe17da181308bdb75c803ab4b9l-m3004716590od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "402 BRIGHTON CT|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "163 Southwood Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 286900,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1971,
-  "lot_acres": 0.28,
-  "year_built": 2000,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/163-Southwood-Dr_Bossier-City_LA_71111_M83301-53192?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/00e2efc31f8fab83b3c4fc6d97c9f67cl-m3527756748od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "163 SOUTHWOOD DR|BOSSIER CITY",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "2020 N Kirkwood Dr",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71118",
-  "price": 269900,
-  "beds": 5,
-  "baths": 3.0,
-  "sqft": 2549,
-  "lot_acres": 0.24,
-  "year_built": 2005,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2020-N-Kirkwood-Dr_Shreveport_LA_71118_M71270-23768?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/fc72c001760cab10218ac9da7289bbafl-m4122373896od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "2020 N KIRKWOOD DR|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "9032 Sara Ln",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71118",
-  "price": 164900,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2234,
-  "lot_acres": 0.22,
-  "year_built": 1997,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/9032-Sara-Ln_Shreveport_LA_71118_M81761-70625?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/9e56c2dfe113904344338884bd437babl-m3974540342od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "9032 SARA LN|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "125 Arbor Ln",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71115",
-  "price": 198000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1529,
-  "lot_acres": 0.19,
-  "year_built": 2002,
-  "status": "pending",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/125-Arbor-Ln_Shreveport_LA_71115_M77704-67681?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/6418175ed511c2470e549ce027c02043l-m1238219676od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "125 ARBOR LN|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "577 Oneonta St",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71106",
-  "price": 212000,
-  "beds": 4,
-  "baths": 2.5,
-  "sqft": 3080,
-  "lot_acres": 0.28,
-  "year_built": 2010,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/577-Oneonta-St_Shreveport_LA_71106_M87107-39197?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/3ddc1c2a5f2e5259a75fd4eb7d379a64l-m3439039969od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "577 ONEONTA ST|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "5691 Colquitt Rd",
-  "city": "Keithville",
-  "parish": "Bossier",
-  "zip": "71047",
-  "price": 180000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1603,
-  "lot_acres": 4.33,
-  "year_built": 1996,
-  "status": "contingent",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5691-Colquitt-Rd_Keithville_LA_71047_M75900-46712?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/7cb4aae39d7108f590aabaa635a366del-m2945325729od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "5691 COLQUITT RD|KEITHVILLE",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "295 High Point Dr",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71106",
-  "price": 295000,
-  "beds": 3,
-  "baths": 2.5,
-  "sqft": 2053,
-  "lot_acres": 0.24,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/9841-High-Point-Dr_Shreveport_LA_71106_M81130-17447?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/4f770765a171aecb3b7a33057c7fe53cl-m1356005756od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "295 HIGH PT DR|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "7215 Marseille Dr",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71108",
-  "price": 130000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 1600,
-  "lot_acres": 0.14,
-  "year_built": 1992,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/7215-Marseille-Dr_Shreveport_LA_71108_M83886-54028?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/1dd01269b83bece3cb1610fbcc04e5fbl-m2349048913od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "7215 MARSEILLE DR|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "2037 Darlington Ct",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71118",
-  "price": 197400,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1645,
-  "lot_acres": 0.42,
-  "year_built": 2005,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2037-Darlington-Ct_Shreveport_LA_71118_M86689-38182?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/ed5f58d08ebb371e520ceb8698054343l-m66179569od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "2037 DARLINGTON CT|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "927 Dalzell St",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71104",
-  "price": 30000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1754,
-  "lot_acres": 0.16,
-  "year_built": 1980,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/927-Dalzell-St_Shreveport_LA_71104_M86723-09786?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/1c80d0697f485287029ee09d5c4ac1ffl-m382470708od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "927 DALZELL ST|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "212 Woodrun Pl",
+  "address": "212 Woodrun Pl, Bossier City, LA 71111",
   "city": "Bossier City",
   "parish": "Bossier",
   "zip": "71111",
   "price": 450000,
   "beds": 4,
-  "baths": 2.5,
+  "baths": 3.0,
   "sqft": 2629,
   "lot_acres": 0.46,
-  "year_built": 2016,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/212-Woodrun-Pl_Bossier-City_LA_71111_M79099-75594?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/946db48bfe3d17335e137c24905f9ee4l-m3635260375od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "212 WOODRUN PL|BOSSIER CITY",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "7045 Elsie St",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71108",
-  "price": 50000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1752,
-  "lot_acres": 0.34,
-  "year_built": 1982,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/7045-Elsie-St_Shreveport_LA_71108_M71059-21798?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/69a82eaa0eb0872e449aed7e961e03c2l-m4275381593od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "7045 ELSIE ST|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "18 Dudley Sq Unit 18",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71106",
-  "price": 225000,
-  "beds": 4,
-  "baths": 7.5,
-  "sqft": 6164,
-  "lot_acres": 5.39,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3801-Creswell-Ave-Unit-18_Shreveport_LA_71106_M70401-63611?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/322d8f85eea93aa4583904da0f06189el-m1559849800od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "18 DUDLEY SQ UNIT 18|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "202 Norcross St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 374900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 2234,
-  "lot_acres": 0.27,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/202-Norcross-St_Bossier-City_LA_71111_M83212-09366?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/7c57fcb2e1f2e21dd9ffdc5700f3b359l-m1142843496od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "202 NORCROSS ST|BOSSIER CITY",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "740 Kirby Pl",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71104",
-  "price": 215000,
-  "beds": 2,
-  "baths": 2.0,
-  "sqft": 1668,
-  "lot_acres": 0.18,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/740-Kirby-Pl_Shreveport_LA_71104_M87865-87985?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/77820dfbb01b1ff8ffd7a16502992052l-m3110939333od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "740 KIRBY PL|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "9841 High Point Dr",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "zip": "71106",
-  "price": 295000,
-  "beds": 3,
-  "baths": 2.5,
-  "sqft": 2053,
-  "lot_acres": 0.22,
-  "year_built": 2008,
-  "status": "new",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/9841-High-Point-Dr_Shreveport_LA_71106_M81130-17447?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/4f770765a171aecb3b7a33057c7fe53cl-m1356005756od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "9841 HIGH PT DR|SHREVEPORT",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "234 Tidewater Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 633420,
-  "beds": 5,
-  "baths": 4.0,
-  "sqft": 2754,
-  "lot_acres": 0.3,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/234-Tidewater-Cir-Bossier-City-LA-71111/463061110_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/fbcfef74676bc84185837f8bba699305-p_e.webp",
+  "url": "https://www.zillow.com/homedetails/212-Woodrun-Pl-Bossier-City-LA-71111/109817308_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/2ebfb96abefb467af2cc3c946517e469-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "234 TIDEWATER CIR|BOSSIER CITY",
+  "scraped_at": "2026-07-07",
+  "key": "212 WOODRUN PL|BOSSIER CITY",
   "sources": [
    "zillow",
    "realtor"
@@ -2979,33 +2873,33 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1295 CAPLIS SLIGO RD|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "518 Falling Water Cir, Bossier City, LA 71112",
+  "address": "234 Tidewater Cir, Bossier City, LA 71111",
   "city": "Bossier City",
   "parish": "Bossier",
-  "zip": "71112",
-  "price": 395000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2036,
-  "lot_acres": 0.135,
+  "zip": "71111",
+  "price": 633420,
+  "beds": 5,
+  "baths": 4.0,
+  "sqft": 2754,
+  "lot_acres": 0.3,
   "year_built": null,
   "status": "active",
-  "days_on_market": 1,
-  "url": "https://www.zillow.com/homedetails/518-Falling-Water-Cir-Bossier-City-LA-71112/109787519_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/ec44e24de30db96331571253cbfd3758-p_e.webp",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/234-Tidewater-Cir-Bossier-City-LA-71111/463061110_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/fbcfef74676bc84185837f8bba699305-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "518 FALLING WATER CIR|BOSSIER CITY",
+  "scraped_at": "2026-07-07",
+  "key": "234 TIDEWATER CIR|BOSSIER CITY",
   "sources": [
    "zillow",
    "realtor"
@@ -3030,7 +2924,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "829 ABITA CHASE|BOSSIER CITY",
   "sources": [
    "zillow"
@@ -3055,133 +2949,8 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "304 PRIEN LAKE LOOP|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "589 Corinth Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 687900,
-  "beds": 5,
-  "baths": 4.0,
-  "sqft": 3021,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/589-Corinth-Cir-Bossier-City-LA-71111/457055157_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/18bd393b93df221d5a4642759b687ecb-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "589 CORINTH CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1605 S Lexington Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 294900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1855,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 16,
-  "url": "https://www.zillow.com/homedetails/1605-S-Lexington-Dr-Bossier-City-LA-71111/109804585_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/53188ba09328de0c05af520c04547c3d-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1605 S LEXINGTON DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "215 Crosscreek Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 452000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2553,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/215-Crosscreek-Dr-Bossier-City-LA-71111/109783895_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/7d457214b8d47290b1323b4337a681c4-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "215 CROSSCREEK DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "306 Avondale Cir, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 309900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1683,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/306-Avondale-Cir-Bossier-City-LA-71112/109834214_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/cc85eff6454f8f4f274de69663b32666-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "306 AVONDALE CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "605 Fall Winds Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 557500,
-  "beds": 5,
-  "baths": 4.0,
-  "sqft": 3016,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/605-Fall-Winds-Cir-Bossier-City-LA-71111/109813382_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/a36a95406ede4f34f9345beee358c818-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "605 FALL WINDS CIR|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
@@ -3205,158 +2974,184 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "612 DANUBE CIR|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "516 Brompton Ln, Bossier City, LA 71111",
+  "address": "334 Greenacres Blvd, Bossier City, LA 71111",
   "city": "Bossier City",
   "parish": "Bossier",
   "zip": "71111",
-  "price": 319900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1736,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/516-Brompton-Ln-Bossier-City-LA-71111/208127225_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f6592800ea6084658a8409c6cb497666-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "516 BROMPTON LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "5902 Pampus Ln, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 235000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1714,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/5902-Pampus-Ln-Bossier-City-LA-71112/109834426_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/09d128c28e5a374d802f45974af1de2e-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "5902 PAMPUS LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "457 Mangrove Ln, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 305000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1892,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/457-Mangrove-Ln-Bossier-City-LA-71111/338831489_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/5bccbfaa6a8c5c9c0fce5f077dad17f0-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "457 MANGROVE LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1800 Cambridge St, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 164900,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1740,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 16,
-  "url": "https://www.zillow.com/homedetails/1800-Cambridge-St-Bossier-City-LA-71112/109800269_zpid/",
-  "photo_url": "https://maps.googleapis.com/maps/api/streetview?size=575x242&location=32.51072311401367,-93.7186508178711&source=outdoor&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&signature=JNXIT3TAycnF86SocTtS85WtoXQ=",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1800 CAMBRIDGE ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "614 Corinth Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 599900,
-  "beds": 4,
+  "price": 549900,
+  "beds": 5,
   "baths": 4.0,
-  "sqft": 2700,
+  "sqft": 3773,
   "lot_acres": null,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/614-Corinth-Cir-Bossier-City-LA-71111/447677952_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/ced863c36b986a3eb1c07a6a4bf3c3ca-p_e.webp",
+  "url": "https://www.zillow.com/homedetails/334-Greenacres-Blvd-Bossier-City-LA-71111/109804450_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/645a584bd76c0f45bcffe0e3886cdfd8-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "614 CORINTH CIR|BOSSIER CITY",
+  "scraped_at": "2026-07-07",
+  "key": "334 GREENACRES BLVD|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "4719 General Ewell Dr, Bossier City, LA 71112",
+  "address": "589 Corinth Cir, Bossier City, LA 71111",
   "city": "Bossier City",
   "parish": "Bossier",
-  "zip": "71112",
-  "price": 202500,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1276,
+  "zip": "71111",
+  "price": 687900,
+  "beds": 5,
+  "baths": 4.0,
+  "sqft": 3021,
   "lot_acres": null,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/4719-General-Ewell-Dr-Bossier-City-LA-71112/2068824025_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/b3439c4881f97bda77f89e63652dd541-p_e.webp",
+  "url": "https://www.zillow.com/homedetails/589-Corinth-Cir-Bossier-City-LA-71111/457055157_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/18bd393b93df221d5a4642759b687ecb-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "4719 GENERAL EWELL DR|BOSSIER CITY",
+  "scraped_at": "2026-07-07",
+  "key": "589 CORINTH CIR|BOSSIER CITY",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "1625 Success St, Bossier City, LA 71112",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71112",
+  "price": 215000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1707,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1625-Success-St-Bossier-City-LA-71112/109789869_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/039e5be4638857511927fb9c0b7e0c50-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1625 SUCCESS ST|BOSSIER CITY",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "518 Falling Water Cir, Bossier City, LA 71112",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71112",
+  "price": 395000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2036,
+  "lot_acres": 0.135,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/518-Falling-Water-Cir-Bossier-City-LA-71112/109787519_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/ec44e24de30db96331571253cbfd3758-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "518 FALLING WATER CIR|BOSSIER CITY",
+  "sources": [
+   "zillow",
+   "realtor"
+  ]
+ },
+ {
+  "address": "1605 S Lexington Dr, Bossier City, LA 71111",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 294900,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1855,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/1605-S-Lexington-Dr-Bossier-City-LA-71111/109804585_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/53188ba09328de0c05af520c04547c3d-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "1605 S LEXINGTON DR|BOSSIER CITY",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "343 Camelback Dr, Bossier City, LA 71111",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 298900,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2036,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/343-Camelback-Dr-Bossier-City-LA-71111/208130127_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/b0a5fa564f7c91d89039ef390f96887a-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "343 CAMELBACK DR|BOSSIER CITY",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "3217 Thunderbird Ln, Bossier City, LA 71112",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71112",
+  "price": 130000,
+  "beds": 3,
+  "baths": 1.0,
+  "sqft": 1163,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/3217-Thunderbird-Ln-Bossier-City-LA-71112/109834134_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/a9b096f25095a99ccef27b7e681820da-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "3217 THUNDERBIRD LN|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
@@ -3380,1210 +3175,8 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "6209 HOLLYHOCK LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1334 Whitehall Dr, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 289900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1870,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1334-Whitehall-Dr-Bossier-City-LA-71112/109795400_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/a6b5f18b453623f624d36557942052a9-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1334 WHITEHALL DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "814 Dumaine Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 399999,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2329,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/814-Dumaine-Dr-Bossier-City-LA-71111/109789996_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/ccef16964ae89c08b2c882279e4d5bdb-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "814 DUMAINE DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "3636 Greenacres Place Dr APT 85, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 159999,
-  "beds": 2,
-  "baths": 2.0,
-  "sqft": 1297,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/3636-Greenacres-Place-Dr-APT-85-Bossier-City-LA-71111/463453641_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/09c15ffc0ea696490ae304e86ebeefc8-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "3636 GREENACRES PL DR APT 85|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "342 Peason Rdg, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 487623,
-  "beds": 5,
-  "baths": 4.0,
-  "sqft": 2885,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/342-Peason-Rdg-Bossier-City-LA-71112/457947680_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/8247172e1adcd33d43ab4a962d8a0e0c-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "342 PEASON RDG|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2217 General York Cir, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 219900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1236,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2217-General-York-Cir-Bossier-City-LA-71112/408846915_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f5eb2caac8d781e8cbb76620145815cb-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2217 GENERAL YORK CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "5304 Carnation St, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 150000,
-  "beds": 3,
-  "baths": 1.0,
-  "sqft": 1013,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/5304-Carnation-St-Bossier-City-LA-71112/109806809_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/955f2d459ceb80666dff134d69db5823-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "5304 CARNATION ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "107 Lakewood Point Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 485000,
-  "beds": 3,
-  "baths": 3.0,
-  "sqft": 3857,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/107-Lakewood-Point-Dr-Bossier-City-LA-71111/109790646_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/5582109b633453cabd6808292c9a6ac9-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "107 LAKEWOOD PT DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "275 Ferry Lake Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 349500,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1975,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/275-Ferry-Lake-Dr-Bossier-City-LA-71111/463632596_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/e9540630de445a7a443937b845315da0-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "275 FERRY LAKE DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "5820 Bluebonnett Dr, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 279900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1819,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/5820-Bluebonnett-Dr-Bossier-City-LA-71112/109781930_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/8f793449560acc850ecb8fb7d89cf8ab-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "5820 BLUEBONNETT DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "120 Carondelet Ct, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 549900,
-  "beds": 3,
-  "baths": 3.0,
-  "sqft": 2809,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/120-Carondelet-Ct-Bossier-City-LA-71111/109810423_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/12da003648cc43613d53e2266606c3c4-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "120 CARONDELET CT|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "210 Poydras Ave, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 499000,
-  "beds": 4,
-  "baths": 4.0,
-  "sqft": 2568,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/210-Poydras-Ave-Bossier-City-LA-71111/113968627_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/ae64beb404ae610e4841df6ea478b63b-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "210 POYDRAS AVE|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "537 Chinquipin Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 379000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2404,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/537-Chinquipin-Dr-Bossier-City-LA-71111/109812305_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/cc9e075a06c8ef95715cff20a2b0bc29-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "537 CHINQUIPIN DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "561 Northpark Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 249900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1730,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/561-Northpark-Dr-Bossier-City-LA-71111/109822291_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f7a0acaa043a99f0376852fe35cefa02-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "561 NORTHPARK DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2204 Middle Creek Blvd, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 249900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1574,
-  "lot_acres": 0.168,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2204-Middle-Creek-Blvd-Bossier-City-LA-71111/109829441_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f56ff63727e12feef29086e6fc28f421-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2204 MIDDLE CREEK BLVD|BOSSIER CITY",
-  "sources": [
-   "zillow",
-   "realtor"
-  ]
- },
- {
-  "address": "336 Briars Ct, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 449900,
-  "beds": 4,
-  "baths": 4.0,
-  "sqft": 2876,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/336-Briars-Ct-Bossier-City-LA-71111/109809492_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/1d05429789b2f76652a83289f6ef23bb-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "336 BRIARS CT|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "6507 Barksdale Blvd, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 48000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1250,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 4,
-  "url": "https://www.zillow.com/homedetails/6507-Barksdale-Blvd-Bossier-City-LA-71112/109780868_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/1f1fd4e5772b1eaebc7ae0364d09b278-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "6507 BARKSDALE BLVD|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1809 Leslie St, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 129900,
-  "beds": 5,
-  "baths": 2.0,
-  "sqft": 1150,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1809-Leslie-St-Bossier-City-LA-71111/109830970_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/235ea40bd62f9f4bb2d85c70a349cc64-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1809 LESLIE ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2110 Belle Grove Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 258000,
-  "beds": 5,
-  "baths": 3.0,
-  "sqft": 2116,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2110-Belle-Grove-Dr-Bossier-City-LA-71111/109834671_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/0600b6c24dd9b89218d085d2e33f67e0-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2110 BELLE GROVE DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1161 Eli Conner Dr, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 285000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 1956,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1161-Eli-Conner-Dr-Bossier-City-LA-71112/315200157_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/17f78f4c678f479f91a523a4eedc2acf-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1161 ELI CONNER DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2481 Churchill Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 549999,
-  "beds": 5,
-  "baths": 5.0,
-  "sqft": 3748,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2481-Churchill-Dr-Bossier-City-LA-71111/109828618_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/23bc9219bb1927bd0b0c3db98c58e297-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2481 CHURCHILL DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "269 Saint Edmunds Way, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 338500,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 2204,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/269-Saint-Edmunds-Way-Bossier-City-LA-71111/348181484_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/1cb172fd03be078595f5ea86a940c6d9-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "269 SAINT EDMUNDS WAY|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1810 Pluto Dr, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 264900,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1956,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1810-Pluto-Dr-Bossier-City-LA-71112/109803211_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/1c5c69ac1d665f1ef16abf03b0fe1652-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1810 PLUTO DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "6017 Kateland Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 286500,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1647,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/6017-Kateland-Cir-Bossier-City-LA-71111/109835188_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/3cf9c80870d18bac2d64fec8063b29cc-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "6017 KATELAND CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "125 Horseguards Ave, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 424000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2564,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/125-Horseguards-Ave-Bossier-City-LA-71111/109782137_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/d4b3e7066ed1ddcc1eb8e74d967a4ba2-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "125 HORSEGUARDS AVE|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "329 Camelback Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 299000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1925,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/329-Camelback-Dr-Bossier-City-LA-71111/208130130_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/a8c20ff000a3c47fa9627837c56e7b0e-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "329 CAMELBACK DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "3301 Danbury Ct, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 195000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1221,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/3301-Danbury-Ct-Bossier-City-LA-71112/109826272_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/92bd993a2a2f4cfe707ee25aa86699f2-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "3301 DANBURY CT|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "131 Cullom Dr, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 338900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1806,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 52,
-  "url": "https://www.zillow.com/homedetails/131-Cullom-Dr-Bossier-City-LA-71112/2075385423_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/43ec050e83f5151bf67b574a07e74a01-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "131 CULLOM DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "405 Hancock St, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 295000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 2049,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/405-Hancock-St-Bossier-City-LA-71112/109800877_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/ab415bd8f66d061801ac001d9c8596eb-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "405 HANCOCK ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "489 Preserve Blvd, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 499987,
-  "beds": 4,
-  "baths": 4.0,
-  "sqft": 3093,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/489-Preserve-Blvd-Bossier-City-LA-71112/457977496_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/d8ad6c11d3bd5b982779de1fca6e507d-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "489 PRESERVE BLVD|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "749 Duckwater Lndg, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 599000,
-  "beds": 4,
-  "baths": 4.0,
-  "sqft": 2747,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/749-Duckwater-Lndg-Bossier-City-LA-71111/447678845_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/8a6e8c2d5a3e7a43ffab0fbd7df7edf0-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "749 DUCKWATER LNDG|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "207 Norwell Ln, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 310000,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1906,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/207-Norwell-Ln-Bossier-City-LA-71111/454927844_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/6ea70e580063379302fc8ef413b6d8e5-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "207 NORWELL LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1207 Metairie Ln, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 420000,
-  "beds": 3,
-  "baths": 3.0,
-  "sqft": 2134,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1207-Metairie-Ln-Bossier-City-LA-71111/123621106_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/d927cac0db5eb137731fc75147e0b4b1-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1207 METAIRIE LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "404 Blanchard Loop, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 305000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1845,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/404-Blanchard-Loop-Bossier-City-LA-71111/401896246_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/764734214ca9f8abb1c5d7fbb2e155ec-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "404 BLANCHARD LOOP|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "750 Hackberry Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 329900,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1878,
-  "lot_acres": 0.32,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/750-Hackberry-Dr-Bossier-City-LA-71111/109786630_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/245f4f0c902acaae6e4fd0f0247a81ad-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "750 HACKBERRY DR|BOSSIER CITY",
-  "sources": [
-   "zillow",
-   "realtor"
-  ]
- },
- {
-  "address": "370 Coppice Pl, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 299000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1892,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/370-Coppice-Pl-Bossier-City-LA-71111/317176370_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f9f33a01788f3cdcc902b4c789ecedc4-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "370 COPPICE PL|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2615 Ormond Pl, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 149900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1815,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2615-Ormond-Pl-Bossier-City-LA-71111/109780377_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f80ae6717beac9ea5f035e3cc809eb55-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2615 ORMOND PL|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "4221 Evelyn St, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 149900,
-  "beds": 3,
-  "baths": 1.0,
-  "sqft": 1046,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/4221-Evelyn-St-Bossier-City-LA-71112/109833983_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/d24f1082c379e61dd99e2c83f13b23db-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "4221 EVELYN ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "2210 Stockwell Rd, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 239900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1744,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/2210-Stockwell-Rd-Bossier-City-LA-71111/109782648_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/dc05322afef099a4164ff22a72fe56a5-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "2210 STOCKWELL RD|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "527 Canterbury Ln, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 470000,
-  "beds": 4,
-  "baths": 4.0,
-  "sqft": 3314,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/527-Canterbury-Ln-Bossier-City-LA-71111/109784550_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/027ef016a6d125e12e997820b01c3336-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "527 CANTERBURY LN|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "106 Fairmont Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 450000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 4068,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/106-Fairmont-Dr-Bossier-City-LA-71111/109784756_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/43bfbbf58e9d981fcaa4096497040f1a-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "106 FAIRMONT DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "218 Benoist Cir, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 274999,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2891,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/218-Benoist-Cir-Bossier-City-LA-71111/109834158_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/9b50e193dbb32a3d477590cbd562ebe1-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "218 BENOIST CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "313 Chancellorsville Ct, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 275000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1777,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/313-Chancellorsville-Ct-Bossier-City-LA-71112/109797432_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/f8927df3698f8c0eeaf2d6e45aa8b00a-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "313 CHANCELLORSVILLE CT|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "4180 Grassy Lake Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 279900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1552,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/4180-Grassy-Lake-Dr-Bossier-City-LA-71111/399818318_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/aff296ada5196091eca4cedecaf01535-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "4180 GRASSY LAKE DR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "3635 Greenacres Place Dr UNIT 336, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 298999,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2193,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/3635-Greenacres-Place-Dr-UNIT-336-Bossier-City-LA-71111/2067761208_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/5e4dc9cfbce204f2df5cdcf15d7d6e4f-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "3635 GREENACRES PL DR UNIT 336|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "311 Columbia Cir, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 289900,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1983,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/311-Columbia-Cir-Bossier-City-LA-71112/109816774_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/760b522ac93c9e3febd1c3e02afb339e-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "311 COLUMBIA CIR|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "5908 Stockwood St, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 235000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1601,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/5908-Stockwood-St-Bossier-City-LA-71111/109818728_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/6cbcb131ae4be5bc9bcca864e159455c-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "5908 STOCKWOOD ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "1919 Camille St, Bossier City, LA 71112",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71112",
-  "price": 220000,
-  "beds": 4,
-  "baths": 2.0,
-  "sqft": 1834,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/1919-Camille-St-Bossier-City-LA-71112/109793817_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/6ccb9a37f71e61ffbf9482127226aab0-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "1919 CAMILLE ST|BOSSIER CITY",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "207 N Beach Dr, Bossier City, LA 71111",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "zip": "71111",
-  "price": 1250000,
-  "beds": 6,
-  "baths": 8.0,
-  "sqft": 5985,
-  "lot_acres": null,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.zillow.com/homedetails/207-N-Beach-Dr-Bossier-City-LA-71111/109823962_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/09fe0d93b1da3b101fd2f00ba855d410-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "207 N BEACH DR|BOSSIER CITY",
   "sources": [
    "zillow"
   ]
@@ -4607,8 +3200,58 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "605 CANOE TRL|BOSSIER CITY",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "163 Southwood Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 286900,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 1971,
+  "lot_acres": 0.28,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/163-Southwood-Dr_Bossier-City_LA_71111_M83301-53192?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/00e2efc31f8fab83b3c4fc6d97c9f67cl-m3527756748od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "163 SOUTHWOOD DR|BOSSIER CITY",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "202 Norcross St",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 374900,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 2234,
+  "lot_acres": 0.27,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/202-Norcross-St_Bossier-City_LA_71111_M83212-09366?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/7c57fcb2e1f2e21dd9ffdc5700f3b359l-m1142843496od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "202 NORCROSS ST|BOSSIER CITY",
   "sources": [
    "realtor"
   ]
@@ -4622,7 +3265,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1204,
-  "lot_acres": 0.223,
+  "lot_acres": 0.222,
   "year_built": null,
   "status": "contingent",
   "days_on_market": null,
@@ -4632,14 +3275,64 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "5701 HOLLYHOCK LN|BOSSIER CITY",
   "sources": [
    "realtor"
   ]
  },
  {
-  "address": "111 Oak Leaf Trl, Benton, LA 71006",
+  "address": "750 Hackberry Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 329900,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 1878,
+  "lot_acres": 0.32,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/750-Hackberry-Dr_Bossier-City_LA_71111_M87367-61890?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/2212fc149f0b3f46cd7a5aaa2b80df50l-m498619672od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "750 HACKBERRY DR|BOSSIER CITY",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "2204 Middle Creek Blvd",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "zip": "71111",
+  "price": 249900,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1574,
+  "lot_acres": 0.168,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2204-Middle-Creek-Blvd_Bossier-City_LA_71111_M79372-44235?from=srp_next",
+  "photo_url": "https://ap.rdcpix.com/46be202949a83a2ff77ee042819d46d5l-m3144992584od-w480_h360.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "realtor",
+  "scraped_at": "2026-07-07",
+  "key": "2204 MIDDLE CREEK BLVD|BOSSIER CITY",
+  "sources": [
+   "realtor"
+  ]
+ },
+ {
+  "address": "111 Oak Leaf Trl",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4657,7 +3350,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "111 OAK LEAF TRL|BENTON",
   "sources": [
    "zillow",
@@ -4665,7 +3358,7 @@
   ]
  },
  {
-  "address": "120 Gray Cir, Benton, LA 71006",
+  "address": "120 Gray Cir",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4683,14 +3376,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "120 GRAY CIR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "2310 Highway 160, Benton, LA 71006",
+  "address": "2310 Highway 160",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4708,14 +3401,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2310 HWY 160|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "119 Pine Needle Dr, Haughton, LA 71006",
+  "address": "119 Pine Needle Dr",
   "city": "Haughton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4733,14 +3426,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "119 PINE NEEDLE DR|HAUGHTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1060 Highway 162, Benton, LA 71006",
+  "address": "1060 Highway 162",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4758,14 +3451,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1060 HWY 162|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "441 N Lost River Dr, Benton, LA 71006",
+  "address": "441 N Lost River Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4783,14 +3476,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "441 N LOST RIVER DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "4704 Taldon Ln, Benton, LA 71006",
+  "address": "4704 Taldon Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4808,14 +3501,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4704 TALDON LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "269 Hurricane Bluff Dr, Benton, LA 71006",
+  "address": "269 Hurricane Bluff Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4833,7 +3526,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "269 HURRICANE BLUFF DR|BENTON",
   "sources": [
    "zillow",
@@ -4841,7 +3534,7 @@
   ]
  },
  {
-  "address": "252 Cattail Trl, Benton, LA 71006",
+  "address": "252 Cattail Trl",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4859,14 +3552,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "252 CATTAIL TRL|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "205 Old Palmetto Rd, Benton, LA 71006",
+  "address": "205 Old Palmetto Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4884,14 +3577,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "205 OLD PALMETTO RD|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1330 Palmetto Rd, Benton, LA 71006",
+  "address": "1330 Palmetto Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4909,14 +3602,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1330 PALMETTO RD|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "198 Seven Pines Rd, Benton, LA 71006",
+  "address": "198 Seven Pines Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4934,14 +3627,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "198 SEVEN PINES RD|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1001 Dale Dr, Benton, LA 71006",
+  "address": "1001 Dale Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4959,14 +3652,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1001 DALE DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "113 Park Blvd, Benton, LA 71006",
+  "address": "113 Park Blvd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -4984,14 +3677,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "113 PARK BLVD|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "251 Jessie Jones Dr, Benton, LA 71006",
+  "address": "251 Jessie Jones Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5009,14 +3702,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "251 JESSIE JONES DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "725 Julesburg Ln, Benton, LA 71006",
+  "address": "725 Julesburg Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5034,14 +3727,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "725 JULESBURG LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "814 Lee St, Benton, LA 71006",
+  "address": "814 Lee St",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5059,14 +3752,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "814 LEE ST|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1310 Bay Ridge Dr, Benton, LA 71006",
+  "address": "1310 Bay Ridge Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5084,14 +3777,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1310 BAY RIDGE DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "136 Scarborough Rd, Benton, LA 71006",
+  "address": "136 Scarborough Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5109,7 +3802,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "136 SCARBOROUGH RD|BENTON",
   "sources": [
    "zillow",
@@ -5117,7 +3810,7 @@
   ]
  },
  {
-  "address": "207 Red River St, Benton, LA 71006",
+  "address": "207 Red River St",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5135,14 +3828,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "207 RED RIVER ST|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "402 Halifax Cir, Benton, LA 71006",
+  "address": "402 Halifax Cir",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5160,14 +3853,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "402 HALIFAX CIR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1400 Suwannee Ln, Benton, LA 71006",
+  "address": "1400 Suwannee Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5185,14 +3878,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1400 SUWANNEE LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1215 Bay Ridge Dr, Benton, LA 71006",
+  "address": "1215 Bay Ridge Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5210,14 +3903,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1215 BAY RIDGE DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "550 Linton Bellevue Rd, Benton, LA 71006",
+  "address": "550 Linton Bellevue Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5235,14 +3928,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "550 LINTON BELLEVUE RD|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "301 Old Plain Dealing Rd, Benton, LA 71006",
+  "address": "301 Old Plain Dealing Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5260,7 +3953,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "301 OLD PLAIN DEALING RD|BENTON",
   "sources": [
    "zillow",
@@ -5268,7 +3961,7 @@
   ]
  },
  {
-  "address": "0 Cypress Cv, Benton, LA 71006",
+  "address": "0 Cypress Cv",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5286,14 +3979,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 CYPRESS CV|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1001 Palmetto Rd, Benton, LA 71006",
+  "address": "1001 Palmetto Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5311,7 +4004,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1001 PALMETTO RD|BENTON",
   "sources": [
    "zillow",
@@ -5319,7 +4012,7 @@
   ]
  },
  {
-  "address": "200 Colonel Burt Dr, Benton, LA 71006",
+  "address": "200 Colonel Burt Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5337,14 +4030,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "200 COLONEL BURT DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "1245 Big Pine Key Ln, Benton, LA 71006",
+  "address": "1245 Big Pine Key Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5362,14 +4055,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1245 BIG PINE KEY LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "210 Country Club Dr, Benton, LA 71006",
+  "address": "210 Country Club Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5387,14 +4080,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "210 COUNTRY CLUB DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "115 Barnes Dr, Benton, LA 71006",
+  "address": "115 Barnes Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5412,14 +4105,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "115 BARNES DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "947 Judy Ln, Benton, LA 71006",
+  "address": "947 Judy Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5437,14 +4130,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "947 JUDY LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "145 Cypress Grove Cir, Benton, LA 71006",
+  "address": "145 Cypress Grove Cir",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5462,7 +4155,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "145 CYPRESS GROVE CIR|BENTON",
   "sources": [
    "zillow",
@@ -5470,7 +4163,7 @@
   ]
  },
  {
-  "address": "5180 Linton Cutoff Rd, Benton, LA 71006",
+  "address": "5180 Linton Cutoff Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5488,7 +4181,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "5180 LINTON CUTOFF RD|BENTON",
   "sources": [
    "zillow",
@@ -5496,7 +4189,7 @@
   ]
  },
  {
-  "address": "1034 Cattlemans Trl, Benton, LA 71006",
+  "address": "1034 Cattlemans Trl",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5514,14 +4207,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1034 CATTLEMANS TRL|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "4406 Ellis Ct, Benton, LA 71006",
+  "address": "4406 Ellis Ct",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5539,14 +4232,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4406 ELLIS CT|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "113 Cypress Lake Cir, Benton, LA 71006",
+  "address": "113 Cypress Lake Cir",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5564,14 +4257,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "113 CYPRESS LAKE CIR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "122 Brimestone Loop, Benton, LA 71006",
+  "address": "122 Brimestone Loop",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5589,14 +4282,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "122 BRIMESTONE LOOP|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "311 S Parkridge Dr, Benton, LA 71006",
+  "address": "311 S Parkridge Dr",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5614,14 +4307,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "311 S PARKRIDGE DR|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "110 Saint Andrews Ln, Benton, LA 71006",
+  "address": "110 Saint Andrews Ln",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5639,14 +4332,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "110 SAINT ANDREWS LN|BENTON",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "190 Padgett Rd, Benton, LA 71006",
+  "address": "190 Padgett Rd",
   "city": "Benton",
   "parish": "Bossier",
   "zip": "71006",
@@ -5664,7 +4357,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "190 PADGETT RD|BENTON",
   "sources": [
    "zillow"
@@ -5689,7 +4382,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "37 TURTLE CREEK DR|BENTON",
   "sources": [
    "zillow"
@@ -5714,7 +4407,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "301 NEWPORT LN|BENTON",
   "sources": [
    "zillow"
@@ -5739,7 +4432,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "143 NEW BETHEL BOOKER RD|BENTON",
   "sources": [
    "zillow"
@@ -5757,14 +4450,14 @@
   "lot_acres": null,
   "year_built": null,
   "status": "active",
-  "days_on_market": 7,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/1303-Young-Rd-Cotton-Valley-LA-71018/123622214_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/8f70cc4c8bf97c421bd4eb68642ead4b-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1303 YOUNG RD|COTTON VALLEY",
   "sources": [
    "zillow"
@@ -5789,7 +4482,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "310 MERRILL LN|BENTON",
   "sources": [
    "zillow"
@@ -5807,14 +4500,14 @@
   "lot_acres": null,
   "year_built": null,
   "status": "active",
-  "days_on_market": 109,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/260-Circle-M-Rd-Benton-LA-71006/338831190_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/db8aba78b72c4cc47ab0bee21e58258e-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "260 CIR M RD|BENTON",
   "sources": [
    "zillow"
@@ -5839,7 +4532,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "63 TURTLE CREEK DR|BENTON",
   "sources": [
    "zillow"
@@ -5864,7 +4557,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1855 HWY 162|BENTON",
   "sources": [
    "zillow"
@@ -5882,15 +4575,265 @@
   "lot_acres": null,
   "year_built": null,
   "status": "active",
-  "days_on_market": 69,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/155-Jones-Ln-Benton-LA-71006/2056576536_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/7d8628f65ee1d5e2123a625645b8a0b3-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "155 JONES LN|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "319 Newport Ln, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 425000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2310,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/319-Newport-Ln-Benton-LA-71006/348422552_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/891fe2614e4d81eb9ccab7855bbcda31-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "319 NEWPORT LN|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "505 Simpson St, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 165000,
+  "beds": 2,
+  "baths": 1.0,
+  "sqft": 1246,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": 69,
+  "url": "https://www.zillow.com/homedetails/505-Simpson-St-Benton-LA-71006/109824586_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/208b416852aa60bb99fc9ef0381ef0ef-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "505 SIMPSON ST|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "129 Running Deer Ln, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 175000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1216,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/129-Running-Deer-Ln-Benton-LA-71006/109793722_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/03c6498954d969078db44a1188b36541-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "129 RUNNING DEER LN|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "605 Meridien Way, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 415000,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2136,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/605-Meridien-Way-Benton-LA-71006/2066489193_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/994dd43a36c039c22243b173e7519dd7-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "605 MERIDIEN WAY|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "4026 Elizabeth Ln, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 310000,
+  "beds": 4,
+  "baths": 2.0,
+  "sqft": 2106,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/4026-Elizabeth-Ln-Benton-LA-71006/109785134_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/edb1193a85ad922be7e6c5fcc345a990-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "4026 ELIZABETH LN|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "53 Turtle Creek Dr, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 507822,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2373,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/53-Turtle-Creek-Dr-Benton-LA-71006/2056517279_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/09893affdcdc866b275f23abaa48cb90-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "53 TURTLE CREEK DR|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "75 Turtle Creek Dr, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 499800,
+  "beds": 3,
+  "baths": 3.0,
+  "sqft": 2380,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/75-Turtle-Creek-Dr-Benton-LA-71006/449342202_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/ed290d3cb0858a8eaab9abf07574fde2-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "75 TURTLE CREEK DR|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "49 Turtle Creek Dr, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 460528,
+  "beds": 4,
+  "baths": 3.0,
+  "sqft": 2152,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/49-Turtle-Creek-Dr-Benton-LA-71006/449342189_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/8a9ff1decc4765c46609a076bfdc14e7-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "49 TURTLE CREEK DR|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "312 Old Bellevue Rd, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 177500,
+  "beds": 3,
+  "baths": 1.0,
+  "sqft": 1000,
+  "lot_acres": null,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": 43,
+  "url": "https://www.zillow.com/homedetails/312-Old-Bellevue-Rd-Benton-LA-71006/338831162_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/b4c90d8425010cc4ad4fccb2c47c6edd-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "312 OLD BELLEVUE RD|BENTON",
+  "sources": [
+   "zillow"
+  ]
+ },
+ {
+  "address": "47 Alden Bridge Loop, Benton, LA 71006",
+  "city": "Benton",
+  "parish": "Bossier",
+  "zip": "71006",
+  "price": 399000,
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "lot_acres": 29.36,
+  "year_built": null,
+  "status": "active",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/0-Alden-Bridge-Loop-Benton-LA-71006/2078255647_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/969b2c793991f3fe5d64cfe9f8c11eda-p_e.webp",
+  "lat": null,
+  "lng": null,
+  "waterfront": false,
+  "source": "zillow",
+  "scraped_at": "2026-07-07",
+  "key": "47 ALDEN BRIDGE LOOP|BENTON",
   "sources": [
    "zillow"
   ]
@@ -5914,7 +4857,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "106 PEAR TREE LN|BENTON",
   "sources": [
    "realtor"
@@ -5939,7 +4882,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "100 PRESTON BAY CIR|BENTON",
   "sources": [
    "realtor"
@@ -5964,7 +4907,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "402 5TH ST|BENTON",
   "sources": [
    "realtor"
@@ -5979,8 +4922,8 @@
   "beds": 2,
   "baths": 2.0,
   "sqft": 1791,
-  "lot_acres": 0.66,
-  "year_built": 2000,
+  "lot_acres": 0.65,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/664-Featherston-Rd-Homer-LA-71040/115124946_zpid/",
@@ -5989,7 +4932,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "664 FEATHERSTON RD|HOMER",
   "sources": [
    "zillow",
@@ -6005,8 +4948,8 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1343,
-  "lot_acres": 0.5,
-  "year_built": 1998,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": 72,
   "url": "https://www.zillow.com/homedetails/1589-Airport-Loop-Homer-LA-71040/232928431_zpid/",
@@ -6015,7 +4958,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1589 AIRPORT LOOP|HOMER",
   "sources": [
    "zillow"
@@ -6030,8 +4973,8 @@
   "beds": 4,
   "baths": 3.0,
   "sqft": 2255,
-  "lot_acres": 1.5,
-  "year_built": 2010,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/295-Coleman-Rd-Homer-LA-71040/115122737_zpid/",
@@ -6040,7 +4983,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "295 COLEMAN RD|HOMER",
   "sources": [
    "zillow"
@@ -6056,7 +4999,7 @@
   "baths": 3.0,
   "sqft": 2916,
   "lot_acres": 1.0,
-  "year_built": 2012,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/535-Coleman-Rd-Homer-LA-71040/115122214_zpid/",
@@ -6065,7 +5008,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "535 COLEMAN RD|HOMER",
   "sources": [
    "zillow",
@@ -6082,16 +5025,16 @@
   "baths": 2.0,
   "sqft": 2075,
   "lot_acres": 1.0,
-  "year_built": 1995,
+  "year_built": null,
   "status": "active",
-  "days_on_market": 5,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/703-Airport-Loop-Homer-LA-71040/115124860_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/027064a222f44c17f4797bac1c9b66ae-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "703 AIRPORT LOOP|HOMER",
   "sources": [
    "zillow",
@@ -6107,8 +5050,8 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 2000,
-  "lot_acres": 0.5,
-  "year_built": 2005,
+  "lot_acres": 0.49,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/1031-Airport-Loop-Homer-LA-71040/245079321_zpid/",
@@ -6117,7 +5060,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1031 AIRPORT LOOP|HOMER",
   "sources": [
    "zillow",
@@ -6133,17 +5076,17 @@
   "beds": 6,
   "baths": 4.0,
   "sqft": 4900,
-  "lot_acres": 2.5,
-  "year_built": 2015,
+  "lot_acres": 1.03,
+  "year_built": null,
   "status": "active",
-  "days_on_market": 49,
+  "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/207-Coleman-Rd-Homer-LA-71040/115122440_zpid/",
   "photo_url": "https://photos.zillowstatic.com/fp/99f0bbf6b0dd45cce115ea12feac3626-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "207 COLEMAN RD|HOMER",
   "sources": [
    "zillow",
@@ -6159,8 +5102,8 @@
   "beds": 2,
   "baths": 2.0,
   "sqft": 1507,
-  "lot_acres": 0.3,
-  "year_built": 1990,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/696-Harmon-Loop-Homer-LA-71040/115122672_zpid/",
@@ -6169,7 +5112,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "696 HARMON LOOP|HOMER",
   "sources": [
    "zillow"
@@ -6184,8 +5127,8 @@
   "beds": 4,
   "baths": 1.0,
   "sqft": 1972,
-  "lot_acres": 0.25,
-  "year_built": 1975,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/655-W-3rd-St-Homer-LA-71040/126416196_zpid/",
@@ -6194,7 +5137,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "655 W 3RD ST|HOMER",
   "sources": [
    "zillow"
@@ -6209,8 +5152,8 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 2156,
-  "lot_acres": 1.0,
-  "year_built": 2015,
+  "lot_acres": 0.47,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/198-Peaceful-Bay-Homer-LA-71040/115124820_zpid/",
@@ -6219,7 +5162,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "198 PEACEFUL BAY|HOMER",
   "sources": [
    "zillow",
@@ -6235,8 +5178,8 @@
   "beds": 4,
   "baths": 2.0,
   "sqft": 3184,
-  "lot_acres": 1.5,
-  "year_built": 2018,
+  "lot_acres": 5.79,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/429-Robinson-Ln-Homer-LA-71040/115125306_zpid/",
@@ -6245,7 +5188,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "429 ROBINSON LN|HOMER",
   "sources": [
    "zillow",
@@ -6261,8 +5204,8 @@
   "beds": 4,
   "baths": 2.0,
   "sqft": 2750,
-  "lot_acres": 1.0,
-  "year_built": 2019,
+  "lot_acres": 1.13,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/1072-Featherston-Rd-Homer-LA-71040/232928748_zpid/",
@@ -6271,7 +5214,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1072 FEATHERSTON RD|HOMER",
   "sources": [
    "zillow",
@@ -6287,8 +5230,8 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 2180,
-  "lot_acres": 0.3,
-  "year_built": 2000,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": 130,
   "url": "https://www.zillow.com/homedetails/122-Morris-Cir-Homer-LA-71040/115125101_zpid/",
@@ -6297,7 +5240,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "122 MORRIS CIR|HOMER",
   "sources": [
    "zillow"
@@ -6312,8 +5255,8 @@
   "beds": 3,
   "baths": 1.0,
   "sqft": 1174,
-  "lot_acres": 0.2,
-  "year_built": 1995,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/116-Bolling-Dr-Homer-LA-71040/115124575_zpid/",
@@ -6322,7 +5265,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "116 BOLLING DR|HOMER",
   "sources": [
    "zillow"
@@ -6337,8 +5280,8 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 2615,
-  "lot_acres": 2.5,
-  "year_built": 2018,
+  "lot_acres": 1.31,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/749-Beverly-Dr-Homer-LA-71040/232929524_zpid/",
@@ -6347,7 +5290,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "749 BEVERLY DR|HOMER",
   "sources": [
    "zillow",
@@ -6373,7 +5316,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 HWY 540|HOMER",
   "sources": [
    "zillow"
@@ -6385,11 +5328,11 @@
   "parish": "Claiborne",
   "zip": "71040",
   "price": 55000,
-  "beds": 2,
-  "baths": 2.0,
-  "sqft": 1250,
-  "lot_acres": 0.1,
-  "year_built": 1990,
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/611-Park-Dr-Homer-LA-71040/232930726_zpid/",
@@ -6398,7 +5341,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "611 PARK DR|HOMER",
   "sources": [
    "zillow",
@@ -6414,8 +5357,8 @@
   "beds": 2,
   "baths": 2.0,
   "sqft": 1250,
-  "lot_acres": 0.1,
-  "year_built": 1984,
+  "lot_acres": null,
+  "year_built": null,
   "status": "active",
   "days_on_market": null,
   "url": "https://www.zillow.com/homedetails/605-W-4th-St-Homer-LA-71040/126429101_zpid/",
@@ -6424,7 +5367,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "605 W 4TH ST|HOMER",
   "sources": [
    "zillow"
@@ -6449,7 +5392,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 MAIN ST|HOMER",
   "sources": [
    "zillow"
@@ -6474,7 +5417,7 @@
   "lng": null,
   "waterfront": true,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "242 SLAUGHTER RD|HOMER",
   "sources": [
    "zillow",
@@ -6500,7 +5443,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "949 FORD RD|HOMER",
   "sources": [
    "zillow"
@@ -6525,7 +5468,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "916 N MAIN ST|HOMER",
   "sources": [
    "zillow"
@@ -6550,140 +5493,14 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "HWY 540|HOMER",
   "sources": [
    "realtor"
   ]
  },
  {
-  "address": "2260 4th St",
-  "city": "Arcadia",
-  "parish": "Claiborne",
-  "zip": "71001",
-  "price": 265000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1989,
-  "lot_acres": 0.67,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2260-4th-St_Arcadia_LA_71001_M89788-33168?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/fb12da0ef32632e50d5d87ee045da763l-m344637914od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "2260 4TH ST|ARCADIA",
-  "sources": [
-   "realtor",
-   "zillow"
-  ]
- },
- {
-  "address": "299 Deer Creek Rd",
-  "city": "Arcadia",
-  "parish": "Claiborne",
-  "zip": "71001",
-  "price": 199000,
-  "beds": 3,
-  "baths": 2.5,
-  "sqft": 1900,
-  "lot_acres": 1.32,
-  "year_built": null,
-  "status": "contingent",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/299-Deer-Creek-Rd_Arcadia_LA_71001_M87977-33098?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/534d5ff11008e60cadb84e33b26f6ef9l-m3472797956od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "299 DEER CREEK RD|ARCADIA",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "2046 Florida St",
-  "city": "Arcadia",
-  "parish": "Claiborne",
-  "zip": "71001",
-  "price": 110000,
-  "beds": 5,
-  "baths": 2.5,
-  "sqft": 2088,
-  "lot_acres": 0.6,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2046-Florida-St_Arcadia_LA_71001_M88019-06884?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/c274262d671b1a1fd2771f20b7aaabccl-m3819468883od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "2046 FLORIDA ST|ARCADIA",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "227 Young Rd",
-  "city": "Dubach",
-  "parish": "Claiborne",
-  "zip": "71235",
-  "price": 450000,
-  "beds": 4,
-  "baths": 3.0,
-  "sqft": 2968,
-  "lot_acres": 5.0,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/227-Young-Rd_Dubach_LA_71235_M79648-71659?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/12caa12882d22fce28a9b808f887c775l-m1047240021od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "227 YOUNG RD|DUBACH",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "1302 E Todd St",
-  "city": "Minden",
-  "parish": "Claiborne",
-  "zip": "71055",
-  "price": 259000,
-  "beds": 3,
-  "baths": 2.0,
-  "sqft": 1730,
-  "lot_acres": 0.45,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": null,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1302-E-Todd-St_Minden_LA_71055_M85790-43066?from=srp_next",
-  "photo_url": "https://ap.rdcpix.com/65e913ae85ba1c47bf800ebf5bb753c5l-m2748564185od-w480_h360.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "realtor",
-  "scraped_at": "2026-07-06",
-  "key": "1302 E TODD ST|MINDEN",
-  "sources": [
-   "realtor"
-  ]
- },
- {
-  "address": "17146 Highway 9",
+  "address": "17146 Highway 9, Arcadia, LA 71001",
   "city": "Arcadia",
   "parish": "Claiborne",
   "zip": "71001",
@@ -6701,14 +5518,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "17146 HWY 9|ARCADIA",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "15520 Highway 9",
+  "address": "15520 Highway 9, Athens, LA 71003",
   "city": "Athens",
   "parish": "Claiborne",
   "zip": "71003",
@@ -6726,7 +5543,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "15520 HWY 9|ATHENS",
   "sources": [
    "zillow",
@@ -6734,32 +5551,7 @@
   ]
  },
  {
-  "address": "167 E West Morgan Rd",
-  "city": "Arcadia",
-  "parish": "Claiborne",
-  "zip": "71001",
-  "price": 672000,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 160.0,
-  "year_built": null,
-  "status": "active",
-  "days_on_market": 68,
-  "url": "https://www.zillow.com/homedetails/167-E-West-Morgan-Rd-Arcadia-LA-71001/462048552_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/198b3282af916886514a060a671fb7dd-p_e.webp",
-  "lat": null,
-  "lng": null,
-  "waterfront": false,
-  "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "167 E W MORGAN RD|ARCADIA",
-  "sources": [
-   "zillow"
-  ]
- },
- {
-  "address": "126 Oscar Kilpatrick Rd",
+  "address": "126 Oscar Kilpatrick Rd, Gibsland, LA 71028",
   "city": "Gibsland",
   "parish": "Claiborne",
   "zip": "71028",
@@ -6777,39 +5569,39 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "126 OSCAR KILPATRICK RD|GIBSLAND",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "Hazel St",
+  "address": "2260 4th St, Arcadia, LA 71001",
   "city": "Arcadia",
   "parish": "Claiborne",
   "zip": "71001",
-  "price": 449900,
-  "beds": null,
-  "baths": null,
-  "sqft": null,
-  "lot_acres": 6.83,
+  "price": 265000,
+  "beds": 3,
+  "baths": 2.0,
+  "sqft": 1989,
+  "lot_acres": null,
   "year_built": null,
   "status": "active",
-  "days_on_market": 13,
-  "url": "https://www.zillow.com/homedetails/Hazel-St-Arcadia-LA-71001/458187926_zpid/",
-  "photo_url": "https://photos.zillowstatic.com/fp/87b575aa89d7207e26dc4a23868d37fe-p_e.webp",
+  "days_on_market": null,
+  "url": "https://www.zillow.com/homedetails/2260-4th-St-Arcadia-LA-71001/235767384_zpid/",
+  "photo_url": "https://photos.zillowstatic.com/fp/bf22b9b124cd1660cf53d5414c3cb9b6-p_e.webp",
   "lat": null,
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
-  "key": "HAZEL ST|ARCADIA",
+  "scraped_at": "2026-07-07",
+  "key": "2260 4TH ST|ARCADIA",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "2070 Hazel St",
+  "address": "2070 Hazel St, Arcadia, LA 71001",
   "city": "Arcadia",
   "parish": "Claiborne",
   "zip": "71001",
@@ -6827,14 +5619,14 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2070 HAZEL ST|ARCADIA",
   "sources": [
    "zillow"
   ]
  },
  {
-  "address": "0 Cotton Ln",
+  "address": "0 Cotton Ln, Minden, LA 71055",
   "city": "Minden",
   "parish": "Claiborne",
   "zip": "71055",
@@ -6852,7 +5644,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 COTTON LN|MINDEN",
   "sources": [
    "zillow"
@@ -6877,7 +5669,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "203 THOMAS RD|ATHENS",
   "sources": [
    "realtor"
@@ -6902,7 +5694,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2788 HWY 519|ATHENS",
   "sources": [
    "realtor"
@@ -6927,7 +5719,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "4027 HWY 518|ATHENS",
   "sources": [
    "realtor"
@@ -6952,7 +5744,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "3322 BUTLER AVE|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -6977,7 +5769,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "3307 HWY 521|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7003,7 +5795,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "178 HICKORY RIDGE RD|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7028,7 +5820,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1137 WALLER DR|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7054,7 +5846,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1937 BAILEY AVE|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7080,7 +5872,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 STANDPIPE RD|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7105,7 +5897,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "9890 HWY 79|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7130,7 +5922,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "1272 CARSON ST|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7156,7 +5948,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2276 MAIN ST|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7172,7 +5964,7 @@
   "beds": 3,
   "baths": 2.0,
   "sqft": 1630,
-  "lot_acres": 0.2,
+  "lot_acres": 0.199,
   "year_built": null,
   "status": "active",
   "days_on_market": null,
@@ -7182,7 +5974,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "9886 HWY 79|HAYNESVILLE",
   "sources": [
    "zillow",
@@ -7208,7 +6000,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2030 DOGWOOD DR|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7233,7 +6025,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2366 DAWSON DR|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7258,7 +6050,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 W BAILEY AVE|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7283,7 +6075,7 @@
   "lng": null,
   "waterfront": false,
   "source": "zillow",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "0 MAXEY RD|HAYNESVILLE",
   "sources": [
    "zillow"
@@ -7308,7 +6100,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "MAXEY|HAYNESVILLE",
   "sources": [
    "realtor"
@@ -7333,7 +6125,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "928 MCDONALD ST|HAYNESVILLE",
   "sources": [
    "realtor"
@@ -7358,7 +6150,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "2366 DAWSON ST|HAYNESVILLE",
   "sources": [
    "realtor"
@@ -7383,7 +6175,7 @@
   "lng": null,
   "waterfront": false,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "138 BAILEY TOWN RD|HAYNESVILLE",
   "sources": [
    "realtor"
@@ -7408,7 +6200,7 @@
   "lng": null,
   "waterfront": true,
   "source": "realtor",
-  "scraped_at": "2026-07-06",
+  "scraped_at": "2026-07-07",
   "key": "335 COLEMAN LOOP|HOMER",
   "sources": [
    "realtor"
