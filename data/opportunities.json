@@ -3,244 +3,682 @@
  "high_opportunity": true,
  "deals": [
   {
-   "key": "205 BECK ST|MINDEN",
-   "address": "205 Beck St, Minden, LA 71055",
-   "city": "Minden",
-   "parish": "Webster",
-   "price": 80000,
-   "beds": 3,
-   "baths": 2.0,
-   "sqft": 1499,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/205-Beck-St-Minden-LA-71055/106206897_zpid/",
-   "waterfront": false,
-   "predicted": 135909,
-   "spread_pct": 41.1,
-   "comp_count": 10,
-   "gross_yield_pct": 15.5,
-   "score": 45,
-   "flags": [
-    "underpriced",
-    "rental_candidate",
-    "verify_condition"
-   ]
-  },
-  {
-   "key": "317 JOEL ST|MINDEN",
-   "address": "317 Joel St, Minden, LA 71055",
-   "city": "Minden",
-   "parish": "Webster",
-   "price": 35000,
-   "beds": 3,
-   "baths": 2.0,
-   "sqft": 1201,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/317-Joel-St-Minden-LA-71055/106204606_zpid/",
-   "waterfront": false,
-   "predicted": 141646,
-   "spread_pct": 75.3,
-   "comp_count": 10,
-   "gross_yield_pct": 35.5,
-   "score": 45,
-   "flags": [
-    "underpriced",
-    "rental_candidate",
-    "verify_condition"
-   ]
-  },
-  {
-   "key": "513 PATRICK ST|MINDEN",
-   "address": "513 Patrick St, Minden, LA 71055",
-   "city": "Minden",
-   "parish": "Webster",
-   "price": 79999,
-   "beds": 3,
-   "baths": 1.0,
-   "sqft": 1140,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/513-Patrick-St-Minden-LA-71055/106203826_zpid/",
-   "waterfront": false,
-   "predicted": 150028,
-   "spread_pct": 46.7,
-   "comp_count": 10,
-   "gross_yield_pct": 15.5,
-   "score": 45,
-   "flags": [
-    "underpriced",
-    "rental_candidate",
-    "verify_condition"
-   ]
-  },
-  {
    "key": "145 LOOP RD|MINDEN",
-   "address": "145 Loop Rd, Minden, LA 71055",
+   "address": "145 Loop Rd",
    "city": "Minden",
    "parish": "Webster",
+   "zip": "71055",
    "price": 134900,
    "beds": 4,
    "baths": 2.0,
    "sqft": 1946,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/145-Loop-Rd-Minden-LA-71055/106203390_zpid/",
+   "year_built": 1950,
+   "days_on_market": 144,
+   "url": "https://www.realtor.com/realestateandhomes-detail/145-Loop-Rd_Minden_LA_71055_M87884-17407",
    "waterfront": false,
-   "predicted": 257583,
-   "spread_pct": 47.6,
+   "lat": 32.631896,
+   "lng": -93.294933,
+   "avm_estimate": 133300,
+   "own_listing": false,
+   "predicted": 247131,
+   "spread_pct": 45.4,
    "comp_count": 10,
    "gross_yield_pct": 10.5,
-   "score": 45,
+   "score": 50,
    "flags": [
     "underpriced",
+    "flip_candidate",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031800",
+     "state": "22",
+     "county": "119",
+     "tract": "031800"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 1.42,
+      "nearest_name": "AZALEA TERRACE APTS",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 1.57,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 71.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 71.0
+     }
+    }
+   }
   },
   {
-   "key": "1102 BONNIE LN|MINDEN",
-   "address": "1102 Bonnie Ln, Minden, LA 71055",
+   "key": "413 PARK AVE|MINDEN",
+   "address": "413 Park Ave",
    "city": "Minden",
    "parish": "Webster",
-   "price": 74900,
+   "zip": "71055",
+   "price": 60000,
    "beds": 2,
    "baths": 1.0,
-   "sqft": 1250,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/1102-Bonnie-Ln-Minden-LA-71055/106202302_zpid/",
+   "sqft": 1280,
+   "year_built": 1950,
+   "days_on_market": 131,
+   "url": "https://www.realtor.com/realestateandhomes-detail/413-Park-Ave_Minden_LA_71055_M85465-09898",
    "waterfront": false,
-   "predicted": 149658,
-   "spread_pct": 50.0,
+   "lat": 32.605439,
+   "lng": -93.304168,
+   "avm_estimate": 59000,
+   "own_listing": false,
+   "predicted": 151624,
+   "spread_pct": 60.4,
    "comp_count": 10,
-   "gross_yield_pct": 12.6,
-   "score": 45,
+   "gross_yield_pct": 15.7,
+   "score": 50,
    "flags": [
     "underpriced",
+    "flip_candidate",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031700",
+     "state": "22",
+     "county": "119",
+     "tract": "031700"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 1.12,
+      "nearest_name": "HARVEST MANOR A",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 1.95,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 56.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 56.0
+     }
+    }
+   }
   },
   {
-   "key": "426 LAKEVIEW DR|DOYLINE",
-   "address": "426 Lakeview Dr, Doyline, LA 71023",
-   "city": "Doyline",
-   "parish": "Webster",
-   "price": 42500,
-   "beds": 2,
-   "baths": 1.0,
-   "sqft": 1000,
-   "year_built": null,
-   "days_on_market": 1,
-   "url": "https://www.zillow.com/homedetails/426-Lakeview-Dr-Doyline-LA-71023/106209385_zpid/",
-   "waterfront": false,
-   "predicted": 80911,
-   "spread_pct": 47.5,
-   "comp_count": 10,
-   "gross_yield_pct": 22.2,
-   "score": 45,
-   "flags": [
-    "underpriced",
-    "rental_candidate",
-    "verify_condition"
-   ]
-  },
-  {
-   "key": "275 LAKEVIEW DR|MINDEN",
-   "address": "275 Lakeview Dr, Minden, LA 71023",
+   "key": "900 WATTERMAN ST|MINDEN",
+   "address": "900 Watterman St",
    "city": "Minden",
    "parish": "Webster",
-   "price": 37500,
-   "beds": 3,
-   "baths": 1.0,
-   "sqft": 1085,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/275-Lakeview-Dr-Minden-LA-71023/251103640_zpid/",
+   "zip": "71055",
+   "price": 119000,
+   "beds": 4,
+   "baths": 2.0,
+   "sqft": 2192,
+   "year_built": 1975,
+   "days_on_market": 159,
+   "url": "https://www.realtor.com/realestateandhomes-detail/900-Watterman-St_Minden_LA_71055_M85701-36506",
    "waterfront": false,
-   "predicted": 134244,
-   "spread_pct": 72.1,
+   "lat": 32.60273,
+   "lng": -93.298996,
+   "avm_estimate": 118100,
+   "own_listing": false,
+   "predicted": 245167,
+   "spread_pct": 51.5,
    "comp_count": 10,
-   "gross_yield_pct": 33.1,
-   "score": 45,
+   "gross_yield_pct": 11.9,
+   "score": 50,
    "flags": [
     "underpriced",
+    "flip_candidate",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031700",
+     "state": "22",
+     "county": "119",
+     "tract": "031700"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.77,
+      "nearest_name": "HARVEST MANOR A",
+      "count_within_radius": 2
+     },
+     "public_housing": {
+      "nearest_miles": 1.78,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 38.5,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 38.5
+     }
+    }
+   }
   },
   {
    "key": "275 LAKEVIEW DR|DOYLINE",
    "address": "275 Lakeview Dr",
    "city": "Doyline",
    "parish": "Webster",
+   "zip": "71023",
    "price": 37500,
    "beds": 3,
    "baths": 1.0,
    "sqft": 1085,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.realtor.com/realestateandhomes-detail/275-Lakeview-Dr_Doyline_LA_71023_M82499-10262?from=srp_next",
+   "year_built": 1980,
+   "days_on_market": 386,
+   "url": "https://www.realtor.com/realestateandhomes-detail/275-Lakeview-Dr_Doyline_LA_71023_M82499-10262",
    "waterfront": false,
-   "predicted": 103180,
-   "spread_pct": 63.7,
-   "comp_count": 10,
+   "lat": 32.429507,
+   "lng": -93.392155,
+   "avm_estimate": 37000,
+   "own_listing": false,
+   "predicted": 93603,
+   "spread_pct": 59.9,
+   "comp_count": 6,
    "gross_yield_pct": 33.1,
-   "score": 45,
+   "score": 50,
    "flags": [
     "underpriced",
+    "flip_candidate",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031501",
+     "state": "22",
+     "county": "119",
+     "tract": "031501"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 8.46,
+      "nearest_name": "BIENVILLE APTS I",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 14.71,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 100.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 100.0
+     }
+    }
+   }
   },
   {
-   "key": "375 BOSSIER ST|HEFLIN",
-   "address": "375 Bossier St, Heflin, LA 71039",
-   "city": "Heflin",
+   "key": "173 BELAIRE DR|DOYLINE",
+   "address": "173 Belaire Dr",
+   "city": "Doyline",
    "parish": "Webster",
-   "price": 95000,
-   "beds": 4,
+   "zip": "71023",
+   "price": 80000,
+   "beds": 2,
+   "baths": 1.0,
+   "sqft": 1544,
+   "year_built": 1981,
+   "days_on_market": 167,
+   "url": "https://www.realtor.com/realestateandhomes-detail/173-Belaire-Dr_Doyline_LA_71023_M71412-23315",
+   "waterfront": true,
+   "lat": 32.431754,
+   "lng": -93.393733,
+   "avm_estimate": 79100,
+   "own_listing": false,
+   "predicted": 285886,
+   "spread_pct": 72.0,
+   "comp_count": 3,
+   "gross_yield_pct": 11.8,
+   "score": 50,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031501",
+     "state": "22",
+     "county": "119",
+     "tract": "031501"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 8.48,
+      "nearest_name": "SOUTHWOOD APTS",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 14.62,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 100.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 100.0
+     }
+    }
+   }
+  },
+  {
+   "key": "100 MAPLEWOOD DR|HAUGHTON",
+   "address": "100 Maplewood Dr",
+   "city": "Haughton",
+   "parish": "Bossier",
+   "zip": "71037",
+   "price": 30000,
+   "beds": 3,
    "baths": 2.0,
-   "sqft": 2310,
-   "year_built": null,
-   "days_on_market": 62,
-   "url": "https://www.zillow.com/homedetails/375-Bossier-St-Heflin-LA-71039/106213830_zpid/",
+   "sqft": 1536,
+   "year_built": 1995,
+   "days_on_market": 507,
+   "url": "https://www.realtor.com/realestateandhomes-detail/100-Maplewood-Dr_Haughton_LA_71037_M76788-42190",
    "waterfront": false,
-   "predicted": 231770,
-   "spread_pct": 59.0,
+   "lat": 32.531573,
+   "lng": -93.496549,
+   "avm_estimate": 139800,
+   "own_listing": false,
+   "predicted": 246374,
+   "spread_pct": 87.8,
    "comp_count": 10,
-   "gross_yield_pct": 14.9,
-   "score": 45,
+   "gross_yield_pct": 53.8,
+   "score": 50,
    "flags": [
     "underpriced",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015011112",
+     "state": "22",
+     "county": "015",
+     "tract": "011112"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.44,
+      "nearest_name": "WOODCREST APARTMENTS",
+      "count_within_radius": 1
+     },
+     "public_housing": {
+      "nearest_miles": 12.12,
+      "nearest_name": "PATRICIA PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 22.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 22.0
+     }
+    }
+   }
   },
   {
-   "key": "230 LONGHORN DR|BOSSIER CITY",
-   "address": "230 Longhorn Dr, Bossier City, LA 71112",
+   "key": "139 BOURBON ST|ELM GROVE",
+   "address": "139 Bourbon St",
+   "city": "Elm Grove",
+   "parish": "Bossier",
+   "zip": "71051",
+   "price": 89900,
+   "beds": 3,
+   "baths": 2.0,
+   "sqft": 1820,
+   "year_built": 1998,
+   "days_on_market": 173,
+   "url": "https://www.realtor.com/realestateandhomes-detail/139-Bourbon-St_Elm-Grove_LA_71051_M98622-22861",
+   "waterfront": true,
+   "lat": 32.404281,
+   "lng": -93.434336,
+   "avm_estimate": 114000,
+   "own_listing": false,
+   "predicted": 315123,
+   "spread_pct": 71.5,
+   "comp_count": 3,
+   "gross_yield_pct": 18.0,
+   "score": 50,
+   "flags": [
+    "underpriced",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015011002",
+     "state": "22",
+     "county": "015",
+     "tract": "011002"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 8.69,
+      "nearest_name": "BIENVILLE APTS I",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 17.45,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 100.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 100.0
+     }
+    }
+   }
+  },
+  {
+   "key": "223 EDWARDS ST|BOSSIER CITY",
+   "address": "223 Edwards St",
    "city": "Bossier City",
    "parish": "Bossier",
-   "price": 88000,
-   "beds": 4,
-   "baths": 3.0,
-   "sqft": 2332,
-   "year_built": null,
-   "days_on_market": null,
-   "url": "https://www.zillow.com/homedetails/230-Longhorn-Dr-Bossier-City-LA-71112/109824657_zpid/",
+   "zip": "71111",
+   "price": 47000,
+   "beds": 2,
+   "baths": 1.0,
+   "sqft": 1114,
+   "year_built": 1937,
+   "days_on_market": 258,
+   "url": "https://www.realtor.com/realestateandhomes-detail/223-Edwards-St_Bossier-City_LA_71111_M80092-42036",
    "waterfront": false,
-   "predicted": 346326,
-   "spread_pct": 74.6,
+   "lat": 32.525062,
+   "lng": -93.737601,
+   "avm_estimate": 47100,
+   "own_listing": false,
+   "predicted": 129901,
+   "spread_pct": 63.8,
    "comp_count": 10,
-   "gross_yield_pct": 22.2,
-   "score": 45,
+   "gross_yield_pct": 25.9,
+   "score": 50,
    "flags": [
     "underpriced",
+    "flip_candidate",
     "rental_candidate",
     "verify_condition"
-   ]
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010400",
+     "state": "22",
+     "county": "015",
+     "tract": "010400"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.12,
+      "nearest_name": "GORDON BOSSIER",
+      "count_within_radius": 1
+     },
+     "public_housing": {
+      "nearest_miles": 0.89,
+      "nearest_name": "CISCO HOMES",
+      "count_within_radius": 2
+     }
+    },
+    "score": {
+     "score": 6.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 6.0
+     }
+    }
+   }
+  },
+  {
+   "key": "614 PATTON ST|BOSSIER CITY",
+   "address": "614 Patton St",
+   "city": "Bossier City",
+   "parish": "Bossier",
+   "zip": "71112",
+   "price": 70000,
+   "beds": 3,
+   "baths": 1.5,
+   "sqft": 1332,
+   "year_built": 1937,
+   "days_on_market": 134,
+   "url": "https://www.realtor.com/realestateandhomes-detail/614-Patton-St_Bossier-City_LA_71112_M78669-60668",
+   "waterfront": false,
+   "lat": 32.500417,
+   "lng": -93.702063,
+   "avm_estimate": 71700,
+   "own_listing": false,
+   "predicted": 133200,
+   "spread_pct": 47.4,
+   "comp_count": 10,
+   "gross_yield_pct": 23.1,
+   "score": 50,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010801",
+     "state": "22",
+     "county": "015",
+     "tract": "010801"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.51,
+      "nearest_name": "GIBSON PARK",
+      "count_within_radius": 1
+     },
+     "public_housing": {
+      "nearest_miles": 1.14,
+      "nearest_name": "PATRICIA PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 25.5,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 25.5
+     }
+    }
+   }
+  },
+  {
+   "key": "1712 ALISON AVE|BOSSIER CITY",
+   "address": "1712 Alison Ave",
+   "city": "Bossier City",
+   "parish": "Bossier",
+   "zip": "71112",
+   "price": 179000,
+   "beds": 4,
+   "baths": 1.5,
+   "sqft": 2017,
+   "year_built": 1965,
+   "days_on_market": 92,
+   "url": "https://www.realtor.com/realestateandhomes-detail/1712-Alison-Ave_Bossier-City_LA_71112_M84349-45021",
+   "waterfront": false,
+   "lat": 32.478479,
+   "lng": -93.665377,
+   "avm_estimate": 185000,
+   "own_listing": false,
+   "predicted": 303370,
+   "spread_pct": 41.0,
+   "comp_count": 10,
+   "gross_yield_pct": 10.9,
+   "score": 50,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010808",
+     "state": "22",
+     "county": "015",
+     "tract": "010808"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {},
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 2.36,
+      "nearest_name": "GIBSON PARK",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 3.47,
+      "nearest_name": "PATRICIA PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "score": {
+     "score": 100.0,
+     "coverage": 0.1,
+     "factors": {
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": null,
+      "vacancy_level": null,
+      "owner_occupancy": null,
+      "crime_trend": null,
+      "subsidized_proximity": 100.0
+     }
+    }
+   }
   }
  ]
 }

@@ -28,7 +28,15 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
    address (linked to the listing URL), city, list price vs our estimated
    value, spread %, $/sqft, days on market, flags (underpriced / flip /
    rental), estimated gross rental yield when present. One-line plain-English
-   take on why it's interesting and what the catch might be. A
+   take on why it's interesting and what the catch might be. When a deal has
+   a `neighborhood` block (Census tract trends, crime trend, subsidized-
+   housing proximity, 0–100 score with coverage), fold the useful parts into
+   the take — e.g. "tract income up 21% over the decade" or "score 72/100 but
+   thin data (coverage 0.4)". This neighborhood data is STRICTLY for this
+   private email: never reference it in Facebook drafts, the market pulse, or
+   anything Catherine would share with clients (fair-housing steering risk).
+   A `avm_estimate` field is Realtor.com's own value estimate — when it
+   disagrees sharply with ours, say so; agreement strengthens confidence. A
    `verify_condition` flag means the price is so far below comps that the
    home almost certainly has condition/title problems — present those as
    "cheap for a reason, worth a drive-by" rather than as bargains. If there

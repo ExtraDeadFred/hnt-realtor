@@ -41,9 +41,9 @@ def save_json(path, obj):
 
 
 def scrape_all(cfg):
-    from sources import ntreis, realtor, zillow
-    # MLS feed is the primary source once credentialed (see pipeline/NTREIS.md);
-    # the scrapers below remain the automatic fallback.
+    from sources import homeharvest_src, ntreis, realtor, zillow
+    # Source priority: MLS feed (once credentialed, see pipeline/NTREIS.md),
+    # then HomeHarvest (free, structured), then the Firecrawl scrapers.
     if ntreis.enabled(cfg):
         try:
             listings = ntreis.fetch_all(cfg)
@@ -51,7 +51,14 @@ def scrape_all(cfg):
             if listings:
                 return listings
         except Exception as e:
-            print(f"  ntreis: FAILED — {e}; falling back to scrapers")
+            print(f"  ntreis: FAILED — {e}; falling back")
+    try:
+        listings = homeharvest_src.fetch_all(cfg)
+        if listings:
+            return listings
+        print("  homeharvest returned nothing — falling back to scrapers")
+    except Exception as e:
+        print(f"  homeharvest: FAILED — {e}; falling back to scrapers")
     listings = []
     for area in cfg["areas"]:
         for mod, name in ((zillow, "zillow"), (realtor, "realtor")):
@@ -135,9 +142,44 @@ def main():
     outcomes = analyze.update_outcomes(outcomes, events, prev_predictions, previous)
     outcomes = ingest_mls.apply_to_outcomes(outcomes, solds)
 
+    # Realtor.com sold events confirm WHEN an off-market home actually closed
+    # (LA withholds prices, so MLS CSVs still supply the sold price)
+    if not fixture:
+        try:
+            from sources import homeharvest_src
+            sold_events = {e["key"]: e for e in homeharvest_src.fetch_sold_events(cfg)}
+            confirmed = 0
+            for o in outcomes:
+                ev = sold_events.get(o["key"])
+                if ev and not o.get("sold_date"):
+                    o["sold_date"] = ev["sold_date"]
+                    if ev.get("sold_price"):
+                        o["sold_price"] = ev["sold_price"]
+                    confirmed += 1
+            if confirmed:
+                print(f"{confirmed} outcomes confirmed sold via realtor.com")
+        except Exception as e:
+            print(f"sold-event confirmation failed: {e}")
+
     predictions = analyze.predict_prices(current, solds, cfg)
     stats = analyze.market_stats(current, load_events() + events)
     deals = analyze.score_deals(current, predictions, cfg)
+
+    # Neighborhood enrichment (Census/HUD/FBI) for the scored deals only —
+    # PRIVATE: consumed by the investor email, never rendered on the site
+    if cfg.get("enrichment", {}).get("enabled"):
+        try:
+            from enrichment.enrich import Enricher
+            enricher = Enricher(str(ROOT / "pipeline" / "config.yaml"))
+            for d in deals["deals"]:
+                d["neighborhood"] = enricher.enrich_listing({
+                    "latitude": d.get("lat"), "longitude": d.get("lng"),
+                    "street": d.get("address"), "city": d.get("city"),
+                    "state": "LA", "zip_code": d.get("zip")})
+            enricher.close()
+            print(f"enriched {len(deals['deals'])} deals with neighborhood data")
+        except Exception as e:
+            print(f"enrichment failed (deals sent without it): {e}")
     metrics = analyze.model_metrics(outcomes)
     metrics["backtest"] = analyze.backtest(solds, cfg)
 

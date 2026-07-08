@@ -27,6 +27,8 @@ jobs:
       - name: Scrape and analyze
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+          FBI_CDE_API_KEY: ${{ secrets.FBI_CDE_API_KEY }}
         run: python pipeline/run.py
 
       - name: Commit updated data

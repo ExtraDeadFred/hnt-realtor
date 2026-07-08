@@ -142,9 +142,10 @@ def score_deals(listings, predictions, cfg):
         if not flags:
             continue
         deals.append({
-            **{f: l.get(f) for f in ("key", "address", "city", "parish", "price",
-                                     "beds", "baths", "sqft", "year_built",
-                                     "days_on_market", "url", "waterfront")},
+            **{f: l.get(f) for f in ("key", "address", "city", "parish", "zip",
+                                     "price", "beds", "baths", "sqft", "year_built",
+                                     "days_on_market", "url", "waterfront",
+                                     "lat", "lng", "avm_estimate", "own_listing")},
             "predicted": p["predicted"], "spread_pct": round(spread_pct, 1),
             "comp_count": p["comp_count"], "gross_yield_pct": gross_yield,
             "score": round(score, 1), "flags": flags,

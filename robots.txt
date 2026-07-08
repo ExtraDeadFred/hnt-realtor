@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 Disallow: /data/listings.json
+Disallow: /data/opportunities.json
+Disallow: /data/predictions.json
+Disallow: /data/outcomes.json
+Disallow: /data/events.jsonl
 Disallow: /data/snapshots/
 
 Sitemap: https://extradeadfred.github.io/hnt-realtor/sitemap.xml

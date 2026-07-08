@@ -48,6 +48,27 @@ deals:
   min_price: 30000             # ignore lots/teardowns priced below this
   top_n: 10                    # opportunities included in the email
 
+# Neighborhood enrichment (Census ACS trends, HUD subsidized-housing
+# proximity, FBI crime trends) — applied to scored deals only. PRIVATE:
+# consumed by the investor email, never rendered on the public site.
+# Optional env keys: CENSUS_API_KEY (recommended), FBI_CDE_API_KEY (crime
+# factor is skipped gracefully without it).
+enrichment:
+  enabled: true
+  cache_db_path: data/enrichment_cache.db
+  state_fips: "22"
+  parishes:
+    - { name: Webster,   fips: "119" }
+    - { name: Bossier,   fips: "015" }
+    - { name: Claiborne, fips: "027" }
+    - { name: Caddo,     fips: "017" }
+  acs_years: [2013, 2018, 2023]
+  hud_layers:
+    lihtc: "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/LIHTC/FeatureServer/0"
+    public_housing: "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Developments/FeatureServer/0"
+  hud_radius_miles: 1.0
+  crime_lookback_years: 5
+
 # HUD Fair Market Rents by parish and bedroom count, used for rental-yield
 # estimates. APPROXIMATE FY2025 values — update annually from
 # https://www.huduser.gov/portal/datasets/fmr.html

@@ -1702,7 +1702,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 379000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-06"
  },
  {
   "key": "561 NORTHPARK DR|BOSSIER CITY",
@@ -2120,16 +2120,16 @@
   "predicted_at": "2026-07-08",
   "proxy_price": 240000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-03"
  },
  {
-  "key": "413 DOGWOOD TRL|MINDEN",
-  "address": "413 Dogwood Trl",
-  "city": "Minden",
-  "sqft": 2050,
-  "predicted": 223992,
+  "key": "193 SE 5TH AVE|SIBLEY",
+  "address": "193 SE 5th Ave, Sibley, LA 71073",
+  "city": "Sibley",
+  "sqft": 1659,
+  "predicted": 182372,
   "predicted_at": "2026-07-08",
-  "proxy_price": 415000,
+  "proxy_price": 225000,
   "sold_price": null,
   "sold_date": null
  },
@@ -2167,24 +2167,68 @@
   "sold_date": null
  },
  {
-  "key": "508 J R DR|BOSSIER CITY",
-  "address": "508 J R Dr",
-  "city": "Bossier City",
-  "sqft": 1950,
-  "predicted": 292091,
+  "key": "196 DORCHEAT BRIDGE RD 1|DOYLINE",
+  "address": "196 Dorcheat Bridge Rd #1, Doyline, LA 71023",
+  "city": "Doyline",
+  "sqft": 2020,
+  "predicted": 239219,
   "predicted_at": "2026-07-08",
-  "proxy_price": 329500,
+  "proxy_price": 279000,
   "sold_price": null,
   "sold_date": null
  },
  {
-  "key": "5 FOX TROT CV|HAUGHTON",
-  "address": "5 Fox Trot Cv",
-  "city": "Haughton",
-  "sqft": 3205,
-  "predicted": 445663,
+  "key": "232 MATHES RD|DOYLINE",
+  "address": "232 Mathes Rd, Doyline, LA 71023",
+  "city": "Doyline",
+  "sqft": 1616,
+  "predicted": 93483,
   "predicted_at": "2026-07-08",
-  "proxy_price": 449900,
+  "proxy_price": 105000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "275 LAKEVIEW DR|MINDEN",
+  "address": "275 Lakeview Dr, Minden, LA 71023",
+  "city": "Minden",
+  "sqft": 1085,
+  "predicted": 134244,
+  "predicted_at": "2026-07-08",
+  "proxy_price": 37500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "4933 HWY 371|HEFLIN",
+  "address": "4933 Highway 371, Heflin, LA 71039",
+  "city": "Heflin",
+  "sqft": 1839,
+  "predicted": 197061,
+  "predicted_at": "2026-07-08",
+  "proxy_price": 25000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "375 BOSSIER ST|HEFLIN",
+  "address": "375 Bossier St, Heflin, LA 71039",
+  "city": "Heflin",
+  "sqft": 2310,
+  "predicted": 275764,
+  "predicted_at": "2026-07-08",
+  "proxy_price": 95000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "4416 HWY 157|HAUGHTON",
+  "address": "4416 Highway 157",
+  "city": "Haughton",
+  "sqft": 1575,
+  "predicted": 248789,
+  "predicted_at": "2026-07-08",
+  "proxy_price": 152500,
   "sold_price": null,
   "sold_date": null
  },
@@ -2208,18 +2252,7 @@
   "predicted_at": "2026-07-08",
   "proxy_price": 249900,
   "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "422 MERESTONE XING|BENTON",
-  "address": "422 Merestone Xing",
-  "city": "Benton",
-  "sqft": 2720,
-  "predicted": 393490,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 388212,
-  "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-06"
  },
  {
   "key": "CAMELLIA V A PLAN|BENTON",
@@ -2229,17 +2262,6 @@
   "predicted": 345789,
   "predicted_at": "2026-07-08",
   "proxy_price": 330990,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "605 CANOE TRL|BOSSIER CITY",
-  "address": "605 Canoe Trl",
-  "city": "Bossier City",
-  "sqft": 1580,
-  "predicted": 247849,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 275000,
   "sold_price": null,
   "sold_date": null
  },
@@ -2255,200 +2277,35 @@
   "sold_date": null
  },
  {
-  "key": "1001 DALE DR|BENTON",
-  "address": "1001 Dale Dr",
+  "key": "110 SAINT ANDREWS LN|BENTON",
+  "address": "110 Saint Andrews Ln",
   "city": "Benton",
-  "sqft": 1574,
-  "predicted": 180953,
+  "sqft": 1836,
+  "predicted": 294374,
   "predicted_at": "2026-07-08",
-  "proxy_price": 219900,
+  "proxy_price": 324000,
   "sold_price": null,
   "sold_date": null
  },
  {
-  "key": "190 PADGETT RD|BENTON",
-  "address": "190 Padgett Rd",
+  "key": "301 NEWPORT LN|BENTON",
+  "address": "301 Newport Ln, Benton, LA 71006",
   "city": "Benton",
-  "sqft": 1858,
-  "predicted": 272422,
+  "sqft": 1742,
+  "predicted": 275560,
   "predicted_at": "2026-07-08",
-  "proxy_price": 245000,
-  "sold_price": null,
-  "sold_date": null
+  "proxy_price": 348400,
+  "sold_price": 332000.0,
+  "sold_date": "06/26/2026"
  },
  {
-  "key": "37 TURTLE CREEK DR|BENTON",
-  "address": "37 Turtle Creek Dr, Benton, LA 71006",
-  "city": "Benton",
-  "sqft": 2120,
-  "predicted": 400004,
+  "key": "1303 YOUNG RD|COTTON VALLEY",
+  "address": "1303 Young Rd, Cotton Valley, LA 71018",
+  "city": "Cotton Valley",
+  "sqft": 2100,
+  "predicted": 412312,
   "predicted_at": "2026-07-08",
-  "proxy_price": 453680,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "143 NEW BETHEL BOOKER RD|BENTON",
-  "address": "143 New Bethel Booker Rd, Benton, LA 71006",
-  "city": "Benton",
-  "sqft": 1109,
-  "predicted": 149907,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 116000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "63 TURTLE CREEK DR|BENTON",
-  "address": "63 Turtle Creek Dr, Benton, LA 71006",
-  "city": "Benton",
-  "sqft": 2203,
-  "predicted": 339978,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 467000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "155 JONES LN|BENTON",
-  "address": "155 Jones Ln, Benton, LA 71006",
-  "city": "Benton",
-  "sqft": 2112,
-  "predicted": 398495,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 419000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "505 SIMPSON ST|BENTON",
-  "address": "505 Simpson St, Benton, LA 71006",
-  "city": "Benton",
-  "sqft": 1246,
-  "predicted": 163451,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 165000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "106 PEAR TREE LN|BENTON",
-  "address": "106 Pear Tree Ln",
-  "city": "Benton",
-  "sqft": 2423,
-  "predicted": 382335,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 419900,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "100 PRESTON BAY CIR|BENTON",
-  "address": "100 Preston Bay Cir",
-  "city": "Benton",
-  "sqft": 2223,
-  "predicted": 368188,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 384900,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "402 5TH ST|BENTON",
-  "address": "402 5th St",
-  "city": "Benton",
-  "sqft": 1558,
-  "predicted": 179114,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 194000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "535 COLEMAN RD|HOMER",
-  "address": "535 Coleman Rd, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2916,
-  "predicted": 727993,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 715000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "703 AIRPORT LOOP|HOMER",
-  "address": "703 Airport Loop, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2075,
-  "predicted": 492393,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 425000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "1031 AIRPORT LOOP|HOMER",
-  "address": "1031 Airport Loop, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2000,
-  "predicted": 474595,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 384500,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "198 PEACEFUL BAY|HOMER",
-  "address": "198 Peaceful Bay, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2156,
-  "predicted": 475595,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 550000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "429 ROBINSON LN|HOMER",
-  "address": "429 Robinson Ln, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 3184,
-  "predicted": 780713,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 794900,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "1072 FEATHERSTON RD|HOMER",
-  "address": "1072 Featherston Rd, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2750,
-  "predicted": 686550,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 650000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "122 MORRIS CIR|HOMER",
-  "address": "122 Morris Cir, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2180,
-  "predicted": 216030,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 140000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "749 BEVERLY DR|HOMER",
-  "address": "749 Beverly Dr, Homer, LA 71040",
-  "city": "Homer",
-  "sqft": 2615,
-  "predicted": 253314,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 244850,
+  "proxy_price": 428000,
   "sold_price": null,
   "sold_date": null
  },
@@ -2497,39 +2354,6 @@
   "sold_date": null
  },
  {
-  "key": "203 THOMAS RD|ATHENS",
-  "address": "203 Thomas Rd",
-  "city": "Athens",
-  "sqft": 1525,
-  "predicted": 115448,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 265000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "2788 HWY 519|ATHENS",
-  "address": "2788 Highway 519",
-  "city": "Athens",
-  "sqft": 2367,
-  "predicted": 225365,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 225000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "4027 HWY 518|ATHENS",
-  "address": "4027 Highway 518",
-  "city": "Athens",
-  "sqft": 1540,
-  "predicted": 134943,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 74900,
-  "sold_price": null,
-  "sold_date": null
- },
- {
   "key": "3322 BUTLER AVE|HAYNESVILLE",
   "address": "3322 Butler Ave, Haynesville, LA 71038",
   "city": "Haynesville",
@@ -2537,17 +2361,6 @@
   "predicted": 307771,
   "predicted_at": "2026-07-08",
   "proxy_price": 275000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "3307 HWY 521|HAYNESVILLE",
-  "address": "3307 Highway 521, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 1450,
-  "predicted": 93837,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 150000,
   "sold_price": null,
   "sold_date": null
  },
@@ -2563,61 +2376,6 @@
   "sold_date": null
  },
  {
-  "key": "1137 WALLER DR|HAYNESVILLE",
-  "address": "1137 Waller Dr, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 1625,
-  "predicted": 121225,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 100000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "1937 BAILEY AVE|HAYNESVILLE",
-  "address": "1937 Bailey Ave, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 1540,
-  "predicted": 113991,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 105000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "9890 HWY 79|HAYNESVILLE",
-  "address": "9890 Highway 79, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 1654,
-  "predicted": 123389,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 105000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "2276 MAIN ST|HAYNESVILLE",
-  "address": "2276 Main St, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 2124,
-  "predicted": 134095,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 149900,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "9886 HWY 79|HAYNESVILLE",
-  "address": "9886 Highway 79, Haynesville, LA 71038",
-  "city": "Haynesville",
-  "sqft": 1630,
-  "predicted": 108392,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 150000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
   "key": "2366 DAWSON DR|HAYNESVILLE",
   "address": "2366 Dawson Dr, Haynesville, LA 71038",
   "city": "Haynesville",
@@ -2625,28 +2383,6 @@
   "predicted": 63286,
   "predicted_at": "2026-07-08",
   "proxy_price": 60000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "2366 DAWSON ST|HAYNESVILLE",
-  "address": "2366 Dawson St",
-  "city": "Haynesville",
-  "sqft": 1033,
-  "predicted": 63286,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 60000,
-  "sold_price": null,
-  "sold_date": null
- },
- {
-  "key": "335 COLEMAN LOOP|HOMER",
-  "address": "335 Coleman Loop",
-  "city": "Homer",
-  "sqft": 3000,
-  "predicted": 742280,
-  "predicted_at": "2026-07-08",
-  "proxy_price": 999000,
   "sold_price": null,
   "sold_date": null
  }
