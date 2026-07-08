@@ -64,6 +64,9 @@ try {
 # Never fatal: git chatters on stderr (which PS 5.1 can escalate to a crash)
 # and OneDrive can transiently lock .git — stale data still beats no email.
 $ErrorActionPreference = "Continue"
+# local test runs dirty the tracked enrichment cache; it's derived state —
+# reset it so it can't block the pull
+git checkout -- data/enrichment_cache.db *> $null
 git pull --ff-only *> $null
 $pullExit = $LASTEXITCODE
 $ErrorActionPreference = "Stop"
