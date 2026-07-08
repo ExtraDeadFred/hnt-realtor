@@ -1,100 +1,115 @@
 {
- "updated": "2026-07-07",
+ "updated": "2026-07-08",
  "predictions": {
+  "1241 COUNTRY CLUB CIR|MINDEN": {
+   "predicted": 386190,
+   "comp_count": 10,
+   "comp_ppsf": 125.6
+  },
   "105 WOODHAVEN DR|MINDEN": {
    "predicted": 415573,
    "comp_count": 10,
    "comp_ppsf": 109.9
   },
-  "386 COUNTRY CLUB CIR|MINDEN": {
-   "predicted": 227859,
+  "909 HINTON ST|MINDEN": {
+   "predicted": 225217,
    "comp_count": 10,
-   "comp_ppsf": 105.5
+   "comp_ppsf": 93.8
   },
-  "213 215 MCDONALD ST|MINDEN": {
-   "predicted": 263419,
+  "323 COLLEGE ST|MINDEN": {
+   "predicted": 396076,
    "comp_count": 10,
-   "comp_ppsf": 111.9
-  },
-  "3113 GERMANTOWN RD|MINDEN": {
-   "predicted": 139790,
-   "comp_count": 10,
-   "comp_ppsf": 107.1
-  },
-  "1426 CANEY LAKE RD|MINDEN": {
-   "predicted": 197357,
-   "comp_count": 10,
-   "comp_ppsf": 111.4
-  },
-  "776 METHODIST CAMP RD|MINDEN": {
-   "predicted": 220726,
-   "comp_count": 10,
-   "comp_ppsf": 111.7
-  },
-  "1409 DRAKE DR|MINDEN": {
-   "predicted": 385241,
-   "comp_count": 10,
-   "comp_ppsf": 104.1
+   "comp_ppsf": 137.1
   },
   "514 RICHARDSON ST|MINDEN": {
    "predicted": 206992,
    "comp_count": 10,
    "comp_ppsf": 116.6
   },
-  "317 JOEL ST|MINDEN": {
-   "predicted": 141561,
+  "386 COUNTRY CLUB CIR|MINDEN": {
+   "predicted": 227859,
    "comp_count": 10,
-   "comp_ppsf": 117.9
-  },
-  "1241 COUNTRY CLUB CIR|MINDEN": {
-   "predicted": 438985,
-   "comp_count": 10,
-   "comp_ppsf": 142.8
-  },
-  "902 HINTON ST|MINDEN": {
-   "predicted": 231268,
-   "comp_count": 10,
-   "comp_ppsf": 112.5
+   "comp_ppsf": 105.5
   },
   "205 BECK ST|MINDEN": {
    "predicted": 135909,
    "comp_count": 10,
    "comp_ppsf": 90.7
   },
+  "776 METHODIST CAMP RD|MINDEN": {
+   "predicted": 222119,
+   "comp_count": 10,
+   "comp_ppsf": 112.4
+  },
+  "3113 GERMANTOWN RD|MINDEN": {
+   "predicted": 145219,
+   "comp_count": 10,
+   "comp_ppsf": 111.3
+  },
+  "213 215 MCDONALD ST|MINDEN": {
+   "predicted": 224972,
+   "comp_count": 10,
+   "comp_ppsf": 95.6
+  },
   "1054 FRONTAGE RD|MINDEN": {
    "predicted": 150496,
    "comp_count": 10,
    "comp_ppsf": 119.7
   },
+  "1409 DRAKE DR|MINDEN": {
+   "predicted": 385241,
+   "comp_count": 10,
+   "comp_ppsf": 104.1
+  },
+  "317 JOEL ST|MINDEN": {
+   "predicted": 141646,
+   "comp_count": 10,
+   "comp_ppsf": 117.9
+  },
   "1302 E TODD ST|MINDEN": {
-   "predicted": 186245,
+   "predicted": 178268,
    "comp_count": 10,
-   "comp_ppsf": 107.7
+   "comp_ppsf": 103.0
   },
-  "323 COLLEGE ST|MINDEN": {
-   "predicted": 419443,
+  "1426 CANEY LAKE RD|MINDEN": {
+   "predicted": 197357,
    "comp_count": 10,
-   "comp_ppsf": 145.2
+   "comp_ppsf": 111.4
   },
-  "513 PATRICK ST|MINDEN": {
-   "predicted": 155548,
+  "159 CHRISLO DR|MINDEN": {
+   "predicted": 400280,
    "comp_count": 10,
-   "comp_ppsf": 136.4
-  },
-  "328 S TALTON ST|MINDEN": {
-   "predicted": 171358,
-   "comp_count": 10,
-   "comp_ppsf": 122.4
+   "comp_ppsf": 144.5
   },
   "2643 GERMANTOWN RD|MINDEN": {
    "predicted": 231461,
    "comp_count": 10,
    "comp_ppsf": 121.8
   },
-  "803 DREW LN|MINDEN": {
-   "predicted": 232020,
+  "902 HINTON ST|MINDEN": {
+   "predicted": 231268,
    "comp_count": 10,
-   "comp_ppsf": 103.2
+   "comp_ppsf": 112.5
+  },
+  "165169 RED HILL LN|MINDEN": {
+   "predicted": 158004,
+   "comp_count": 10,
+   "comp_ppsf": 95.4
+  },
+  "513 PATRICK ST|MINDEN": {
+   "predicted": 150028,
+   "comp_count": 10,
+   "comp_ppsf": 131.6
+  },
+  "1217 RIDGEWOOD CIR|MINDEN": {
+   "predicted": 550395,
+   "comp_count": 6,
+   "comp_ppsf": 99.3
+  },
+  "1302 TURNER ST|MINDEN": {
+   "predicted": 131486,
+   "comp_count": 10,
+   "comp_ppsf": 88.6
   },
   "110 KIRBY PL|MINDEN": {
    "predicted": 146221,
@@ -102,244 +117,239 @@
    "comp_ppsf": 111.3
   },
   "201 WOODHAVEN DR|MINDEN": {
-   "predicted": 367643,
+   "predicted": 354005,
    "comp_count": 10,
-   "comp_ppsf": 108.1
-  },
-  "1217 RIDGEWOOD CIR|MINDEN": {
-   "predicted": 550395,
-   "comp_count": 6,
-   "comp_ppsf": 99.3
-  },
-  "159 CHRISLO DR|MINDEN": {
-   "predicted": 400280,
-   "comp_count": 10,
-   "comp_ppsf": 144.5
-  },
-  "210 WHISPERING PINES TRL|MINDEN": {
-   "predicted": 216517,
-   "comp_count": 10,
-   "comp_ppsf": 108.1
-  },
-  "1302 TURNER ST|MINDEN": {
-   "predicted": 131486,
-   "comp_count": 10,
-   "comp_ppsf": 88.6
-  },
-  "109 WASHINGTON ST|MINDEN": {
-   "predicted": 138490,
-   "comp_count": 10,
-   "comp_ppsf": 114.2
+   "comp_ppsf": 104.1
   },
   "145 LOOP RD|MINDEN": {
    "predicted": 257583,
    "comp_count": 10,
    "comp_ppsf": 132.4
   },
-  "165169 RED HILL LN|MINDEN": {
-   "predicted": 158004,
+  "328 S TALTON ST|MINDEN": {
+   "predicted": 151630,
    "comp_count": 10,
-   "comp_ppsf": 95.4
+   "comp_ppsf": 108.3
   },
-  "1206 E TODD ST|MINDEN": {
-   "predicted": 223130,
+  "803 DREW LN|MINDEN": {
+   "predicted": 232020,
    "comp_count": 10,
-   "comp_ppsf": 112.4
+   "comp_ppsf": 103.2
   },
-  "413 DOGWOOD TRL|MINDEN": {
-   "predicted": 223992,
+  "214 ELLIS DR|MINDEN": {
+   "predicted": 146436,
    "comp_count": 10,
-   "comp_ppsf": 109.3
+   "comp_ppsf": 91.0
   },
-  "515 DAVIS ST|MINDEN": {
-   "predicted": 148335,
+  "210 WHISPERING PINES TRL|MINDEN": {
+   "predicted": 216517,
+   "comp_count": 10,
+   "comp_ppsf": 108.1
+  },
+  "620 FORT AVE|MINDEN": {
+   "predicted": 330987,
+   "comp_count": 10,
+   "comp_ppsf": 108.1
+  },
+  "123 WASHINGTON ST|MINDEN": {
+   "predicted": 192231,
+   "comp_count": 10,
+   "comp_ppsf": 111.4
+  },
+  "1102 BONNIE LN|MINDEN": {
+   "predicted": 149658,
+   "comp_count": 10,
+   "comp_ppsf": 119.7
+  },
+  "402 S ABNEY ST|MINDEN": {
+   "predicted": 124188,
+   "comp_count": 10,
+   "comp_ppsf": 92.0
+  },
+  "510 CONSTABLE ST|MINDEN": {
+   "predicted": 133516,
+   "comp_count": 10,
+   "comp_ppsf": 113.7
+  },
+  "115 GOODE AVE|MINDEN": {
+   "predicted": 128304,
+   "comp_count": 10,
+   "comp_ppsf": 94.3
+  },
+  "127 ALMOND CIR|MINDEN": {
+   "predicted": 144885,
    "comp_count": 10,
    "comp_ppsf": 111.3
+  },
+  "205 ROY ST|MINDEN": {
+   "predicted": 83266,
+   "comp_count": 10,
+   "comp_ppsf": 84.5
   },
   "307 EMERALD DR|MINDEN": {
    "predicted": 209678,
    "comp_count": 10,
    "comp_ppsf": 117.8
   },
+  "213 AND 215 MCDONALD ST|MINDEN": {
+   "predicted": 224972,
+   "comp_count": 10,
+   "comp_ppsf": 95.6
+  },
+  "515 DAVIS ST|MINDEN": {
+   "predicted": 129269,
+   "comp_count": 10,
+   "comp_ppsf": 97.0
+  },
   "132 DUGAN RD|SIBLEY": {
-   "predicted": 522592,
-   "comp_count": 10,
-   "comp_ppsf": 132.1
-  },
-  "350 BRUSHY CREEK RD|SIBLEY": {
-   "predicted": 404910,
-   "comp_count": 10,
-   "comp_ppsf": 137.8
-  },
-  "193 SE 5TH AVE|SIBLEY": {
-   "predicted": 182372,
-   "comp_count": 9,
-   "comp_ppsf": 109.9
+   "predicted": 388134,
+   "comp_count": 8,
+   "comp_ppsf": 98.1
   },
   "149 SE 6TH AVE|SIBLEY": {
-   "predicted": 462471,
+   "predicted": 408518,
    "comp_count": 10,
-   "comp_ppsf": 132.1
+   "comp_ppsf": 116.7
   },
-  "155 FRAZIER AVE|SIBLEY": {
-   "predicted": 171345,
-   "comp_count": 8,
-   "comp_ppsf": 121.5
-  },
-  "179 FRED SANDERS RD|SIBLEY": {
-   "predicted": 362673,
+  "193 SE 5TH AVE|SIBLEY": {
+   "predicted": 174874,
    "comp_count": 10,
-   "comp_ppsf": 135.0
-  },
-  "193 5TH AVE|SIBLEY": {
-   "predicted": 182372,
-   "comp_count": 9,
-   "comp_ppsf": 109.9
-  },
-  "159 YELLOW PINE RD|SIBLEY": {
-   "predicted": 189736,
-   "comp_count": 8,
    "comp_ppsf": 105.4
   },
-  "124 LAWRENCE DR|HAUGHTON": {
-   "predicted": 318572,
+  "231 FRAZIER AVE|SIBLEY": {
+   "predicted": 178758,
    "comp_count": 10,
-   "comp_ppsf": 158.9
+   "comp_ppsf": 121.5
   },
-  "3644 SPURGIN RD|DOYLINE": {
-   "predicted": 227122,
+  "350 BRUSHY CREEK RD|SIBLEY": {
+   "predicted": 256594,
    "comp_count": 10,
-   "comp_ppsf": 122.9
+   "comp_ppsf": 87.3
   },
-  "1267 JOHNSON RD|DOYLINE": {
-   "predicted": 29309,
-   "comp_count": 5,
-   "comp_ppsf": 34.6
+  "155 FRAZIER AVE|SIBLEY": {
+   "predicted": 156667,
+   "comp_count": 9,
+   "comp_ppsf": 111.1
   },
-  "667 HILBURN RD|COTTON VALLEY": {
-   "predicted": 334222,
+  "179 FRED SANDERS RD|SIBLEY": {
+   "predicted": 197238,
    "comp_count": 10,
-   "comp_ppsf": 115.6
+   "comp_ppsf": 73.4
   },
-  "2100 FOREST HILLS BLVD|HAUGHTON": {
-   "predicted": 356479,
+  "193 5TH AVE|SIBLEY": {
+   "predicted": 174874,
    "comp_count": 10,
-   "comp_ppsf": 153.9
+   "comp_ppsf": 105.4
   },
-  "5092 HWY 2|SAREPTA": {
-   "predicted": 320807,
-   "comp_count": 10,
-   "comp_ppsf": 115.6
+  "159 YELLOW PINE RD|SIBLEY": {
+   "predicted": 181600,
+   "comp_count": 9,
+   "comp_ppsf": 100.9
   },
   "102 BEAU BRIDGE CIR|BOSSIER CITY": {
-   "predicted": 283765,
+   "predicted": 300891,
    "comp_count": 10,
-   "comp_ppsf": 132.4
+   "comp_ppsf": 140.3
   },
   "186 CANE BEND DR|HAUGHTON": {
-   "predicted": 324256,
+   "predicted": 330033,
    "comp_count": 10,
-   "comp_ppsf": 164.2
-  },
-  "3013 SAGEFIELD LN|HAUGHTON": {
-   "predicted": 441019,
-   "comp_count": 10,
-   "comp_ppsf": 141.7
-  },
-  "5102 HWY 2|SAREPTA": {
-   "predicted": 240800,
-   "comp_count": 10,
-   "comp_ppsf": 100.3
-  },
-  "13403 HWY 157|HAUGHTON": {
-   "predicted": 397421,
-   "comp_count": 10,
-   "comp_ppsf": 165.4
-  },
-  "508 J R DR|BOSSIER CITY": {
-   "predicted": 292091,
-   "comp_count": 10,
-   "comp_ppsf": 149.8
+   "comp_ppsf": 167.1
   },
   "175 MAGNOLIA RD|DUBBERLY": {
-   "predicted": 111587,
+   "predicted": 133477,
    "comp_count": 10,
-   "comp_ppsf": 74.4
+   "comp_ppsf": 89.0
   },
-  "2534 HWY 146|HOMER": {
-   "predicted": 508454,
-   "comp_count": 10,
-   "comp_ppsf": 132.1
-  },
-  "316 N HAMPTON ST|HAUGHTON": {
-   "predicted": 249546,
-   "comp_count": 10,
-   "comp_ppsf": 153.5
-  },
-  "4592 HWY 163|DOYLINE": {
-   "predicted": 248219,
-   "comp_count": 10,
-   "comp_ppsf": 118.4
+  "1267 JOHNSON RD|DOYLINE": {
+   "predicted": 32674,
+   "comp_count": 6,
+   "comp_ppsf": 38.5
   },
   "741 BEVERLY DR|HOMER": {
    "predicted": 698586,
    "comp_count": 4,
    "comp_ppsf": 130.5
   },
+  "7245 HWY 157|HAUGHTON": {
+   "predicted": 255102,
+   "comp_count": 10,
+   "comp_ppsf": 153.0
+  },
+  "3644 SPURGIN RD|DOYLINE": {
+   "predicted": 227122,
+   "comp_count": 10,
+   "comp_ppsf": 122.9
+  },
+  "2534 HWY 146|HOMER": {
+   "predicted": 449136,
+   "comp_count": 10,
+   "comp_ppsf": 116.7
+  },
+  "13403 HWY 157|HAUGHTON": {
+   "predicted": 439578,
+   "comp_count": 10,
+   "comp_ppsf": 182.9
+  },
+  "664 FEATHERSTON RD|HOMER": {
+   "predicted": 229805,
+   "comp_count": 10,
+   "comp_ppsf": 128.3
+  },
+  "4592 HWY 163|DOYLINE": {
+   "predicted": 248219,
+   "comp_count": 10,
+   "comp_ppsf": 118.4
+  },
   "600 HORSESHOE BEND RD|DOYLINE": {
    "predicted": 107578,
    "comp_count": 10,
    "comp_ppsf": 86.3
-  },
-  "520 BIG RED CIR|HAUGHTON": {
-   "predicted": 187765,
-   "comp_count": 10,
-   "comp_ppsf": 138.0
   },
   "196 DORCHEAT BRIDGE RD 1|DOYLINE": {
    "predicted": 239219,
    "comp_count": 10,
    "comp_ppsf": 118.4
   },
-  "158 EDWARDS RD|DOYLINE": {
-   "predicted": 212760,
+  "135 POVERTY PT|DOYLINE": {
+   "predicted": 97542,
    "comp_count": 10,
-   "comp_ppsf": 115.1
-  },
-  "173 BELAIRE DR|DOYLINE": {
-   "predicted": 95378,
-   "comp_count": 10,
-   "comp_ppsf": 61.8
+   "comp_ppsf": 67.6
   },
   "232 MATHES RD|DOYLINE": {
    "predicted": 93483,
    "comp_count": 10,
    "comp_ppsf": 57.8
   },
-  "135 POVERTY PT|DOYLINE": {
-   "predicted": 97542,
+  "173 BELAIRE DR|DOYLINE": {
+   "predicted": 95378,
    "comp_count": 10,
-   "comp_ppsf": 67.6
+   "comp_ppsf": 61.8
+  },
+  "158 EDWARDS RD|DOYLINE": {
+   "predicted": 212760,
+   "comp_count": 10,
+   "comp_ppsf": 115.1
+  },
+  "426 LAKEVIEW DR|DOYLINE": {
+   "predicted": 80911,
+   "comp_count": 10,
+   "comp_ppsf": 80.9
   },
   "275 LAKEVIEW DR|MINDEN": {
    "predicted": 134244,
    "comp_count": 10,
    "comp_ppsf": 123.7
   },
-  "1104 FOREMAN RD|DOYLINE": {
-   "predicted": 91509,
-   "comp_count": 9,
-   "comp_ppsf": 91.5
-  },
   "196 DORCHET BRIDGE RD|DOYLINE": {
    "predicted": 239219,
    "comp_count": 10,
    "comp_ppsf": 118.4
   },
-  "224 PRYSOCK RD|DOYLINE": {
-   "predicted": 88387,
+  "1104 FOREMAN RD|DOYLINE": {
+   "predicted": 80911,
    "comp_count": 10,
-   "comp_ppsf": 82.7
+   "comp_ppsf": 80.9
   },
   "7766 HWY 527|DOYLINE": {
    "predicted": 98405,
@@ -351,30 +361,35 @@
    "comp_count": 10,
    "comp_ppsf": 95.1
   },
-  "121 WILLOW ST|HEFLIN": {
-   "predicted": 279628,
+  "224 PRYSOCK RD|DOYLINE": {
+   "predicted": 86494,
    "comp_count": 10,
-   "comp_ppsf": 117.0
+   "comp_ppsf": 80.9
+  },
+  "121 WILLOW ST|HEFLIN": {
+   "predicted": 207621,
+   "comp_count": 10,
+   "comp_ppsf": 86.8
   },
   "2077 BURSON RD|HEFLIN": {
-   "predicted": 60698,
+   "predicted": 81731,
    "comp_count": 10,
-   "comp_ppsf": 60.0
+   "comp_ppsf": 80.8
+  },
+  "375 BOSSIER ST|HEFLIN": {
+   "predicted": 231770,
+   "comp_count": 10,
+   "comp_ppsf": 100.3
   },
   "4933 HWY 371|HEFLIN": {
    "predicted": 197061,
    "comp_count": 6,
    "comp_ppsf": 107.2
   },
-  "375 BOSSIER ST|HEFLIN": {
-   "predicted": 275764,
-   "comp_count": 10,
-   "comp_ppsf": 119.4
-  },
   "2470 HWY 792|HEFLIN": {
-   "predicted": 61478,
+   "predicted": 81508,
    "comp_count": 10,
-   "comp_ppsf": 60.0
+   "comp_ppsf": 79.6
   },
   "213 BOSSIER ST|HEFLIN": {
    "predicted": 158221,
@@ -386,115 +401,325 @@
    "comp_count": 5,
    "comp_ppsf": 111.4
   },
-  "500 DOGWOOD S LN|HAUGHTON": {
-   "predicted": 304987,
+  "124 LAWRENCE DR|HAUGHTON": {
+   "predicted": 318572,
    "comp_count": 10,
-   "comp_ppsf": 154.1
+   "comp_ppsf": 158.9
+  },
+  "2259 HWY 527|ELM GROVE": {
+   "predicted": 156224,
+   "comp_count": 9,
+   "comp_ppsf": 102.0
+  },
+  "500 DOGWOOD S LN|HAUGHTON": {
+   "predicted": 318815,
+   "comp_count": 10,
+   "comp_ppsf": 161.1
   },
   "561 WELLS RD|HAUGHTON": {
-   "predicted": 239587,
+   "predicted": 286072,
    "comp_count": 10,
-   "comp_ppsf": 111.7
-  },
-  "1975 HONEYTREE TRL|HAUGHTON": {
-   "predicted": 253039,
-   "comp_count": 10,
-   "comp_ppsf": 141.4
-  },
-  "230 LONGHORN DR|BOSSIER CITY": {
-   "predicted": 346326,
-   "comp_count": 10,
-   "comp_ppsf": 148.5
-  },
-  "609 HAUGHTON TRACE CT|HAUGHTON": {
-   "predicted": 257902,
-   "comp_count": 10,
-   "comp_ppsf": 153.5
+   "comp_ppsf": 133.4
   },
   "103 BENT TREE LOOP|HAUGHTON": {
    "predicted": 252475,
    "comp_count": 10,
    "comp_ppsf": 157.8
   },
+  "609 HAUGHTON TRACE CT|HAUGHTON": {
+   "predicted": 257902,
+   "comp_count": 10,
+   "comp_ppsf": 153.5
+  },
+  "2805 CLEARBROOK WAY|HAUGHTON": {
+   "predicted": 316331,
+   "comp_count": 10,
+   "comp_ppsf": 128.3
+  },
+  "230 LONGHORN DR|BOSSIER CITY": {
+   "predicted": 346326,
+   "comp_count": 10,
+   "comp_ppsf": 148.5
+  },
+  "227 MARBLE PL|HAUGHTON": {
+   "predicted": 389430,
+   "comp_count": 10,
+   "comp_ppsf": 162.3
+  },
+  "36 GOLF CLUB DR|HAUGHTON": {
+   "predicted": 1256416,
+   "comp_count": 4,
+   "comp_ppsf": 196.1
+  },
+  "401 CANE BEND DR|HAUGHTON": {
+   "predicted": 410664,
+   "comp_count": 10,
+   "comp_ppsf": 146.9
+  },
+  "1975 HONEYTREE TRL|HAUGHTON": {
+   "predicted": 249491,
+   "comp_count": 10,
+   "comp_ppsf": 139.5
+  },
   "4416 HWY 157|HAUGHTON": {
-   "predicted": 248789,
+   "predicted": 249580,
    "comp_count": 10,
-   "comp_ppsf": 158.0
+   "comp_ppsf": 158.5
   },
-  "5 FOX TROT CV|HAUGHTON": {
-   "predicted": 445663,
+  "217 DEERWOOD LN|HAUGHTON": {
+   "predicted": 316005,
    "comp_count": 10,
-   "comp_ppsf": 139.1
+   "comp_ppsf": 162.2
   },
-  "32000|321000": {
-   "predicted": 390399,
+  "316 E MCKINLEY AVE|HAUGHTON": {
+   "predicted": 413335,
    "comp_count": 10,
-   "comp_ppsf": 170.5
+   "comp_ppsf": 166.9
+  },
+  "520 BIG RED CIR|HAUGHTON": {
+   "predicted": 187765,
+   "comp_count": 10,
+   "comp_ppsf": 138.0
+  },
+  "2100 FOREST HILLS BLVD|HAUGHTON": {
+   "predicted": 356479,
+   "comp_count": 10,
+   "comp_ppsf": 153.9
+  },
+  "3013 SAGEFIELD LN|HAUGHTON": {
+   "predicted": 464275,
+   "comp_count": 10,
+   "comp_ppsf": 149.2
+  },
+  "2612 OAKSIDE DR|HAUGHTON": {
+   "predicted": 182412,
+   "comp_count": 10,
+   "comp_ppsf": 149.2
+  },
+  "111 WINFIELD RD|HAUGHTON": {
+   "predicted": 628949,
+   "comp_count": 10,
+   "comp_ppsf": 148.2
+  },
+  "212 MILL CREEK LN|HAUGHTON": {
+   "predicted": 390392,
+   "comp_count": 10,
+   "comp_ppsf": 156.6
   },
   "1002 GREEN WOOD CIR|HAUGHTON": {
    "predicted": 350007,
    "comp_count": 10,
    "comp_ppsf": 153.7
   },
+  "316 N HAMPTON ST|HAUGHTON": {
+   "predicted": 249546,
+   "comp_count": 10,
+   "comp_ppsf": 153.5
+  },
+  "815 EAGLES NEST|HAUGHTON": {
+   "predicted": 227216,
+   "comp_count": 10,
+   "comp_ppsf": 124.2
+  },
+  "410 CROSS DR|HAUGHTON": {
+   "predicted": 188203,
+   "comp_count": 10,
+   "comp_ppsf": 146.1
+  },
+  "139 FOXCHASE DR|HAUGHTON": {
+   "predicted": 222159,
+   "comp_count": 10,
+   "comp_ppsf": 150.7
+  },
   "104 OLIVE ST|HAUGHTON": {
    "predicted": 312568,
    "comp_count": 10,
    "comp_ppsf": 167.1
   },
-  "212 MILL CREEK LN|HAUGHTON": {
-   "predicted": 408315,
+  "28 SUNNYBROOK LN|HAUGHTON": {
+   "predicted": 356299,
    "comp_count": 10,
-   "comp_ppsf": 163.8
+   "comp_ppsf": 151.6
   },
-  "321 EVANGELINE DR|ELM GROVE": {
-   "predicted": 225956,
-   "comp_count": 5,
-   "comp_ppsf": 88.9
+  "119 HOLLY RIDGE DR|HAUGHTON": {
+   "predicted": 457207,
+   "comp_count": 10,
+   "comp_ppsf": 135.0
+  },
+  "936 ANTLER DR|HAUGHTON": {
+   "predicted": 355863,
+   "comp_count": 10,
+   "comp_ppsf": 153.9
+  },
+  "174 BENT TREE LOOP|HAUGHTON": {
+   "predicted": 249532,
+   "comp_count": 10,
+   "comp_ppsf": 158.6
+  },
+  "131 RAGAN LN|HAUGHTON": {
+   "predicted": 200296,
+   "comp_count": 10,
+   "comp_ppsf": 144.8
+  },
+  "503 PINE CONE DR|HAUGHTON": {
+   "predicted": 314614,
+   "comp_count": 10,
+   "comp_ppsf": 168.4
+  },
+  "211 CHIMNEY LN|HAUGHTON": {
+   "predicted": 306176,
+   "comp_count": 10,
+   "comp_ppsf": 142.1
+  },
+  "413 S ELM ST|HAUGHTON": {
+   "predicted": 330200,
+   "comp_count": 10,
+   "comp_ppsf": 167.1
+  },
+  "1130 GREEN WOOD CIR|HAUGHTON": {
+   "predicted": 411300,
+   "comp_count": 10,
+   "comp_ppsf": 162.8
+  },
+  "742 FIR WOOD LN|HAUGHTON": {
+   "predicted": 287674,
+   "comp_count": 10,
+   "comp_ppsf": 133.4
+  },
+  "1331 HWY 614|HAUGHTON": {
+   "predicted": 539749,
+   "comp_count": 10,
+   "comp_ppsf": 137.6
+  },
+  "209 MARBLE PL|HAUGHTON": {
+   "predicted": 391470,
+   "comp_count": 10,
+   "comp_ppsf": 162.2
+  },
+  "141 SATINWOOD CIR|HAUGHTON": {
+   "predicted": 213565,
+   "comp_count": 10,
+   "comp_ppsf": 145.8
+  },
+  "605 JADE CIR|HAUGHTON": {
+   "predicted": 272412,
+   "comp_count": 10,
+   "comp_ppsf": 146.1
+  },
+  "917 ANTLER DR|HAUGHTON": {
+   "predicted": 290209,
+   "comp_count": 10,
+   "comp_ppsf": 133.4
+  },
+  "2220 FOREST HILLS BLVD|HAUGHTON": {
+   "predicted": 394681,
+   "comp_count": 10,
+   "comp_ppsf": 133.7
+  },
+  "305 SHORT LEAF DR|HAUGHTON": {
+   "predicted": 251908,
+   "comp_count": 10,
+   "comp_ppsf": 141.4
+  },
+  "243 BERKSHIRE PL|HAUGHTON": {
+   "predicted": 245679,
+   "comp_count": 10,
+   "comp_ppsf": 158.5
+  },
+  "7504 PECANWOOD CT|HAUGHTON": {
+   "predicted": 208852,
+   "comp_count": 10,
+   "comp_ppsf": 146.7
+  },
+  "7904 CEDAR CREEK CIR|HAUGHTON": {
+   "predicted": 268385,
+   "comp_count": 10,
+   "comp_ppsf": 130.5
+  },
+  "7600 REDWOOD CT|HAUGHTON": {
+   "predicted": 206062,
+   "comp_count": 10,
+   "comp_ppsf": 147.7
+  },
+  "524 FOX CV|HAUGHTON": {
+   "predicted": 229632,
+   "comp_count": 10,
+   "comp_ppsf": 153.0
+  },
+  "337 WOOD SPGS|HAUGHTON": {
+   "predicted": 254185,
+   "comp_count": 10,
+   "comp_ppsf": 150.4
+  },
+  "38 GOLF CLUB DR|HAUGHTON": {
+   "predicted": 732472,
+   "comp_count": 7,
+   "comp_ppsf": 140.3
+  },
+  "219 DOGWOOD DR|ELM GROVE": {
+   "predicted": 157449,
+   "comp_count": 9,
+   "comp_ppsf": 102.0
   },
   "326 EVANGELINE DR|ELM GROVE": {
-   "predicted": 222529,
-   "comp_count": 6,
-   "comp_ppsf": 95.5
+   "predicted": 237857,
+   "comp_count": 9,
+   "comp_ppsf": 102.0
   },
   "504 MOORE RD|ELM GROVE": {
-   "predicted": 157081,
-   "comp_count": 6,
-   "comp_ppsf": 96.3
-  },
-  "9114 HWY 71|ELM GROVE": {
-   "predicted": 267788,
-   "comp_count": 5,
-   "comp_ppsf": 110.1
+   "predicted": 173790,
+   "comp_count": 10,
+   "comp_ppsf": 106.5
   },
   "2708 HWY 154|ELM GROVE": {
    "predicted": 228684,
-   "comp_count": 5,
+   "comp_count": 9,
    "comp_ppsf": 127.0
   },
-  "179 RANCHTOWN RD|ELM GROVE": {
-   "predicted": 320613,
-   "comp_count": 10,
-   "comp_ppsf": 167.8
+  "9114 HWY 71|ELM GROVE": {
+   "predicted": 265392,
+   "comp_count": 8,
+   "comp_ppsf": 109.1
   },
-  "183 LAKEFRONT RD|HAUGHTON": {
-   "predicted": 223666,
+  "179 RANCHTOWN RD|ELM GROVE": {
+   "predicted": 320148,
    "comp_count": 10,
-   "comp_ppsf": 150.7
+   "comp_ppsf": 167.5
+  },
+  "420 MERESTONE XING|BENTON": {
+   "predicted": 333060,
+   "comp_count": 10,
+   "comp_ppsf": 173.7
+  },
+  "321 EVANGELINE DR|ELM GROVE": {
+   "predicted": 242672,
+   "comp_count": 8,
+   "comp_ppsf": 95.5
   },
   "1925 HWY 527|ELM GROVE": {
    "predicted": 236561,
-   "comp_count": 5,
+   "comp_count": 9,
    "comp_ppsf": 127.0
   },
-  "422 MERESTONE XING|BENTON": {
-   "predicted": 393490,
+  "10480 HWY 71|ELM GROVE": {
+   "predicted": 220689,
    "comp_count": 10,
-   "comp_ppsf": 144.7
+   "comp_ppsf": 105.1
   },
-  "CAMELLIA V A PLAN|BENTON": {
-   "predicted": 345789,
-   "comp_count": 10,
-   "comp_ppsf": 156.9
+  "139 BOURBON ST|ELM GROVE": {
+   "predicted": 231225,
+   "comp_count": 9,
+   "comp_ppsf": 127.0
+  },
+  "600 HWY 527|ELM GROVE": {
+   "predicted": 284084,
+   "comp_count": 7,
+   "comp_ppsf": 110.1
+  },
+  "7501 SPRING RIDGE RD|SHREVEPORT": {
+   "predicted": 351600,
+   "comp_count": 5,
+   "comp_ppsf": 146.5
   },
   "212 WOODRUN PL|BOSSIER CITY": {
    "predicted": 474234,
@@ -532,9 +757,9 @@
    "comp_ppsf": 154.9
   },
   "589 CORINTH CIR|BOSSIER CITY": {
-   "predicted": 537392,
+   "predicted": 555401,
    "comp_count": 10,
-   "comp_ppsf": 177.9
+   "comp_ppsf": 183.8
   },
   "1625 SUCCESS ST|BOSSIER CITY": {
    "predicted": 232686,
@@ -557,504 +782,459 @@
    "comp_ppsf": 156.9
   },
   "3217 THUNDERBIRD LN|BOSSIER CITY": {
-   "predicted": 150841,
+   "predicted": 160220,
    "comp_count": 10,
-   "comp_ppsf": 129.7
+   "comp_ppsf": 137.8
   },
   "6209 HOLLYHOCK LN|BOSSIER CITY": {
    "predicted": 286100,
    "comp_count": 10,
    "comp_ppsf": 158.4
   },
-  "605 CANOE TRL|BOSSIER CITY": {
-   "predicted": 247849,
+  "202 NORCROSS ST|BOSSIER CITY": {
+   "predicted": 338052,
    "comp_count": 10,
-   "comp_ppsf": 156.9
+   "comp_ppsf": 151.3
+  },
+  "306 AVONDALE CIR|BOSSIER CITY": {
+   "predicted": 263954,
+   "comp_count": 10,
+   "comp_ppsf": 156.8
+  },
+  "215 CROSSCREEK DR|BOSSIER CITY": {
+   "predicted": 410608,
+   "comp_count": 10,
+   "comp_ppsf": 160.8
+  },
+  "6006 KATELAND CIR|BOSSIER CITY": {
+   "predicted": 226015,
+   "comp_count": 10,
+   "comp_ppsf": 141.1
+  },
+  "5902 PAMPUS LN|BOSSIER CITY": {
+   "predicted": 247209,
+   "comp_count": 10,
+   "comp_ppsf": 144.2
+  },
+  "605 FALL WINDS CIR|BOSSIER CITY": {
+   "predicted": 556756,
+   "comp_count": 10,
+   "comp_ppsf": 184.6
+  },
+  "342 PEASON RDG|BOSSIER CITY": {
+   "predicted": 540810,
+   "comp_count": 10,
+   "comp_ppsf": 187.5
+  },
+  "214 APALACHEE WAY|BOSSIER CITY": {
+   "predicted": 298002,
+   "comp_count": 10,
+   "comp_ppsf": 154.8
   },
   "163 SOUTHWOOD DR|BOSSIER CITY": {
    "predicted": 267224,
    "comp_count": 10,
    "comp_ppsf": 135.6
   },
-  "202 NORCROSS ST|BOSSIER CITY": {
-   "predicted": 338052,
+  "614 CORINTH CIR|BOSSIER CITY": {
+   "predicted": 424211,
    "comp_count": 10,
-   "comp_ppsf": 151.3
+   "comp_ppsf": 157.1
   },
-  "5701 HOLLYHOCK LN|BOSSIER CITY": {
-   "predicted": 137174,
+  "120 CARONDELET CT|BOSSIER CITY": {
+   "predicted": 391223,
    "comp_count": 10,
-   "comp_ppsf": 113.9
+   "comp_ppsf": 139.3
   },
-  "750 HACKBERRY DR|BOSSIER CITY": {
-   "predicted": 298787,
+  "561 NORTHPARK DR|BOSSIER CITY": {
+   "predicted": 259756,
    "comp_count": 10,
-   "comp_ppsf": 159.1
+   "comp_ppsf": 150.1
+  },
+  "1809 LESLIE ST|BOSSIER CITY": {
+   "predicted": 133968,
+   "comp_count": 10,
+   "comp_ppsf": 116.5
+  },
+  "457 MANGROVE LN|BOSSIER CITY": {
+   "predicted": 292000,
+   "comp_count": 10,
+   "comp_ppsf": 154.3
+  },
+  "275 FERRY LAKE DR|BOSSIER CITY": {
+   "predicted": 269802,
+   "comp_count": 10,
+   "comp_ppsf": 136.6
+  },
+  "323 OAKLAND PL|BOSSIER CITY": {
+   "predicted": 257915,
+   "comp_count": 10,
+   "comp_ppsf": 146.8
+  },
+  "1161 ELI CONNER DR|BOSSIER CITY": {
+   "predicted": 305586,
+   "comp_count": 10,
+   "comp_ppsf": 156.2
+  },
+  "814 DUMAINE DR|BOSSIER CITY": {
+   "predicted": 288413,
+   "comp_count": 10,
+   "comp_ppsf": 123.8
+  },
+  "516 BROMPTON LN|BOSSIER CITY": {
+   "predicted": 268145,
+   "comp_count": 10,
+   "comp_ppsf": 154.5
   },
   "2204 MIDDLE CREEK BLVD|BOSSIER CITY": {
    "predicted": 253941,
    "comp_count": 10,
    "comp_ppsf": 161.3
   },
+  "1951 BAYOU BEND DR|BOSSIER CITY": {
+   "predicted": 424886,
+   "comp_count": 10,
+   "comp_ppsf": 163.8
+  },
+  "3016 PLEASANT GRV|BOSSIER CITY": {
+   "predicted": 290593,
+   "comp_count": 10,
+   "comp_ppsf": 149.8
+  },
+  "4015 GLEN ST|BOSSIER CITY": {
+   "predicted": 168558,
+   "comp_count": 10,
+   "comp_ppsf": 126.4
+  },
+  "6507 BARKSDALE BLVD|BOSSIER CITY": {
+   "predicted": 131558,
+   "comp_count": 10,
+   "comp_ppsf": 105.2
+  },
+  "370 COPPICE PL|BOSSIER CITY": {
+   "predicted": 292396,
+   "comp_count": 10,
+   "comp_ppsf": 154.5
+  },
+  "736 CREWE LN|BOSSIER CITY": {
+   "predicted": 317417,
+   "comp_count": 10,
+   "comp_ppsf": 161.9
+  },
+  "1235 SCHEX DR|BOSSIER CITY": {
+   "predicted": 116449,
+   "comp_count": 10,
+   "comp_ppsf": 93.2
+  },
+  "5749 GOLD CREST DR|BOSSIER CITY": {
+   "predicted": 295028,
+   "comp_count": 10,
+   "comp_ppsf": 163.2
+  },
+  "1207 METAIRIE LN|BOSSIER CITY": {
+   "predicted": 299450,
+   "comp_count": 10,
+   "comp_ppsf": 140.3
+  },
+  "6017 KATELAND CIR|BOSSIER CITY": {
+   "predicted": 247650,
+   "comp_count": 10,
+   "comp_ppsf": 150.4
+  },
+  "5861 BLUEBONNETT DR|BOSSIER CITY": {
+   "predicted": 264267,
+   "comp_count": 10,
+   "comp_ppsf": 156.8
+  },
+  "125 HORSEGUARDS AVE|BOSSIER CITY": {
+   "predicted": 410393,
+   "comp_count": 10,
+   "comp_ppsf": 160.1
+  },
+  "1413 MAGNOLIA RDG|BOSSIER CITY": {
+   "predicted": 323043,
+   "comp_count": 10,
+   "comp_ppsf": 150.3
+  },
+  "269 SAINT EDMUNDS WAY|BOSSIER CITY": {
+   "predicted": 321796,
+   "comp_count": 10,
+   "comp_ppsf": 146.0
+  },
+  "207 NORWELL LN|BOSSIER CITY": {
+   "predicted": 331437,
+   "comp_count": 10,
+   "comp_ppsf": 173.9
+  },
+  "750 HACKBERRY DR|BOSSIER CITY": {
+   "predicted": 298787,
+   "comp_count": 10,
+   "comp_ppsf": 159.1
+  },
+  "424 WESTWOOD DR|BOSSIER CITY": {
+   "predicted": 259245,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
+  },
+  "210 POYDRAS AVE|BOSSIER CITY": {
+   "predicted": 393307,
+   "comp_count": 10,
+   "comp_ppsf": 153.2
+  },
+  "5701 HOLLYHOCK LN|BOSSIER CITY": {
+   "predicted": 137174,
+   "comp_count": 10,
+   "comp_ppsf": 113.9
+  },
+  "3308 BLACK LAKE CIR|BOSSIER CITY": {
+   "predicted": 142136,
+   "comp_count": 10,
+   "comp_ppsf": 121.5
+  },
+  "517 PARKLANE DR|BOSSIER CITY": {
+   "predicted": 265068,
+   "comp_count": 10,
+   "comp_ppsf": 126.2
+  },
+  "206 CHERRY BLOSSOM LN|BENTON": {
+   "predicted": 334986,
+   "comp_count": 10,
+   "comp_ppsf": 168.0
+  },
   "111 OAK LEAF TRL|BENTON": {
-   "predicted": 760897,
+   "predicted": 845877,
    "comp_count": 10,
-   "comp_ppsf": 182.6
-  },
-  "120 GRAY CIR|BENTON": {
-   "predicted": 307883,
-   "comp_count": 10,
-   "comp_ppsf": 164.1
-  },
-  "2310 HWY 160|BENTON": {
-   "predicted": 444631,
-   "comp_count": 10,
-   "comp_ppsf": 171.0
-  },
-  "119 PINE NEEDLE DR|HAUGHTON": {
-   "predicted": 143870,
-   "comp_count": 10,
-   "comp_ppsf": 124.9
-  },
-  "1060 HWY 162|BENTON": {
-   "predicted": 621197,
-   "comp_count": 10,
-   "comp_ppsf": 181.7
-  },
-  "441 N LOST RIVER DR|BENTON": {
-   "predicted": 287947,
-   "comp_count": 10,
-   "comp_ppsf": 152.8
+   "comp_ppsf": 202.9
   },
   "4704 TALDON LN|BENTON": {
    "predicted": 385626,
    "comp_count": 10,
    "comp_ppsf": 153.1
   },
-  "269 HURRICANE BLUFF DR|BENTON": {
-   "predicted": 335994,
+  "207 RED RIVER ST|BENTON": {
+   "predicted": 343279,
    "comp_count": 10,
-   "comp_ppsf": 168.0
+   "comp_ppsf": 156.9
   },
-  "252 CATTAIL TRL|BENTON": {
-   "predicted": 723126,
-   "comp_count": 10,
-   "comp_ppsf": 198.3
-  },
-  "205 OLD PALMETTO RD|BENTON": {
-   "predicted": 635586,
-   "comp_count": 10,
-   "comp_ppsf": 189.3
-  },
-  "1330 PALMETTO RD|BENTON": {
-   "predicted": 174299,
-   "comp_count": 10,
-   "comp_ppsf": 136.8
-  },
-  "198 SEVEN PINES RD|BENTON": {
-   "predicted": 195796,
-   "comp_count": 10,
-   "comp_ppsf": 130.9
-  },
-  "1001 DALE DR|BENTON": {
-   "predicted": 180953,
-   "comp_count": 10,
-   "comp_ppsf": 115.0
-  },
-  "113 PARK BLVD|BENTON": {
-   "predicted": 328935,
-   "comp_count": 10,
-   "comp_ppsf": 166.0
-  },
-  "251 JESSIE JONES DR|BENTON": {
-   "predicted": 537883,
-   "comp_count": 10,
-   "comp_ppsf": 174.9
-  },
-  "725 JULESBURG LN|BENTON": {
-   "predicted": 453009,
-   "comp_count": 10,
-   "comp_ppsf": 209.9
-  },
-  "814 LEE ST|BENTON": {
-   "predicted": 129246,
+  "119 PINE NEEDLE DR|BENTON": {
+   "predicted": 141781,
    "comp_count": 10,
    "comp_ppsf": 123.1
   },
-  "1310 BAY RIDGE DR|BENTON": {
-   "predicted": 649976,
+  "441 N LOST RIVER DR|BENTON": {
+   "predicted": 296813,
    "comp_count": 10,
-   "comp_ppsf": 189.3
+   "comp_ppsf": 157.5
   },
-  "136 SCARBOROUGH RD|BENTON": {
-   "predicted": 278967,
+  "120 GRAY CIR|BENTON": {
+   "predicted": 318722,
    "comp_count": 10,
-   "comp_ppsf": 148.7
+   "comp_ppsf": 169.9
   },
-  "207 RED RIVER ST|BENTON": {
-   "predicted": 343436,
+  "2310 HWY 160|BENTON": {
+   "predicted": 444631,
    "comp_count": 10,
-   "comp_ppsf": 157.0
+   "comp_ppsf": 171.0
+  },
+  "269 HURRICANE BLUFF DR|BENTON": {
+   "predicted": 352026,
+   "comp_count": 10,
+   "comp_ppsf": 176.0
+  },
+  "35 TURTLE CREEK DR|BENTON": {
+   "predicted": 364608,
+   "comp_count": 10,
+   "comp_ppsf": 164.5
+  },
+  "76 TURTLE CREEK DR|BENTON": {
+   "predicted": 450204,
+   "comp_count": 10,
+   "comp_ppsf": 209.9
   },
   "402 HALIFAX CIR|BENTON": {
    "predicted": 303942,
    "comp_count": 10,
    "comp_ppsf": 165.7
   },
+  "1060 HWY 162|BENTON": {
+   "predicted": 621197,
+   "comp_count": 10,
+   "comp_ppsf": 181.7
+  },
+  "205 OLD PALMETTO RD|BENTON": {
+   "predicted": 635586,
+   "comp_count": 10,
+   "comp_ppsf": 189.3
+  },
+  "1400 SUWANNEE LN|BENTON": {
+   "predicted": 1103323,
+   "comp_count": 3,
+   "comp_ppsf": 162.8
+  },
+  "1310 BAY RIDGE DR|BENTON": {
+   "predicted": 649976,
+   "comp_count": 10,
+   "comp_ppsf": 189.3
+  },
+  "200 COLONEL BURT DR|BENTON": {
+   "predicted": 780894,
+   "comp_count": 10,
+   "comp_ppsf": 194.3
+  },
+  "198 SEVEN PINES RD|BENTON": {
+   "predicted": 219136,
+   "comp_count": 10,
+   "comp_ppsf": 146.5
+  },
   "1215 BAY RIDGE DR|BENTON": {
    "predicted": 1067050,
    "comp_count": 10,
    "comp_ppsf": 220.1
   },
-  "550 LINTON BELLEVUE RD|BENTON": {
-   "predicted": 407706,
+  "136 SCARBOROUGH RD|BENTON": {
+   "predicted": 287395,
    "comp_count": 10,
-   "comp_ppsf": 192.0
-  },
-  "301 OLD PLAIN DEALING RD|BENTON": {
-   "predicted": 277815,
-   "comp_count": 10,
-   "comp_ppsf": 159.7
-  },
-  "1001 PALMETTO RD|BENTON": {
-   "predicted": 307390,
-   "comp_count": 10,
-   "comp_ppsf": 164.1
-  },
-  "200 COLONEL BURT DR|BENTON": {
-   "predicted": 713861,
-   "comp_count": 10,
-   "comp_ppsf": 177.6
+   "comp_ppsf": 153.2
   },
   "1245 BIG PINE KEY LN|BENTON": {
    "predicted": 623108,
    "comp_count": 10,
    "comp_ppsf": 184.8
   },
-  "210 COUNTRY CLUB DR|BENTON": {
-   "predicted": 425173,
+  "550 LINTON BELLEVUE RD|BENTON": {
+   "predicted": 400759,
    "comp_count": 10,
-   "comp_ppsf": 163.3
+   "comp_ppsf": 188.7
   },
-  "115 BARNES DR|BENTON": {
-   "predicted": 405970,
+  "251 JESSIE JONES DR|BENTON": {
+   "predicted": 537883,
    "comp_count": 10,
-   "comp_ppsf": 186.7
-  },
-  "145 CYPRESS GROVE CIR|BENTON": {
-   "predicted": 327699,
-   "comp_count": 10,
-   "comp_ppsf": 168.0
-  },
-  "5180 LINTON CUTOFF RD|BENTON": {
-   "predicted": 1016492,
-   "comp_count": 10,
-   "comp_ppsf": 217.9
-  },
-  "1034 CATTLEMANS TRL|BENTON": {
-   "predicted": 434767,
-   "comp_count": 10,
-   "comp_ppsf": 204.1
-  },
-  "4406 ELLIS CT|BENTON": {
-   "predicted": 296341,
-   "comp_count": 10,
-   "comp_ppsf": 157.5
-  },
-  "113 CYPRESS LAKE CIR|BENTON": {
-   "predicted": 315666,
-   "comp_count": 10,
-   "comp_ppsf": 176.9
+   "comp_ppsf": 174.9
   },
   "122 BRIMESTONE LOOP|BENTON": {
    "predicted": 325450,
    "comp_count": 10,
    "comp_ppsf": 166.0
   },
-  "311 S PARKRIDGE DR|BENTON": {
-   "predicted": 176126,
+  "252 CATTAIL TRL|BENTON": {
+   "predicted": 723126,
    "comp_count": 10,
-   "comp_ppsf": 115.6
+   "comp_ppsf": 198.3
   },
-  "110 SAINT ANDREWS LN|BENTON": {
-   "predicted": 294374,
+  "5180 LINTON CUTOFF RD|BENTON": {
+   "predicted": 1016492,
    "comp_count": 10,
-   "comp_ppsf": 160.3
-  },
-  "190 PADGETT RD|BENTON": {
-   "predicted": 272422,
-   "comp_count": 10,
-   "comp_ppsf": 146.6
-  },
-  "37 TURTLE CREEK DR|BENTON": {
-   "predicted": 400004,
-   "comp_count": 10,
-   "comp_ppsf": 188.7
+   "comp_ppsf": 217.9
   },
   "301 NEWPORT LN|BENTON": {
    "predicted": 275560,
    "comp_count": 10,
    "comp_ppsf": 158.2
   },
-  "143 NEW BETHEL BOOKER RD|BENTON": {
-   "predicted": 149907,
+  "345 NEWPORT LN|BENTON": {
+   "predicted": 297908,
    "comp_count": 10,
-   "comp_ppsf": 135.2
+   "comp_ppsf": 159.1
   },
-  "1303 YOUNG RD|COTTON VALLEY": {
-   "predicted": 412312,
+  "145 CYPRESS GROVE CIR|BENTON": {
+   "predicted": 327699,
    "comp_count": 10,
-   "comp_ppsf": 196.3
+   "comp_ppsf": 168.0
+  },
+  "110 SAINT ANDREWS LN|BENTON": {
+   "predicted": 304273,
+   "comp_count": 10,
+   "comp_ppsf": 165.7
+  },
+  "4406 ELLIS CT|BENTON": {
+   "predicted": 310611,
+   "comp_count": 10,
+   "comp_ppsf": 165.0
+  },
+  "814 LEE ST|BENTON": {
+   "predicted": 129246,
+   "comp_count": 10,
+   "comp_ppsf": 123.1
+  },
+  "301 OLD PLAIN DEALING RD|BENTON": {
+   "predicted": 277815,
+   "comp_count": 10,
+   "comp_ppsf": 159.7
+  },
+  "1330 PALMETTO RD|BENTON": {
+   "predicted": 186809,
+   "comp_count": 10,
+   "comp_ppsf": 146.6
   },
   "310 MERRILL LN|BENTON": {
    "predicted": 345317,
    "comp_count": 10,
    "comp_ppsf": 171.3
   },
+  "113 PARK BLVD|BENTON": {
+   "predicted": 328935,
+   "comp_count": 10,
+   "comp_ppsf": 166.0
+  },
+  "4026 ELIZABETH LN|BENTON": {
+   "predicted": 397363,
+   "comp_count": 10,
+   "comp_ppsf": 188.7
+  },
+  "210 COUNTRY CLUB DR|BENTON": {
+   "predicted": 425173,
+   "comp_count": 10,
+   "comp_ppsf": 163.3
+  },
+  "725 JULESBURG LN|BENTON": {
+   "predicted": 428997,
+   "comp_count": 10,
+   "comp_ppsf": 198.8
+  },
+  "1001 PALMETTO RD|BENTON": {
+   "predicted": 307390,
+   "comp_count": 10,
+   "comp_ppsf": 164.1
+  },
+  "1034 CATTLEMANS TRL|BENTON": {
+   "predicted": 425422,
+   "comp_count": 10,
+   "comp_ppsf": 199.7
+  },
+  "311 S PARKRIDGE DR|BENTON": {
+   "predicted": 176126,
+   "comp_count": 10,
+   "comp_ppsf": 115.6
+  },
+  "115 BARNES DR|BENTON": {
+   "predicted": 405970,
+   "comp_count": 10,
+   "comp_ppsf": 186.7
+  },
   "260 CIR M RD|BENTON": {
    "predicted": 177093,
    "comp_count": 10,
    "comp_ppsf": 131.2
   },
-  "63 TURTLE CREEK DR|BENTON": {
-   "predicted": 339978,
+  "101 E POINTE DR|BENTON": {
+   "predicted": 376743,
    "comp_count": 10,
-   "comp_ppsf": 154.3
+   "comp_ppsf": 153.1
   },
-  "155 JONES LN|BENTON": {
-   "predicted": 398495,
+  "1303 YOUNG RD|COTTON VALLEY": {
+   "predicted": 321515,
    "comp_count": 10,
-   "comp_ppsf": 188.7
+   "comp_ppsf": 153.1
   },
-  "319 NEWPORT LN|BENTON": {
-   "predicted": 379629,
+  "400 CROUCH RD|BENTON": {
+   "predicted": 751039,
    "comp_count": 10,
-   "comp_ppsf": 164.3
+   "comp_ppsf": 182.6
   },
-  "505 SIMPSON ST|BENTON": {
-   "predicted": 163451,
+  "113 CYPRESS LAKE CIR|BENTON": {
+   "predicted": 315666,
    "comp_count": 10,
-   "comp_ppsf": 131.2
-  },
-  "129 RUNNING DEER LN|BENTON": {
-   "predicted": 156247,
-   "comp_count": 10,
-   "comp_ppsf": 128.5
-  },
-  "605 MERIDIEN WAY|BENTON": {
-   "predicted": 448484,
-   "comp_count": 10,
-   "comp_ppsf": 210.0
-  },
-  "4026 ELIZABETH LN|BENTON": {
-   "predicted": 408570,
-   "comp_count": 10,
-   "comp_ppsf": 194.0
-  },
-  "53 TURTLE CREEK DR|BENTON": {
-   "predicted": 394818,
-   "comp_count": 10,
-   "comp_ppsf": 166.4
-  },
-  "75 TURTLE CREEK DR|BENTON": {
-   "predicted": 374922,
-   "comp_count": 10,
-   "comp_ppsf": 157.5
-  },
-  "49 TURTLE CREEK DR|BENTON": {
-   "predicted": 451749,
-   "comp_count": 10,
-   "comp_ppsf": 209.9
-  },
-  "312 OLD BELLEVUE RD|BENTON": {
-   "predicted": 123092,
-   "comp_count": 10,
-   "comp_ppsf": 123.1
-  },
-  "106 PEAR TREE LN|BENTON": {
-   "predicted": 382335,
-   "comp_count": 10,
-   "comp_ppsf": 157.8
-  },
-  "100 PRESTON BAY CIR|BENTON": {
-   "predicted": 368188,
-   "comp_count": 10,
-   "comp_ppsf": 165.6
-  },
-  "402 5TH ST|BENTON": {
-   "predicted": 179114,
-   "comp_count": 10,
-   "comp_ppsf": 115.0
-  },
-  "664 FEATHERSTON RD|HOMER": {
-   "predicted": 366831,
-   "comp_count": 3,
-   "comp_ppsf": 204.8
-  },
-  "1589 AIRPORT LOOP|HOMER": {
-   "predicted": 190951,
-   "comp_count": 10,
-   "comp_ppsf": 142.2
-  },
-  "295 COLEMAN RD|HOMER": {
-   "predicted": 218192,
-   "comp_count": 10,
-   "comp_ppsf": 96.8
-  },
-  "535 COLEMAN RD|HOMER": {
-   "predicted": 727993,
-   "comp_count": 5,
-   "comp_ppsf": 249.7
-  },
-  "703 AIRPORT LOOP|HOMER": {
-   "predicted": 492393,
-   "comp_count": 3,
-   "comp_ppsf": 237.3
-  },
-  "1031 AIRPORT LOOP|HOMER": {
-   "predicted": 474595,
-   "comp_count": 3,
-   "comp_ppsf": 237.3
-  },
-  "696 HARMON LOOP|HOMER": {
-   "predicted": 234961,
-   "comp_count": 10,
-   "comp_ppsf": 155.9
-  },
-  "655 W 3RD ST|HOMER": {
-   "predicted": 190809,
-   "comp_count": 10,
-   "comp_ppsf": 96.8
-  },
-  "198 PEACEFUL BAY|HOMER": {
-   "predicted": 475595,
-   "comp_count": 4,
-   "comp_ppsf": 220.6
-  },
-  "429 ROBINSON LN|HOMER": {
-   "predicted": 780713,
-   "comp_count": 3,
-   "comp_ppsf": 245.2
-  },
-  "1072 FEATHERSTON RD|HOMER": {
-   "predicted": 686550,
-   "comp_count": 5,
-   "comp_ppsf": 249.7
-  },
-  "122 MORRIS CIR|HOMER": {
-   "predicted": 216030,
-   "comp_count": 10,
-   "comp_ppsf": 99.1
-  },
-  "116 BOLLING DR|HOMER": {
-   "predicted": 86735,
-   "comp_count": 10,
-   "comp_ppsf": 73.9
-  },
-  "749 BEVERLY DR|HOMER": {
-   "predicted": 253314,
-   "comp_count": 10,
-   "comp_ppsf": 96.9
-  },
-  "605 W 4TH ST|HOMER": {
-   "predicted": 113524,
-   "comp_count": 10,
-   "comp_ppsf": 90.8
-  },
-  "17146 HWY 9|ARCADIA": {
-   "predicted": 192806,
-   "comp_count": 10,
-   "comp_ppsf": 95.9
-  },
-  "126 OSCAR KILPATRICK RD|GIBSLAND": {
-   "predicted": 203785,
-   "comp_count": 10,
-   "comp_ppsf": 94.3
-  },
-  "2260 4TH ST|ARCADIA": {
-   "predicted": 161705,
-   "comp_count": 10,
-   "comp_ppsf": 81.3
-  },
-  "2070 HAZEL ST|ARCADIA": {
-   "predicted": 203596,
-   "comp_count": 10,
-   "comp_ppsf": 94.3
-  },
-  "203 THOMAS RD|ATHENS": {
-   "predicted": 115448,
-   "comp_count": 10,
-   "comp_ppsf": 75.7
-  },
-  "2788 HWY 519|ATHENS": {
-   "predicted": 225365,
-   "comp_count": 10,
-   "comp_ppsf": 95.2
-  },
-  "4027 HWY 518|ATHENS": {
-   "predicted": 134943,
-   "comp_count": 10,
-   "comp_ppsf": 87.6
-  },
-  "3322 BUTLER AVE|HAYNESVILLE": {
-   "predicted": 307771,
-   "comp_count": 3,
-   "comp_ppsf": 93.6
-  },
-  "3307 HWY 521|HAYNESVILLE": {
-   "predicted": 93837,
-   "comp_count": 10,
-   "comp_ppsf": 64.7
-  },
-  "178 HICKORY RIDGE RD|HAYNESVILLE": {
-   "predicted": 133716,
-   "comp_count": 10,
-   "comp_ppsf": 63.1
-  },
-  "1137 WALLER DR|HAYNESVILLE": {
-   "predicted": 121225,
-   "comp_count": 10,
-   "comp_ppsf": 74.6
-  },
-  "1937 BAILEY AVE|HAYNESVILLE": {
-   "predicted": 113991,
-   "comp_count": 8,
-   "comp_ppsf": 74.0
-  },
-  "9890 HWY 79|HAYNESVILLE": {
-   "predicted": 123389,
-   "comp_count": 10,
-   "comp_ppsf": 74.6
-  },
-  "2276 MAIN ST|HAYNESVILLE": {
-   "predicted": 134095,
-   "comp_count": 10,
-   "comp_ppsf": 63.1
-  },
-  "9886 HWY 79|HAYNESVILLE": {
-   "predicted": 108392,
-   "comp_count": 10,
-   "comp_ppsf": 66.5
-  },
-  "2366 DAWSON DR|HAYNESVILLE": {
-   "predicted": 63286,
-   "comp_count": 4,
-   "comp_ppsf": 61.3
-  },
-  "2366 DAWSON ST|HAYNESVILLE": {
-   "predicted": 63286,
-   "comp_count": 4,
-   "comp_ppsf": 61.3
-  },
-  "138 BAILEY TOWN RD|HAYNESVILLE": {
-   "predicted": 105682,
-   "comp_count": 9,
-   "comp_ppsf": 68.2
-  },
-  "335 COLEMAN LOOP|HOMER": {
-   "predicted": 742280,
-   "comp_count": 4,
-   "comp_ppsf": 247.4
+   "comp_ppsf": 176.9
   }
  }
 }
