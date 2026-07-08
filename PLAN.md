@@ -24,9 +24,20 @@ this repo. The pipeline was verified end-to-end with synthetic fixtures
    at GitHub Pages and swap the canonical/OG/sitemap URLs (one string,
    `extradeadfred.github.io/hnt-realtor` → `www.forsalebyhunt.com`).
 
+**Added 2026-07-08:** HomeHarvest (`sources/homeharvest_src.py`) is now the
+primary listing source — ~770 listings/day at zero credit cost with
+year_built/lat-lon/AVM/agent fields; Firecrawl adapters are fallback only.
+Neighborhood enrichment (`pipeline/enrichment/`: Census ACS tract trends,
+HUD subsidized-housing proximity, FBI crime) attaches to scored deals for
+the PRIVATE investor email only — never the public site (fair-housing).
+Needs secrets: `CENSUS_API_KEY` (required for ACS — Census dropped keyless
+access; free at api.census.gov/data/key_signup.html) and `FBI_CDE_API_KEY`
+(optional, api.data.gov/signup) in GitHub Actions + local env.
+
 **Deferred (designed-for, not built):** per-area SEO landing pages, IDX/MLS
-API adapter, Clerk of Court records adapter, scikit-learn model upgrade
-(waits for ~200 resolved outcomes).
+API adapter (written, dormant — see pipeline/NTREIS.md), Clerk of Court
+records adapter, scikit-learn model upgrade (waits for ~200 resolved
+outcomes).
 
 ## Context
 
