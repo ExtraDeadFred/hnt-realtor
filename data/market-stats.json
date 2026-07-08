@@ -19,7 +19,7 @@
    "inventory": 107,
    "median_price": 397033,
    "median_ppsf": 177.3,
-   "median_dom": 71,
+   "median_dom": 70,
    "ppsf_by_decade": {
     "1940s": 132.4,
     "1950s": 135.2,
@@ -39,7 +39,7 @@
    "inventory": 426,
    "median_price": 284900,
    "median_ppsf": 155.7,
-   "median_dom": 46,
+   "median_dom": 47,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 80.6,
@@ -60,7 +60,7 @@
    "inventory": 653,
    "median_price": 294900,
    "median_ppsf": 158.7,
-   "median_dom": 47,
+   "median_dom": 48,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 83.6,
@@ -74,7 +74,7 @@
     "2020s": 182.3
    },
    "new_7d": 756,
-   "price_cuts_7d": 6,
+   "price_cuts_7d": 7,
    "pending_7d": 3
   },
   "Claiborne Parish": {
@@ -131,7 +131,7 @@
    "inventory": 12,
    "median_price": 247000,
    "median_ppsf": 109.1,
-   "median_dom": 21,
+   "median_dom": 22,
    "ppsf_by_decade": {
     "1960s": 129.4,
     "1970s": 145.8,
@@ -149,7 +149,7 @@
    "inventory": 108,
    "median_price": 275555,
    "median_ppsf": 162.4,
-   "median_dom": 36,
+   "median_dom": 37,
    "ppsf_by_decade": {
     "1960s": 146.8,
     "1970s": 136.0,
@@ -160,14 +160,14 @@
     "2020s": 167.5
    },
    "new_7d": 142,
-   "price_cuts_7d": 1,
+   "price_cuts_7d": 2,
    "pending_7d": 2
   },
   "Haynesville": {
    "inventory": 10,
    "median_price": 105000,
    "median_ppsf": 66.3,
-   "median_dom": 122,
+   "median_dom": 123,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1930s": 100.0,
@@ -239,7 +239,7 @@
    "inventory": 8,
    "median_price": 209000,
    "median_ppsf": 110.5,
-   "median_dom": 37,
+   "median_dom": 38,
    "ppsf_by_decade": {
     "1960s": 61.4,
     "1970s": 130.4,
@@ -254,7 +254,7 @@
    "inventory": 47,
    "median_price": 449500,
    "median_ppsf": 185.2,
-   "median_dom": 104,
+   "median_dom": 100,
    "ppsf_by_decade": {
     "1950s": 135.5,
     "1960s": 172.8,
