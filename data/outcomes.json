@@ -448,7 +448,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 249900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-09"
  },
  {
   "key": "196 BERKSHIRE PL|HAUGHTON",
@@ -2385,5 +2385,115 @@
   "proxy_price": 60000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "404 CHARMES CIR|HAUGHTON",
+  "address": "404 Charmes Cir",
+  "city": "Haughton",
+  "sqft": 1356,
+  "predicted": 201733,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 223990,
+  "sold_price": null,
+  "sold_date": "2026-07-09"
+ },
+ {
+  "key": "5705 E TEXAS ST APT 88|BOSSIER CITY",
+  "address": "5705 E Texas St Apt 88",
+  "city": "Bossier City",
+  "sqft": 576,
+  "predicted": 82778,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 63000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5705 E TEXAS ST APT 13|BOSSIER CITY",
+  "address": "5705 E Texas St Apt 13",
+  "city": "Bossier City",
+  "sqft": 576,
+  "predicted": 82778,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 63000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5705 E TEXAS ST APT 83|BOSSIER CITY",
+  "address": "5705 E Texas St Apt 83",
+  "city": "Bossier City",
+  "sqft": 576,
+  "predicted": 82778,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 63000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "233 PEREGRINE WAY|BOSSIER CITY",
+  "address": "233 Peregrine Way",
+  "city": "Bossier City",
+  "sqft": 2452,
+  "predicted": 409938,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 480000,
+  "sold_price": null,
+  "sold_date": "2026-07-07"
+ },
+ {
+  "key": "5705 E TEXAS ST APT 141|BOSSIER CITY",
+  "address": "5705 E Texas St Apt 141",
+  "city": "Bossier City",
+  "sqft": 576,
+  "predicted": 82778,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 63000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "660 DUMAINE DR|BOSSIER CITY",
+  "address": "660 Dumaine Dr",
+  "city": "Bossier City",
+  "sqft": 2399,
+  "predicted": 397450,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 459000,
+  "sold_price": null,
+  "sold_date": "2026-07-06"
+ },
+ {
+  "key": "1705 WALES LN|BOSSIER CITY",
+  "address": "1705 Wales Ln",
+  "city": "Bossier City",
+  "sqft": 2354,
+  "predicted": 377368,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 369900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "115 ROBINSON LN|BENTON",
+  "address": "115 Robinson Ln",
+  "city": "Benton",
+  "sqft": 2241,
+  "predicted": 428184,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 599000,
+  "sold_price": null,
+  "sold_date": "2026-07-08"
+ },
+ {
+  "key": "331 NEWPORT LN|BENTON",
+  "address": "331 Newport Ln",
+  "city": "Benton",
+  "sqft": 1844,
+  "predicted": 305599,
+  "predicted_at": "2026-07-10",
+  "proxy_price": 340000,
+  "sold_price": null,
+  "sold_date": "2026-07-08"
  }
 ]
