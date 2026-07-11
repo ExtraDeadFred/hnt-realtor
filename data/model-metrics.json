@@ -1,9 +1,9 @@
 {
- "updated": "2026-07-10",
- "n_outcomes": 227,
+ "updated": "2026-07-11",
+ "n_outcomes": 241,
  "n_true_solds": 3,
- "mape_pct": 39.4,
- "within_10pct": 31.7,
+ "mape_pct": 38.2,
+ "within_10pct": 33.2,
  "backtest": {
   "n": 999,
   "median_err_pct": 12.6,
