@@ -2649,5 +2649,27 @@
   "proxy_price": 999000,
   "sold_price": null,
   "sold_date": "2026-07-10"
+ },
+ {
+  "key": "119 ANDREW PL|BOSSIER CITY",
+  "address": "119 Andrew Pl",
+  "city": "Bossier City",
+  "sqft": 1640,
+  "predicted": 272002,
+  "predicted_at": "2026-07-12",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "914 EDGEWOOD DR|HOMER",
+  "address": "914 Edgewood Dr",
+  "city": "Homer",
+  "sqft": 2632,
+  "predicted": 254961,
+  "predicted_at": "2026-07-12",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-07-10"
  }
 ]
