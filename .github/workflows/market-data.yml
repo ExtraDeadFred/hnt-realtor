@@ -2,8 +2,8 @@ name: Daily market data
 
 on:
   schedule:
-    - cron: "17 10 * * *" # ~5:17am Central
-    - cron: "17 16 * * *" # ~11:17am Central catch-up (no-op if morning ran)
+    - cron: "7 7 * * *"  # ~2:07am Central — finish well before the 4:30am email
+    - cron: "47 8 * * *" # ~3:47am Central catch-up (no-op if first run committed)
   workflow_dispatch:
 
 permissions:
