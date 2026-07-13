@@ -3,6 +3,7 @@ name: Daily market data
 on:
   schedule:
     - cron: "17 10 * * *" # ~5:17am Central
+    - cron: "17 16 * * *" # ~11:17am Central catch-up (no-op if morning ran)
   workflow_dispatch:
 
 permissions:
@@ -22,9 +23,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r pipeline/requirements.txt
+      # The second daily cron is only a catch-up for runner-acquisition
+      # failures (e.g. 2026-07-09) — skip it when today's data already exists
+      - name: Check if today's data already committed
+        id: fresh
+        run: |
+          if python3 -c "import json,datetime,sys; sys.exit(0 if json.load(open('data/market-stats.json'))['updated']==datetime.date.today().isoformat() else 1)" 2>/dev/null; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Data already updated today — skipping."
+          fi
+
+      - if: steps.fresh.outputs.skip != 'true'
+        run: pip install -r pipeline/requirements.txt
 
       - name: Scrape and analyze
+        if: steps.fresh.outputs.skip != 'true'
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
@@ -32,6 +45,7 @@ jobs:
         run: python pipeline/run.py
 
       - name: Commit updated data
+        if: steps.fresh.outputs.skip != 'true'
         run: |
           git config user.name "market-data-bot"
           git config user.email "actions@github.com"
