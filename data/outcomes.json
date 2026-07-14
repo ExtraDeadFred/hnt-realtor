@@ -888,7 +888,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 695000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-13"
  },
  {
   "key": "138 BAILEY TOWN RD|HAYNESVILLE",
@@ -2669,6 +2669,94 @@
   "predicted": 254961,
   "predicted_at": "2026-07-12",
   "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-07-10"
+ },
+ {
+  "key": "1332 CAMP ZION RD|HAUGHTON",
+  "address": "1332 Camp Zion Rd",
+  "city": "Haughton",
+  "sqft": 1344,
+  "predicted": 192781,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 129900,
+  "sold_price": null,
+  "sold_date": "2026-07-13"
+ },
+ {
+  "key": "1014 CREOLE DR|BOSSIER CITY",
+  "address": "1014 Creole Dr",
+  "city": "Bossier City",
+  "sqft": 1767,
+  "predicted": 277077,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 289500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3217 THUNDERBIRD LN|BOSSIER CITY",
+  "address": "3217 Thunderbird Ln",
+  "city": "Bossier City",
+  "sqft": 1163,
+  "predicted": 154193,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 125000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1136 ELI CONNOR DR|BOSSIER CITY",
+  "address": "1136 Eli Connor Dr",
+  "city": "Bossier City",
+  "sqft": 1963,
+  "predicted": 305020,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 270000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "719 PERFECT PL|BOSSIER CITY",
+  "address": "719 Perfect Pl",
+  "city": "Bossier City",
+  "sqft": 2256,
+  "predicted": 326597,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 389999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "4036 FALSE RIVER DR|BOSSIER CITY",
+  "address": "4036 False River Dr",
+  "city": "Bossier City",
+  "sqft": 1552,
+  "predicted": 279950,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 289000,
+  "sold_price": null,
+  "sold_date": "2026-07-13"
+ },
+ {
+  "key": "5516 HICKORY RIDGE DR|BOSSIER CITY",
+  "address": "5516 Hickory Ridge Dr",
+  "city": "Bossier City",
+  "sqft": 3044,
+  "predicted": 541483,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 339000,
+  "sold_price": null,
+  "sold_date": "2026-07-13"
+ },
+ {
+  "key": "408 MERESTONE XING|BENTON",
+  "address": "408 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2141,
+  "predicted": 453892,
+  "predicted_at": "2026-07-14",
+  "proxy_price": 334706,
   "sold_price": null,
   "sold_date": "2026-07-10"
  }
