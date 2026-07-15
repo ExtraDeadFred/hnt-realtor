@@ -2759,5 +2759,82 @@
   "proxy_price": 334706,
   "sold_price": null,
   "sold_date": "2026-07-10"
+ },
+ {
+  "key": "900 WATTERMAN ST|MINDEN",
+  "address": "900 Watterman St",
+  "city": "Minden",
+  "sqft": 2192,
+  "predicted": 245167,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 119000,
+  "sold_price": null,
+  "sold_date": "2026-07-10"
+ },
+ {
+  "key": "423 DOGWOOD S LN|HAUGHTON",
+  "address": "423 Dogwood South Ln",
+  "city": "Haughton",
+  "sqft": 2513,
+  "predicted": 411591,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 419000,
+  "sold_price": null,
+  "sold_date": "2026-07-14"
+ },
+ {
+  "key": "701 CHANDLER RD|HAUGHTON",
+  "address": "701 Chandler Rd",
+  "city": "Haughton",
+  "sqft": 1406,
+  "predicted": 207369,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 210000,
+  "sold_price": null,
+  "sold_date": "2026-07-14"
+ },
+ {
+  "key": "610 GLENSHIRE DR|BOSSIER CITY",
+  "address": "610 Glenshire Dr",
+  "city": "Bossier City",
+  "sqft": 2197,
+  "predicted": 324369,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 369000,
+  "sold_price": null,
+  "sold_date": "2026-07-13"
+ },
+ {
+  "key": "617 ROME ST|BOSSIER CITY",
+  "address": "617 Rome St",
+  "city": "Bossier City",
+  "sqft": 1292,
+  "predicted": 168949,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 124900,
+  "sold_price": 35000.0,
+  "sold_date": "07/30/2025"
+ },
+ {
+  "key": "402 5TH ST|BENTON",
+  "address": "402 5th St",
+  "city": "Benton",
+  "sqft": 1558,
+  "predicted": 170903,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 194000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "315 TANYARD TRCE|BENTON",
+  "address": "315 Tanyard Trce",
+  "city": "Benton",
+  "sqft": 3045,
+  "predicted": 532635,
+  "predicted_at": "2026-07-15",
+  "proxy_price": 548600,
+  "sold_price": null,
+  "sold_date": "2026-07-13"
  }
 ]
