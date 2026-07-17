@@ -2957,5 +2957,93 @@
   "proxy_price": 397033,
   "sold_price": null,
   "sold_date": "2026-07-15"
+ },
+ {
+  "key": "404 LAWSON PL|MINDEN",
+  "address": "404 Lawson Pl",
+  "city": "Minden",
+  "sqft": 1998,
+  "predicted": 215976,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 263500,
+  "sold_price": null,
+  "sold_date": "2026-07-16"
+ },
+ {
+  "key": "8401 DOGWOOD TRL|HAUGHTON",
+  "address": "8401 Dogwood Trl",
+  "city": "Haughton",
+  "sqft": 1954,
+  "predicted": 325527,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 285000,
+  "sold_price": 179000.0,
+  "sold_date": "04/20/2026"
+ },
+ {
+  "key": "1111 CREOLE DR|BOSSIER CITY",
+  "address": "1111 Creole Dr",
+  "city": "Bossier City",
+  "sqft": 2117,
+  "predicted": 316011,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 330000,
+  "sold_price": 315000.0,
+  "sold_date": "02/10/2026"
+ },
+ {
+  "key": "611 MANASSAS CIR|BOSSIER CITY",
+  "address": "611 Manassas Cir",
+  "city": "Bossier City",
+  "sqft": 1894,
+  "predicted": 300267,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 295000,
+  "sold_price": null,
+  "sold_date": "2026-07-15"
+ },
+ {
+  "key": "305 TOTTENHAM CT|BOSSIER CITY",
+  "address": "305 Tottenham Ct",
+  "city": "Bossier City",
+  "sqft": 2245,
+  "predicted": 341996,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 429900,
+  "sold_price": null,
+  "sold_date": "2026-07-16"
+ },
+ {
+  "key": "5800 PAMPUS LN|BOSSIER CITY",
+  "address": "5800 Pampus Ln",
+  "city": "Bossier City",
+  "sqft": 1637,
+  "predicted": 247533,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 240000,
+  "sold_price": null,
+  "sold_date": "2026-07-16"
+ },
+ {
+  "key": "5180 LINTON CUTOFF RD|BENTON",
+  "address": "5180 Linton Cutoff Rd",
+  "city": "Benton",
+  "sqft": 4664,
+  "predicted": 1026340,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 819000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1211 LEE ST|BENTON",
+  "address": "1211 Lee St",
+  "city": "Benton",
+  "sqft": 1632,
+  "predicted": 261853,
+  "predicted_at": "2026-07-17",
+  "proxy_price": 225000,
+  "sold_price": null,
+  "sold_date": "2026-07-16"
  }
 ]
