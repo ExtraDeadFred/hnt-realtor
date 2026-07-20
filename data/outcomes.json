@@ -3177,5 +3177,16 @@
   "proxy_price": 1300000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "212 NORCROSS ST|BOSSIER CITY",
+  "address": "212 Norcross St",
+  "city": "Bossier City",
+  "sqft": 2567,
+  "predicted": 365038,
+  "predicted_at": "2026-07-20",
+  "proxy_price": 399000,
+  "sold_price": null,
+  "sold_date": "2026-07-17"
  }
 ]
