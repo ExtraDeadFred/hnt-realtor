@@ -75,36 +75,48 @@ if ($pullExit -ne 0) {
 }
 
 # --- generate with Claude (headless, uses the Claude subscription) ---
+# Pinned to Sonnet: fully capable of writing the brief, and its usage limits
+# are far higher than Opus, so this 4:30am job won't hit a cap because of
+# heavy interactive Claude use during the day (the cause of the fallback
+# emails on 07-21/07-22). stderr is logged, not discarded, so any future
+# failure says WHY. One retry absorbs transient blips before falling back.
 $emailHtml = $null
 $pulseText = $null
-try {
-    $prompt = "Today is $(Get-Date -Format 'dddd, MMMM d, yyyy').`n`n" +
-              (Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw)
-    # PS 5.1: stderr redirection on a native exe throws under EAP Stop, and
-    # claude warns if piped stdin is empty — pipe the prompt in via stdin.
-    # Both directions of that pipe must be UTF-8, or em-dashes/quotes arrive
-    # as mojibake (PS 5.1 defaults: ASCII out, OEM codepage in).
-    $prevOut = $OutputEncoding
-    $prevConsole = [Console]::OutputEncoding
-    $OutputEncoding = [System.Text.Encoding]::UTF8
-    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-    $ErrorActionPreference = "Continue"
-    $raw = ($prompt | claude -p 2>$null | Out-String)
-    $claudeExit = $LASTEXITCODE
-    $ErrorActionPreference = "Stop"
-    $OutputEncoding = $prevOut
-    [Console]::OutputEncoding = $prevConsole
-    if ($claudeExit -ne 0) {
-        Write-Warning "claude exited with code $claudeExit"
-        $raw = ""
+$stderrLog = Join-Path $outDir "claude-stderr-$today.log"
+$prompt = "Today is $(Get-Date -Format 'dddd, MMMM d, yyyy').`n`n" +
+          (Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw)
+
+foreach ($attempt in 1..2) {
+    try {
+        # PS 5.1: pipe prompt via stdin (claude warns on empty stdin); force
+        # UTF-8 both directions or em-dashes/quotes arrive as mojibake.
+        $prevOut = $OutputEncoding
+        $prevConsole = [Console]::OutputEncoding
+        $OutputEncoding = [System.Text.Encoding]::UTF8
+        [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+        $ErrorActionPreference = "Continue"
+        $raw = ($prompt | claude -p --model sonnet 2>$stderrLog | Out-String)
+        $claudeExit = $LASTEXITCODE
+        $ErrorActionPreference = "Stop"
+        $OutputEncoding = $prevOut
+        [Console]::OutputEncoding = $prevConsole
+        if ($claudeExit -ne 0) {
+            $why = (Get-Content $stderrLog -Raw -ErrorAction SilentlyContinue)
+            Write-Warning "claude attempt $attempt exited $claudeExit — $why"
+        }
+        elseif ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
+            $emailHtml = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
+            $pulseText = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
+            break
+        }
+        else {
+            Write-Warning "claude attempt $attempt returned output without the expected markers"
+        }
+    } catch {
+        $ErrorActionPreference = "Stop"
+        Write-Warning "claude attempt $attempt threw: $_"
     }
-    if ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
-        $emailHtml = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
-        $pulseText = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
-    }
-} catch {
-    $ErrorActionPreference = "Stop"
-    Write-Warning "claude -p failed: $_"
+    if ($attempt -eq 1) { Start-Sleep -Seconds 60 }  # let a transient blip clear
 }
 
 # --- template fallback so the alert never silently drops ---
@@ -112,7 +124,8 @@ $opps = $null
 if (Test-Path "data\opportunities.json") {
     $opps = Get-Content "data\opportunities.json" -Raw | ConvertFrom-Json
 }
-if (-not $emailHtml) {
+$isFallback = -not $emailHtml
+if ($isFallback) {
     $rows = ""
     if ($opps) {
         foreach ($d in $opps.deals) {
@@ -123,7 +136,8 @@ if (-not $emailHtml) {
                      "<td>$($d.spread_pct)%</td><td>$($d.days_on_market)</td><td>$($d.flags -join ', ')</td></tr>"
         }
     }
-    $emailHtml = "<p>(Claude was unavailable this morning — raw numbers below.)</p>" +
+    $emailHtml = "<p><b>Claude was unavailable this morning after a retry — raw numbers below.</b> " +
+                 "See local\out\claude-stderr-$today.log for the reason.</p>" +
                  "<table border='1' cellpadding='6' cellspacing='0'>" +
                  "<tr><th>Listing</th><th>List</th><th>Est. value</th><th>Spread</th><th>DOM</th><th>Flags</th></tr>" +
                  $rows + "</table>"
@@ -139,6 +153,7 @@ if ($pulseText -and $pulseText -ne "NONE") {
 # --- send via Gmail SMTP ---
 $subject = "Market Brief — $today"
 if ($opps -and $opps.high_opportunity) { $subject = "🔥 High-Opportunity Alert — $today" }
+if ($isFallback) { $subject = "[raw data] $subject" }
 
 Send-Brief $subject $emailHtml
 Write-Host "Sent '$subject' to $mailTo"
