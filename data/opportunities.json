@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21",
+ "updated": "2026-07-22",
  "high_opportunity": true,
  "deals": [
   {
@@ -13,7 +13,7 @@
    "baths": 2.0,
    "sqft": 1946,
    "year_built": 1950,
-   "days_on_market": 157,
+   "days_on_market": 158,
    "url": "https://www.realtor.com/realestateandhomes-detail/145-Loop-Rd_Minden_LA_71055_M87884-17407",
    "waterfront": false,
    "lat": 32.631896,
@@ -147,7 +147,7 @@
    "baths": 1.0,
    "sqft": 1232,
    "year_built": 1943,
-   "days_on_market": 95,
+   "days_on_market": 96,
    "url": "https://www.realtor.com/realestateandhomes-detail/29-McArthur-St_Minden_LA_71055_M84268-11692",
    "waterfront": false,
    "lat": 32.593538,
@@ -248,7 +248,7 @@
    "baths": 1.0,
    "sqft": 1280,
    "year_built": 1950,
-   "days_on_market": 144,
+   "days_on_market": 145,
    "url": "https://www.realtor.com/realestateandhomes-detail/413-Park-Ave_Minden_LA_71055_M85465-09898",
    "waterfront": false,
    "lat": 32.605439,
@@ -382,7 +382,7 @@
    "baths": 1.0,
    "sqft": 1250,
    "year_built": 1954,
-   "days_on_market": 91,
+   "days_on_market": 92,
    "url": "https://www.realtor.com/realestateandhomes-detail/1102-Bonnie-Ln_Minden_LA_71055_M85974-15175",
    "waterfront": false,
    "lat": 32.630093,
@@ -516,7 +516,7 @@
    "baths": 1.0,
    "sqft": 1085,
    "year_built": 1980,
-   "days_on_market": 399,
+   "days_on_market": 400,
    "url": "https://www.realtor.com/realestateandhomes-detail/275-Lakeview-Dr_Doyline_LA_71023_M82499-10262",
    "waterfront": false,
    "lat": 32.429507,
@@ -623,7 +623,7 @@
    "baths": 1.0,
    "sqft": 1544,
    "year_built": 1981,
-   "days_on_market": 180,
+   "days_on_market": 181,
    "url": "https://www.realtor.com/realestateandhomes-detail/173-Belaire-Dr_Doyline_LA_71023_M71412-23315",
    "waterfront": true,
    "lat": 32.431754,
@@ -730,7 +730,7 @@
    "baths": 3.0,
    "sqft": 2052,
    "year_built": 2008,
-   "days_on_market": 103,
+   "days_on_market": 104,
    "url": "https://www.realtor.com/realestateandhomes-detail/5007-Bellevue-Rd_Haughton_LA_71037_M88208-19825",
    "waterfront": false,
    "lat": 32.643157,
@@ -836,7 +836,7 @@
    "baths": 2.0,
    "sqft": 1536,
    "year_built": 1995,
-   "days_on_market": 519,
+   "days_on_market": 520,
    "url": "https://www.realtor.com/realestateandhomes-detail/100-Maplewood-Dr_Haughton_LA_71037_M76788-42190",
    "waterfront": false,
    "lat": 32.531573,
@@ -942,7 +942,7 @@
    "baths": 1.0,
    "sqft": 1114,
    "year_built": 1937,
-   "days_on_market": 271,
+   "days_on_market": 272,
    "url": "https://www.realtor.com/realestateandhomes-detail/223-Edwards-St_Bossier-City_LA_71111_M80092-42036",
    "waterfront": false,
    "lat": 32.525062,
@@ -1072,27 +1072,27 @@
    }
   },
   {
-   "key": "1712 ALISON AVE|BOSSIER CITY",
-   "address": "1712 Alison Ave",
+   "key": "614 PATTON ST|BOSSIER CITY",
+   "address": "614 Patton St",
    "city": "Bossier City",
    "parish": "Bossier",
    "zip": "71112",
-   "price": 179000,
-   "beds": 4,
+   "price": 70000,
+   "beds": 3,
    "baths": 1.5,
-   "sqft": 2017,
-   "year_built": 1965,
-   "days_on_market": 105,
-   "url": "https://www.realtor.com/realestateandhomes-detail/1712-Alison-Ave_Bossier-City_LA_71112_M84349-45021",
+   "sqft": 1332,
+   "year_built": 1937,
+   "days_on_market": 148,
+   "url": "https://www.realtor.com/realestateandhomes-detail/614-Patton-St_Bossier-City_LA_71112_M78669-60668",
    "waterfront": false,
-   "lat": 32.478479,
-   "lng": -93.665377,
-   "avm_estimate": 180600,
+   "lat": 32.500417,
+   "lng": -93.702063,
+   "avm_estimate": 72200,
    "own_listing": false,
-   "predicted": 303370,
-   "spread_pct": 41.0,
+   "predicted": 133200,
+   "spread_pct": 47.4,
    "comp_count": 10,
-   "gross_yield_pct": 10.9,
+   "gross_yield_pct": 23.1,
    "score": 50,
    "flags": [
     "underpriced",
@@ -1102,39 +1102,72 @@
    ],
    "neighborhood": {
     "tract": {
-     "geoid": "22015010808",
+     "geoid": "22015010801",
      "state": "22",
      "county": "015",
-     "tract": "010808"
+     "tract": "010801"
     },
     "parish": "Bossier",
     "acs_trends": {
      "levels": {
+      "2013": {
+       "population": 3203.0,
+       "median_household_income": 30329.0,
+       "poverty_universe": 3195.0,
+       "poverty_below": 1039.0,
+       "housing_units": 1521.0,
+       "housing_vacant": 122.0,
+       "occupied_units": 1399.0,
+       "owner_occupied": 617.0,
+       "median_home_value": 84900.0,
+       "poverty_rate_pct": 32.5,
+       "vacancy_rate_pct": 8.0,
+       "owner_occupancy_pct": 44.1
+      },
+      "2018": {
+       "population": 3233.0,
+       "median_household_income": 36385.0,
+       "poverty_universe": 3233.0,
+       "poverty_below": 1401.0,
+       "housing_units": 1629.0,
+       "housing_vacant": 311.0,
+       "occupied_units": 1318.0,
+       "owner_occupied": 419.0,
+       "median_home_value": 85000.0,
+       "poverty_rate_pct": 43.3,
+       "vacancy_rate_pct": 19.1,
+       "owner_occupancy_pct": 31.8
+      },
       "2023": {
-       "population": 4754.0,
-       "median_household_income": 80896.0,
-       "poverty_universe": 4737.0,
-       "poverty_below": 475.0,
-       "housing_units": 2038.0,
-       "housing_vacant": 140.0,
-       "occupied_units": 1898.0,
-       "owner_occupied": 1573.0,
-       "median_home_value": 206400.0,
-       "poverty_rate_pct": 10.0,
-       "vacancy_rate_pct": 6.9,
-       "owner_occupancy_pct": 82.9
+       "population": 3573.0,
+       "median_household_income": 46250.0,
+       "poverty_universe": 3535.0,
+       "poverty_below": 1551.0,
+       "housing_units": 1697.0,
+       "housing_vacant": 489.0,
+       "occupied_units": 1208.0,
+       "owner_occupied": 372.0,
+       "median_home_value": 88200.0,
+       "poverty_rate_pct": 43.9,
+       "vacancy_rate_pct": 28.8,
+       "owner_occupancy_pct": 30.8
       }
      },
-     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 52.5,
+     "median_home_value_change_pct": 3.9,
+     "poverty_rate_pct_change_pts": 11.4,
+     "vacancy_rate_pct_change_pts": 20.8,
+     "owner_occupancy_pct_change_pts": -13.3
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 2.36,
+      "nearest_miles": 0.51,
       "nearest_name": "GIBSON PARK",
-      "count_within_radius": 0
+      "count_within_radius": 1
      },
      "public_housing": {
-      "nearest_miles": 3.47,
+      "nearest_miles": 1.14,
       "nearest_name": "PATRICIA PLAZA",
       "count_within_radius": 0
      }
@@ -1164,16 +1197,16 @@
      "property-crime_change_pct": -31.5
     },
     "score": {
-     "score": 87.2,
-     "coverage": 0.55,
+     "score": 44.1,
+     "coverage": 1.0,
      "factors": {
-      "income_trend": null,
-      "home_value_trend": null,
-      "poverty_level": 75.0,
-      "vacancy_level": 77.0,
-      "owner_occupancy": 89.9,
+      "income_trend": 100.0,
+      "home_value_trend": 23.2,
+      "poverty_level": 0.0,
+      "vacancy_level": 4.0,
+      "owner_occupancy": 15.4,
       "crime_trend": 100.0,
-      "subsidized_proximity": 100.0
+      "subsidized_proximity": 25.5
      }
     }
    }
