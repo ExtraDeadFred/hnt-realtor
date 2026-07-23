@@ -206,7 +206,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 49900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-22"
  },
  {
   "key": "620 FORT AVE|MINDEN",
@@ -426,7 +426,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 242500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-20"
  },
  {
   "key": "38 GOLF CLUB DR|HAUGHTON",
@@ -3441,5 +3441,115 @@
   "proxy_price": 230000,
   "sold_price": null,
   "sold_date": "2026-07-17"
+ },
+ {
+  "key": "533 W MCKINLEY AVE|HAUGHTON",
+  "address": "533 W McKinley Ave",
+  "city": "Haughton",
+  "sqft": 3200,
+  "predicted": 467454,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 359000,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "127 SITKA LOOP|BOSSIER CITY",
+  "address": "127 Sitka Loop",
+  "city": "Bossier City",
+  "sqft": 2196,
+  "predicted": 324221,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 424900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "189 BERKSHIRE PL|HAUGHTON",
+  "address": "189 Berkshire Pl",
+  "city": "Haughton",
+  "sqft": 1538,
+  "predicted": 246695,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 255852,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "187 BERKSHIRE PL|HAUGHTON",
+  "address": "187 Berkshire Pl",
+  "city": "Haughton",
+  "sqft": 1356,
+  "predicted": 194474,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 226050,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "4938 SWAN LAKE RD|BOSSIER CITY",
+  "address": "4938 Swan Lake Rd",
+  "city": "Bossier City",
+  "sqft": 1610,
+  "predicted": 207000,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 349900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3144 PETITE DR|BOSSIER CITY",
+  "address": "3144 Petite Dr",
+  "city": "Bossier City",
+  "sqft": 1484,
+  "predicted": 188367,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3511 GLASSCOCK AVE|BOSSIER CITY",
+  "address": "3511 Glasscock Ave",
+  "city": "Bossier City",
+  "sqft": 2393,
+  "predicted": 396456,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 219000,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "2526 DOWNS CIR|BOSSIER CITY",
+  "address": "2526 Downs Cir",
+  "city": "Bossier City",
+  "sqft": 1503,
+  "predicted": 232497,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 199000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2604 DOUGLAS DR|BOSSIER CITY",
+  "address": "2604 Douglas Dr",
+  "city": "Bossier City",
+  "sqft": 1188,
+  "predicted": 142731,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 174900,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "206 CHERRY BLOSSOM LN|BENTON",
+  "address": "206 Cherry Blossom Ln",
+  "city": "Benton",
+  "sqft": 1994,
+  "predicted": 339172,
+  "predicted_at": "2026-07-23",
+  "proxy_price": 349999,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
