@@ -899,7 +899,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 129000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-23"
  },
  {
   "key": "321 HWY 79S|MAGNOLIA",
@@ -2824,7 +2824,7 @@
   "predicted_at": "2026-07-15",
   "proxy_price": 194000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-14"
  },
  {
   "key": "315 TANYARD TRCE|BENTON",
@@ -3551,5 +3551,49 @@
   "proxy_price": 349999,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "340 HUNTERS HOLW|BOSSIER CITY",
+  "address": "340 Hunters Holw",
+  "city": "Bossier City",
+  "sqft": 3069,
+  "predicted": 477973,
+  "predicted_at": "2026-07-24",
+  "proxy_price": 480000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2675 SWAN LAKE RD|BOSSIER CITY",
+  "address": "2675 Swan Lake Rd",
+  "city": "Bossier City",
+  "sqft": 2254,
+  "predicted": 324917,
+  "predicted_at": "2026-07-24",
+  "proxy_price": 849000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5505 E MEADOW DR|BOSSIER CITY",
+  "address": "5505 E Meadow Dr",
+  "city": "Bossier City",
+  "sqft": 1059,
+  "predicted": 117288,
+  "predicted_at": "2026-07-24",
+  "proxy_price": 171000,
+  "sold_price": null,
+  "sold_date": "2026-07-22"
+ },
+ {
+  "key": "444 MERESTONE XING|BENTON",
+  "address": "444 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2720,
+  "predicted": 388181,
+  "predicted_at": "2026-07-24",
+  "proxy_price": 385469,
+  "sold_price": null,
+  "sold_date": "2026-07-23"
  }
 ]
