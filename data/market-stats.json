@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-24",
+ "updated": "2026-07-25",
  "cohorts": {
   "Athens": {
    "inventory": 3,
    "median_price": 225000,
    "median_ppsf": 95.1,
-   "median_dom": 149,
+   "median_dom": 150,
    "ppsf_by_decade": {
     "1970s": 95.1,
     "1980s": 173.8,
@@ -16,10 +16,10 @@
    "pending_7d": 0
   },
   "Benton": {
-   "inventory": 100,
-   "median_price": 389756,
-   "median_ppsf": 173.8,
-   "median_dom": 76,
+   "inventory": 101,
+   "median_price": 390000,
+   "median_ppsf": 173.3,
+   "median_dom": 77,
    "ppsf_by_decade": {
     "1940s": 132.4,
     "1950s": 135.2,
@@ -31,57 +31,57 @@
     "2010s": 173.3,
     "2020s": 210.0
    },
-   "new_7d": 6,
-   "price_cuts_7d": 7,
+   "new_7d": 5,
+   "price_cuts_7d": 9,
    "pending_7d": 0
   },
   "Bossier City": {
-   "inventory": 416,
-   "median_price": 280334,
-   "median_ppsf": 155.7,
+   "inventory": 421,
+   "median_price": 280000,
+   "median_ppsf": 155.4,
    "median_dom": 49,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 72.1,
     "1950s": 98.6,
-    "1960s": 126.3,
+    "1960s": 126.0,
     "1970s": 121.5,
-    "1980s": 141.3,
-    "1990s": 147.6,
-    "2000s": 159.9,
-    "2010s": 173.8,
-    "2020s": 178.2
+    "1980s": 141.0,
+    "1990s": 148.4,
+    "2000s": 160.5,
+    "2010s": 175.6,
+    "2020s": 178.9
    },
-   "new_7d": 37,
+   "new_7d": 45,
    "price_cuts_7d": 30,
    "pending_7d": 1
   },
   "Bossier Parish": {
-   "inventory": 635,
-   "median_price": 289500,
-   "median_ppsf": 158.1,
-   "median_dom": 49,
+   "inventory": 642,
+   "median_price": 289250,
+   "median_ppsf": 157.7,
+   "median_dom": 48,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 77.8,
     "1950s": 103.9,
-    "1960s": 127.1,
-    "1970s": 128.0,
-    "1980s": 140.1,
-    "1990s": 149.0,
-    "2000s": 159.4,
-    "2010s": 171.7,
-    "2020s": 179.5
+    "1960s": 126.6,
+    "1970s": 124.2,
+    "1980s": 137.7,
+    "1990s": 149.6,
+    "2000s": 159.9,
+    "2010s": 171.8,
+    "2020s": 182.3
    },
-   "new_7d": 52,
-   "price_cuts_7d": 51,
+   "new_7d": 60,
+   "price_cuts_7d": 53,
    "pending_7d": 1
   },
   "Claiborne Parish": {
    "inventory": 33,
    "median_price": 199900,
    "median_ppsf": 95.1,
-   "median_dom": 92,
+   "median_dom": 93,
    "ppsf_by_decade": {
     "1920s": 55.6,
     "1930s": 100.0,
@@ -95,23 +95,23 @@
     "2010s": 255.1,
     "2020s": 236.4
    },
-   "new_7d": 2,
+   "new_7d": 1,
    "price_cuts_7d": 3,
    "pending_7d": 0
   },
   "Doyline": {
-   "inventory": 15,
-   "median_price": 185000,
-   "median_ppsf": 120.4,
-   "median_dom": 102,
+   "inventory": 16,
+   "median_price": 192000,
+   "median_ppsf": 122.0,
+   "median_dom": 89,
    "ppsf_by_decade": {
     "1950s": 148.2,
     "1970s": 91.5,
-    "1980s": 107.7,
+    "1980s": 117.1,
     "1990s": 57.1,
     "2000s": 130.8
    },
-   "new_7d": 1,
+   "new_7d": 2,
    "price_cuts_7d": 1,
    "pending_7d": 0
   },
@@ -119,7 +119,7 @@
    "inventory": 2,
    "median_price": 274900,
    "median_ppsf": 133.0,
-   "median_dom": 13,
+   "median_dom": 14,
    "ppsf_by_decade": {
     "1960s": 156.6,
     "1990s": 109.3
@@ -129,15 +129,14 @@
    "pending_7d": 0
   },
   "Elm Grove": {
-   "inventory": 12,
-   "median_price": 247000,
-   "median_ppsf": 109.1,
-   "median_dom": 36,
+   "inventory": 11,
+   "median_price": 254000,
+   "median_ppsf": 110.1,
+   "median_dom": 37,
    "ppsf_by_decade": {
     "1960s": 129.4,
     "1970s": 139.4,
     "1980s": 192.8,
-    "1990s": 49.4,
     "2000s": 86.9,
     "2010s": 121.0,
     "2020s": 69.5
@@ -147,20 +146,20 @@
    "pending_7d": 0
   },
   "Haughton": {
-   "inventory": 107,
+   "inventory": 109,
    "median_price": 274051,
    "median_ppsf": 160.9,
    "median_dom": 34,
    "ppsf_by_decade": {
     "1960s": 153.6,
     "1970s": 133.6,
-    "1980s": 128.5,
+    "1980s": 124.2,
     "1990s": 149.9,
     "2000s": 148.1,
     "2010s": 168.6,
-    "2020s": 172.7
+    "2020s": 173.6
    },
-   "new_7d": 9,
+   "new_7d": 10,
    "price_cuts_7d": 13,
    "pending_7d": 0
   },
@@ -168,7 +167,7 @@
    "inventory": 9,
    "median_price": 105000,
    "median_ppsf": 64.4,
-   "median_dom": 168,
+   "median_dom": 169,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1930s": 100.0,
@@ -184,7 +183,7 @@
    "inventory": 5,
    "median_price": 147000,
    "median_ppsf": 89.9,
-   "median_dom": 90,
+   "median_dom": 91,
    "ppsf_by_decade": {
     "1960s": 89.0,
     "1970s": 89.9,
@@ -198,7 +197,7 @@
    "inventory": 21,
    "median_price": 375000,
    "median_ppsf": 148.8,
-   "median_dom": 89,
+   "median_dom": 90,
    "ppsf_by_decade": {
     "1920s": 40.6,
     "1950s": 46.5,
@@ -209,7 +208,7 @@
     "2010s": 255.1,
     "2020s": 236.4
    },
-   "new_7d": 2,
+   "new_7d": 1,
    "price_cuts_7d": 3,
    "pending_7d": 0
   },
@@ -232,14 +231,14 @@
     "2020s": 167.8
    },
    "new_7d": 3,
-   "price_cuts_7d": 8,
+   "price_cuts_7d": 7,
    "pending_7d": 0
   },
   "Sibley": {
    "inventory": 9,
    "median_price": 200000,
    "median_ppsf": 109.9,
-   "median_dom": 43,
+   "median_dom": 44,
    "ppsf_by_decade": {
     "1960s": 52.9,
     "1970s": 130.4,
@@ -251,29 +250,29 @@
    "pending_7d": 0
   },
   "Waterfront": {
-   "inventory": 46,
-   "median_price": 455750,
-   "median_ppsf": 187.6,
-   "median_dom": 114,
+   "inventory": 47,
+   "median_price": 462000,
+   "median_ppsf": 190.1,
+   "median_dom": 103,
    "ppsf_by_decade": {
     "1950s": 135.5,
     "1960s": 145.5,
     "1970s": 139.4,
-    "1980s": 184.8,
-    "1990s": 178.4,
+    "1980s": 166.8,
+    "1990s": 205.3,
     "2000s": 204.2,
-    "2010s": 255.1,
+    "2010s": 224.1,
     "2020s": 199.9
    },
-   "new_7d": 1,
+   "new_7d": 3,
    "price_cuts_7d": 3,
    "pending_7d": 0
   },
   "Webster Parish": {
-   "inventory": 87,
-   "median_price": 175400,
-   "median_ppsf": 102.7,
-   "median_dom": 66,
+   "inventory": 88,
+   "median_price": 177200,
+   "median_ppsf": 102.8,
+   "median_dom": 65,
    "ppsf_by_decade": {
     "1920s": 62.0,
     "1930s": 63.7,
@@ -281,14 +280,14 @@
     "1950s": 99.7,
     "1960s": 88.8,
     "1970s": 102.9,
-    "1980s": 147.4,
+    "1980s": 136.9,
     "1990s": 109.0,
     "2000s": 116.1,
     "2010s": 122.5,
     "2020s": 117.1
    },
-   "new_7d": 5,
-   "price_cuts_7d": 10,
+   "new_7d": 6,
+   "price_cuts_7d": 9,
    "pending_7d": 0
   }
  }

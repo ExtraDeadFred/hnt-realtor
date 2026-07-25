@@ -3595,5 +3595,71 @@
   "proxy_price": 385469,
   "sold_price": null,
   "sold_date": "2026-07-23"
+ },
+ {
+  "key": "304 PRIEN LAKE LOOP|BOSSIER CITY",
+  "address": "304 Prien Lake Loop",
+  "city": "Bossier City",
+  "sqft": 1910,
+  "predicted": 349432,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 343500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "205 COLD HARBOR CT|BOSSIER CITY",
+  "address": "205 Cold Harbor Ct",
+  "city": "Bossier City",
+  "sqft": 1550,
+  "predicted": 274912,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 265000,
+  "sold_price": null,
+  "sold_date": "2026-07-24"
+ },
+ {
+  "key": "6004 BRAEBURN CT|BOSSIER CITY",
+  "address": "6004 Braeburn Ct",
+  "city": "Bossier City",
+  "sqft": 2045,
+  "predicted": 313072,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 315000,
+  "sold_price": null,
+  "sold_date": "2026-07-24"
+ },
+ {
+  "key": "3709 SABINE PASS DR|BOSSIER CITY",
+  "address": "3709 Sabine Pass Dr",
+  "city": "Bossier City",
+  "sqft": 1571,
+  "predicted": 242174,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 278500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "825 VENECIA DR|BOSSIER CITY",
+  "address": "825 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1363,
+  "predicted": 191206,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 233423,
+  "sold_price": null,
+  "sold_date": "2026-07-24"
+ },
+ {
+  "key": "734 CREWE LN|BOSSIER CITY",
+  "address": "734 Crewe Ln",
+  "city": "Bossier City",
+  "sqft": 1656,
+  "predicted": 249548,
+  "predicted_at": "2026-07-25",
+  "proxy_price": 280083,
+  "sold_price": null,
+  "sold_date": "2026-07-24"
  }
 ]
