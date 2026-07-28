@@ -305,7 +305,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 199900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-24"
  },
  {
   "key": "119 HOLLY RIDGE DR|HAUGHTON",
@@ -3683,5 +3683,93 @@
   "proxy_price": 193900,
   "sold_price": null,
   "sold_date": "2026-07-24"
+ },
+ {
+  "key": "1914 HIGHPOINT PL|HAUGHTON",
+  "address": "1914 Highpoint Pl",
+  "city": "Haughton",
+  "sqft": 2899,
+  "predicted": 432498,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 519900,
+  "sold_price": null,
+  "sold_date": "2026-07-27"
+ },
+ {
+  "key": "819 ABITA CHASE|BOSSIER CITY",
+  "address": "819 Abita Chase",
+  "city": "Bossier City",
+  "sqft": 1922,
+  "predicted": 329000,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 319000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "223 SUMMIT DR|BOSSIER CITY",
+  "address": "223 Summit Dr",
+  "city": "Bossier City",
+  "sqft": 3039,
+  "predicted": 561002,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 439900,
+  "sold_price": null,
+  "sold_date": "2026-07-24"
+ },
+ {
+  "key": "555 CANTERBURY LN|BOSSIER CITY",
+  "address": "555 Canterbury Ln",
+  "city": "Bossier City",
+  "sqft": 3487,
+  "predicted": 557384,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 729000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "204 HYPERION ST|BOSSIER CITY",
+  "address": "204 Hyperion St",
+  "city": "Bossier City",
+  "sqft": 1704,
+  "predicted": 265621,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 270000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "741 CROZIER DR|BOSSIER CITY",
+  "address": "741 Crozier Dr",
+  "city": "Bossier City",
+  "sqft": 1851,
+  "predicted": 278414,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 305000,
+  "sold_price": null,
+  "sold_date": "2026-07-27"
+ },
+ {
+  "key": "120 PRESTON BAY CIR|BENTON",
+  "address": "120 Preston Bay Cir",
+  "city": "Benton",
+  "sqft": 2369,
+  "predicted": 398202,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 549999,
+  "sold_price": null,
+  "sold_date": "2026-07-27"
+ },
+ {
+  "key": "423 MERESTONE XING|BENTON",
+  "address": "423 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2610,
+  "predicted": 446341,
+  "predicted_at": "2026-07-28",
+  "proxy_price": 407988,
+  "sold_price": null,
+  "sold_date": "2026-07-27"
  }
 ]
