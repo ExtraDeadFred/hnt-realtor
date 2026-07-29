@@ -3771,5 +3771,104 @@
   "proxy_price": 407988,
   "sold_price": null,
   "sold_date": "2026-07-27"
+ },
+ {
+  "key": "20 LEGACY CT|BOSSIER CITY",
+  "address": "20 Legacy Ct",
+  "city": "Bossier City",
+  "sqft": 2073,
+  "predicted": 279104,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 350000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "411 HACIENDA CIR|HAUGHTON",
+  "address": "411 Hacienda Cir",
+  "city": "Haughton",
+  "sqft": 1684,
+  "predicted": 253283,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 190000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "400 HUMMINGBIRD LN|HAUGHTON",
+  "address": "400 Hummingbird Ln",
+  "city": "Haughton",
+  "sqft": 1885,
+  "predicted": 300468,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 278508,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3513 HANOVER DR|BOSSIER CITY",
+  "address": "3513 Hanover Dr",
+  "city": "Bossier City",
+  "sqft": 1639,
+  "predicted": 275000,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2812 PATRICIA DR|BOSSIER CITY",
+  "address": "2812 Patricia Dr",
+  "city": "Bossier City",
+  "sqft": 1120,
+  "predicted": 123294,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 74900,
+  "sold_price": null,
+  "sold_date": "2026-07-28"
+ },
+ {
+  "key": "3635 GREENACRES PL DR UNIT 342|BOSSIER CITY",
+  "address": "3635 Greenacres Place Dr Unit 342",
+  "city": "Bossier City",
+  "sqft": 2138,
+  "predicted": 339783,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 295000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "268 CULLOM DR|BOSSIER CITY",
+  "address": "268 Cullom Dr",
+  "city": "Bossier City",
+  "sqft": 2998,
+  "predicted": 613984,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 570000,
+  "sold_price": null,
+  "sold_date": "2026-07-28"
+ },
+ {
+  "key": "216 CULLOM DR|BOSSIER CITY",
+  "address": "216 Cullom Dr",
+  "city": "Bossier City",
+  "sqft": 1957,
+  "predicted": 345755,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 365000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "203 THOMAS RD|ATHENS",
+  "address": "203 Thomas Rd",
+  "city": "Athens",
+  "sqft": 1525,
+  "predicted": 93846,
+  "predicted_at": "2026-07-29",
+  "proxy_price": 265000,
+  "sold_price": null,
+  "sold_date": "2026-07-28"
  }
 ]
