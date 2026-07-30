@@ -3870,5 +3870,60 @@
   "proxy_price": 265000,
   "sold_price": null,
   "sold_date": "2026-07-28"
+ },
+ {
+  "key": "521 BIG RED CIR|HAUGHTON",
+  "address": "521 Big Red Cir",
+  "city": "Haughton",
+  "sqft": 1380,
+  "predicted": 211212,
+  "predicted_at": "2026-07-30",
+  "proxy_price": 244500,
+  "sold_price": null,
+  "sold_date": "2026-07-29"
+ },
+ {
+  "key": "179 RANCHTOWN RD|ELM GROVE",
+  "address": "179 Ranchtown Rd",
+  "city": "Elm Grove",
+  "sqft": 1911,
+  "predicted": 329364,
+  "predicted_at": "2026-07-30",
+  "proxy_price": 350000,
+  "sold_price": null,
+  "sold_date": "2026-07-29"
+ },
+ {
+  "key": "2313 WESLEY CIR|BOSSIER CITY",
+  "address": "2313 Wesley Cir",
+  "city": "Bossier City",
+  "sqft": 1917,
+  "predicted": 328144,
+  "predicted_at": "2026-07-30",
+  "proxy_price": 209900,
+  "sold_price": null,
+  "sold_date": "2026-07-28"
+ },
+ {
+  "key": "2469 BROOKSIDE DR|BOSSIER CITY",
+  "address": "2469 Brookside Dr",
+  "city": "Bossier City",
+  "sqft": 1654,
+  "predicted": 253432,
+  "predicted_at": "2026-07-30",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-07-29"
+ },
+ {
+  "key": "416 MERESTONE XING|BENTON",
+  "address": "416 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2211,
+  "predicted": 363048,
+  "predicted_at": "2026-07-30",
+  "proxy_price": 368981,
+  "sold_price": null,
+  "sold_date": "2026-07-29"
  }
 ]
