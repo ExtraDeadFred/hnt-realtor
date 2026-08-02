@@ -4266,5 +4266,71 @@
   "proxy_price": 359867,
   "sold_price": null,
   "sold_date": "2026-07-31"
+ },
+ {
+  "key": "909 OLD ARCADIA RD|MINDEN",
+  "address": "909 Old Arcadia Rd",
+  "city": "Minden",
+  "sqft": 1640,
+  "predicted": 139975,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 149900,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "724 BIANCA ST|HAUGHTON",
+  "address": "724 Bianca St",
+  "city": "Haughton",
+  "sqft": 1309,
+  "predicted": 185370,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 256840,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "436 SUMMIT DR|BOSSIER CITY",
+  "address": "436 Summit Dr",
+  "city": "Bossier City",
+  "sqft": 2487,
+  "predicted": 410587,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 425000,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "286 FERRY LAKE DR|BOSSIER CITY",
+  "address": "286 Ferry Lake Dr",
+  "city": "Bossier City",
+  "sqft": 1957,
+  "predicted": 332429,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 348645,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "3417 MOONLAKE CIR|BOSSIER CITY",
+  "address": "3417 Moonlake Cir",
+  "city": "Bossier City",
+  "sqft": 1022,
+  "predicted": 111244,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 110000,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "3222 IMPALA DR|BOSSIER CITY",
+  "address": "3222 Impala Dr",
+  "city": "Bossier City",
+  "sqft": 1612,
+  "predicted": 207257,
+  "predicted_at": "2026-08-02",
+  "proxy_price": 199000,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
  }
 ]
