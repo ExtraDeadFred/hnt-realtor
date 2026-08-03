@@ -4332,5 +4332,60 @@
   "proxy_price": 199000,
   "sold_price": null,
   "sold_date": "2026-07-31"
+ },
+ {
+  "key": "406 COLUMBIA ST|MINDEN",
+  "address": "406 Columbia St",
+  "city": "Minden",
+  "sqft": 1216,
+  "predicted": 143329,
+  "predicted_at": "2026-08-03",
+  "proxy_price": 80000,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "233 SEDGEWICK AVE|HAUGHTON",
+  "address": "233 Sedgewick Ave",
+  "city": "Haughton",
+  "sqft": 1593,
+  "predicted": 251370,
+  "predicted_at": "2026-08-03",
+  "proxy_price": 261000,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "5861 BLUEBONNETT DR|BOSSIER CITY",
+  "address": "5861 Bluebonnett Dr",
+  "city": "Bossier City",
+  "sqft": 1685,
+  "predicted": 262304,
+  "predicted_at": "2026-08-03",
+  "proxy_price": 272000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1916 PALMETTO RD|BENTON",
+  "address": "1916 Palmetto Rd",
+  "city": "Benton",
+  "sqft": 1614,
+  "predicted": 232161,
+  "predicted_at": "2026-08-03",
+  "proxy_price": 258900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1137 WALLER DR|HAYNESVILLE",
+  "address": "1137 Waller Dr",
+  "city": "Haynesville",
+  "sqft": 1625,
+  "predicted": 105162,
+  "predicted_at": "2026-08-03",
+  "proxy_price": 100000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
