@@ -316,7 +316,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 475000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-31"
  },
  {
   "key": "174 BENT TREE LOOP|HAUGHTON",
@@ -4387,5 +4387,104 @@
   "proxy_price": 100000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "1104 FOREMAN RD|DOYLINE",
+  "address": "1104 Foreman Rd",
+  "city": "Doyline",
+  "sqft": 1000,
+  "predicted": 135547,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 49900,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "13403 HWY 157|HAUGHTON",
+  "address": "13403 Highway 157",
+  "city": "Haughton",
+  "sqft": 2403,
+  "predicted": 397421,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 245000,
+  "sold_price": null,
+  "sold_date": "2026-08-03"
+ },
+ {
+  "key": "1108 BUCKHALL RD|BOSSIER CITY",
+  "address": "1108 Buckhall Rd",
+  "city": "Bossier City",
+  "sqft": 2188,
+  "predicted": 319325,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 375000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "584 CORINTH CIR|BOSSIER CITY",
+  "address": "584 Corinth Cir",
+  "city": "Bossier City",
+  "sqft": 2754,
+  "predicted": 537774,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 634174,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "532 PARKLANE DR|BOSSIER CITY",
+  "address": "532 Parklane Dr",
+  "city": "Bossier City",
+  "sqft": 3235,
+  "predicted": 528929,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 549000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "589 CORINTH CIR|BOSSIER CITY",
+  "address": "589 Corinth Cir",
+  "city": "Bossier City",
+  "sqft": 3021,
+  "predicted": 553648,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 687900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5510 MEADOWSWEET CIR|BOSSIER CITY",
+  "address": "5510 Meadowsweet Cir",
+  "city": "Bossier City",
+  "sqft": 1741,
+  "predicted": 251996,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 299999,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "771 VENECIA DR|BOSSIER CITY",
+  "address": "771 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1564,
+  "predicted": 248043,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 248930,
+  "sold_price": null,
+  "sold_date": "2026-08-03"
+ },
+ {
+  "key": "66 TURTLE CREEK DR|BENTON",
+  "address": "66 Turtle Creek Dr",
+  "city": "Benton",
+  "sqft": 2337,
+  "predicted": 453956,
+  "predicted_at": "2026-08-04",
+  "proxy_price": 490770,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
  }
 ]
