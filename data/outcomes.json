@@ -4486,5 +4486,93 @@
   "proxy_price": 490770,
   "sold_price": null,
   "sold_date": "2026-07-31"
+ },
+ {
+  "key": "612 BATTON ST|MINDEN",
+  "address": "612 Batton St",
+  "city": "Minden",
+  "sqft": 980,
+  "predicted": 94090,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 89900,
+  "sold_price": null,
+  "sold_date": "2026-08-03"
+ },
+ {
+  "key": "12 FORSYTHE BLVD|HAUGHTON",
+  "address": "12 Forsythe Blvd",
+  "city": "Haughton",
+  "sqft": 2088,
+  "predicted": 264131,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 429900,
+  "sold_price": null,
+  "sold_date": "2026-08-04"
+ },
+ {
+  "key": "201 IXWORTH AVE|BOSSIER CITY",
+  "address": "201 Ixworth Ave",
+  "city": "Bossier City",
+  "sqft": 1787,
+  "predicted": 266136,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 314000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1341 WHITEHALL DR|BOSSIER CITY",
+  "address": "1341 Whitehall Dr",
+  "city": "Bossier City",
+  "sqft": 3212,
+  "predicted": 529630,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 395000,
+  "sold_price": null,
+  "sold_date": "2026-08-04"
+ },
+ {
+  "key": "105 CALAIS CT|BOSSIER CITY",
+  "address": "105 Calais Ct",
+  "city": "Bossier City",
+  "sqft": 3758,
+  "predicted": 588887,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 725000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5315 HOLLYHOCK LN|BOSSIER CITY",
+  "address": "5315 Hollyhock Ln",
+  "city": "Bossier City",
+  "sqft": 1400,
+  "predicted": 194497,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 175000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1623 SUCCESS ST|BOSSIER CITY",
+  "address": "1623 Success St",
+  "city": "Bossier City",
+  "sqft": 1438,
+  "predicted": 146086,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 189000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1035 CRESSMONT ST|BOSSIER CITY",
+  "address": "1035 Cressmont St",
+  "city": "Bossier City",
+  "sqft": 1948,
+  "predicted": 291791,
+  "predicted_at": "2026-08-05",
+  "proxy_price": 269000,
+  "sold_price": null,
+  "sold_date": "2026-08-04"
  }
 ]
