@@ -4574,5 +4574,60 @@
   "proxy_price": 269000,
   "sold_price": null,
   "sold_date": "2026-08-04"
+ },
+ {
+  "key": "307 EMERALD DR|MINDEN",
+  "address": "307 Emerald Dr",
+  "city": "Minden",
+  "sqft": 1780,
+  "predicted": 209678,
+  "predicted_at": "2026-08-06",
+  "proxy_price": 187000,
+  "sold_price": null,
+  "sold_date": "2026-08-05"
+ },
+ {
+  "key": "1534 JAMES ST|BOSSIER CITY",
+  "address": "1534 James St",
+  "city": "Bossier City",
+  "sqft": 1048,
+  "predicted": 116008,
+  "predicted_at": "2026-08-06",
+  "proxy_price": 99900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "863 ABITA CHASE|BOSSIER CITY",
+  "address": "863 Abita Chase",
+  "city": "Bossier City",
+  "sqft": 1910,
+  "predicted": 349432,
+  "predicted_at": "2026-08-06",
+  "proxy_price": 329900,
+  "sold_price": null,
+  "sold_date": "2026-08-05"
+ },
+ {
+  "key": "1328 MARK AVE|BOSSIER CITY",
+  "address": "1328 Mark Ave",
+  "city": "Bossier City",
+  "sqft": 1558,
+  "predicted": 250599,
+  "predicted_at": "2026-08-06",
+  "proxy_price": 174900,
+  "sold_price": null,
+  "sold_date": "2026-08-05"
+ },
+ {
+  "key": "470 STACEY LN|BOSSIER CITY",
+  "address": "470 Stacey Ln",
+  "city": "Bossier City",
+  "sqft": 2127,
+  "predicted": 329666,
+  "predicted_at": "2026-08-06",
+  "proxy_price": 449500,
+  "sold_price": null,
+  "sold_date": "2026-08-05"
  }
 ]
