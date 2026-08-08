@@ -800,7 +800,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 248500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-07"
  },
  {
   "key": "300 NEW PORT DR|BENTON",
@@ -1856,7 +1856,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 338900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-07"
  },
  {
   "key": "405 HANCOCK ST|BOSSIER CITY",
@@ -4640,5 +4640,126 @@
   "proxy_price": 250000,
   "sold_price": null,
   "sold_date": "2026-08-06"
+ },
+ {
+  "key": "1144 GREEN WOOD CIR|HAUGHTON",
+  "address": "1144 Green Wood Cir",
+  "city": "Haughton",
+  "sqft": 1769,
+  "predicted": 233071,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 308900,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "517 PARKLANE DR|BOSSIER CITY",
+  "address": "517 Parklane Dr",
+  "city": "Bossier City",
+  "sqft": 2100,
+  "predicted": 265068,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 319900,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "511 ADAIR ST|BOSSIER CITY",
+  "address": "511 Adair St",
+  "city": "Bossier City",
+  "sqft": 1350,
+  "predicted": 179124,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 19000,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "2513 ROSEDALE PL|BOSSIER CITY",
+  "address": "2513 Rosedale Pl",
+  "city": "Bossier City",
+  "sqft": 1166,
+  "predicted": 151230,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 150000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "332 PRIEN LAKE LOOP|BOSSIER CITY",
+  "address": "332 Prien Lake Loop",
+  "city": "Bossier City",
+  "sqft": 1957,
+  "predicted": 319239,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 350123,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "5707 PAMPUS LN|BOSSIER CITY",
+  "address": "5707 Pampus Ln",
+  "city": "Bossier City",
+  "sqft": 1460,
+  "predicted": 213384,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 243000,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "2116 MIDDLE CREEK BLVD|BOSSIER CITY",
+  "address": "2116 Middle Creek Blvd",
+  "city": "Bossier City",
+  "sqft": 1981,
+  "predicted": 339472,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 277000,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "234 ARROWHEAD DR|BOSSIER CITY",
+  "address": "234 Arrowhead Dr",
+  "city": "Bossier City",
+  "sqft": 1842,
+  "predicted": 278423,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 339999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "141 ARBOR PL|BOSSIER CITY",
+  "address": "141 Arbor Pl",
+  "city": "Bossier City",
+  "sqft": 1757,
+  "predicted": 257915,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 389900,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "3400 BLACK LAKE CIR|BOSSIER CITY",
+  "address": "3400 Black Lake Cir",
+  "city": "Bossier City",
+  "sqft": 1008,
+  "predicted": 115521,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 132999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "106 PEAR TREE LN|BENTON",
+  "address": "106 Pear Tree Ln",
+  "city": "Benton",
+  "sqft": 2423,
+  "predicted": 410168,
+  "predicted_at": "2026-08-08",
+  "proxy_price": 419900,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
  }
 ]
