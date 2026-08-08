@@ -1,6 +1,6 @@
 """Market stats, comp-based price model, deal scoring, and model accuracy."""
 
-from datetime import date
+from datetime import date, timedelta
 from statistics import median
 
 
@@ -15,8 +15,16 @@ def _decade(l):
     return f"{int(yb) // 10 * 10}s" if yb else None
 
 
-def market_stats(listings, events):
-    """Per-cohort stats. Cohorts: each city, each parish, and 'Waterfront'."""
+def market_stats(listings, events, cfg=None):
+    """Per-cohort stats. Cohorts: each city, each parish, and 'Waterfront'.
+
+    Headline price figures exclude mobile/manufactured homes: they sell for
+    roughly two-thirds the $/sqft of slab-built houses, so including them
+    drags the medians and makes "homes here average $X/sqft" misleading in
+    Catherine's posts. `inventory` still counts every home on the market, and
+    `mobile_count` reports what was held out.
+    """
+    exclude = set((cfg or {}).get("stats", {}).get("exclude_types") or [])
     cohorts = {}
     for l in listings:
         if l["status"] not in ("active", "coming_soon"):
@@ -30,17 +38,19 @@ def market_stats(listings, events):
     recent = [e for e in events if (date.today() - date.fromisoformat(e["date"])).days <= 7]
     stats = {"updated": date.today().isoformat(), "cohorts": {}}
     for name, ls in sorted(cohorts.items()):
-        prices = [l["price"] for l in ls if l.get("price")]
-        ppsfs = [p for p in (_ppsf(l) for l in ls) if p]
-        doms = [l["days_on_market"] for l in ls if l.get("days_on_market") is not None]
+        priced = [l for l in ls if l.get("home_type") not in exclude]
+        prices = [l["price"] for l in priced if l.get("price")]
+        ppsfs = [p for p in (_ppsf(l) for l in priced) if p]
+        doms = [l["days_on_market"] for l in priced if l.get("days_on_market") is not None]
         keys = {l["key"] for l in ls}
         by_decade = {}
-        for l in ls:
+        for l in priced:
             d, p = _decade(l), _ppsf(l)
             if d and p:
                 by_decade.setdefault(d, []).append(p)
         stats["cohorts"][name] = {
             "inventory": len(ls),
+            "mobile_count": sum(1 for l in ls if l.get("home_type") == "mobile"),
             "median_price": round(median(prices)) if prices else None,
             "median_ppsf": round(median(ppsfs), 1) if ppsfs else None,
             "median_dom": round(median(doms)) if doms else None,
@@ -58,10 +68,25 @@ def _find_comps(subject, pool, cfg):
     Returns the nearest matches by living area."""
     m = cfg["model"]
 
+    subject_mobile = subject.get("home_type") == "mobile"
+
     def matches(l, scope):
         if l["key"] == subject["key"] or not _ppsf(l):
             return False
         if bool(l.get("waterfront")) != bool(subject.get("waterfront")):
+            return False
+        # Property type gate. Mobile/manufactured homes sell for roughly
+        # two-thirds the $/sqft of slab-built houses here, so mixing them
+        # makes mobile homes look wildly underpriced (and drags foundation
+        # comps down). A mobile subject comps ONLY against known mobiles.
+        #
+        # Comps of unknown type (the MLS solds export has no property-type
+        # column) are treated as non-mobile: that export is overwhelmingly
+        # foundation-built, and mobile is ~5% of inventory. Deliberate
+        # approximation — it disappears once a Property Sub Type column is
+        # included in the export (ingest_mls.py already reads one).
+        comp_mobile = l.get("home_type") == "mobile"
+        if comp_mobile != subject_mobile:
             return False
         if scope == "subdivision":
             if not subject.get("subdivision") or l.get("subdivision") != subject["subdivision"]:
@@ -110,13 +135,39 @@ def predict_prices(listings, solds, cfg):
     return predictions
 
 
-def score_deals(listings, predictions, cfg):
+def _recent_price_cuts(events, days):
+    """key -> largest price-cut % in the last `days` days."""
+    if not events:
+        return {}
+    cutoff = date.today() - timedelta(days=days)
+    out = {}
+    for e in events:
+        if e.get("event") != "price_cut" or not e.get("cut_pct"):
+            continue
+        try:
+            when = date.fromisoformat(e["date"])
+        except (ValueError, TypeError):
+            continue
+        if when >= cutoff:
+            out[e["key"]] = max(out.get(e["key"], 0), e["cut_pct"])
+    return out
+
+
+def score_deals(listings, predictions, cfg, events=None):
     """Rank active listings by investment opportunity."""
     d, fmr_table = cfg["deals"], cfg["fmr"]
+    recent_cut_pct = _recent_price_cuts(events, d.get("fresh_event_days", 2))
     deals = []
+    eligible_types = d.get("eligible_types")
     for l in listings:
         p = predictions.get(l["key"])
         if not p or l["status"] != "active" or (l.get("price") or 0) < d["min_price"]:
+            continue
+        # Investors here buy slab-built houses to flip or rent — mobile homes,
+        # condos, townhomes and land are out of scope for this feed. Unknown
+        # type (None) is allowed through: most such listings are houses.
+        if eligible_types and l.get("home_type") is not None \
+                and l["home_type"] not in eligible_types:
             continue
         spread_pct = 100 * (p["predicted"] - l["price"]) / p["predicted"]
         beds = min(int(l.get("beds") or 3), 4)
@@ -124,12 +175,16 @@ def score_deals(listings, predictions, cfg):
         gross_yield = round(100 * fmr * 12 / l["price"], 1) if fmr else None
         dom = l.get("days_on_market") or 0
         # A spread past ~40% almost always means condition problems the model
-        # can't see, not a bargain — cap its contribution to the ranking
+        # can't see, not a bargain — cap its contribution to the ranking.
+        # Everything else is CONTINUOUS on purpose: flat step bonuses made
+        # dozens of deals tie at an identical score, and a stable sort then
+        # froze the same picks at the top of the email every single day.
         score = min(spread_pct, 40)
-        if dom > d["stale_dom_days"]:
-            score += 5  # long-sitting sellers negotiate
-        if gross_yield and gross_yield > 10:
-            score += 5
+        score += min(dom / d["stale_dom_days"], 2.0) * 5  # long sitters negotiate
+        if gross_yield:
+            score += max(0.0, min(gross_yield - 8.0, 8.0))  # rental strength
+        if recent_cut_pct.get(l["key"]):
+            score += min(recent_cut_pct[l["key"]], 10.0)  # motivated seller, right now
         flags = []
         if spread_pct >= d["underpriced_spread_pct"]:
             flags.append("underpriced")
@@ -145,15 +200,114 @@ def score_deals(listings, predictions, cfg):
             **{f: l.get(f) for f in ("key", "address", "city", "parish", "zip",
                                      "price", "beds", "baths", "sqft", "year_built",
                                      "days_on_market", "url", "waterfront",
-                                     "lat", "lng", "avm_estimate", "own_listing")},
+                                     "home_type", "lat", "lng", "avm_estimate",
+                                     "own_listing")},
             "predicted": p["predicted"], "spread_pct": round(spread_pct, 1),
             "comp_count": p["comp_count"], "gross_yield_pct": gross_yield,
-            "score": round(score, 1), "flags": flags,
+            "recent_cut_pct": recent_cut_pct.get(l["key"]),
+            "score": round(score, 2), "flags": flags,
         })
     deals.sort(key=lambda x: -x["score"])
-    return {"updated": date.today().isoformat(),
-            "high_opportunity": any(x["spread_pct"] >= d["high_opportunity_spread_pct"] for x in deals),
-            "deals": deals[: d["top_n"]]}
+    return deals
+
+
+def select_daily_deals(deals, events, history, cfg):
+    """Choose which of the qualifying deals to actually send today.
+
+    Sending the raw top-N froze the same houses into the email every day (the
+    pool is ~200 deep). Instead: fill some slots with genuinely fresh activity,
+    fill the rest by score from deals not featured recently, and only fall back
+    to repeats when there is nothing else. Each pick carries a `reason` so the
+    email can say WHY it's there and vary its framing.
+    """
+    d = cfg["deals"]
+    top_n = d["top_n"]
+    cooldown = d.get("cooldown_days", 10)
+    today = date.today()
+    fresh_days = d.get("fresh_event_days", 2)
+    cutoff = today - timedelta(days=fresh_days)
+
+    fresh_reason = {}
+    for e in events or []:
+        if e.get("event") not in ("new", "price_cut"):
+            continue
+        try:
+            when = date.fromisoformat(e["date"])
+        except (ValueError, TypeError):
+            continue
+        if when < cutoff:
+            continue
+        # Each piece of news gets its moment exactly once: if we already
+        # featured this listing on or after the event, it isn't news anymore
+        # (otherwise the same "fresh" homes refill these slots every day).
+        last = (history.get(e["key"]) or {}).get("last_featured")
+        if last:
+            try:
+                if date.fromisoformat(last) >= when:
+                    continue
+            except (ValueError, TypeError):
+                pass
+        # a price cut is the stronger story, so let it win over "new"
+        if e["event"] == "price_cut" or e["key"] not in fresh_reason:
+            fresh_reason[e["key"]] = e["event"]
+
+    def days_since_featured(deal):
+        rec = history.get(deal["key"])
+        if not rec or not rec.get("last_featured"):
+            return None
+        try:
+            return (today - date.fromisoformat(rec["last_featured"])).days
+        except (ValueError, TypeError):
+            return None
+
+    picked, used = [], set()
+
+    def take(deal, reason):
+        picked.append({**deal, "reason": reason,
+                       "times_featured": (history.get(deal["key"], {})
+                                          .get("times_featured", 0))})
+        used.add(deal["key"])
+
+    # 1. fresh activity first — new listings and this week's price cuts
+    for deal in deals:
+        if len(picked) >= min(d.get("fresh_slots", 4), top_n):
+            break
+        if deal["key"] in fresh_reason and deal["key"] not in used:
+            take(deal, fresh_reason[deal["key"]])
+
+    # 2. best scores that haven't been featured inside the cooldown window
+    for deal in deals:
+        if len(picked) >= top_n:
+            break
+        if deal["key"] in used:
+            continue
+        since = days_since_featured(deal)
+        if since is None or since >= cooldown:
+            take(deal, "top_score" if since is None else "resurfacing")
+
+    # 3. still short? bring back benched deals, longest-unseen first
+    if len(picked) < top_n:
+        benched = [x for x in deals if x["key"] not in used]
+        benched.sort(key=lambda x: (-(days_since_featured(x) or 0), -x["score"]))
+        for deal in benched[: top_n - len(picked)]:
+            take(deal, "still_available")
+
+    return {"updated": today.isoformat(),
+            "pool_size": len(deals),
+            "high_opportunity": any(x["spread_pct"] >= d["high_opportunity_spread_pct"]
+                                    for x in picked),
+            "deals": picked}
+
+
+def update_history(history, selection, live_keys):
+    """Record what we featured today; forget listings that left the market."""
+    today = date.today().isoformat()
+    for deal in selection["deals"]:
+        rec = history.setdefault(deal["key"], {"first_featured": today,
+                                               "times_featured": 0})
+        rec["last_featured"] = today
+        rec["times_featured"] = rec.get("times_featured", 0) + 1
+    return {k: v for k, v in history.items() if k in live_keys}
 
 
 def update_outcomes(outcomes, events, predictions, listings_prev):

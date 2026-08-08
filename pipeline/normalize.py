@@ -10,6 +10,45 @@ _ABBREV = {
 }
 
 
+# Explicit property-type labels as the various sources spell them.
+_STYLE_MAP = {
+    "MOBILE": "mobile", "MANUFACTURED": "mobile", "MOBILE_HOME": "mobile",
+    "MANUFACTUREDHOME": "mobile", "MANUFACTURED HOME": "mobile",
+    "SINGLE_FAMILY": "single_family", "SINGLEFAMILYRESIDENCE": "single_family",
+    "SINGLE FAMILY RESIDENCE": "single_family", "SFR": "single_family",
+    "MULTI_FAMILY": "multi_family", "MULTIFAMILY": "multi_family",
+    "DUPLEX": "multi_family", "TRIPLEX": "multi_family", "QUADRUPLEX": "multi_family",
+    "APARTMENT": "multi_family",
+    "CONDOS": "condo", "CONDO": "condo", "CONDOMINIUM": "condo",
+    "TOWNHOMES": "townhome", "TOWNHOUSE": "townhome", "TOWNHOME": "townhome",
+    "LAND": "land", "LOT": "land", "FARM": "land", "UNIMPROVEDLAND": "land",
+}
+
+# Free-text tells, for sources that give no structured type (Firecrawl
+# fallback, and any MLS export lacking a Property Sub Type column).
+_MOBILE_WORDS = ("mobile home", "manufactured home", "manufactured housing",
+                 "trailer home", "doublewide", "double wide", "singlewide",
+                 "single wide", "mobile/manufactured", " mfd ", " mh ")
+
+
+def classify_home_type(style=None, text=None, address=None):
+    """-> 'mobile' | 'single_family' | 'multi_family' | 'condo' | 'townhome'
+    | 'land' | None.
+
+    An explicit style from the source wins. Otherwise look for mobile-home
+    tells in the description/address. Returns None when genuinely unknown —
+    callers must decide what to do with that rather than get a wrong guess.
+    """
+    if style:
+        mapped = _STYLE_MAP.get(str(style).strip().upper().replace("-", "_"))
+        if mapped:
+            return mapped
+    blob = f" {(text or '')} {(address or '')} ".lower()
+    if any(w in blob for w in _MOBILE_WORDS):
+        return "mobile"
+    return None
+
+
 def canon_key(address, city):
     """'123 North Main Street, Minden, LA 71055' / Minden -> '123 N MAIN ST|MINDEN'
     The street part is everything before the first comma — sources differ on

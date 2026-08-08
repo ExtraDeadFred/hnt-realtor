@@ -44,9 +44,21 @@ model:
 deals:
   underpriced_spread_pct: 12   # predicted vs list spread to flag "underpriced"
   high_opportunity_spread_pct: 18  # threshold for the 🔥 email subject
-  stale_dom_days: 90           # DOM above this adds to the deal score
+  stale_dom_days: 90           # DOM scaling reference for the score
   min_price: 30000             # ignore lots/teardowns priced below this
   top_n: 10                    # opportunities included in the email
+  # Her investors buy slab-built houses to flip or rent. Mobile/manufactured,
+  # condo, townhome and land are excluded (unknown type still allowed).
+  eligible_types: [single_family, multi_family]
+  # Rotation: don't re-feature a listing for this many days, and reserve
+  # slots for genuinely fresh activity so the email never looks frozen.
+  cooldown_days: 10
+  fresh_slots: 4
+  fresh_event_days: 2
+
+stats:
+  # Held out of headline median price/$-per-sqft (still counted in inventory)
+  exclude_types: [mobile]
 
 # Neighborhood enrichment (Census ACS trends, HUD subsidized-housing
 # proximity, FBI crime trends) — applied to scored deals only. PRIVATE:

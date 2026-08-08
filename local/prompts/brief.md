@@ -24,7 +24,19 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
 
 ## Email content (in this order)
 
-1. **Deal alerts** — the top opportunities from `opportunities.json`. For each:
+1. **Deal alerts** — the opportunities from `opportunities.json`. These are
+   selected fresh each day out of a much larger pool, so **lead with the
+   `reason` field** and let it shape the sentence:
+   - `new` — just hit the market
+   - `price_cut` — seller just dropped the price (say by how much, using
+     `recent_cut_pct`)
+   - `top_score` — strongest numbers in the pool right now
+   - `resurfacing` / `still_available` — covered before and *still* sitting;
+     frame as "still out there after N days," never as if it were news
+   If `times_featured` is above 1, this listing has appeared before — say so
+   plainly and **change the angle rather than repeating your earlier wording**.
+   Mobile/manufactured homes are deliberately excluded from this feed, so
+   never suggest one. For each:
    address (linked to the listing URL), city, list price vs our estimated
    value, spread %, $/sqft, days on market, flags (underpriced / flip /
    rental), estimated gross rental yield when present. One-line plain-English

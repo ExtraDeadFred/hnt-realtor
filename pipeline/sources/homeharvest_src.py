@@ -10,6 +10,8 @@ from datetime import date
 
 import pandas as pd
 
+from normalize import classify_home_type
+
 _WATERFRONT_WORDS = ("waterfront", "water front", "lakefront", "lake front",
                      "lake claiborne", "lake bistineau", "boat house",
                      "boathouse", "boat dock", "on the lake", "lake view")
@@ -64,6 +66,7 @@ def _to_listing(row, area, status):
         "waterfront": _is_waterfront(row),
         "subdivision": _val(row, "neighborhoods"),
         "style": _val(row, "style"),
+        "home_type": classify_home_type(_val(row, "style"), _val(row, "text"), street),
         "avm_estimate": _num(row, "estimated_value", as_int=True),
         "own_listing": OWN_AGENT in agent and "hunt" in agent,
         "source": "homeharvest",

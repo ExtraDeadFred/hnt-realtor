@@ -3,11 +3,13 @@ later) returns a list of these dicts — downstream code never knows the source.
 
 from datetime import date
 
+from normalize import classify_home_type
+
 # Fields every adapter must populate (None when unknown)
 LISTING_FIELDS = [
     "address", "city", "parish", "zip", "price", "beds", "baths", "sqft",
     "lot_acres", "year_built", "status", "days_on_market", "url", "photo_url",
-    "lat", "lng", "waterfront", "source", "scraped_at",
+    "lat", "lng", "waterfront", "home_type", "source", "scraped_at",
 ]
 
 # JSON schema handed to Firecrawl's LLM extraction for search-result pages
@@ -55,6 +57,9 @@ def make_listing(raw, area, source):
     lst["city"] = raw.get("city") or area["city"]
     lst["parish"] = area["parish"]
     lst["waterfront"] = "waterfront" in area.get("tags", [])
+    # Firecrawl extraction has no structured type — infer from the address
+    lst["home_type"] = classify_home_type(raw.get("style"), raw.get("text"),
+                                          raw.get("address"))
     lst["status"] = (raw.get("status") or "active").strip().lower().replace(" ", "_")
     lst["source"] = source
     lst["scraped_at"] = date.today().isoformat()

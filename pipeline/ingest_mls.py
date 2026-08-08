@@ -9,7 +9,7 @@ import csv
 import re
 from pathlib import Path
 
-from normalize import canon_key
+from normalize import canon_key, classify_home_type
 
 _COLUMN_ALIASES = {
     "address": ["address", "street address", "property address", "full address"],
@@ -19,6 +19,10 @@ _COLUMN_ALIASES = {
     "sqft": ["sqft", "living area", "living sqft", "total living area", "sq ft", "heated sqft"],
     "year_built": ["year built", "yr built"],
     "subdivision": ["subdivision", "subdivision name", "neighborhood"],
+    # Absent from the "Agent Single Line Sold" export; present if she builds a
+    # custom export. Until then sold comps have home_type None (see analyze).
+    "property_type": ["property sub type", "property type", "ptype",
+                      "prop type", "style", "structure type"],
     "beds": ["beds", "bedrooms", "br", "beds total", "total beds"],
     "baths": ["baths", "bathrooms", "ba", "total baths", "bath total", "baths total"],
 }
@@ -67,6 +71,8 @@ def load_solds(folder="ingest/mls-solds"):
                 "year_built": _num(get("year_built")),
                 "beds": _num(get("beds")), "baths": _num(get("baths")),
                 "subdivision": get("subdivision") or None,
+                "home_type": classify_home_type(get("property_type"),
+                                                None, get("address")),
                 "sold_date": get("sold_date"), "waterfront": False,
             })
     return solds

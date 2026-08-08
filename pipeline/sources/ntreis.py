@@ -16,6 +16,8 @@ from datetime import date
 
 import requests
 
+from normalize import classify_home_type
+
 _token_cache = {}
 
 
@@ -104,6 +106,9 @@ def _to_listing(rec, parish_by_city):
         "lat": _num(rec.get("Latitude")),
         "lng": _num(rec.get("Longitude")),
         "waterfront": bool(rec.get("WaterfrontYN")),
+        "home_type": classify_home_type(
+            rec.get("PropertySubType") or rec.get("PropertyType"),
+            rec.get("PublicRemarks"), address),
         "subdivision": rec.get("SubdivisionName") or None,
         "source": "ntreis",
         "scraped_at": date.today().isoformat(),

@@ -161,9 +161,17 @@ def main():
         except Exception as e:
             print(f"sold-event confirmation failed: {e}")
 
+    all_events = load_events() + events
     predictions = analyze.predict_prices(current, solds, cfg)
-    stats = analyze.market_stats(current, load_events() + events)
-    deals = analyze.score_deals(current, predictions, cfg)
+    stats = analyze.market_stats(current, all_events, cfg)
+    pool = analyze.score_deals(current, predictions, cfg, all_events)
+    history = load_json(DATA / "deal-history.json", {})
+    deals = analyze.select_daily_deals(pool, all_events, history, cfg)
+    history = analyze.update_history(history, deals, {l["key"] for l in current})
+    save_json(DATA / "deal-history.json", history)
+    print(f"deal pool {deals['pool_size']} -> sent {len(deals['deals'])}: " + ", ".join(
+        f"{k}={sum(1 for x in deals['deals'] if x['reason'] == k)}"
+        for k in ("new", "price_cut", "top_score", "resurfacing", "still_available")))
 
     # Neighborhood enrichment (Census/HUD/FBI) for the scored deals only —
     # PRIVATE: consumed by the investor email, never rendered on the site
