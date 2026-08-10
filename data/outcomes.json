@@ -4772,5 +4772,27 @@
   "proxy_price": 185000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "1915 SATURN ST|BOSSIER CITY",
+  "address": "1915 Saturn St",
+  "city": "Bossier City",
+  "sqft": 1259,
+  "predicted": 152481,
+  "predicted_at": "2026-08-10",
+  "proxy_price": 179900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2468 RICHARDSON LOOP|HOMER",
+  "address": "2468 Richardson Loop",
+  "city": "Homer",
+  "sqft": 1182,
+  "predicted": 69207,
+  "predicted_at": "2026-08-10",
+  "proxy_price": 55000,
+  "sold_price": null,
+  "sold_date": "2026-08-05"
  }
 ]

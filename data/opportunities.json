@@ -1,182 +1,106 @@
 {
- "updated": "2026-08-09",
+ "updated": "2026-08-10",
  "pool_size": 169,
  "high_opportunity": true,
  "deals": [
   {
-   "key": "410 HIGHLAND DR|BOSSIER CITY",
-   "address": "410 Highland Dr",
-   "city": "Bossier City",
-   "parish": "Bossier",
-   "zip": "71111",
-   "price": 399900,
-   "beds": 4,
-   "baths": 3.5,
-   "sqft": 3996,
-   "year_built": 1984,
-   "days_on_market": 1,
-   "url": "https://www.realtor.com/realestateandhomes-detail/410-Highland-Dr_Bossier-City_LA_71111_M77751-37385",
-   "waterfront": false,
-   "home_type": "single_family",
-   "lat": 32.568855,
-   "lng": -93.720473,
-   "avm_estimate": 423700,
-   "own_listing": false,
-   "predicted": 534054,
-   "spread_pct": 25.1,
-   "comp_count": 10,
-   "gross_yield_pct": 4.9,
-   "recent_cut_pct": 5.9,
-   "score": 31.08,
-   "flags": [
-    "underpriced",
-    "flip_candidate"
-   ],
-   "reason": "price_cut",
-   "times_featured": 0,
-   "neighborhood": {
-    "tract": {
-     "geoid": "22015011120",
-     "state": "22",
-     "county": "015",
-     "tract": "011120"
-    },
-    "parish": "Bossier",
-    "acs_trends": {
-     "levels": {
-      "2023": {
-       "population": 3175.0,
-       "median_household_income": 61202.0,
-       "poverty_universe": 3126.0,
-       "poverty_below": 226.0,
-       "housing_units": 1690.0,
-       "housing_vacant": 103.0,
-       "occupied_units": 1587.0,
-       "owner_occupied": 1370.0,
-       "median_home_value": 267900.0,
-       "poverty_rate_pct": 7.2,
-       "vacancy_rate_pct": 6.1,
-       "owner_occupancy_pct": 86.3
-      }
-     },
-     "note": "tract not comparable across selected years (likely 2020 boundary change)"
-    },
-    "hud": {
-     "lihtc": {
-      "nearest_miles": 1.87,
-      "nearest_name": "THE VILLAGES AT EAGLE POINTE IV",
-      "count_within_radius": 0
-     },
-     "public_housing": {
-      "nearest_miles": 3.0,
-      "nearest_name": "SCOTT STREET PROJECT",
-      "count_within_radius": 0
-     }
-    },
-    "crime": {
-     "ori": "LA0080100",
-     "agency": "Bossier City Police Department",
-     "years": "2021-2025",
-     "annual": {
-      "violent-crime": {
-       "2021": 670,
-       "2022": 636,
-       "2023": 573,
-       "2024": 576,
-       "2025": 446
-      },
-      "property-crime": {
-       "2021": 3032,
-       "2022": 2953,
-       "2023": 2883,
-       "2024": 2332,
-       "2025": 2079
-      }
-     },
-     "caveats": [],
-     "violent-crime_change_pct": -33.4,
-     "property-crime_change_pct": -31.4
-    },
-    "score": {
-     "score": 89.3,
-     "coverage": 0.55,
-     "factors": {
-      "income_trend": null,
-      "home_value_trend": null,
-      "poverty_level": 82.0,
-      "vacancy_level": 79.7,
-      "owner_occupancy": 94.7,
-      "crime_trend": 100.0,
-      "subsidized_proximity": 93.5
-     }
-    }
-   }
-  },
-  {
-   "key": "205 OLD PALMETTO RD|BENTON",
-   "address": "205 Old Palmetto Rd",
+   "key": "814 LEE ST|BENTON",
+   "address": "814 Lee St",
    "city": "Benton",
    "parish": "Bossier",
    "zip": "71006",
-   "price": 479900,
-   "beds": 4,
-   "baths": 3.5,
-   "sqft": 3357,
-   "year_built": 2004,
-   "days_on_market": 85,
-   "url": "https://www.realtor.com/realestateandhomes-detail/205-Old-Palmetto-Rd_Benton_LA_71006_M77447-05235",
+   "price": 135000,
+   "beds": 3,
+   "baths": 2.0,
+   "sqft": 1050,
+   "year_built": 1952,
+   "days_on_market": 0,
+   "url": "https://www.realtor.com/realestateandhomes-detail/814-Lee-St_Benton_LA_71006_M85320-01004",
    "waterfront": false,
    "home_type": "single_family",
-   "lat": 32.647982,
-   "lng": -93.705649,
-   "avm_estimate": 507200,
+   "lat": 32.689569,
+   "lng": -93.740779,
+   "avm_estimate": 141200,
    "own_listing": false,
-   "predicted": 620520,
-   "spread_pct": 22.7,
+   "predicted": 129246,
+   "spread_pct": -4.5,
    "comp_count": 10,
-   "gross_yield_pct": 4.1,
-   "recent_cut_pct": 2.0,
-   "score": 29.38,
+   "gross_yield_pct": 12.0,
+   "recent_cut_pct": 3.6,
+   "score": 3.15,
    "flags": [
-    "underpriced"
+    "rental_candidate"
    ],
    "reason": "price_cut",
    "times_featured": 0,
    "neighborhood": {
     "tract": {
-     "geoid": "22015011116",
+     "geoid": "22015011107",
      "state": "22",
      "county": "015",
-     "tract": "011116"
+     "tract": "011107"
     },
     "parish": "Bossier",
     "acs_trends": {
      "levels": {
+      "2013": {
+       "population": 1952.0,
+       "median_household_income": 43056.0,
+       "poverty_universe": 1897.0,
+       "poverty_below": 294.0,
+       "housing_units": 888.0,
+       "housing_vacant": 122.0,
+       "occupied_units": 766.0,
+       "owner_occupied": 466.0,
+       "median_home_value": 86500.0,
+       "poverty_rate_pct": 15.5,
+       "vacancy_rate_pct": 13.7,
+       "owner_occupancy_pct": 60.8
+      },
+      "2018": {
+       "population": 2443.0,
+       "median_household_income": 43750.0,
+       "poverty_universe": 2383.0,
+       "poverty_below": 742.0,
+       "housing_units": 939.0,
+       "housing_vacant": 134.0,
+       "occupied_units": 805.0,
+       "owner_occupied": 520.0,
+       "median_home_value": 113600.0,
+       "poverty_rate_pct": 31.1,
+       "vacancy_rate_pct": 14.3,
+       "owner_occupancy_pct": 64.6
+      },
       "2023": {
-       "population": 5675.0,
-       "median_household_income": 103520.0,
-       "poverty_universe": 5560.0,
-       "poverty_below": 373.0,
-       "housing_units": 2165.0,
-       "housing_vacant": 20.0,
-       "occupied_units": 2145.0,
-       "owner_occupied": 1979.0,
-       "median_home_value": 363000.0,
-       "poverty_rate_pct": 6.7,
-       "vacancy_rate_pct": 0.9,
-       "owner_occupancy_pct": 92.3
+       "population": 2181.0,
+       "median_household_income": 58333.0,
+       "poverty_universe": 2181.0,
+       "poverty_below": 463.0,
+       "housing_units": 957.0,
+       "housing_vacant": 99.0,
+       "occupied_units": 858.0,
+       "owner_occupied": 529.0,
+       "median_home_value": 187800.0,
+       "poverty_rate_pct": 21.2,
+       "vacancy_rate_pct": 10.3,
+       "owner_occupancy_pct": 61.7
       }
      },
-     "note": "tract not comparable across selected years (likely 2020 boundary change)"
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 35.5,
+     "median_home_value_change_pct": 117.1,
+     "poverty_rate_pct_change_pts": 5.7,
+     "vacancy_rate_pct_change_pts": -3.4,
+     "owner_occupancy_pct_change_pts": 0.9
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 4.04,
+      "nearest_miles": 0.66,
       "nearest_name": "BENTON PLACE II APTS.",
-      "count_within_radius": 0
+      "count_within_radius": 3
      },
      "public_housing": {
-      "nearest_miles": 8.51,
+      "nearest_miles": 11.39,
       "nearest_name": "SCOTT STREET PROJECT",
       "count_within_radius": 0
      }
@@ -206,255 +130,85 @@
      "property-crime_change_pct": -21.5
     },
     "score": {
-     "score": 89.9,
-     "coverage": 0.55,
-     "factors": {
-      "income_trend": null,
-      "home_value_trend": null,
-      "poverty_level": 83.2,
-      "vacancy_level": 97.0,
-      "owner_occupancy": 100.0,
-      "crime_trend": 72.7,
-      "subsidized_proximity": 100.0
-     }
-    }
-   }
-  },
-  {
-   "key": "1895 DORCHEAT RD|MINDEN",
-   "address": "1895 Dorcheat Rd",
-   "city": "Minden",
-   "parish": "Webster",
-   "zip": "71055",
-   "price": 245000,
-   "beds": 2,
-   "baths": 2.0,
-   "sqft": 2691,
-   "year_built": 1965,
-   "days_on_market": 1,
-   "url": "https://www.realtor.com/realestateandhomes-detail/1895-Dorcheat-Rd_Minden_LA_71055_M83570-87113",
-   "waterfront": false,
-   "home_type": "single_family",
-   "lat": 32.653122,
-   "lng": -93.321539,
-   "avm_estimate": 224700,
-   "own_listing": false,
-   "predicted": 330974,
-   "spread_pct": 26.0,
-   "comp_count": 10,
-   "gross_yield_pct": 3.9,
-   "recent_cut_pct": null,
-   "score": 26.03,
-   "flags": [
-    "underpriced",
-    "flip_candidate"
-   ],
-   "reason": "new",
-   "times_featured": 0,
-   "neighborhood": {
-    "tract": {
-     "geoid": "22119031600",
-     "state": "22",
-     "county": "119",
-     "tract": "031600"
-    },
-    "parish": "Webster",
-    "acs_trends": {
-     "levels": {
-      "2013": {
-       "population": 3048.0,
-       "median_household_income": 72554.0,
-       "poverty_universe": 3025.0,
-       "poverty_below": 304.0,
-       "housing_units": 1176.0,
-       "housing_vacant": 99.0,
-       "occupied_units": 1077.0,
-       "owner_occupied": 978.0,
-       "median_home_value": 161700.0,
-       "poverty_rate_pct": 10.0,
-       "vacancy_rate_pct": 8.4,
-       "owner_occupancy_pct": 90.8
-      },
-      "2018": {
-       "population": 2742.0,
-       "median_household_income": 53325.0,
-       "poverty_universe": 2742.0,
-       "poverty_below": 133.0,
-       "housing_units": 1238.0,
-       "housing_vacant": 130.0,
-       "occupied_units": 1108.0,
-       "owner_occupied": 1005.0,
-       "median_home_value": 155700.0,
-       "poverty_rate_pct": 4.9,
-       "vacancy_rate_pct": 10.5,
-       "owner_occupancy_pct": 90.7
-      },
-      "2023": {
-       "population": 2694.0,
-       "median_household_income": 70603.0,
-       "poverty_universe": 2694.0,
-       "poverty_below": 250.0,
-       "housing_units": 1336.0,
-       "housing_vacant": 94.0,
-       "occupied_units": 1242.0,
-       "owner_occupied": 1174.0,
-       "median_home_value": 230300.0,
-       "poverty_rate_pct": 9.3,
-       "vacancy_rate_pct": 7.0,
-       "owner_occupancy_pct": 94.5
-      }
-     },
-     "trend_years": "2013->2023",
-     "median_household_income_change_pct": -2.7,
-     "median_home_value_change_pct": 42.4,
-     "poverty_rate_pct_change_pts": -0.7,
-     "vacancy_rate_pct_change_pts": -1.4,
-     "owner_occupancy_pct_change_pts": 3.7
-    },
-    "hud": {
-     "lihtc": {
-      "nearest_miles": 3.27,
-      "nearest_name": "AZALEA TERRACE APTS",
-      "count_within_radius": 0
-     },
-     "public_housing": {
-      "nearest_miles": 3.7,
-      "nearest_name": "SOUTHFIELD PLAZA",
-      "count_within_radius": 0
-     }
-    },
-    "crime": {
-     "ori": "LA0600100",
-     "agency": "Minden Police Department",
-     "years": "2021-2025",
-     "annual": {
-      "violent-crime": {
-       "2024": 88,
-       "2025": 84
-      },
-      "property-crime": {
-       "2024": 281,
-       "2025": 279
-      }
-     },
-     "caveats": [],
-     "violent-crime_change_pct": -4.5,
-     "property-crime_change_pct": -0.7
-    },
-    "score": {
-     "score": 66.1,
+     "score": 72.9,
      "coverage": 1.0,
      "factors": {
-      "income_trend": 14.6,
-      "home_value_trend": 87.3,
-      "poverty_level": 76.8,
-      "vacancy_level": 76.7,
-      "owner_occupancy": 100.0,
-      "crime_trend": 57.5,
-      "subsidized_proximity": 100.0
+      "income_trend": 91.0,
+      "home_value_trend": 100.0,
+      "poverty_level": 47.0,
+      "vacancy_level": 65.7,
+      "owner_occupancy": 59.6,
+      "crime_trend": 72.7,
+      "subsidized_proximity": 33.0
      }
     }
    }
   },
   {
-   "key": "1307 PECAN SQ|BOSSIER CITY",
-   "address": "1307 Pecan Sq",
+   "key": "2214 KIRBY SMITH DR|BOSSIER CITY",
+   "address": "2214 Kirby Smith Dr",
    "city": "Bossier City",
    "parish": "Bossier",
    "zip": "71112",
-   "price": 171900,
+   "price": 135000,
    "beds": 3,
-   "baths": 2.0,
-   "sqft": 1300,
-   "year_built": 1986,
-   "days_on_market": 1,
-   "url": "https://www.realtor.com/realestateandhomes-detail/1307-Pecan-Sq_Bossier-City_LA_71112_M71084-98742",
+   "baths": 1.0,
+   "sqft": 1062,
+   "year_built": 1985,
+   "days_on_market": 32,
+   "url": "https://www.realtor.com/realestateandhomes-detail/2214-Kirby-Smith-Dr_Bossier-City_LA_71112_M77768-51619",
    "waterfront": false,
    "home_type": "single_family",
-   "lat": 32.482138,
-   "lng": -93.677219,
-   "avm_estimate": 159300,
+   "lat": 32.461737,
+   "lng": -93.651794,
+   "avm_estimate": 158500,
    "own_listing": false,
-   "predicted": 212124,
-   "spread_pct": 19.0,
+   "predicted": 120993,
+   "spread_pct": -11.6,
    "comp_count": 10,
-   "gross_yield_pct": 9.4,
-   "recent_cut_pct": null,
-   "score": 20.42,
+   "gross_yield_pct": 12.0,
+   "recent_cut_pct": 3.6,
+   "score": -2.2,
    "flags": [
-    "underpriced",
-    "flip_candidate"
+    "rental_candidate"
    ],
-   "reason": "new",
+   "reason": "price_cut",
    "times_featured": 0,
    "neighborhood": {
     "tract": {
-     "geoid": "22015010806",
+     "geoid": "22015010807",
      "state": "22",
      "county": "015",
-     "tract": "010806"
+     "tract": "010807"
     },
     "parish": "Bossier",
     "acs_trends": {
      "levels": {
-      "2013": {
-       "population": 4302.0,
-       "median_household_income": 62220.0,
-       "poverty_universe": 4288.0,
-       "poverty_below": 262.0,
-       "housing_units": 1719.0,
-       "housing_vacant": 110.0,
-       "occupied_units": 1609.0,
-       "owner_occupied": 1306.0,
-       "median_home_value": 129600.0,
-       "poverty_rate_pct": 6.1,
-       "vacancy_rate_pct": 6.4,
-       "owner_occupancy_pct": 81.2
-      },
-      "2018": {
-       "population": 4291.0,
-       "median_household_income": 59511.0,
-       "poverty_universe": 4291.0,
-       "poverty_below": 335.0,
-       "housing_units": 1822.0,
-       "housing_vacant": 152.0,
-       "occupied_units": 1670.0,
-       "owner_occupied": 1209.0,
-       "median_home_value": 141100.0,
-       "poverty_rate_pct": 7.8,
-       "vacancy_rate_pct": 8.3,
-       "owner_occupancy_pct": 72.4
-      },
       "2023": {
-       "population": 3976.0,
-       "median_household_income": 63786.0,
-       "poverty_universe": 3976.0,
-       "poverty_below": 568.0,
-       "housing_units": 1517.0,
-       "housing_vacant": 43.0,
-       "occupied_units": 1474.0,
-       "owner_occupied": 1222.0,
-       "median_home_value": 170000.0,
-       "poverty_rate_pct": 14.3,
-       "vacancy_rate_pct": 2.8,
-       "owner_occupancy_pct": 82.9
+       "population": 3764.0,
+       "median_household_income": 92371.0,
+       "poverty_universe": 3764.0,
+       "poverty_below": 20.0,
+       "housing_units": 1597.0,
+       "housing_vacant": 180.0,
+       "occupied_units": 1417.0,
+       "owner_occupied": 1058.0,
+       "median_home_value": 208900.0,
+       "poverty_rate_pct": 0.5,
+       "vacancy_rate_pct": 11.3,
+       "owner_occupancy_pct": 74.7
       }
      },
-     "trend_years": "2013->2023",
-     "median_household_income_change_pct": 2.5,
-     "median_home_value_change_pct": 31.2,
-     "poverty_rate_pct_change_pts": 8.2,
-     "vacancy_rate_pct_change_pts": -3.6,
-     "owner_occupancy_pct_change_pts": 1.7
+     "note": "tract not comparable across selected years (likely 2020 boundary change)"
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 1.73,
+      "nearest_miles": 3.75,
       "nearest_name": "GIBSON PARK",
       "count_within_radius": 0
      },
      "public_housing": {
-      "nearest_miles": 2.86,
+      "nearest_miles": 4.87,
       "nearest_name": "PATRICIA PLAZA",
       "count_within_radius": 0
      }
@@ -484,45 +238,477 @@
      "property-crime_change_pct": -31.4
     },
     "score": {
-     "score": 66.3,
-     "coverage": 1.0,
+     "score": 88.8,
+     "coverage": 0.55,
      "factors": {
-      "income_trend": 25.0,
-      "home_value_trend": 68.7,
-      "poverty_level": 64.2,
-      "vacancy_level": 90.7,
-      "owner_occupancy": 89.9,
+      "income_trend": null,
+      "home_value_trend": null,
+      "poverty_level": 98.8,
+      "vacancy_level": 62.3,
+      "owner_occupancy": 78.1,
       "crime_trend": 100.0,
-      "subsidized_proximity": 86.5
+      "subsidized_proximity": 100.0
      }
     }
    }
   },
   {
-   "key": "323 KELLY ST|BOSSIER CITY",
-   "address": "323 Kelly St",
+   "key": "605 W 4TH ST|HOMER",
+   "address": "605 W 4th St",
+   "city": "Homer",
+   "parish": "Claiborne",
+   "zip": "71040",
+   "price": 52500,
+   "beds": 2,
+   "baths": 2.0,
+   "sqft": 1250,
+   "year_built": 1965,
+   "days_on_market": 88,
+   "url": "https://www.realtor.com/realestateandhomes-detail/605-W-4th-St_Homer_LA_71040_M76546-26909",
+   "waterfront": false,
+   "home_type": "single_family",
+   "lat": 32.792156,
+   "lng": -93.060463,
+   "avm_estimate": 62500,
+   "own_listing": false,
+   "predicted": 92349,
+   "spread_pct": 43.2,
+   "comp_count": 10,
+   "gross_yield_pct": 16.3,
+   "recent_cut_pct": null,
+   "score": 52.89,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "reason": "top_score",
+   "times_featured": 0,
+   "neighborhood": {
+    "tract": {
+     "geoid": "22027950400",
+     "state": "22",
+     "county": "027",
+     "tract": "950400"
+    },
+    "parish": "Claiborne",
+    "acs_trends": {
+     "levels": {
+      "2013": {
+       "population": 3594.0,
+       "median_household_income": 30375.0,
+       "poverty_universe": 3513.0,
+       "poverty_below": 1428.0,
+       "housing_units": 1573.0,
+       "housing_vacant": 322.0,
+       "occupied_units": 1251.0,
+       "owner_occupied": 649.0,
+       "median_home_value": 62500.0,
+       "poverty_rate_pct": 40.6,
+       "vacancy_rate_pct": 20.5,
+       "owner_occupancy_pct": 51.9
+      },
+      "2018": {
+       "population": 3251.0,
+       "median_household_income": 17333.0,
+       "poverty_universe": 3197.0,
+       "poverty_below": 1486.0,
+       "housing_units": 1821.0,
+       "housing_vacant": 415.0,
+       "occupied_units": 1406.0,
+       "owner_occupied": 648.0,
+       "median_home_value": 53300.0,
+       "poverty_rate_pct": 46.5,
+       "vacancy_rate_pct": 22.8,
+       "owner_occupancy_pct": 46.1
+      },
+      "2023": {
+       "population": 2883.0,
+       "median_household_income": 21064.0,
+       "poverty_universe": 2836.0,
+       "poverty_below": 1206.0,
+       "housing_units": 1499.0,
+       "housing_vacant": 377.0,
+       "occupied_units": 1122.0,
+       "owner_occupied": 561.0,
+       "median_home_value": 56000.0,
+       "poverty_rate_pct": 42.5,
+       "vacancy_rate_pct": 25.2,
+       "owner_occupancy_pct": 50.0
+      }
+     },
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": -30.7,
+     "median_home_value_change_pct": -10.4,
+     "poverty_rate_pct_change_pts": 1.9,
+     "vacancy_rate_pct_change_pts": 4.7,
+     "owner_occupancy_pct_change_pts": -1.9
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 1.14,
+      "nearest_name": "CLAIBORNE PLACE II",
+      "count_within_radius": 0
+     },
+     "public_housing": {
+      "nearest_miles": 0.34,
+      "nearest_name": "Homer Housing Authority",
+      "count_within_radius": 1
+     }
+    },
+    "crime": {
+     "ori": "LA0140000",
+     "agency": "Claiborne Parish Sheriff's Office",
+     "years": "2021-2025",
+     "annual": {
+      "violent-crime": {
+       "2021": 19,
+       "2022": 23,
+       "2023": 21,
+       "2024": 34,
+       "2025": 38
+      },
+      "property-crime": {
+       "2021": 60,
+       "2022": 34,
+       "2023": 33,
+       "2024": 27,
+       "2025": 45
+      }
+     },
+     "caveats": [],
+     "violent-crime_change_pct": 100.0,
+     "property-crime_change_pct": -25.0
+    },
+    "score": {
+     "score": 11.6,
+     "coverage": 1.0,
+     "factors": {
+      "income_trend": 0.0,
+      "home_value_trend": 0.0,
+      "poverty_level": 0.0,
+      "vacancy_level": 16.0,
+      "owner_occupancy": 42.9,
+      "crime_trend": 0.0,
+      "subsidized_proximity": 57.0
+     }
+    }
+   }
+  },
+  {
+   "key": "1223 NORRIS DR|BOSSIER CITY",
+   "address": "1223 Norris Dr",
    "city": "Bossier City",
    "parish": "Bossier",
    "zip": "71111",
-   "price": 64900,
+   "price": 99900,
    "beds": 3,
-   "baths": 1.0,
-   "sqft": 1335,
-   "year_built": 1957,
-   "days_on_market": 131,
-   "url": "https://www.realtor.com/realestateandhomes-detail/323-Kelly-St_Bossier-City_LA_71111_M79894-16555",
+   "baths": 2.0,
+   "sqft": 1650,
+   "year_built": 1961,
+   "days_on_market": 74,
+   "url": "https://www.realtor.com/realestateandhomes-detail/1223-Norris-Dr_Bossier-City_LA_71111_M84641-94690",
    "waterfront": false,
    "home_type": "single_family",
-   "lat": 32.527795,
-   "lng": -93.736673,
-   "avm_estimate": 67983,
+   "lat": 32.538033,
+   "lng": -93.67865,
+   "avm_estimate": 100118,
    "own_listing": false,
-   "predicted": 168685,
-   "spread_pct": 61.5,
+   "predicted": 246105,
+   "spread_pct": 59.4,
    "comp_count": 10,
-   "gross_yield_pct": 24.9,
+   "gross_yield_pct": 16.2,
    "recent_cut_pct": null,
-   "score": 55.28,
+   "score": 52.11,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "reason": "top_score",
+   "times_featured": 0,
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010601",
+     "state": "22",
+     "county": "015",
+     "tract": "010601"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {
+      "2013": {
+       "population": 8184.0,
+       "median_household_income": 32072.0,
+       "poverty_universe": 8082.0,
+       "poverty_below": 2168.0,
+       "housing_units": 3138.0,
+       "housing_vacant": 161.0,
+       "occupied_units": 2977.0,
+       "owner_occupied": 1047.0,
+       "median_home_value": 81300.0,
+       "poverty_rate_pct": 26.8,
+       "vacancy_rate_pct": 5.1,
+       "owner_occupancy_pct": 35.2
+      },
+      "2018": {
+       "population": 7384.0,
+       "median_household_income": 32433.0,
+       "poverty_universe": 7275.0,
+       "poverty_below": 2286.0,
+       "housing_units": 3143.0,
+       "housing_vacant": 337.0,
+       "occupied_units": 2806.0,
+       "owner_occupied": 900.0,
+       "median_home_value": 87200.0,
+       "poverty_rate_pct": 31.4,
+       "vacancy_rate_pct": 10.7,
+       "owner_occupancy_pct": 32.1
+      },
+      "2023": {
+       "population": 6619.0,
+       "median_household_income": 37514.0,
+       "poverty_universe": 6543.0,
+       "poverty_below": 2062.0,
+       "housing_units": 2909.0,
+       "housing_vacant": 210.0,
+       "occupied_units": 2699.0,
+       "owner_occupied": 838.0,
+       "median_home_value": 95500.0,
+       "poverty_rate_pct": 31.5,
+       "vacancy_rate_pct": 7.2,
+       "owner_occupancy_pct": 31.0
+      }
+     },
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 17.0,
+     "median_home_value_change_pct": 17.5,
+     "poverty_rate_pct_change_pts": 4.7,
+     "vacancy_rate_pct_change_pts": 2.1,
+     "owner_occupancy_pct_change_pts": -4.2
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.52,
+      "nearest_name": "SHREVEPORT HOMES",
+      "count_within_radius": 6
+     },
+     "public_housing": {
+      "nearest_miles": 2.07,
+      "nearest_name": "PATRICIA PLAZA",
+      "count_within_radius": 0
+     }
+    },
+    "crime": {
+     "ori": "LA0080100",
+     "agency": "Bossier City Police Department",
+     "years": "2021-2025",
+     "annual": {
+      "violent-crime": {
+       "2021": 670,
+       "2022": 636,
+       "2023": 573,
+       "2024": 576,
+       "2025": 446
+      },
+      "property-crime": {
+       "2021": 3032,
+       "2022": 2953,
+       "2023": 2883,
+       "2024": 2332,
+       "2025": 2079
+      }
+     },
+     "caveats": [],
+     "violent-crime_change_pct": -33.4,
+     "property-crime_change_pct": -31.4
+    },
+    "score": {
+     "score": 47.6,
+     "coverage": 1.0,
+     "factors": {
+      "income_trend": 54.0,
+      "home_value_trend": 45.8,
+      "poverty_level": 21.3,
+      "vacancy_level": 76.0,
+      "owner_occupancy": 15.7,
+      "crime_trend": 100.0,
+      "subsidized_proximity": 26.0
+     }
+    }
+   }
+  },
+  {
+   "key": "613 ANTHONY ST|BOSSIER CITY",
+   "address": "613 Anthony St",
+   "city": "Bossier City",
+   "parish": "Bossier",
+   "zip": "71112",
+   "price": 73000,
+   "beds": 2,
+   "baths": 1.0,
+   "sqft": 1300,
+   "year_built": 1957,
+   "days_on_market": 72,
+   "url": "https://www.realtor.com/realestateandhomes-detail/613-Anthony-St_Bossier-City_LA_71112_M78360-29936",
+   "waterfront": false,
+   "home_type": "single_family",
+   "lat": 32.506128,
+   "lng": -93.709455,
+   "avm_estimate": 72595,
+   "own_listing": false,
+   "predicted": 189977,
+   "spread_pct": 61.6,
+   "comp_count": 10,
+   "gross_yield_pct": 16.7,
+   "recent_cut_pct": null,
+   "score": 52.0,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "reason": "top_score",
+   "times_featured": 0,
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010801",
+     "state": "22",
+     "county": "015",
+     "tract": "010801"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {
+      "2013": {
+       "population": 3203.0,
+       "median_household_income": 30329.0,
+       "poverty_universe": 3195.0,
+       "poverty_below": 1039.0,
+       "housing_units": 1521.0,
+       "housing_vacant": 122.0,
+       "occupied_units": 1399.0,
+       "owner_occupied": 617.0,
+       "median_home_value": 84900.0,
+       "poverty_rate_pct": 32.5,
+       "vacancy_rate_pct": 8.0,
+       "owner_occupancy_pct": 44.1
+      },
+      "2018": {
+       "population": 3233.0,
+       "median_household_income": 36385.0,
+       "poverty_universe": 3233.0,
+       "poverty_below": 1401.0,
+       "housing_units": 1629.0,
+       "housing_vacant": 311.0,
+       "occupied_units": 1318.0,
+       "owner_occupied": 419.0,
+       "median_home_value": 85000.0,
+       "poverty_rate_pct": 43.3,
+       "vacancy_rate_pct": 19.1,
+       "owner_occupancy_pct": 31.8
+      },
+      "2023": {
+       "population": 3573.0,
+       "median_household_income": 46250.0,
+       "poverty_universe": 3535.0,
+       "poverty_below": 1551.0,
+       "housing_units": 1697.0,
+       "housing_vacant": 489.0,
+       "occupied_units": 1208.0,
+       "owner_occupied": 372.0,
+       "median_home_value": 88200.0,
+       "poverty_rate_pct": 43.9,
+       "vacancy_rate_pct": 28.8,
+       "owner_occupancy_pct": 30.8
+      }
+     },
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 52.5,
+     "median_home_value_change_pct": 3.9,
+     "poverty_rate_pct_change_pts": 11.4,
+     "vacancy_rate_pct_change_pts": 20.8,
+     "owner_occupancy_pct_change_pts": -13.3
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.94,
+      "nearest_name": "GIBSON PARK",
+      "count_within_radius": 1
+     },
+     "public_housing": {
+      "nearest_miles": 0.81,
+      "nearest_name": "PATRICIA PLAZA",
+      "count_within_radius": 1
+     }
+    },
+    "crime": {
+     "ori": "LA0080100",
+     "agency": "Bossier City Police Department",
+     "years": "2021-2025",
+     "annual": {
+      "violent-crime": {
+       "2021": 670,
+       "2022": 636,
+       "2023": 573,
+       "2024": 576,
+       "2025": 446
+      },
+      "property-crime": {
+       "2021": 3032,
+       "2022": 2953,
+       "2023": 2883,
+       "2024": 2332,
+       "2025": 2079
+      }
+     },
+     "caveats": [],
+     "violent-crime_change_pct": -33.4,
+     "property-crime_change_pct": -31.4
+    },
+    "score": {
+     "score": 46.3,
+     "coverage": 1.0,
+     "factors": {
+      "income_trend": 100.0,
+      "home_value_trend": 23.2,
+      "poverty_level": 0.0,
+      "vacancy_level": 4.0,
+      "owner_occupancy": 15.4,
+      "crime_trend": 100.0,
+      "subsidized_proximity": 47.0
+     }
+    }
+   }
+  },
+  {
+   "key": "1925 MCCALL ST|BOSSIER CITY",
+   "address": "1925 McCall St",
+   "city": "Bossier City",
+   "parish": "Bossier",
+   "zip": "71111",
+   "price": 40000,
+   "beds": 3,
+   "baths": 1.0,
+   "sqft": 1075,
+   "year_built": 1950,
+   "days_on_market": 63,
+   "url": "https://www.realtor.com/realestateandhomes-detail/1925-McCall-St_Bossier-City_LA_71111_M82830-86306",
+   "waterfront": false,
+   "home_type": "single_family",
+   "lat": 32.529016,
+   "lng": -93.724169,
+   "avm_estimate": 38829,
+   "own_listing": false,
+   "predicted": 140393,
+   "spread_pct": 71.5,
+   "comp_count": 10,
+   "gross_yield_pct": 40.4,
+   "recent_cut_pct": null,
+   "score": 51.5,
    "flags": [
     "underpriced",
     "flip_candidate",
@@ -593,13 +779,13 @@
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 0.31,
-      "nearest_name": "GORDON BOSSIER",
-      "count_within_radius": 1
+      "nearest_miles": 0.36,
+      "nearest_name": "CLOVERDALE PLAZA APARTMENTS",
+      "count_within_radius": 6
      },
      "public_housing": {
-      "nearest_miles": 0.91,
-      "nearest_name": "CISCO HOMES",
+      "nearest_miles": 0.3,
+      "nearest_name": "SCOTT STREET PROJECT",
       "count_within_radius": 2
      }
     },
@@ -628,7 +814,7 @@
      "property-crime_change_pct": -31.4
     },
     "score": {
-     "score": 42.0,
+     "score": 42.2,
      "coverage": 1.0,
      "factors": {
       "income_trend": 88.0,
@@ -637,279 +823,36 @@
       "vacancy_level": 51.3,
       "owner_occupancy": 0.0,
       "crime_trend": 100.0,
-      "subsidized_proximity": 15.5
+      "subsidized_proximity": 18.0
      }
     }
    }
   },
   {
-   "key": "29 MCARTHUR ST|MINDEN",
-   "address": "29 McArthur St",
-   "city": "Minden",
-   "parish": "Webster",
-   "zip": "71055",
-   "price": 64500,
-   "beds": 4,
-   "baths": 1.0,
-   "sqft": 1232,
-   "year_built": 1943,
-   "days_on_market": 114,
-   "url": "https://www.realtor.com/realestateandhomes-detail/29-McArthur-St_Minden_LA_71055_M84268-11692",
-   "waterfront": false,
-   "home_type": "single_family",
-   "lat": 32.593538,
-   "lng": -93.335796,
-   "avm_estimate": 61000,
-   "own_listing": false,
-   "predicted": 126980,
-   "spread_pct": 49.2,
-   "comp_count": 10,
-   "gross_yield_pct": 21.9,
-   "recent_cut_pct": null,
-   "score": 54.33,
-   "flags": [
-    "underpriced",
-    "flip_candidate",
-    "rental_candidate",
-    "verify_condition"
-   ],
-   "reason": "top_score",
-   "times_featured": 0,
-   "neighborhood": {
-    "tract": {
-     "geoid": "22119031502",
-     "state": "22",
-     "county": "119",
-     "tract": "031502"
-    },
-    "parish": "Webster",
-    "acs_trends": {
-     "levels": {
-      "2023": {
-       "population": 2183.0,
-       "median_household_income": 37654.0,
-       "poverty_universe": 1604.0,
-       "poverty_below": 298.0,
-       "housing_units": 1002.0,
-       "housing_vacant": 280.0,
-       "occupied_units": 722.0,
-       "owner_occupied": 596.0,
-       "median_home_value": 87400.0,
-       "poverty_rate_pct": 18.6,
-       "vacancy_rate_pct": 27.9,
-       "owner_occupancy_pct": 82.5
-      }
-     },
-     "note": "tract not comparable across selected years (likely 2020 boundary change)"
-    },
-    "hud": {
-     "lihtc": {
-      "nearest_miles": 2.8,
-      "nearest_name": "HARVEST MANOR A",
-      "count_within_radius": 0
-     },
-     "public_housing": {
-      "nearest_miles": 3.97,
-      "nearest_name": "SOUTHFIELD PLAZA",
-      "count_within_radius": 0
-     }
-    },
-    "crime": {
-     "ori": "LA0600100",
-     "agency": "Minden Police Department",
-     "years": "2021-2025",
-     "annual": {
-      "violent-crime": {
-       "2024": 88,
-       "2025": 84
-      },
-      "property-crime": {
-       "2024": 281,
-       "2025": 279
-      }
-     },
-     "caveats": [],
-     "violent-crime_change_pct": -4.5,
-     "property-crime_change_pct": -0.7
-    },
-    "score": {
-     "score": 60.7,
-     "coverage": 0.55,
-     "factors": {
-      "income_trend": null,
-      "home_value_trend": null,
-      "poverty_level": 53.5,
-      "vacancy_level": 7.0,
-      "owner_occupancy": 89.3,
-      "crime_trend": 57.5,
-      "subsidized_proximity": 100.0
-     }
-    }
-   }
-  },
-  {
-   "key": "1102 BONNIE LN|MINDEN",
-   "address": "1102 Bonnie Ln",
-   "city": "Minden",
-   "parish": "Webster",
-   "zip": "71055",
-   "price": 55000,
-   "beds": 2,
-   "baths": 1.0,
-   "sqft": 1250,
-   "year_built": 1954,
-   "days_on_market": 110,
-   "url": "https://www.realtor.com/realestateandhomes-detail/1102-Bonnie-Ln_Minden_LA_71055_M85974-15175",
-   "waterfront": false,
-   "home_type": "single_family",
-   "lat": 32.630093,
-   "lng": -93.288884,
-   "avm_estimate": 70900,
-   "own_listing": false,
-   "predicted": 149658,
-   "spread_pct": 63.2,
-   "comp_count": 10,
-   "gross_yield_pct": 17.2,
-   "recent_cut_pct": null,
-   "score": 54.11,
-   "flags": [
-    "underpriced",
-    "flip_candidate",
-    "rental_candidate",
-    "verify_condition"
-   ],
-   "reason": "top_score",
-   "times_featured": 0,
-   "neighborhood": {
-    "tract": {
-     "geoid": "22119031800",
-     "state": "22",
-     "county": "119",
-     "tract": "031800"
-    },
-    "parish": "Webster",
-    "acs_trends": {
-     "levels": {
-      "2013": {
-       "population": 2835.0,
-       "median_household_income": 36739.0,
-       "poverty_universe": 2795.0,
-       "poverty_below": 424.0,
-       "housing_units": 1200.0,
-       "housing_vacant": 136.0,
-       "occupied_units": 1064.0,
-       "owner_occupied": 616.0,
-       "median_home_value": 82800.0,
-       "poverty_rate_pct": 15.2,
-       "vacancy_rate_pct": 11.3,
-       "owner_occupancy_pct": 57.9
-      },
-      "2018": {
-       "population": 2629.0,
-       "median_household_income": 29295.0,
-       "poverty_universe": 2629.0,
-       "poverty_below": 558.0,
-       "housing_units": 1228.0,
-       "housing_vacant": 185.0,
-       "occupied_units": 1043.0,
-       "owner_occupied": 434.0,
-       "median_home_value": 81800.0,
-       "poverty_rate_pct": 21.2,
-       "vacancy_rate_pct": 15.1,
-       "owner_occupancy_pct": 41.6
-      },
-      "2023": {
-       "population": 2978.0,
-       "median_household_income": 31223.0,
-       "poverty_universe": 2957.0,
-       "poverty_below": 1303.0,
-       "housing_units": 1331.0,
-       "housing_vacant": 202.0,
-       "occupied_units": 1129.0,
-       "owner_occupied": 373.0,
-       "median_home_value": 99300.0,
-       "poverty_rate_pct": 44.1,
-       "vacancy_rate_pct": 15.2,
-       "owner_occupancy_pct": 33.0
-      }
-     },
-     "trend_years": "2013->2023",
-     "median_household_income_change_pct": -15.0,
-     "median_home_value_change_pct": 19.9,
-     "poverty_rate_pct_change_pts": 28.9,
-     "vacancy_rate_pct_change_pts": 3.9,
-     "owner_occupancy_pct_change_pts": -24.9
-    },
-    "hud": {
-     "lihtc": {
-      "nearest_miles": 1.08,
-      "nearest_name": "AZALEA TERRACE APTS",
-      "count_within_radius": 0
-     },
-     "public_housing": {
-      "nearest_miles": 1.22,
-      "nearest_name": "SOUTHFIELD PLAZA",
-      "count_within_radius": 0
-     }
-    },
-    "crime": {
-     "ori": "LA0600100",
-     "agency": "Minden Police Department",
-     "years": "2021-2025",
-     "annual": {
-      "violent-crime": {
-       "2024": 88,
-       "2025": 84
-      },
-      "property-crime": {
-       "2024": 281,
-       "2025": 279
-      }
-     },
-     "caveats": [],
-     "violent-crime_change_pct": -4.5,
-     "property-crime_change_pct": -0.7
-    },
-    "score": {
-     "score": 27.9,
-     "coverage": 1.0,
-     "factors": {
-      "income_trend": 0.0,
-      "home_value_trend": 49.8,
-      "poverty_level": 0.0,
-      "vacancy_level": 49.3,
-      "owner_occupancy": 18.6,
-      "crime_trend": 57.5,
-      "subsidized_proximity": 54.0
-     }
-    }
-   }
-  },
-  {
-   "key": "624 DETROIT ST|BOSSIER CITY",
-   "address": "624 Detroit St",
+   "key": "1523 VIOSCA ST|BOSSIER CITY",
+   "address": "1523 Viosca St",
    "city": "Bossier City",
    "parish": "Bossier",
    "zip": "71111",
-   "price": 70000,
+   "price": 100000,
    "beds": 3,
-   "baths": 2.0,
-   "sqft": 1638,
-   "year_built": 1980,
-   "days_on_market": 100,
-   "url": "https://www.realtor.com/realestateandhomes-detail/624-Detroit-St_Bossier-City_LA_71111_M78373-34244",
+   "baths": 1.0,
+   "sqft": 1344,
+   "year_built": 1956,
+   "days_on_market": 56,
+   "url": "https://www.realtor.com/realestateandhomes-detail/1523-Viosca-St_Bossier-City_LA_71111_M78879-04128",
    "waterfront": false,
    "home_type": "single_family",
-   "lat": 32.524096,
-   "lng": -93.729433,
-   "avm_estimate": 69794,
+   "lat": 32.534298,
+   "lng": -93.714705,
+   "avm_estimate": 108000,
    "own_listing": false,
-   "predicted": 262156,
-   "spread_pct": 73.3,
+   "predicted": 176475,
+   "spread_pct": 43.3,
    "comp_count": 10,
-   "gross_yield_pct": 23.1,
+   "gross_yield_pct": 16.1,
    "recent_cut_pct": null,
-   "score": 53.56,
+   "score": 51.11,
    "flags": [
     "underpriced",
     "flip_candidate",
@@ -920,216 +863,72 @@
    "times_featured": 0,
    "neighborhood": {
     "tract": {
-     "geoid": "22015011300",
+     "geoid": "22015010602",
      "state": "22",
      "county": "015",
-     "tract": "011300"
+     "tract": "010602"
     },
     "parish": "Bossier",
     "acs_trends": {
      "levels": {
       "2013": {
-       "population": 1981.0,
-       "median_household_income": 18250.0,
-       "poverty_universe": 1981.0,
-       "poverty_below": 994.0,
-       "housing_units": 949.0,
-       "housing_vacant": 241.0,
-       "occupied_units": 708.0,
-       "owner_occupied": 204.0,
-       "median_home_value": 56000.0,
-       "poverty_rate_pct": 50.2,
-       "vacancy_rate_pct": 25.4,
-       "owner_occupancy_pct": 28.8
+       "population": 2776.0,
+       "median_household_income": 24346.0,
+       "poverty_universe": 2587.0,
+       "poverty_below": 916.0,
+       "housing_units": 1488.0,
+       "housing_vacant": 108.0,
+       "occupied_units": 1380.0,
+       "owner_occupied": 362.0,
+       "median_home_value": 89400.0,
+       "poverty_rate_pct": 35.4,
+       "vacancy_rate_pct": 7.3,
+       "owner_occupancy_pct": 26.2
       },
       "2018": {
-       "population": 1677.0,
-       "median_household_income": 17361.0,
-       "poverty_universe": 1677.0,
-       "poverty_below": 1041.0,
-       "housing_units": 947.0,
-       "housing_vacant": 233.0,
-       "occupied_units": 714.0,
-       "owner_occupied": 120.0,
-       "median_home_value": 66000.0,
-       "poverty_rate_pct": 62.1,
-       "vacancy_rate_pct": 24.6,
-       "owner_occupancy_pct": 16.8
+       "population": 3178.0,
+       "median_household_income": 32337.0,
+       "poverty_universe": 2978.0,
+       "poverty_below": 819.0,
+       "housing_units": 1621.0,
+       "housing_vacant": 182.0,
+       "occupied_units": 1439.0,
+       "owner_occupied": 424.0,
+       "median_home_value": 128200.0,
+       "poverty_rate_pct": 27.5,
+       "vacancy_rate_pct": 11.2,
+       "owner_occupancy_pct": 29.5
       },
       "2023": {
-       "population": 1777.0,
-       "median_household_income": 22195.0,
-       "poverty_universe": 1777.0,
-       "poverty_below": 1084.0,
-       "housing_units": 815.0,
-       "housing_vacant": 265.0,
-       "occupied_units": 550.0,
-       "owner_occupied": 77.0,
-       "median_home_value": 88300.0,
-       "poverty_rate_pct": 61.0,
-       "vacancy_rate_pct": 32.5,
-       "owner_occupancy_pct": 14.0
+       "population": 2952.0,
+       "median_household_income": 43222.0,
+       "poverty_universe": 2678.0,
+       "poverty_below": 845.0,
+       "housing_units": 1381.0,
+       "housing_vacant": 143.0,
+       "occupied_units": 1238.0,
+       "owner_occupied": 354.0,
+       "median_home_value": 163200.0,
+       "poverty_rate_pct": 31.6,
+       "vacancy_rate_pct": 10.4,
+       "owner_occupancy_pct": 28.6
       }
      },
      "trend_years": "2013->2023",
-     "median_household_income_change_pct": 21.6,
-     "median_home_value_change_pct": 57.7,
-     "poverty_rate_pct_change_pts": 10.8,
-     "vacancy_rate_pct_change_pts": 7.1,
-     "owner_occupancy_pct_change_pts": -14.8
+     "median_household_income_change_pct": 77.5,
+     "median_home_value_change_pct": 82.6,
+     "poverty_rate_pct_change_pts": -3.8,
+     "vacancy_rate_pct_change_pts": 3.1,
+     "owner_occupancy_pct_change_pts": 2.4
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 0.46,
-      "nearest_name": "GORDON BOSSIER",
-      "count_within_radius": 2
-     },
-     "public_housing": {
-      "nearest_miles": 0.42,
-      "nearest_name": "CISCO HOMES",
-      "count_within_radius": 2
-     }
-    },
-    "crime": {
-     "ori": "LA0080100",
-     "agency": "Bossier City Police Department",
-     "years": "2021-2025",
-     "annual": {
-      "violent-crime": {
-       "2021": 670,
-       "2022": 636,
-       "2023": 573,
-       "2024": 576,
-       "2025": 446
-      },
-      "property-crime": {
-       "2021": 3032,
-       "2022": 2953,
-       "2023": 2883,
-       "2024": 2332,
-       "2025": 2079
-      }
-     },
-     "caveats": [],
-     "violent-crime_change_pct": -33.4,
-     "property-crime_change_pct": -31.4
-    },
-    "score": {
-     "score": 48.1,
-     "coverage": 1.0,
-     "factors": {
-      "income_trend": 63.2,
-      "home_value_trend": 100.0,
-      "poverty_level": 0.0,
-      "vacancy_level": 0.0,
-      "owner_occupancy": 0.0,
-      "crime_trend": 100.0,
-      "subsidized_proximity": 23.0
-     }
-    }
-   }
-  },
-  {
-   "key": "2538 NORTHSIDE DR|BOSSIER CITY",
-   "address": "2538 Northside Dr",
-   "city": "Bossier City",
-   "parish": "Bossier",
-   "zip": "71111",
-   "price": 64900,
-   "beds": 2,
-   "baths": 1.5,
-   "sqft": 1137,
-   "year_built": 1959,
-   "days_on_market": 82,
-   "url": "https://www.realtor.com/realestateandhomes-detail/2538-Northside-Dr_Bossier-City_LA_71111_M81784-80806",
-   "waterfront": false,
-   "home_type": "single_family",
-   "lat": 32.538126,
-   "lng": -93.713141,
-   "avm_estimate": 73900,
-   "own_listing": false,
-   "predicted": 169502,
-   "spread_pct": 61.7,
-   "comp_count": 10,
-   "gross_yield_pct": 18.7,
-   "recent_cut_pct": null,
-   "score": 52.56,
-   "flags": [
-    "underpriced",
-    "flip_candidate",
-    "rental_candidate",
-    "verify_condition"
-   ],
-   "reason": "top_score",
-   "times_featured": 0,
-   "neighborhood": {
-    "tract": {
-     "geoid": "22015010500",
-     "state": "22",
-     "county": "015",
-     "tract": "010500"
-    },
-    "parish": "Bossier",
-    "acs_trends": {
-     "levels": {
-      "2013": {
-       "population": 4790.0,
-       "median_household_income": 44589.0,
-       "poverty_universe": 4730.0,
-       "poverty_below": 1083.0,
-       "housing_units": 2207.0,
-       "housing_vacant": 225.0,
-       "occupied_units": 1982.0,
-       "owner_occupied": 1109.0,
-       "median_home_value": 134500.0,
-       "poverty_rate_pct": 22.9,
-       "vacancy_rate_pct": 10.2,
-       "owner_occupancy_pct": 56.0
-      },
-      "2018": {
-       "population": 4716.0,
-       "median_household_income": 42650.0,
-       "poverty_universe": 4614.0,
-       "poverty_below": 1192.0,
-       "housing_units": 2249.0,
-       "housing_vacant": 385.0,
-       "occupied_units": 1864.0,
-       "owner_occupied": 990.0,
-       "median_home_value": 150900.0,
-       "poverty_rate_pct": 25.8,
-       "vacancy_rate_pct": 17.1,
-       "owner_occupancy_pct": 53.1
-      },
-      "2023": {
-       "population": 3804.0,
-       "median_household_income": 39767.0,
-       "poverty_universe": 3748.0,
-       "poverty_below": 1022.0,
-       "housing_units": 2176.0,
-       "housing_vacant": 434.0,
-       "occupied_units": 1742.0,
-       "owner_occupied": 1143.0,
-       "median_home_value": 170700.0,
-       "poverty_rate_pct": 27.3,
-       "vacancy_rate_pct": 19.9,
-       "owner_occupancy_pct": 65.6
-      }
-     },
-     "trend_years": "2013->2023",
-     "median_household_income_change_pct": -10.8,
-     "median_home_value_change_pct": 26.9,
-     "poverty_rate_pct_change_pts": 4.4,
-     "vacancy_rate_pct_change_pts": 9.7,
-     "owner_occupancy_pct_change_pts": 9.6
-    },
-    "hud": {
-     "lihtc": {
-      "nearest_miles": 0.14,
+      "nearest_miles": 0.15,
       "nearest_name": "NORTH PARK APARTMENTS",
       "count_within_radius": 5
      },
      "public_housing": {
-      "nearest_miles": 0.99,
+      "nearest_miles": 0.72,
       "nearest_name": "SCOTT STREET PROJECT",
       "count_within_radius": 1
      }
@@ -1159,45 +958,327 @@
      "property-crime_change_pct": -31.4
     },
     "score": {
-     "score": 37.7,
+     "score": 66.7,
      "coverage": 1.0,
      "factors": {
-      "income_trend": 0.0,
-      "home_value_trend": 61.5,
-      "poverty_level": 31.8,
-      "vacancy_level": 33.7,
-      "owner_occupancy": 65.1,
+      "income_trend": 100.0,
+      "home_value_trend": 100.0,
+      "poverty_level": 21.0,
+      "vacancy_level": 65.3,
+      "owner_occupancy": 12.3,
       "crime_trend": 100.0,
-      "subsidized_proximity": 7.0
+      "subsidized_proximity": 7.5
      }
     }
    }
   },
   {
-   "key": "145 LOOP RD|MINDEN",
-   "address": "145 Loop Rd",
+   "key": "224 ADAIR ST|BOSSIER CITY",
+   "address": "224 Adair St",
+   "city": "Bossier City",
+   "parish": "Bossier",
+   "zip": "71111",
+   "price": 56000,
+   "beds": 3,
+   "baths": 1.0,
+   "sqft": 1144,
+   "year_built": 1947,
+   "days_on_market": 55,
+   "url": "https://www.realtor.com/realestateandhomes-detail/224-Adair-St_Bossier-City_LA_71111_M78854-81841",
+   "waterfront": false,
+   "home_type": "single_family",
+   "lat": 32.522691,
+   "lng": -93.737552,
+   "avm_estimate": 56337,
+   "own_listing": false,
+   "predicted": 154430,
+   "spread_pct": 63.7,
+   "comp_count": 10,
+   "gross_yield_pct": 28.8,
+   "recent_cut_pct": null,
+   "score": 51.06,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "reason": "top_score",
+   "times_featured": 0,
+   "neighborhood": {
+    "tract": {
+     "geoid": "22015010400",
+     "state": "22",
+     "county": "015",
+     "tract": "010400"
+    },
+    "parish": "Bossier",
+    "acs_trends": {
+     "levels": {
+      "2013": {
+       "population": 1921.0,
+       "median_household_income": 27181.0,
+       "poverty_universe": 1921.0,
+       "poverty_below": 720.0,
+       "housing_units": 768.0,
+       "housing_vacant": 152.0,
+       "occupied_units": 616.0,
+       "owner_occupied": 195.0,
+       "median_home_value": 69600.0,
+       "poverty_rate_pct": 37.5,
+       "vacancy_rate_pct": 19.8,
+       "owner_occupancy_pct": 31.7
+      },
+      "2018": {
+       "population": 1193.0,
+       "median_household_income": 24926.0,
+       "poverty_universe": 1193.0,
+       "poverty_below": 558.0,
+       "housing_units": 720.0,
+       "housing_vacant": 221.0,
+       "occupied_units": 499.0,
+       "owner_occupied": 244.0,
+       "median_home_value": 79500.0,
+       "poverty_rate_pct": 46.8,
+       "vacancy_rate_pct": 30.7,
+       "owner_occupancy_pct": 48.9
+      },
+      "2023": {
+       "population": 1870.0,
+       "median_household_income": 36411.0,
+       "poverty_universe": 1870.0,
+       "poverty_below": 609.0,
+       "housing_units": 985.0,
+       "housing_vacant": 144.0,
+       "occupied_units": 841.0,
+       "owner_occupied": 134.0,
+       "median_home_value": 63700.0,
+       "poverty_rate_pct": 32.6,
+       "vacancy_rate_pct": 14.6,
+       "owner_occupancy_pct": 15.9
+      }
+     },
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 34.0,
+     "median_home_value_change_pct": -8.5,
+     "poverty_rate_pct_change_pts": -4.9,
+     "vacancy_rate_pct_change_pts": -5.2,
+     "owner_occupancy_pct_change_pts": -15.8
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.05,
+      "nearest_name": "GORDON BOSSIER",
+      "count_within_radius": 6
+     },
+     "public_housing": {
+      "nearest_miles": 0.86,
+      "nearest_name": "CISCO HOMES",
+      "count_within_radius": 2
+     }
+    },
+    "crime": {
+     "ori": "LA0080100",
+     "agency": "Bossier City Police Department",
+     "years": "2021-2025",
+     "annual": {
+      "violent-crime": {
+       "2021": 670,
+       "2022": 636,
+       "2023": 573,
+       "2024": 576,
+       "2025": 446
+      },
+      "property-crime": {
+       "2021": 3032,
+       "2022": 2953,
+       "2023": 2883,
+       "2024": 2332,
+       "2025": 2079
+      }
+     },
+     "caveats": [],
+     "violent-crime_change_pct": -33.4,
+     "property-crime_change_pct": -31.4
+    },
+    "score": {
+     "score": 40.7,
+     "coverage": 1.0,
+     "factors": {
+      "income_trend": 88.0,
+      "home_value_trend": 2.5,
+      "poverty_level": 18.5,
+      "vacancy_level": 51.3,
+      "owner_occupancy": 0.0,
+      "crime_trend": 100.0,
+      "subsidized_proximity": 2.5
+     }
+    }
+   }
+  },
+  {
+   "key": "317 JOEL ST|MINDEN",
+   "address": "317 Joel St",
    "city": "Minden",
    "parish": "Webster",
    "zip": "71055",
-   "price": 134900,
-   "beds": 4,
+   "price": 30000,
+   "beds": 3,
    "baths": 2.0,
-   "sqft": 1946,
-   "year_built": 1950,
-   "days_on_market": 176,
-   "url": "https://www.realtor.com/realestateandhomes-detail/145-Loop-Rd_Minden_LA_71055_M87884-17407",
+   "sqft": 1201,
+   "year_built": 1958,
+   "days_on_market": 52,
+   "url": "https://www.realtor.com/realestateandhomes-detail/317-Joel-St_Minden_LA_71055_M86480-96857",
    "waterfront": false,
    "home_type": "single_family",
-   "lat": 32.631896,
-   "lng": -93.294933,
-   "avm_estimate": 134036,
+   "lat": 32.607576,
+   "lng": -93.280427,
+   "avm_estimate": 34100,
    "own_listing": false,
-   "predicted": 247131,
-   "spread_pct": 45.4,
+   "predicted": 144710,
+   "spread_pct": 79.3,
    "comp_count": 10,
-   "gross_yield_pct": 10.5,
+   "gross_yield_pct": 41.4,
    "recent_cut_pct": null,
-   "score": 52.28,
+   "score": 50.89,
+   "flags": [
+    "underpriced",
+    "flip_candidate",
+    "rental_candidate",
+    "verify_condition"
+   ],
+   "reason": "top_score",
+   "times_featured": 0,
+   "neighborhood": {
+    "tract": {
+     "geoid": "22119031900",
+     "state": "22",
+     "county": "119",
+     "tract": "031900"
+    },
+    "parish": "Webster",
+    "acs_trends": {
+     "levels": {
+      "2013": {
+       "population": 2695.0,
+       "median_household_income": 19646.0,
+       "poverty_universe": 2528.0,
+       "poverty_below": 787.0,
+       "housing_units": 1403.0,
+       "housing_vacant": 219.0,
+       "occupied_units": 1184.0,
+       "owner_occupied": 642.0,
+       "median_home_value": 45700.0,
+       "poverty_rate_pct": 31.1,
+       "vacancy_rate_pct": 15.6,
+       "owner_occupancy_pct": 54.2
+      },
+      "2018": {
+       "population": 2223.0,
+       "median_household_income": 17052.0,
+       "poverty_universe": 2085.0,
+       "poverty_below": 889.0,
+       "housing_units": 1195.0,
+       "housing_vacant": 204.0,
+       "occupied_units": 991.0,
+       "owner_occupied": 472.0,
+       "median_home_value": 53400.0,
+       "poverty_rate_pct": 42.6,
+       "vacancy_rate_pct": 17.1,
+       "owner_occupancy_pct": 47.6
+      },
+      "2023": {
+       "population": 2253.0,
+       "median_household_income": 23720.0,
+       "poverty_universe": 2149.0,
+       "poverty_below": 1232.0,
+       "housing_units": 1264.0,
+       "housing_vacant": 258.0,
+       "occupied_units": 1006.0,
+       "owner_occupied": 453.0,
+       "median_home_value": 69600.0,
+       "poverty_rate_pct": 57.3,
+       "vacancy_rate_pct": 20.4,
+       "owner_occupancy_pct": 45.0
+      }
+     },
+     "trend_years": "2013->2023",
+     "median_household_income_change_pct": 20.7,
+     "median_home_value_change_pct": 52.3,
+     "poverty_rate_pct_change_pts": 26.2,
+     "vacancy_rate_pct_change_pts": 4.8,
+     "owner_occupancy_pct_change_pts": -9.2
+    },
+    "hud": {
+     "lihtc": {
+      "nearest_miles": 0.49,
+      "nearest_name": "HICKORY RIDGE",
+      "count_within_radius": 4
+     },
+     "public_housing": {
+      "nearest_miles": 0.79,
+      "nearest_name": "SOUTHFIELD PLAZA",
+      "count_within_radius": 1
+     }
+    },
+    "crime": {
+     "ori": "LA0600100",
+     "agency": "Minden Police Department",
+     "years": "2021-2025",
+     "annual": {
+      "violent-crime": {
+       "2024": 88,
+       "2025": 84
+      },
+      "property-crime": {
+       "2024": 281,
+       "2025": 279
+      }
+     },
+     "caveats": [],
+     "violent-crime_change_pct": -4.5,
+     "property-crime_change_pct": -0.7
+    },
+    "score": {
+     "score": 50.3,
+     "coverage": 1.0,
+     "factors": {
+      "income_trend": 61.4,
+      "home_value_trend": 100.0,
+      "poverty_level": 0.0,
+      "vacancy_level": 32.0,
+      "owner_occupancy": 35.7,
+      "crime_trend": 57.5,
+      "subsidized_proximity": 24.5
+     }
+    }
+   }
+  },
+  {
+   "key": "205 BECK ST|MINDEN",
+   "address": "205 Beck St",
+   "city": "Minden",
+   "parish": "Webster",
+   "zip": "71055",
+   "price": 80000,
+   "beds": 3,
+   "baths": 1.5,
+   "sqft": 1499,
+   "year_built": 1959,
+   "days_on_market": 60,
+   "url": "https://www.realtor.com/realestateandhomes-detail/205-Beck-St_Minden_LA_71055_M70821-02746",
+   "waterfront": false,
+   "home_type": "single_family",
+   "lat": 32.623904,
+   "lng": -93.28581,
+   "avm_estimate": 79162,
+   "own_listing": false,
+   "predicted": 134910,
+   "spread_pct": 40.7,
+   "comp_count": 10,
+   "gross_yield_pct": 15.5,
+   "recent_cut_pct": null,
+   "score": 50.83,
    "flags": [
     "underpriced",
     "flip_candidate",
@@ -1268,14 +1349,14 @@
     },
     "hud": {
      "lihtc": {
-      "nearest_miles": 1.42,
-      "nearest_name": "AZALEA TERRACE APTS",
-      "count_within_radius": 0
+      "nearest_miles": 0.76,
+      "nearest_name": "SHEPPARD PARK VILLAGE APARTMENTS",
+      "count_within_radius": 1
      },
      "public_housing": {
-      "nearest_miles": 1.57,
+      "nearest_miles": 0.81,
       "nearest_name": "SOUTHFIELD PLAZA",
-      "count_within_radius": 0
+      "count_within_radius": 1
      }
     },
     "crime": {
@@ -1297,7 +1378,7 @@
      "property-crime_change_pct": -0.7
     },
     "score": {
-     "score": 29.6,
+     "score": 26.3,
      "coverage": 1.0,
      "factors": {
       "income_trend": 0.0,
@@ -1306,7 +1387,7 @@
       "vacancy_level": 49.3,
       "owner_occupancy": 18.6,
       "crime_trend": 57.5,
-      "subsidized_proximity": 71.0
+      "subsidized_proximity": 38.0
      }
     }
    }
