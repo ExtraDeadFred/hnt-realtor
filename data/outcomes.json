@@ -4794,5 +4794,115 @@
   "proxy_price": 55000,
   "sold_price": null,
   "sold_date": "2026-08-05"
+ },
+ {
+  "key": "143 CAMP ZION RD|HAUGHTON",
+  "address": "143 Camp Zion Rd",
+  "city": "Haughton",
+  "sqft": 1841,
+  "predicted": 256880,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "1925 HWY 527|ELM GROVE",
+  "address": "1925 Highway 527",
+  "city": "Elm Grove",
+  "sqft": 1862,
+  "predicted": 244239,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 190000,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "2104 ASHLEY WILKES DR|BOSSIER CITY",
+  "address": "2104 Ashley Wilkes Dr",
+  "city": "Bossier City",
+  "sqft": 2832,
+  "predicted": 489225,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 399900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "793 DUMAINE DR|BOSSIER CITY",
+  "address": "793 Dumaine Dr",
+  "city": "Bossier City",
+  "sqft": 2347,
+  "predicted": 405681,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 379900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "203 KENSINGTON AVE|BOSSIER CITY",
+  "address": "203 Kensington Ave",
+  "city": "Bossier City",
+  "sqft": 2453,
+  "predicted": 424665,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": "2026-08-07"
+ },
+ {
+  "key": "3636 GREENACRES PL DR APT 109|BOSSIER CITY",
+  "address": "3636 Greenacres Place Dr Apt 109",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 166700,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 165000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3120 STOCKWELL RD|BOSSIER CITY",
+  "address": "3120 Stockwell Rd",
+  "city": "Bossier City",
+  "sqft": 1547,
+  "predicted": 259829,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 206500,
+  "sold_price": null,
+  "sold_date": "2026-06-11"
+ },
+ {
+  "key": "740 CREWE LN|BOSSIER CITY",
+  "address": "740 Crewe Ln",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 293819,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "219 PAISLEY LN|BOSSIER CITY",
+  "address": "219 Paisley Ln",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 301985,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "427 MERESTONE XING|BENTON",
+  "address": "427 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2720,
+  "predicted": 388424,
+  "predicted_at": "2026-08-11",
+  "proxy_price": 389513,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
  }
 ]
