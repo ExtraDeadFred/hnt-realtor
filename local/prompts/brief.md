@@ -9,7 +9,9 @@ Read these files from the repository (skip any that don't exist):
 - `data/opportunities.json` — scored investment deals (spread vs predicted value, rental yield, flags)
 - `data/market-stats.json` — per-area medians ($/sqft, price, DOM, inventory, 7-day activity)
 - `data/model-metrics.json` — how accurate our value estimates have been
-- `data/events.jsonl` — read the last ~200 lines (a week's worth); new listings / price cuts / pendings / off-market
+- `data/events-recent.json` — the last 7 days of activity, already trimmed for
+  you: new listings / price cuts / pendings / off-market. Read this file, NOT
+  the full `events.jsonl` history (it is large and you do not need it).
 - `ingest/my-listings.csv` — Catherine's own listings, exported from her MLS
   (columns like Address, Current Price, SqFt, Beds Total, Mls Status, PType)
 

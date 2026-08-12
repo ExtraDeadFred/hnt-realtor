@@ -4,7 +4,13 @@
 $script = Join-Path $PSScriptRoot "daily-brief.ps1"
 $action = New-ScheduledTaskAction -Execute "powershell.exe" `
     -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$script`""
-$trigger = New-ScheduledTaskTrigger -Daily -At 4:30AM
+# 4:30am primary, plus catch-up runs for mornings the first attempt hit a
+# usage limit. Each exits immediately once a real brief has gone out.
+$trigger = @(
+    New-ScheduledTaskTrigger -Daily -At 4:30AM
+    New-ScheduledTaskTrigger -Daily -At 6:30AM
+    New-ScheduledTaskTrigger -Daily -At 9:00AM
+)
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun `
     -ExecutionTimeLimit (New-TimeSpan -Minutes 30) -Hidden
 Register-ScheduledTask -TaskName "HNT Realtor Daily Brief" -Action $action `

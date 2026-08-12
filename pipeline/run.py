@@ -12,7 +12,7 @@ import json
 import os
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -210,6 +210,13 @@ def main():
     with open(DATA / "events.jsonl", "a", encoding="utf-8") as f:
         for e in events:
             f.write(json.dumps(e) + "\n")
+
+    # Small pre-trimmed slice for the daily brief. events.jsonl grows without
+    # bound (600KB+ already) and having the brief read all of it was slow and
+    # burned tokens for no benefit — it only ever needs the last week.
+    week_ago = (date.today() - timedelta(days=7)).isoformat()
+    save_json(DATA / "events-recent.json",
+              [e for e in all_events if e.get("date", "") >= week_ago])
 
     snap = DATA / "snapshots" / f"{date.today().isoformat()}.json.gz"
     snap.parent.mkdir(parents=True, exist_ok=True)

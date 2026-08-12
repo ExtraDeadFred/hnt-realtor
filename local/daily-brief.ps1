@@ -60,6 +60,14 @@ try { Start-Transcript -Path (Join-Path $outDir "last-run.log") -Force -ErrorAct
 # From here on, any unexpected crash emails the error instead of dying silently
 try {
 
+# A later catch-up run must not re-send a brief that already went out well.
+$okMarker = Join-Path $outDir "ok-$today.marker"
+if ((Test-Path $okMarker) -and -not $env:FORCE_BRIEF) {
+    Write-Host "Brief already sent successfully today — nothing to do."
+    try { Stop-Transcript | Out-Null } catch {}
+    exit 0
+}
+
 # --- fresh data from the overnight Actions run ---
 # Never fatal: git chatters on stderr (which PS 5.1 can escalate to a crash)
 # and OneDrive can transiently lock .git — stale data still beats no email.
@@ -86,7 +94,10 @@ $stderrLog = Join-Path $outDir "claude-stderr-$today.log"
 $prompt = "Today is $(Get-Date -Format 'dddd, MMMM d, yyyy').`n`n" +
           (Get-Content (Join-Path $PSScriptRoot "prompts\brief.md") -Raw)
 
-foreach ($attempt in 1..2) {
+# Backoff between attempts. A usage-limit rejection returns instantly and is
+# still there 60s later, so the last gap is long enough to outlast a short cap.
+$backoff = @(60, 420)
+foreach ($attempt in 1..3) {
     try {
         # PS 5.1: pipe prompt via stdin (claude warns on empty stdin); force
         # UTF-8 both directions or em-dashes/quotes arrive as mojibake.
@@ -101,8 +112,14 @@ foreach ($attempt in 1..2) {
         $OutputEncoding = $prevOut
         [Console]::OutputEncoding = $prevConsole
         if ($claudeExit -ne 0) {
+            # The CLI reports usage limits and similar refusals on STDOUT, not
+            # stderr, so log both — otherwise a failure is undiagnosable.
             $why = (Get-Content $stderrLog -Raw -ErrorAction SilentlyContinue)
-            Write-Warning "claude attempt $attempt exited $claudeExit — $why"
+            $said = if ($raw) { $raw.Trim() } else { "(no stdout)" }
+            if ($said.Length -gt 600) { $said = $said.Substring(0, 600) + "..." }
+            Write-Warning "claude attempt $attempt exited $claudeExit`n  stderr: $why`n  stdout: $said"
+            "[attempt $attempt] exit $claudeExit`nstderr: $why`nstdout: $said`n" |
+                Add-Content $stderrLog -Encoding utf8
         }
         elseif ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
             $emailHtml = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
@@ -116,7 +133,7 @@ foreach ($attempt in 1..2) {
         $ErrorActionPreference = "Stop"
         Write-Warning "claude attempt $attempt threw: $_"
     }
-    if ($attempt -eq 1) { Start-Sleep -Seconds 60 }  # let a transient blip clear
+    if ($attempt -lt 3) { Start-Sleep -Seconds $backoff[$attempt - 1] }
 }
 
 # --- template fallback so the alert never silently drops ---
@@ -157,6 +174,9 @@ if ($isFallback) { $subject = "[raw data] $subject" }
 
 Send-Brief $subject $emailHtml
 Write-Host "Sent '$subject' to $mailTo"
+# Only a real Claude-written brief counts as done; a fallback leaves the
+# marker absent so the later catch-up run tries again.
+if (-not $isFallback) { Get-Date | Out-File $okMarker -Encoding utf8 }
 
 } catch {
     # Never fail silently: log it and email the error so a missing brief
