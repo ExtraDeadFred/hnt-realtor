@@ -1537,7 +1537,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 235000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-11"
  },
  {
   "key": "457 MANGROVE LN|BOSSIER CITY",
@@ -4902,6 +4902,138 @@
   "predicted": 388424,
   "predicted_at": "2026-08-11",
   "proxy_price": 389513,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "608 BATTON ST|MINDEN",
+  "address": "608 Batton St",
+  "city": "Minden",
+  "sqft": 1350,
+  "predicted": 114827,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 135000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5506 LAKE SIDE DR|BOSSIER CITY",
+  "address": "5506 Lake Side Dr",
+  "city": "Bossier City",
+  "sqft": 2084,
+  "predicted": 287712,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 320000,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "3636 GREENACRES PL DR APT 12|BOSSIER CITY",
+  "address": "3636 Greenacres Place Dr Apt 12",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 195016,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 139000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "946 MAIZE ST|BOSSIER CITY",
+  "address": "946 Maize St",
+  "city": "Bossier City",
+  "sqft": 2265,
+  "predicted": 309146,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 359000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "406 CLOVER LN|BOSSIER CITY",
+  "address": "406 Clover Ln",
+  "city": "Bossier City",
+  "sqft": 1751,
+  "predicted": 257034,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 309900,
+  "sold_price": null,
+  "sold_date": "2026-08-10"
+ },
+ {
+  "key": "2301 WINDSOR CT|BOSSIER CITY",
+  "address": "2301 Windsor Ct",
+  "city": "Bossier City",
+  "sqft": 1902,
+  "predicted": 276214,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 260000,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "6020 APPLEGATE CIR|BOSSIER CITY",
+  "address": "6020 Applegate Cir",
+  "city": "Bossier City",
+  "sqft": 1706,
+  "predicted": 250956,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 259900,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "820 VENECIA DR|BOSSIER CITY",
+  "address": "820 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1461,
+  "predicted": 241038,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 239774,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "816 VENECIA DR|BOSSIER CITY",
+  "address": "816 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1461,
+  "predicted": 240503,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 239774,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "213 ROANOKE CIR|BENTON",
+  "address": "213 Roanoke Cir",
+  "city": "Benton",
+  "sqft": 1790,
+  "predicted": 316727,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 338900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "522 TWIN PT DR|BENTON",
+  "address": "522 Twin Point Dr",
+  "city": "Benton",
+  "sqft": 2679,
+  "predicted": 464176,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 495000,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "107 SPY GLASS HILL DR|BENTON",
+  "address": "107 Spy Glass Hill Dr",
+  "city": "Benton",
+  "sqft": 2807,
+  "predicted": 546759,
+  "predicted_at": "2026-08-12",
+  "proxy_price": 425000,
   "sold_price": null,
   "sold_date": "2026-08-10"
  }
