@@ -5036,5 +5036,115 @@
   "proxy_price": 425000,
   "sold_price": null,
   "sold_date": "2026-08-10"
+ },
+ {
+  "key": "515 DAVIS ST|MINDEN",
+  "address": "515 Davis St",
+  "city": "Minden",
+  "sqft": 1333,
+  "predicted": 126901,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 135000,
+  "sold_price": null,
+  "sold_date": "2026-08-12"
+ },
+ {
+  "key": "500 DOGWOOD S LN|HAUGHTON",
+  "address": "500 Dogwood South Ln",
+  "city": "Haughton",
+  "sqft": 1979,
+  "predicted": 304987,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 299900,
+  "sold_price": 345000.0,
+  "sold_date": "07/11/2025"
+ },
+ {
+  "key": "121 SITKA LOOP|HAUGHTON",
+  "address": "121 Sitka Loop",
+  "city": "Haughton",
+  "sqft": 2300,
+  "predicted": 372943,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 455000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "600 HWY 527|ELM GROVE",
+  "address": "600 Highway 527",
+  "city": "Elm Grove",
+  "sqft": 2580,
+  "predicted": 169790,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 279000,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "324 PEASON RDG|BOSSIER CITY",
+  "address": "324 Peason Rdg",
+  "city": "Bossier City",
+  "sqft": 1975,
+  "predicted": 349750,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 361264,
+  "sold_price": null,
+  "sold_date": "2026-08-12"
+ },
+ {
+  "key": "3404 BISTINEAU DR|BOSSIER CITY",
+  "address": "3404 Bistineau Dr",
+  "city": "Bossier City",
+  "sqft": 1358,
+  "predicted": 205990,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 135000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "6209 HOLLYHOCK LN|BOSSIER CITY",
+  "address": "6209 Hollyhock Ln",
+  "city": "Bossier City",
+  "sqft": 1806,
+  "predicted": 309111,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 289900,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "2003 BELLE HAVEN DR|BOSSIER CITY",
+  "address": "2003 Belle Haven Dr",
+  "city": "Bossier City",
+  "sqft": 1302,
+  "predicted": 180627,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 255000,
+  "sold_price": null,
+  "sold_date": "2026-08-11"
+ },
+ {
+  "key": "110 SAVANNAH PL|BOSSIER CITY",
+  "address": "110 Savannah Pl",
+  "city": "Bossier City",
+  "sqft": 1892,
+  "predicted": 299950,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": "2026-08-12"
+ },
+ {
+  "key": "714 ESAU AVE|BOSSIER CITY",
+  "address": "714 Esau Ave",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-08-13",
+  "proxy_price": 283315,
+  "sold_price": null,
+  "sold_date": "2026-08-12"
  }
 ]
