@@ -5146,5 +5146,49 @@
   "proxy_price": 283315,
   "sold_price": null,
   "sold_date": "2026-08-12"
+ },
+ {
+  "key": "716 DUMAINE DR|BOSSIER CITY",
+  "address": "716 Dumaine Dr",
+  "city": "Bossier City",
+  "sqft": 2128,
+  "predicted": 322126,
+  "predicted_at": "2026-08-14",
+  "proxy_price": 400000,
+  "sold_price": null,
+  "sold_date": "2026-08-13"
+ },
+ {
+  "key": "1223 NORRIS DR|BOSSIER CITY",
+  "address": "1223 Norris Dr",
+  "city": "Bossier City",
+  "sqft": 1650,
+  "predicted": 246105,
+  "predicted_at": "2026-08-14",
+  "proxy_price": 99900,
+  "sold_price": null,
+  "sold_date": "2026-08-12"
+ },
+ {
+  "key": "2207 HICKORY RIDGE DR|BOSSIER CITY",
+  "address": "2207 Hickory Ridge Dr",
+  "city": "Bossier City",
+  "sqft": 1858,
+  "predicted": 292655,
+  "predicted_at": "2026-08-14",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": "2026-08-13"
+ },
+ {
+  "key": "105 GRAND CANE CT|BOSSIER CITY",
+  "address": "105 Grand Cane Ct",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 210200,
+  "predicted_at": "2026-08-14",
+  "proxy_price": 249500,
+  "sold_price": null,
+  "sold_date": "2026-08-13"
  }
 ]
