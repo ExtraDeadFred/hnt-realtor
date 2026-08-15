@@ -5190,5 +5190,104 @@
   "proxy_price": 249500,
   "sold_price": null,
   "sold_date": "2026-08-13"
+ },
+ {
+  "key": "386 COUNTRY CLUB CIR|MINDEN",
+  "address": "386 Country Club Cir",
+  "city": "Minden",
+  "sqft": 2160,
+  "predicted": 227859,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "316 N HAMPTON ST|HAUGHTON",
+  "address": "316 N Hampton St",
+  "city": "Haughton",
+  "sqft": 1626,
+  "predicted": 247599,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "104 OLIVE ST|HAUGHTON",
+  "address": "104 Olive St",
+  "city": "Haughton",
+  "sqft": 1871,
+  "predicted": 315119,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 286000,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "4911 DAHLIA DR|BOSSIER CITY",
+  "address": "4911 Dahlia Dr",
+  "city": "Bossier City",
+  "sqft": 1063,
+  "predicted": 134385,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 99900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "829 ABITA CHASE|BOSSIER CITY",
+  "address": "829 Abita Chase",
+  "city": "Bossier City",
+  "sqft": 1910,
+  "predicted": 350000,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 324900,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "5427 SHASTA DR|BOSSIER CITY",
+  "address": "5427 Shasta Dr",
+  "city": "Bossier City",
+  "sqft": 1531,
+  "predicted": 243261,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 215000,
+  "sold_price": null,
+  "sold_date": "2026-08-13"
+ },
+ {
+  "key": "779 VENECIA DR|BOSSIER CITY",
+  "address": "779 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1578,
+  "predicted": 247535,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 253235,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "198 SEVEN PINES RD|BENTON",
+  "address": "198 Seven Pines Rd",
+  "city": "Benton",
+  "sqft": 1496,
+  "predicted": 219136,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 183000,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "577 CROUCH RD|BENTON",
+  "address": "577 Crouch Rd",
+  "city": "Benton",
+  "sqft": 1605,
+  "predicted": 170429,
+  "predicted_at": "2026-08-15",
+  "proxy_price": 199900,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
  }
 ]
