@@ -5289,5 +5289,27 @@
   "proxy_price": 199900,
   "sold_price": null,
   "sold_date": "2026-08-14"
+ },
+ {
+  "key": "29 MCARTHUR ST|MINDEN",
+  "address": "29 McArthur St",
+  "city": "Minden",
+  "sqft": 1232,
+  "predicted": 126980,
+  "predicted_at": "2026-08-16",
+  "proxy_price": 64500,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "110 WISTERIA CIR|HAUGHTON",
+  "address": "110 Wisteria Cir",
+  "city": "Haughton",
+  "sqft": 1352,
+  "predicted": 193929,
+  "predicted_at": "2026-08-16",
+  "proxy_price": 195000,
+  "sold_price": null,
+  "sold_date": "2026-08-15"
  }
 ]
