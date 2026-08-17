@@ -1,59 +1,5 @@
 [
  {
-  "date": "2026-08-09",
-  "event": "new",
-  "key": "358 CAMDEN HL|HAUGHTON",
-  "address": "358 Camden Hl",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 286447,
-  "url": "https://www.realtor.com/realestateandhomes-detail/358-Camden-Hl_Haughton_LA_71037_M92548-15126"
- },
- {
-  "date": "2026-08-09",
-  "event": "new",
-  "key": "106 OXFORD CIR|BOSSIER CITY",
-  "address": "106 Oxford Cir",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 595000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/106-Oxford-Cir_Bossier-City_LA_71111_M79249-46474"
- },
- {
-  "date": "2026-08-09",
-  "event": "price_cut",
-  "key": "749 BEVERLY DR|HOMER",
-  "address": "749 Beverly Dr",
-  "city": "Homer",
-  "parish": "Claiborne",
-  "price": 229900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/749-Beverly-Dr_Homer_LA_71040_M76455-34019",
-  "old_price": 234500,
-  "cut_pct": 2.0
- },
- {
-  "date": "2026-08-09",
-  "event": "off_market",
-  "key": "350 BRUSHY CREEK RD|SIBLEY",
-  "address": "350 Brushy Creek Rd",
-  "city": "Sibley",
-  "parish": "Webster",
-  "price": 380000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/350-Brushy-Creek-Rd_Sibley_LA_71073_M83771-36190",
-  "last_price": 380000
- },
- {
-  "date": "2026-08-09",
-  "event": "off_market",
-  "key": "2913 KIRK LN|BOSSIER CITY",
-  "address": "2913 Kirk Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 185000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2913-Kirk-Ln_Bossier-City_LA_71112_M77608-64530",
-  "last_price": 185000
- },
- {
   "date": "2026-08-10",
   "event": "price_cut",
   "key": "413 S ELM ST|HAUGHTON",
@@ -1826,5 +1772,59 @@
   "price": 195000,
   "url": "https://www.realtor.com/realestateandhomes-detail/110-Wisteria-Cir_Haughton_LA_71037_M81402-79119",
   "last_price": 195000
+ },
+ {
+  "date": "2026-08-17",
+  "event": "new",
+  "key": "560 S MAIN ST|SIBLEY",
+  "address": "560 S Main St",
+  "city": "Sibley",
+  "parish": "Webster",
+  "price": 205000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/560-S-Main-St_Sibley_LA_71073_M86602-45555"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "new",
+  "key": "213 DOGWOOD DR|ELM GROVE",
+  "address": "213 Dogwood Dr",
+  "city": "Elm Grove",
+  "parish": "Bossier",
+  "price": 145000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/213-Dogwood-Dr_Elm-Grove_LA_71051_M79507-11365"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "price_cut",
+  "key": "1208 PONTCHARTRAIN CT|BOSSIER CITY",
+  "address": "1208 Pontchartrain Ct",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 385000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1208-Pontchartrain-Ct_Bossier-City_LA_71111_M79662-27173",
+  "old_price": 390000,
+  "cut_pct": 1.3
+ },
+ {
+  "date": "2026-08-17",
+  "event": "price_cut",
+  "key": "6004 KATELAND CIR|BOSSIER CITY",
+  "address": "6004 Kateland Cir",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 279900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/6004-Kateland-Cir_Bossier-City_LA_71111_M86099-08621",
+  "old_price": 283000,
+  "cut_pct": 1.1
+ },
+ {
+  "date": "2026-08-17",
+  "event": "new",
+  "key": "1529 DEBRA ST|BOSSIER CITY",
+  "address": "1529 Debra St",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 132500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1529-Debra-St_Bossier-City_LA_71111_M80254-89987"
  }
 ]
