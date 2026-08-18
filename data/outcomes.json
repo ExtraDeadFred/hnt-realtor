@@ -998,7 +998,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 264000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-17"
  },
  {
   "key": "4320 ELM ST|HAUGHTON",
@@ -2659,7 +2659,7 @@
   "predicted_at": "2026-07-12",
   "proxy_price": 285000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-17"
  },
  {
   "key": "914 EDGEWOOD DR|HOMER",
@@ -5311,5 +5311,82 @@
   "proxy_price": 195000,
   "sold_price": null,
   "sold_date": "2026-08-15"
+ },
+ {
+  "key": "149 SE 6TH AVE|SIBLEY",
+  "address": "149 SE 6th Ave",
+  "city": "Sibley",
+  "sqft": 3500,
+  "predicted": 347974,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 361000,
+  "sold_price": null,
+  "sold_date": "2026-08-17"
+ },
+ {
+  "key": "309 BABINEAUX LN|HAUGHTON",
+  "address": "309 Babineaux Ln",
+  "city": "Haughton",
+  "sqft": 1825,
+  "predicted": 271470,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 268260,
+  "sold_price": null,
+  "sold_date": "2026-08-17"
+ },
+ {
+  "key": "2309 W BELLE HAVEN DR|BOSSIER CITY",
+  "address": "2309 W Belle Haven Dr",
+  "city": "Bossier City",
+  "sqft": 1613,
+  "predicted": 208889,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3415 LANELL DR|BOSSIER CITY",
+  "address": "3415 Lanell Dr",
+  "city": "Bossier City",
+  "sqft": 1656,
+  "predicted": 249199,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 165000,
+  "sold_price": null,
+  "sold_date": "2026-08-17"
+ },
+ {
+  "key": "334 GREENACRES BLVD|BOSSIER CITY",
+  "address": "334 Greenacres Blvd",
+  "city": "Bossier City",
+  "sqft": 3773,
+  "predicted": 602869,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 549900,
+  "sold_price": null,
+  "sold_date": "2026-08-17"
+ },
+ {
+  "key": "27 VENECIA CT|BOSSIER CITY",
+  "address": "27 Venecia Ct",
+  "city": "Bossier City",
+  "sqft": 1701,
+  "predicted": 262432,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 271000,
+  "sold_price": 264995.0,
+  "sold_date": "07/22/2025"
+ },
+ {
+  "key": "101 GANTRY PL|BOSSIER CITY",
+  "address": "101 Gantry Pl",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-08-18",
+  "proxy_price": 297211,
+  "sold_price": null,
+  "sold_date": "2026-08-17"
  }
 ]
