@@ -1,12 +1,12 @@
 {
- "updated": "2026-08-18",
+ "updated": "2026-08-19",
  "cohorts": {
   "Athens": {
    "inventory": 1,
    "mobile_count": 0,
    "median_price": 225000,
    "median_ppsf": 95.1,
-   "median_dom": 195,
+   "median_dom": 196,
    "ppsf_by_decade": {
     "1970s": 95.1
    },
@@ -17,9 +17,9 @@
   "Benton": {
    "inventory": 99,
    "mobile_count": 10,
-   "median_price": 415000,
+   "median_price": 400000,
    "median_ppsf": 184.0,
-   "median_dom": 72,
+   "median_dom": 73,
    "ppsf_by_decade": {
     "1940s": 132.4,
     "1950s": 127.8,
@@ -36,55 +36,55 @@
    "pending_7d": 0
   },
   "Bossier City": {
-   "inventory": 423,
+   "inventory": 419,
    "mobile_count": 4,
-   "median_price": 274999,
-   "median_ppsf": 153.2,
+   "median_price": 274000,
+   "median_ppsf": 153.9,
    "median_dom": 50,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 82.8,
-    "1950s": 102.3,
-    "1960s": 123.5,
+    "1950s": 101.2,
+    "1960s": 122.7,
     "1970s": 115.7,
-    "1980s": 141.6,
+    "1980s": 141.5,
     "1990s": 147.8,
-    "2000s": 158.4,
-    "2010s": 178.9,
-    "2020s": 180.8
+    "2000s": 158.9,
+    "2010s": 181.0,
+    "2020s": 182.8
    },
-   "new_7d": 45,
-   "price_cuts_7d": 27,
+   "new_7d": 40,
+   "price_cuts_7d": 29,
    "pending_7d": 0
   },
   "Bossier Parish": {
-   "inventory": 650,
+   "inventory": 647,
    "mobile_count": 32,
-   "median_price": 287700,
-   "median_ppsf": 157.4,
+   "median_price": 286900,
+   "median_ppsf": 158.0,
    "median_dom": 49,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 97.2,
-    "1950s": 104.4,
-    "1960s": 124.7,
+    "1950s": 104.2,
+    "1960s": 124.5,
     "1970s": 122.4,
-    "1980s": 141.5,
+    "1980s": 141.2,
     "1990s": 149.0,
-    "2000s": 161.9,
-    "2010s": 173.1,
+    "2000s": 162.0,
+    "2010s": 172.7,
     "2020s": 183.2
    },
-   "new_7d": 62,
-   "price_cuts_7d": 44,
+   "new_7d": 58,
+   "price_cuts_7d": 47,
    "pending_7d": 0
   },
   "Claiborne Parish": {
    "inventory": 43,
-   "mobile_count": 1,
-   "median_price": 129998,
-   "median_ppsf": 66.6,
-   "median_dom": 72,
+   "mobile_count": 2,
+   "median_price": 119997,
+   "median_ppsf": 64.9,
+   "median_dom": 69,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1930s": 100.0,
@@ -95,10 +95,9 @@
     "1980s": 275.5,
     "1990s": 156.7,
     "2000s": 185.5,
-    "2010s": 255.1,
-    "2020s": 236.4
+    "2010s": 255.1
    },
-   "new_7d": 1,
+   "new_7d": 2,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
@@ -107,7 +106,7 @@
    "mobile_count": 1,
    "median_price": 217450,
    "median_ppsf": 125.0,
-   "median_dom": 57,
+   "median_dom": 58,
    "ppsf_by_decade": {
     "1920s": 109.4,
     "1950s": 160.9,
@@ -115,10 +114,10 @@
     "1980s": 126.5,
     "1990s": 57.1,
     "2000s": 130.8,
-    "2010s": 197.0
+    "2010s": 194.3
    },
    "new_7d": 2,
-   "price_cuts_7d": 1,
+   "price_cuts_7d": 2,
    "pending_7d": 0
   },
   "Dubberly": {
@@ -126,7 +125,7 @@
    "mobile_count": 1,
    "median_price": 227000,
    "median_ppsf": 151.3,
-   "median_dom": 51,
+   "median_dom": 52,
    "ppsf_by_decade": {
     "1960s": 151.3
    },
@@ -139,22 +138,22 @@
    "mobile_count": 5,
    "median_price": 220000,
    "median_ppsf": 139.4,
-   "median_dom": 42,
+   "median_dom": 43,
    "ppsf_by_decade": {
     "1960s": 125.0,
     "1970s": 115.5,
     "1980s": 275.4
    },
    "new_7d": 2,
-   "price_cuts_7d": 0,
+   "price_cuts_7d": 1,
    "pending_7d": 0
   },
   "Haughton": {
-   "inventory": 118,
+   "inventory": 119,
    "mobile_count": 13,
-   "median_price": 277059,
+   "median_price": 275973,
    "median_ppsf": 164.0,
-   "median_dom": 41,
+   "median_dom": 42,
    "ppsf_by_decade": {
     "1960s": 173.7,
     "1970s": 129.5,
@@ -164,7 +163,7 @@
     "2010s": 168.6,
     "2020s": 168.4
    },
-   "new_7d": 11,
+   "new_7d": 12,
    "price_cuts_7d": 9,
    "pending_7d": 0
   },
@@ -173,7 +172,7 @@
    "mobile_count": 0,
    "median_price": 41500,
    "median_ppsf": 26.5,
-   "median_dom": 16,
+   "median_dom": 18,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1930s": 100.0,
@@ -191,7 +190,7 @@
    "mobile_count": 0,
    "median_price": 155000,
    "median_ppsf": 89.9,
-   "median_dom": 106,
+   "median_dom": 107,
    "ppsf_by_decade": {
     "1950s": 183.9,
     "1960s": 74.2,
@@ -203,10 +202,10 @@
   },
   "Homer": {
    "inventory": 24,
-   "mobile_count": 1,
-   "median_price": 375000,
-   "median_ppsf": 127.1,
-   "median_dom": 96,
+   "mobile_count": 2,
+   "median_price": 372000,
+   "median_ppsf": 114.6,
+   "median_dom": 91,
    "ppsf_by_decade": {
     "1940s": 84.9,
     "1960s": 76.1,
@@ -214,34 +213,33 @@
     "1980s": 275.5,
     "1990s": 156.7,
     "2000s": 185.5,
-    "2010s": 255.1,
-    "2020s": 236.4
+    "2010s": 255.1
    },
-   "new_7d": 1,
+   "new_7d": 2,
    "price_cuts_7d": 0,
    "pending_7d": 0
   },
   "Minden": {
-   "inventory": 53,
+   "inventory": 52,
    "mobile_count": 5,
-   "median_price": 174950,
-   "median_ppsf": 100.8,
-   "median_dom": 55,
+   "median_price": 170000,
+   "median_ppsf": 99.6,
+   "median_dom": 56,
    "ppsf_by_decade": {
     "1900s": 78.3,
     "1920s": 58.9,
     "1930s": 63.7,
-    "1940s": 93.5,
+    "1940s": 79.9,
     "1950s": 90.0,
     "1960s": 96.5,
     "1970s": 113.6,
-    "1980s": 132.3,
+    "1980s": 131.7,
     "1990s": 104.1,
     "2000s": 122.3,
     "2020s": 207.9
    },
    "new_7d": 2,
-   "price_cuts_7d": 7,
+   "price_cuts_7d": 8,
    "pending_7d": 0
   },
   "Sibley": {
@@ -251,21 +249,21 @@
    "median_ppsf": 132.2,
    "median_dom": 54,
    "ppsf_by_decade": {
-    "1960s": 90.3,
+    "1960s": 88.9,
     "1970s": 162.1,
     "1990s": 154.1,
     "2000s": 106.4,
     "2020s": 111.1
    },
    "new_7d": 2,
-   "price_cuts_7d": 1,
+   "price_cuts_7d": 2,
    "pending_7d": 0
   },
   "Waterfront": {
    "inventory": 44,
-   "mobile_count": 4,
-   "median_price": 455750,
-   "median_ppsf": 189.6,
+   "mobile_count": 5,
+   "median_price": 449500,
+   "median_ppsf": 186.9,
    "median_dom": 110,
    "ppsf_by_decade": {
     "1920s": 109.4,
@@ -276,34 +274,34 @@
     "1990s": 181.0,
     "2000s": 204.2,
     "2010s": 193.2,
-    "2020s": 209.7
+    "2020s": 196.6
    },
-   "new_7d": 2,
+   "new_7d": 3,
    "price_cuts_7d": 1,
    "pending_7d": 0
   },
   "Webster Parish": {
-   "inventory": 89,
+   "inventory": 88,
    "mobile_count": 9,
-   "median_price": 199950,
-   "median_ppsf": 109.0,
-   "median_dom": 57,
+   "median_price": 200000,
+   "median_ppsf": 108.6,
+   "median_dom": 56,
    "ppsf_by_decade": {
     "1900s": 78.3,
     "1920s": 84.2,
     "1930s": 63.7,
-    "1940s": 93.5,
+    "1940s": 79.9,
     "1950s": 97.7,
     "1960s": 96.5,
     "1970s": 111.6,
     "1980s": 126.5,
     "1990s": 104.1,
     "2000s": 122.9,
-    "2010s": 197.0,
+    "2010s": 194.3,
     "2020s": 207.9
    },
    "new_7d": 6,
-   "price_cuts_7d": 10,
+   "price_cuts_7d": 13,
    "pending_7d": 0
   }
  }
