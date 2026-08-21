@@ -5553,5 +5553,38 @@
   "proxy_price": 129995,
   "sold_price": null,
   "sold_date": "2026-08-19"
+ },
+ {
+  "key": "195 BERKSHIRE PL|HAUGHTON",
+  "address": "195 Berkshire Pl",
+  "city": "Haughton",
+  "sqft": 1865,
+  "predicted": 301513,
+  "predicted_at": "2026-08-21",
+  "proxy_price": 277059,
+  "sold_price": null,
+  "sold_date": "2026-08-20"
+ },
+ {
+  "key": "415 HUMMINGBIRD LN|HAUGHTON",
+  "address": "415 Hummingbird Ln",
+  "city": "Haughton",
+  "sqft": 1925,
+  "predicted": 311612,
+  "predicted_at": "2026-08-21",
+  "proxy_price": 283529,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "238 AVONDALE LN|BOSSIER CITY",
+  "address": "238 Avondale Ln",
+  "city": "Bossier City",
+  "sqft": 2081,
+  "predicted": 286995,
+  "predicted_at": "2026-08-21",
+  "proxy_price": 249000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
