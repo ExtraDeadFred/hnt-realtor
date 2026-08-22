@@ -624,7 +624,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 88000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-21"
  },
  {
   "key": "561 WELLS RD|HAUGHTON",
@@ -1493,7 +1493,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 452000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-21"
  },
  {
   "key": "306 AVONDALE CIR|BOSSIER CITY",
@@ -5586,5 +5586,93 @@
   "proxy_price": 249000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "2312 ASHDOWN DR|BOSSIER CITY",
+  "address": "2312 Ashdown Dr",
+  "city": "Bossier City",
+  "sqft": 2005,
+  "predicted": 303053,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 219900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2113 MOCKINGBIRD LN|BOSSIER CITY",
+  "address": "2113 Mockingbird Ln",
+  "city": "Bossier City",
+  "sqft": 1688,
+  "predicted": 262771,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 218000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3421 GRAND CANE LN|BOSSIER CITY",
+  "address": "3421 Grand Cane Ln",
+  "city": "Bossier City",
+  "sqft": 1129,
+  "predicted": 158560,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 225800,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
+ },
+ {
+  "key": "110 OVERBROOK LN|BOSSIER CITY",
+  "address": "110 Overbrook Ln",
+  "city": "Bossier City",
+  "sqft": 3154,
+  "predicted": 555046,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 825000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "528 HUNTERS RUN|BOSSIER CITY",
+  "address": "528 Hunters Run",
+  "city": "Bossier City",
+  "sqft": 3696,
+  "predicted": 579171,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 598750,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
+ },
+ {
+  "key": "260 ARROWHEAD DR|BOSSIER CITY",
+  "address": "260 Arrowhead Dr",
+  "city": "Bossier City",
+  "sqft": 2355,
+  "predicted": 384077,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 475500,
+  "sold_price": null,
+  "sold_date": "2026-08-14"
+ },
+ {
+  "key": "207 RED RIVER ST|BENTON",
+  "address": "207 Red River St",
+  "city": "Benton",
+  "sqft": 2188,
+  "predicted": 343279,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 299900,
+  "sold_price": 165500.0,
+  "sold_date": "09/19/2025"
+ },
+ {
+  "key": "109 CAIDEN DR|BENTON",
+  "address": "109 Caiden Dr",
+  "city": "Benton",
+  "sqft": 2163,
+  "predicted": 454058,
+  "predicted_at": "2026-08-22",
+  "proxy_price": 379900,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
  }
 ]
