@@ -1977,7 +1977,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 470000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-21"
  },
  {
   "key": "106 FAIRMONT DR|BOSSIER CITY",
@@ -5672,6 +5672,17 @@
   "predicted": 454058,
   "predicted_at": "2026-08-22",
   "proxy_price": 379900,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
+ },
+ {
+  "key": "4015 GLEN ST|BOSSIER CITY",
+  "address": "4015 Glen St",
+  "city": "Bossier City",
+  "sqft": 1334,
+  "predicted": 158153,
+  "predicted_at": "2026-08-23",
+  "proxy_price": 174900,
   "sold_price": null,
   "sold_date": "2026-08-21"
  }

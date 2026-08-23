@@ -1,240 +1,5 @@
 [
  {
-  "date": "2026-08-15",
-  "event": "price_cut",
-  "key": "7245 HWY 157|HAUGHTON",
-  "address": "7245 Highway 157",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 245000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/7245-Highway-157_Haughton_LA_71037_M83011-56193",
-  "old_price": 249900,
-  "cut_pct": 2.0
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "504 BRUNSWICK GDNS|HAUGHTON",
-  "address": "504 Brunswick Gdns",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 259900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/504-Brunswick-Gdns_Haughton_LA_71037_M82258-68960"
- },
- {
-  "date": "2026-08-15",
-  "event": "price_cut",
-  "key": "3043 GRACE HARPER DR|BOSSIER CITY",
-  "address": "3043 Grace Harper Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 263000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3043-Grace-Harper-Dr_Bossier-City_LA_71112_M98481-79813",
-  "old_price": 270000,
-  "cut_pct": 2.6
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "2923 EUGENE ST|BOSSIER CITY",
-  "address": "2923 Eugene St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 89900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2923-Eugene-St_Bossier-City_LA_71112_M83420-78293"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "1514 TEEKELL ST|BOSSIER CITY",
-  "address": "1514 Teekell St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 102000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1514-Teekell-St_Bossier-City_LA_71111_M81133-63080"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "2425 WAVERLY DR|BOSSIER CITY",
-  "address": "2425 Waverly Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 184999,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2425-Waverly-Dr_Bossier-City_LA_71111_M77745-03864"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "418 HERITAGE DR|BOSSIER CITY",
-  "address": "418 Heritage Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 306000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/418-Heritage-Dr_Bossier-City_LA_71112_M81880-06763"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "5226 LAURI LN|BOSSIER CITY",
-  "address": "5226 Lauri Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 170000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5226-Lauri-Ln_Bossier-City_LA_71112_M80330-92240"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "614 BLOOMINGTON LN|BOSSIER CITY",
-  "address": "614 Bloomington Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 289000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/614-Bloomington-Ln_Bossier-City_LA_71112_M87966-82804"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "2101 BELLE GROVE DR|BOSSIER CITY",
-  "address": "2101 Belle Grove Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 245000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2101-Belle-Grove-Dr_Bossier-City_LA_71111_M82230-13607"
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "237 PEREGRINE WAY|BOSSIER CITY",
-  "address": "237 Peregrine Way",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 540000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/237-Peregrine-Way_Bossier-City_LA_71112_M93290-58024"
- },
- {
-  "date": "2026-08-15",
-  "event": "price_cut",
-  "key": "115 BARNES DR|BENTON",
-  "address": "115 Barnes Dr",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 325500,
-  "url": "https://www.realtor.com/realestateandhomes-detail/115-Barnes-Dr_Benton_LA_71006_M77461-17245",
-  "old_price": 349500,
-  "cut_pct": 6.9
- },
- {
-  "date": "2026-08-15",
-  "event": "new",
-  "key": "624 SILKWOOD DR|BENTON",
-  "address": "624 Silkwood Dr",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 775000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/624-Silkwood-Dr_Benton_LA_71006_M86744-85974"
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "386 COUNTRY CLUB CIR|MINDEN",
-  "address": "386 Country Club Cir",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 285000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/386-Country-Club-Cir_Minden_LA_71055_M70547-56696",
-  "last_price": 285000
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "316 N HAMPTON ST|HAUGHTON",
-  "address": "316 N Hampton St",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 285000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/316-N-Hampton-St_Haughton_LA_71037_M73703-16108",
-  "last_price": 285000
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "104 OLIVE ST|HAUGHTON",
-  "address": "104 Olive St",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 286000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/104-Olive-St_Haughton_LA_71037_M71195-90847",
-  "last_price": 286000
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "4911 DAHLIA DR|BOSSIER CITY",
-  "address": "4911 Dahlia Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 99900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/4911-Dahlia-Dr_Bossier-City_LA_71111_M80683-08555",
-  "last_price": 99900
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "829 ABITA CHASE|BOSSIER CITY",
-  "address": "829 Abita Chase",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 324900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/829-Abita-Chase_Bossier-City_LA_71111_M90596-34888",
-  "last_price": 324900
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "5427 SHASTA DR|BOSSIER CITY",
-  "address": "5427 Shasta Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 215000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5427-Shasta-Dr_Bossier-City_LA_71112_M79351-94609",
-  "last_price": 215000
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "779 VENECIA DR|BOSSIER CITY",
-  "address": "779 Venecia Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 253235,
-  "url": "https://www.realtor.com/realestateandhomes-detail/779-Venecia-Dr_Bossier-City_LA_71111_M91012-87241",
-  "last_price": 253235
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "198 SEVEN PINES RD|BENTON",
-  "address": "198 Seven Pines Rd",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 183000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/198-Seven-Pines-Rd_Benton_LA_71006_M70825-48500",
-  "last_price": 183000
- },
- {
-  "date": "2026-08-15",
-  "event": "off_market",
-  "key": "577 CROUCH RD|BENTON",
-  "address": "577 Crouch Rd",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 199900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/577-Crouch-Rd_Benton_LA_71006_M86681-92555",
-  "last_price": 199900
- },
- {
   "date": "2026-08-16",
   "event": "price_cut",
   "key": "5 FOX TROT CV|HAUGHTON",
@@ -1917,5 +1682,113 @@
   "price": 379900,
   "url": "https://www.realtor.com/realestateandhomes-detail/109-Caiden-Dr_Benton_LA_71006_M75741-48828",
   "last_price": 379900
+ },
+ {
+  "date": "2026-08-23",
+  "event": "new",
+  "key": "118 FRED SANDERS RD|SIBLEY",
+  "address": "118 Fred Sanders Rd",
+  "city": "Sibley",
+  "parish": "Webster",
+  "price": 139900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/118-Fred-Sanders-Rd_Sibley_LA_71073_M82565-43600"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "price_cut",
+  "key": "2803 JAMERSON RD|HAUGHTON",
+  "address": "2803 Jamerson Rd",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 340000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2803-Jamerson-Rd_Haughton_LA_71037_M81806-65372",
+  "old_price": 360000,
+  "cut_pct": 5.6
+ },
+ {
+  "date": "2026-08-23",
+  "event": "price_cut",
+  "key": "275 JOYNER DR|HAUGHTON",
+  "address": "275 Joyner Dr",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 350000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/275-Joyner-Dr_Haughton_LA_71037_M76837-61294",
+  "old_price": 385000,
+  "cut_pct": 9.1
+ },
+ {
+  "date": "2026-08-23",
+  "event": "new",
+  "key": "5721 BLUEBONNETT DR|BOSSIER CITY",
+  "address": "5721 Bluebonnett Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 249000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5721-Bluebonnett-Dr_Bossier-City_LA_71112_M81722-80535"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "pending",
+  "key": "1359 QUINCY DR|BOSSIER CITY",
+  "address": "1359 Quincy Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 365000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1359-Quincy-Dr_Bossier-City_LA_71111_M98718-64151"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "new",
+  "key": "4614 PARKRIDGE DR|BENTON",
+  "address": "4614 Parkridge Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 318000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4614-Parkridge-Dr_Benton_LA_71006_M77763-44020"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "new",
+  "key": "500 TORBET DR|HOMER",
+  "address": "500 Torbet Dr",
+  "city": "Homer",
+  "parish": "Claiborne",
+  "price": 57000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/500-Torbet-Dr_Homer_LA_71040_M89224-41512"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "price_cut",
+  "key": "2030 DOGWOOD DR|HAYNESVILLE",
+  "address": "2030 Dogwood Dr",
+  "city": "Haynesville",
+  "parish": "Claiborne",
+  "price": 56000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2030-Dogwood-Dr_Haynesville_LA_71038_M75187-92549",
+  "old_price": 60000,
+  "cut_pct": 6.7
+ },
+ {
+  "date": "2026-08-23",
+  "event": "off_market",
+  "key": "527 CANTERBURY LN|BOSSIER CITY",
+  "address": "527 Canterbury Ln",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 459000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/527-Canterbury-Ln_Bossier-City_LA_71111_M81151-89111",
+  "last_price": 459000
+ },
+ {
+  "date": "2026-08-23",
+  "event": "off_market",
+  "key": "4015 GLEN ST|BOSSIER CITY",
+  "address": "4015 Glen St",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 174900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4015-Glen-St_Bossier-City_LA_71112_M83599-61850",
+  "last_price": 174900
  }
 ]
