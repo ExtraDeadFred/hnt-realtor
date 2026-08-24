@@ -877,7 +877,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 64900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-21"
  },
  {
   "key": "195 TANGLEWOOD RD|HOMER",
@@ -5685,5 +5685,16 @@
   "proxy_price": 174900,
   "sold_price": null,
   "sold_date": "2026-08-21"
+ },
+ {
+  "key": "106 MILDRED ST|BENTON",
+  "address": "106 Mildred St",
+  "city": "Benton",
+  "sqft": 888,
+  "predicted": 91282,
+  "predicted_at": "2026-08-24",
+  "proxy_price": 137900,
+  "sold_price": 108000.0,
+  "sold_date": "11/10/2025"
  }
 ]
