@@ -5696,5 +5696,104 @@
   "proxy_price": 137900,
   "sold_price": 108000.0,
   "sold_date": "11/10/2025"
+ },
+ {
+  "key": "631 HAUGHTON TRACE CT|HAUGHTON",
+  "address": "631 Haughton Trace Ct",
+  "city": "Haughton",
+  "sqft": 1568,
+  "predicted": 165852,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 165000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "204 BERKSHIRE PL|HAUGHTON",
+  "address": "204 Berkshire Pl",
+  "city": "Haughton",
+  "sqft": 1538,
+  "predicted": 247200,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 243000,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "408 CHARMES CIR|HAUGHTON",
+  "address": "408 Charmes Cir",
+  "city": "Haughton",
+  "sqft": 1930,
+  "predicted": 317329,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 278143,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "446 PLAZA CIR|BOSSIER CITY",
+  "address": "446 Plaza Cir",
+  "city": "Bossier City",
+  "sqft": 1449,
+  "predicted": 138984,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 80000,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "343 CAMELBACK DR|BOSSIER CITY",
+  "address": "343 Camelback Dr",
+  "city": "Bossier City",
+  "sqft": 2036,
+  "predicted": 313329,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 298900,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "411 ANTIETAM DR|BOSSIER CITY",
+  "address": "411 Antietam Dr",
+  "city": "Bossier City",
+  "sqft": 1875,
+  "predicted": 299991,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 289000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "329 NEWPORT LN|BENTON",
+  "address": "329 Newport Ln",
+  "city": "Benton",
+  "sqft": 1815,
+  "predicted": 304707,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 350000,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "422 MERESTONE XING|BENTON",
+  "address": "422 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2720,
+  "predicted": 390934,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 383678,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "3307 HWY 521|HAYNESVILLE",
+  "address": "3307 Highway 521",
+  "city": "Haynesville",
+  "sqft": 1450,
+  "predicted": 93692,
+  "predicted_at": "2026-08-25",
+  "proxy_price": 145000,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
  }
 ]
