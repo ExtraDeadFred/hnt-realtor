@@ -613,7 +613,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 395000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-25"
  },
  {
   "key": "230 LONGHORN DR|BOSSIER CITY",
@@ -5795,5 +5795,104 @@
   "proxy_price": 145000,
   "sold_price": null,
   "sold_date": "2026-08-21"
+ },
+ {
+  "key": "107 DARBONNE ST|BOSSIER CITY",
+  "address": "107 Darbonne St",
+  "city": "Bossier City",
+  "sqft": 1984,
+  "predicted": 351230,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 347500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "518 FALLING WATER CIR|BOSSIER CITY",
+  "address": "518 Falling Water Cir",
+  "city": "Bossier City",
+  "sqft": 2100,
+  "predicted": 265068,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 395000,
+  "sold_price": null,
+  "sold_date": "2026-08-25"
+ },
+ {
+  "key": "210 NORWELL LN|BOSSIER CITY",
+  "address": "210 Norwell Ln",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 296000,
+  "sold_price": null,
+  "sold_date": "2026-08-25"
+ },
+ {
+  "key": "1809 LAKE ST|BOSSIER CITY",
+  "address": "1809 Lake St",
+  "city": "Bossier City",
+  "sqft": 1725,
+  "predicted": 242896,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 214500,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "624 DETROIT ST|BOSSIER CITY",
+  "address": "624 Detroit St",
+  "city": "Bossier City",
+  "sqft": 1638,
+  "predicted": 262156,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 70000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1902 TRAFFIC ST|BOSSIER CITY",
+  "address": "1902 Traffic St",
+  "city": "Bossier City",
+  "sqft": 1000,
+  "predicted": 113541,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 83500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1206 VIOLET AVE|BOSSIER CITY",
+  "address": "1206 Violet Ave",
+  "city": "Bossier City",
+  "sqft": 1291,
+  "predicted": 153594,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 175000,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
+ },
+ {
+  "key": "510 LINDEN CIR|BENTON",
+  "address": "510 Linden Cir",
+  "city": "Benton",
+  "sqft": 1998,
+  "predicted": 364963,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 400000,
+  "sold_price": null,
+  "sold_date": "2026-08-25"
+ },
+ {
+  "key": "1766 BAILEY RD|HAYNESVILLE",
+  "address": "1766 Bailey Rd",
+  "city": "Haynesville",
+  "sqft": 1200,
+  "predicted": 30000,
+  "predicted_at": "2026-08-26",
+  "proxy_price": 24900,
+  "sold_price": null,
+  "sold_date": "2026-08-24"
  }
 ]
