@@ -1108,7 +1108,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 240000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-31"
  },
  {
   "key": "1001 TREY AVE|BENTON",
@@ -5894,5 +5894,82 @@
   "proxy_price": 24900,
   "sold_price": null,
   "sold_date": "2026-08-24"
+ },
+ {
+  "key": "9321 DOGWOOD TRL|HAUGHTON",
+  "address": "9321 Dogwood Trl",
+  "city": "Haughton",
+  "sqft": 2002,
+  "predicted": 318095,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 245000,
+  "sold_price": null,
+  "sold_date": "2026-08-26"
+ },
+ {
+  "key": "107 VIENNE TRCE|HAUGHTON",
+  "address": "107 Vienne Trce",
+  "city": "Haughton",
+  "sqft": 1514,
+  "predicted": 245989,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 247900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "6004 KATELAND CIR|BOSSIER CITY",
+  "address": "6004 Kateland Cir",
+  "city": "Bossier City",
+  "sqft": 1646,
+  "predicted": 262159,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 279900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "329 AUTUMN RIDGE DR|BOSSIER CITY",
+  "address": "329 Autumn Ridge Dr",
+  "city": "Bossier City",
+  "sqft": 3080,
+  "predicted": 484376,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 735000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "328 PEASON RDG|BOSSIER CITY",
+  "address": "328 Peason Rdg",
+  "city": "Bossier City",
+  "sqft": 1910,
+  "predicted": 349431,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 354521,
+  "sold_price": null,
+  "sold_date": "2026-08-26"
+ },
+ {
+  "key": "338 OUACHITA LN|BOSSIER CITY",
+  "address": "338 Ouachita Ln",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 207700,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": "2026-08-26"
+ },
+ {
+  "key": "605 CANOE TRL|BOSSIER CITY",
+  "address": "605 Canoe Trl",
+  "city": "Bossier City",
+  "sqft": 1580,
+  "predicted": 247849,
+  "predicted_at": "2026-08-27",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-08-21"
  }
 ]
