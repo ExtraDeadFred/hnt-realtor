@@ -3033,7 +3033,7 @@
   "predicted_at": "2026-07-17",
   "proxy_price": 819000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-28"
  },
  {
   "key": "1211 LEE ST|BENTON",
@@ -5971,5 +5971,71 @@
   "proxy_price": 275000,
   "sold_price": null,
   "sold_date": "2026-08-21"
+ },
+ {
+  "key": "8429 EDGEWOOD DR|HAUGHTON",
+  "address": "8429 Edgewood Dr",
+  "city": "Haughton",
+  "sqft": 1738,
+  "predicted": 246290,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 180000,
+  "sold_price": null,
+  "sold_date": "2026-08-27"
+ },
+ {
+  "key": "804 PRINCESA DR|HAUGHTON",
+  "address": "804 Princesa Dr",
+  "city": "Haughton",
+  "sqft": 1546,
+  "predicted": 247529,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 205000,
+  "sold_price": null,
+  "sold_date": "2026-08-27"
+ },
+ {
+  "key": "3302 PINE HAVEN LN|HAUGHTON",
+  "address": "3302 Pine Haven Ln",
+  "city": "Haughton",
+  "sqft": 1717,
+  "predicted": 244810,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 224900,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "2204 MIDDLE CREEK BLVD|BOSSIER CITY",
+  "address": "2204 Middle Creek Blvd",
+  "city": "Bossier City",
+  "sqft": 1574,
+  "predicted": 262666,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 235000,
+  "sold_price": null,
+  "sold_date": "2026-08-27"
+ },
+ {
+  "key": "430 STACEY LN|BOSSIER CITY",
+  "address": "430 Stacey Ln",
+  "city": "Bossier City",
+  "sqft": 1924,
+  "predicted": 292594,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 395000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "725 CREWE LN|BOSSIER CITY",
+  "address": "725 Crewe Ln",
+  "city": "Bossier City",
+  "sqft": 2204,
+  "predicted": 323773,
+  "predicted_at": "2026-08-28",
+  "proxy_price": 326513,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
  }
 ]
