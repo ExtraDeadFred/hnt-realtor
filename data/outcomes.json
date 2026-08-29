@@ -954,7 +954,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 628900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-28"
  },
  {
   "key": "240 MCDOWELL ST|DOYLINE",
@@ -6035,6 +6035,149 @@
   "predicted": 323773,
   "predicted_at": "2026-08-28",
   "proxy_price": 326513,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "2374 HWY 532|MINDEN",
+  "address": "2374 Highway 532",
+  "city": "Minden",
+  "sqft": 2075,
+  "predicted": 192337,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 209900,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "191 FRAZIER AVE|SIBLEY",
+  "address": "191 Frazier Ave",
+  "city": "Sibley",
+  "sqft": 1345,
+  "predicted": 133480,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 142700,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "551 HORSESHOE LOOP|DOYLINE",
+  "address": "551 Horseshoe Loop",
+  "city": "Doyline",
+  "sqft": 1817,
+  "predicted": 196034,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 224500,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "137 RAGAN LN|HAUGHTON",
+  "address": "137 Ragan Ln",
+  "city": "Haughton",
+  "sqft": 1529,
+  "predicted": 241762,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 235000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "1216 SAINT CHARLES ST|BOSSIER CITY",
+  "address": "1216 Saint Charles St",
+  "city": "Bossier City",
+  "sqft": 1260,
+  "predicted": 148320,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 41000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1625 SUCCESS ST|BOSSIER CITY",
+  "address": "1625 Success St",
+  "city": "Bossier City",
+  "sqft": 1707,
+  "predicted": 232686,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 205000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5226 LAURI LN|BOSSIER CITY",
+  "address": "5226 Lauri Ln",
+  "city": "Bossier City",
+  "sqft": 1211,
+  "predicted": 130463,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 170000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "3636 GREENACRES PL DR UNIT 57U|BOSSIER CITY",
+  "address": "3636 Greenacres Place Dr Unit 57U",
+  "city": "Bossier City",
+  "sqft": 668,
+  "predicted": 78772,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 115000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3237 MURPHY ST|BOSSIER CITY",
+  "address": "3237 Murphy St",
+  "city": "Bossier City",
+  "sqft": 1614,
+  "predicted": 207514,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 59900,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "4000 WILDERNESS LN|BOSSIER CITY",
+  "address": "4000 Wilderness Ln",
+  "city": "Bossier City",
+  "sqft": 2769,
+  "predicted": 544329,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 440000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "163 SOUTHWOOD DR|BOSSIER CITY",
+  "address": "163 Southwood Dr",
+  "city": "Bossier City",
+  "sqft": 1971,
+  "predicted": 267224,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 286900,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "1601 SHADY GROVE DR|BOSSIER CITY",
+  "address": "1601 Shady Grove Dr",
+  "city": "Bossier City",
+  "sqft": 1989,
+  "predicted": 322811,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 210000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "1000 BELLE HAVEN DR|BOSSIER CITY",
+  "address": "1000 Belle Haven Dr",
+  "city": "Bossier City",
+  "sqft": 1557,
+  "predicted": 253112,
+  "predicted_at": "2026-08-29",
+  "proxy_price": 264900,
   "sold_price": null,
   "sold_date": "2026-08-28"
  }
