@@ -6180,5 +6180,27 @@
   "proxy_price": 264900,
   "sold_price": null,
   "sold_date": "2026-08-28"
+ },
+ {
+  "key": "219 MARBLE PL|HAUGHTON",
+  "address": "219 Marble Pl",
+  "city": "Haughton",
+  "sqft": 2008,
+  "predicted": 330319,
+  "predicted_at": "2026-08-30",
+  "proxy_price": 410000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "5004 KENILWORTH DR|BOSSIER CITY",
+  "address": "5004 Kenilworth Dr",
+  "city": "Bossier City",
+  "sqft": 2081,
+  "predicted": 286995,
+  "predicted_at": "2026-08-30",
+  "proxy_price": 302000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]

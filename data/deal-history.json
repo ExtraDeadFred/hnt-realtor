@@ -6,13 +6,13 @@
  },
  "110 JAMES ST|HOMER": {
   "first_featured": "2026-08-08",
-  "times_featured": 2,
-  "last_featured": "2026-08-19"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "2612 DOUGLAS DR|BOSSIER CITY": {
   "first_featured": "2026-08-08",
-  "times_featured": 2,
-  "last_featured": "2026-08-19"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "3524 HOLIDAY PL|BOSSIER CITY": {
   "first_featured": "2026-08-08",
@@ -31,8 +31,8 @@
  },
  "643 YARBOROUGH ST|BOSSIER CITY": {
   "first_featured": "2026-08-08",
-  "times_featured": 3,
-  "last_featured": "2026-08-28"
+  "times_featured": 4,
+  "last_featured": "2026-08-30"
  },
  "614 PATTON ST|BOSSIER CITY": {
   "first_featured": "2026-08-08",
@@ -96,23 +96,23 @@
  },
  "613 ANTHONY ST|BOSSIER CITY": {
   "first_featured": "2026-08-10",
-  "times_featured": 2,
-  "last_featured": "2026-08-20"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "1925 MCCALL ST|BOSSIER CITY": {
   "first_featured": "2026-08-10",
-  "times_featured": 2,
-  "last_featured": "2026-08-20"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "1523 VIOSCA ST|BOSSIER CITY": {
   "first_featured": "2026-08-10",
-  "times_featured": 2,
-  "last_featured": "2026-08-20"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "224 ADAIR ST|BOSSIER CITY": {
   "first_featured": "2026-08-10",
-  "times_featured": 2,
-  "last_featured": "2026-08-20"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "317 JOEL ST|MINDEN": {
   "first_featured": "2026-08-10",
@@ -231,8 +231,8 @@
  },
  "218 BENOIST CIR|BOSSIER CITY": {
   "first_featured": "2026-08-13",
-  "times_featured": 2,
-  "last_featured": "2026-08-19"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "301 OLD PLAIN DEALING RD|BENTON": {
   "first_featured": "2026-08-13",
@@ -346,8 +346,8 @@
  },
  "115 GOODE AVE|MINDEN": {
   "first_featured": "2026-08-16",
-  "times_featured": 2,
-  "last_featured": "2026-08-18"
+  "times_featured": 3,
+  "last_featured": "2026-08-30"
  },
  "7504 PECANWOOD CT|HAUGHTON": {
   "first_featured": "2026-08-16",
@@ -573,5 +573,10 @@
   "first_featured": "2026-08-29",
   "times_featured": 1,
   "last_featured": "2026-08-29"
+ },
+ "552 BOB WHITE LN|BENTON": {
+  "first_featured": "2026-08-30",
+  "times_featured": 1,
+  "last_featured": "2026-08-30"
  }
 }
