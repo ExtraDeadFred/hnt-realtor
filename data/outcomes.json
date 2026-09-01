@@ -327,7 +327,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-28"
  },
  {
   "key": "605 JADE CIR|HAUGHTON",
@@ -1581,7 +1581,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 289900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-31"
  },
  {
   "key": "814 DUMAINE DR|BOSSIER CITY",
@@ -1834,7 +1834,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 299000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-31"
  },
  {
   "key": "3301 DANBURY CT|BOSSIER CITY",
@@ -2054,7 +2054,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 235000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-31"
  },
  {
   "key": "1919 CAMILLE ST|BOSSIER CITY",
@@ -3792,7 +3792,7 @@
   "predicted_at": "2026-07-29",
   "proxy_price": 190000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-20"
  },
  {
   "key": "400 HUMMINGBIRD LN|HAUGHTON",
@@ -6202,5 +6202,170 @@
   "proxy_price": 302000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "1017 GREEN WOOD CIR|HAUGHTON",
+  "address": "1017 Green Wood Cir",
+  "city": "Haughton",
+  "sqft": 1825,
+  "predicted": 269201,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 310000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "403 HUMMINGBIRD LN|HAUGHTON",
+  "address": "403 Hummingbird Ln",
+  "city": "Haughton",
+  "sqft": 1550,
+  "predicted": 248040,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 255940,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1510 HOLIDAY PL|BOSSIER CITY",
+  "address": "1510 Holiday Pl",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 195016,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 150000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "611 WHITEFIELD LN|BOSSIER CITY",
+  "address": "611 Whitefield Ln",
+  "city": "Bossier City",
+  "sqft": 1278,
+  "predicted": 217450,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 230000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "5302 GOLDENROD CIR|BOSSIER CITY",
+  "address": "5302 Goldenrod Cir",
+  "city": "Bossier City",
+  "sqft": 1314,
+  "predicted": 182472,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 199500,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "24 WATERBURY DR|BOSSIER CITY",
+  "address": "24 Waterbury Dr",
+  "city": "Bossier City",
+  "sqft": 2636,
+  "predicted": 487062,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 443000,
+  "sold_price": 310000.0,
+  "sold_date": "07/21/2025"
+ },
+ {
+  "key": "1713 CAPLIS SLIGO RD|BOSSIER CITY",
+  "address": "1713 Caplis Sligo Rd",
+  "city": "Bossier City",
+  "sqft": 1799,
+  "predicted": 294313,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
+ },
+ {
+  "key": "4008 LARK ST|BOSSIER CITY",
+  "address": "4008 Lark St",
+  "city": "Bossier City",
+  "sqft": 1838,
+  "predicted": 213040,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 210000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "1241 DUDLEY LN|BOSSIER CITY",
+  "address": "1241 Dudley Ln",
+  "city": "Bossier City",
+  "sqft": 1240,
+  "predicted": 139303,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 59000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "116 WILLOW LAKE BLVD|BOSSIER CITY",
+  "address": "116 Willow Lake Blvd",
+  "city": "Bossier City",
+  "sqft": 1872,
+  "predicted": 304079,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 289500,
+  "sold_price": 200000.0,
+  "sold_date": "03/18/2026"
+ },
+ {
+  "key": "614 GLENSHIRE DR|BOSSIER CITY",
+  "address": "614 Glenshire Dr",
+  "city": "Bossier City",
+  "sqft": 2125,
+  "predicted": 321671,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 367000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "5421 DAFFODIL AVE|BOSSIER CITY",
+  "address": "5421 Daffodil Ave",
+  "city": "Bossier City",
+  "sqft": 1097,
+  "predicted": 145493,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 167900,
+  "sold_price": 50000.0,
+  "sold_date": "05/12/2026"
+ },
+ {
+  "key": "402 HALIFAX CIR|BENTON",
+  "address": "402 Halifax Cir",
+  "city": "Benton",
+  "sqft": 1834,
+  "predicted": 300593,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 324995,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "438 MERESTONE XING|BENTON",
+  "address": "438 Merestone Xing",
+  "city": "Benton",
+  "sqft": 2720,
+  "predicted": 393490,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 391868,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "122 MORRIS CIR|HOMER",
+  "address": "122 Morris Cir",
+  "city": "Homer",
+  "sqft": 2180,
+  "predicted": 251588,
+  "predicted_at": "2026-09-01",
+  "proxy_price": 140000,
+  "sold_price": null,
+  "sold_date": "2026-08-28"
  }
 ]

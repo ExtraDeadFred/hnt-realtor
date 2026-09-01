@@ -1,9 +1,4 @@
 {
- "1800 CAMBRIDGE ST|BOSSIER CITY": {
-  "first_featured": "2026-08-08",
-  "times_featured": 3,
-  "last_featured": "2026-08-29"
- },
  "110 JAMES ST|HOMER": {
   "first_featured": "2026-08-08",
   "times_featured": 3,
@@ -174,20 +169,10 @@
   "times_featured": 2,
   "last_featured": "2026-08-26"
  },
- "122 MORRIS CIR|HOMER": {
-  "first_featured": "2026-08-12",
-  "times_featured": 2,
-  "last_featured": "2026-08-22"
- },
  "504 YARBOROUGH ST|BOSSIER CITY": {
   "first_featured": "2026-08-12",
-  "times_featured": 2,
-  "last_featured": "2026-08-22"
- },
- "1241 DUDLEY LN|BOSSIER CITY": {
-  "first_featured": "2026-08-12",
-  "times_featured": 2,
-  "last_featured": "2026-08-22"
+  "times_featured": 3,
+  "last_featured": "2026-09-01"
  },
  "2030 DOGWOOD DR|HAYNESVILLE": {
   "first_featured": "2026-08-12",
@@ -196,8 +181,8 @@
  },
  "608 KELLY ST|BOSSIER CITY": {
   "first_featured": "2026-08-12",
-  "times_featured": 2,
-  "last_featured": "2026-08-22"
+  "times_featured": 3,
+  "last_featured": "2026-09-01"
  },
  "2615 ORMOND PL|BOSSIER CITY": {
   "first_featured": "2026-08-13",
@@ -414,11 +399,6 @@
   "times_featured": 1,
   "last_featured": "2026-08-17"
  },
- "1510 HOLIDAY PL|BOSSIER CITY": {
-  "first_featured": "2026-08-18",
-  "times_featured": 1,
-  "last_featured": "2026-08-18"
- },
  "4026 ELIZABETH LN|BENTON": {
   "first_featured": "2026-08-18",
   "times_featured": 1,
@@ -431,8 +411,8 @@
  },
  "2224 BROWNLEE RD|BOSSIER CITY": {
   "first_featured": "2026-08-20",
-  "times_featured": 1,
-  "last_featured": "2026-08-20"
+  "times_featured": 2,
+  "last_featured": "2026-09-01"
  },
  "113 MILLARD FULLER DR|MINDEN": {
   "first_featured": "2026-08-20",
@@ -456,8 +436,8 @@
  },
  "2604 ROSEDALE PL|BOSSIER CITY": {
   "first_featured": "2026-08-21",
-  "times_featured": 1,
-  "last_featured": "2026-08-21"
+  "times_featured": 2,
+  "last_featured": "2026-09-01"
  },
  "1519 FOX ST|BOSSIER CITY": {
   "first_featured": "2026-08-21",
@@ -466,8 +446,8 @@
  },
  "2414 BARBARA ST|BOSSIER CITY": {
   "first_featured": "2026-08-22",
-  "times_featured": 1,
-  "last_featured": "2026-08-22"
+  "times_featured": 2,
+  "last_featured": "2026-09-01"
  },
  "304 TEALWOOD DR|BOSSIER CITY": {
   "first_featured": "2026-08-22",
@@ -588,5 +568,30 @@
   "first_featured": "2026-08-31",
   "times_featured": 1,
   "last_featured": "2026-08-31"
+ },
+ "101 PINE LAKE DR|HAUGHTON": {
+  "first_featured": "2026-09-01",
+  "times_featured": 1,
+  "last_featured": "2026-09-01"
+ },
+ "2425 CHURCHILL DR|BOSSIER CITY": {
+  "first_featured": "2026-09-01",
+  "times_featured": 1,
+  "last_featured": "2026-09-01"
+ },
+ "1905 MILES ST|BOSSIER CITY": {
+  "first_featured": "2026-09-01",
+  "times_featured": 1,
+  "last_featured": "2026-09-01"
+ },
+ "1381 FRANKLIN RD|HEFLIN": {
+  "first_featured": "2026-09-01",
+  "times_featured": 1,
+  "last_featured": "2026-09-01"
+ },
+ "1005 N MAIN ST|HOMER": {
+  "first_featured": "2026-09-01",
+  "times_featured": 1,
+  "last_featured": "2026-09-01"
  }
 }
