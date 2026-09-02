@@ -6367,5 +6367,93 @@
   "proxy_price": 140000,
   "sold_price": null,
   "sold_date": "2026-08-28"
+ },
+ {
+  "key": "1313 EVERGREEN DR|MINDEN",
+  "address": "1313 Evergreen Dr",
+  "city": "Minden",
+  "sqft": 1800,
+  "predicted": 178051,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 235000,
+  "sold_price": 225000.0,
+  "sold_date": "07/18/2025"
+ },
+ {
+  "key": "5640 HWY 157|HAUGHTON",
+  "address": "5640 Highway 157",
+  "city": "Haughton",
+  "sqft": 2098,
+  "predicted": 224786,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 116000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "507 SECRET CV|BOSSIER CITY",
+  "address": "507 Secret Cv",
+  "city": "Bossier City",
+  "sqft": 2349,
+  "predicted": 357097,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 410000,
+  "sold_price": null,
+  "sold_date": "2026-09-01"
+ },
+ {
+  "key": "1522 CLARENCE ST|BOSSIER CITY",
+  "address": "1522 Clarence St",
+  "city": "Bossier City",
+  "sqft": 1107,
+  "predicted": 126499,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 153900,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "2017 WILD IRIS DR|BOSSIER CITY",
+  "address": "2017 Wild Iris Dr",
+  "city": "Bossier City",
+  "sqft": 1455,
+  "predicted": 167115,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 228900,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "5304 CARNATION RD|BOSSIER CITY",
+  "address": "5304 Carnation Rd",
+  "city": "Bossier City",
+  "sqft": 1013,
+  "predicted": 115017,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 150000,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
+ },
+ {
+  "key": "339 CYCLE PLANT RD|BENTON",
+  "address": "339 Cycle Plant Rd",
+  "city": "Benton",
+  "sqft": 2280,
+  "predicted": 214881,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 289900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1005 N MAIN ST|HOMER",
+  "address": "1005 N Main St",
+  "city": "Homer",
+  "sqft": 2885,
+  "predicted": 279469,
+  "predicted_at": "2026-09-02",
+  "proxy_price": 197100,
+  "sold_price": null,
+  "sold_date": "2026-08-31"
  }
 ]
