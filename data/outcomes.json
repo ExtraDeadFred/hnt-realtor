@@ -6455,5 +6455,38 @@
   "proxy_price": 197100,
   "sold_price": null,
   "sold_date": "2026-08-31"
+ },
+ {
+  "key": "429 REMINGTON DR|BOSSIER CITY",
+  "address": "429 Remington Dr",
+  "city": "Bossier City",
+  "sqft": 1965,
+  "predicted": 292428,
+  "predicted_at": "2026-09-03",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": "2026-09-02"
+ },
+ {
+  "key": "229 PAISLEY LN|BOSSIER CITY",
+  "address": "229 Paisley Ln",
+  "city": "Bossier City",
+  "sqft": 2204,
+  "predicted": 323773,
+  "predicted_at": "2026-09-03",
+  "proxy_price": 335771,
+  "sold_price": null,
+  "sold_date": "2026-09-02"
+ },
+ {
+  "key": "1116 LEN ST|BOSSIER CITY",
+  "address": "1116 Len St",
+  "city": "Bossier City",
+  "sqft": 1250,
+  "predicted": 131558,
+  "predicted_at": "2026-09-03",
+  "proxy_price": 149900,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
