@@ -1504,7 +1504,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 309900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-26"
  },
  {
   "key": "605 FALL WINDS CIR|BOSSIER CITY",
@@ -6201,7 +6201,7 @@
   "predicted_at": "2026-08-30",
   "proxy_price": 302000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-08-27"
  },
  {
   "key": "1017 GREEN WOOD CIR|HAUGHTON",
@@ -6488,5 +6488,93 @@
   "proxy_price": 149900,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "1811 COLDWATER CRK|HAUGHTON",
+  "address": "1811 Coldwater Crk",
+  "city": "Haughton",
+  "sqft": 3009,
+  "predicted": 448908,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 492499,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "8518 HOLLOW BLUFF DR|HAUGHTON",
+  "address": "8518 Hollow Bluff Dr",
+  "city": "Haughton",
+  "sqft": 1552,
+  "predicted": 234593,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 207000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "412 RED OAK LN|HAUGHTON",
+  "address": "412 Red Oak Ln",
+  "city": "Haughton",
+  "sqft": 1325,
+  "predicted": 187636,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 215000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "917 ANTLER DR|HAUGHTON",
+  "address": "917 Antler Dr",
+  "city": "Haughton",
+  "sqft": 2175,
+  "predicted": 352227,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 369900,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "3016 PLEASANT GRV|BOSSIER CITY",
+  "address": "3016 Pleasant Grv",
+  "city": "Bossier City",
+  "sqft": 1940,
+  "predicted": 319345,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-09-02"
+ },
+ {
+  "key": "222 JASMINE WALK|BOSSIER CITY",
+  "address": "222 Jasmine Walk",
+  "city": "Bossier City",
+  "sqft": 1880,
+  "predicted": 299105,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 399999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "4309 METEOR ST|BOSSIER CITY",
+  "address": "4309 Meteor St",
+  "city": "Bossier City",
+  "sqft": 1140,
+  "predicted": 160400,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 169000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "171 DALRYMPLE RD|BENTON",
+  "address": "171 Dalrymple Rd",
+  "city": "Benton",
+  "sqft": 2351,
+  "predicted": 289404,
+  "predicted_at": "2026-09-04",
+  "proxy_price": 135000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
  }
 ]
