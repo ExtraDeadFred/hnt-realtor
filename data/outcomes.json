@@ -2043,7 +2043,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 289900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-04"
  },
  {
   "key": "5908 STOCKWOOD ST|BOSSIER CITY",
@@ -6576,5 +6576,181 @@
   "proxy_price": 135000,
   "sold_price": null,
   "sold_date": "2026-09-03"
+ },
+ {
+  "key": "413 PARK AVE|MINDEN",
+  "address": "413 Park Ave",
+  "city": "Minden",
+  "sqft": 1280,
+  "predicted": 151624,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 60000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "1320 FULLER CEMETERY RD|MINDEN",
+  "address": "1320 Fuller Cemetery Rd",
+  "city": "Minden",
+  "sqft": 1937,
+  "predicted": 256391,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 325000,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
+ },
+ {
+  "key": "2078 HIGHPOINT PL|HAUGHTON",
+  "address": "2078 Highpoint Pl",
+  "city": "Haughton",
+  "sqft": 2248,
+  "predicted": 327678,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 424900,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "337 WOOD SPGS|HAUGHTON",
+  "address": "337 Wood Spgs",
+  "city": "Haughton",
+  "sqft": 1690,
+  "predicted": 259437,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-09-01"
+ },
+ {
+  "key": "305 BABINEAUX LN|HAUGHTON",
+  "address": "305 Babineaux Ln",
+  "city": "Haughton",
+  "sqft": 1522,
+  "predicted": 245988,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 248015,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
+ },
+ {
+  "key": "1826 BONN ST|BOSSIER CITY",
+  "address": "1826 Bonn St",
+  "city": "Bossier City",
+  "sqft": 1589,
+  "predicted": 250291,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 190000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2612 DOUGLAS DR|BOSSIER CITY",
+  "address": "2612 Douglas Dr",
+  "city": "Bossier City",
+  "sqft": 1810,
+  "predicted": 286734,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 180900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1220 EVANGELINE CIR|BOSSIER CITY",
+  "address": "1220 Evangeline Cir",
+  "city": "Bossier City",
+  "sqft": 2180,
+  "predicted": 318291,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 259995,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "464 MAYFAIR CT|BOSSIER CITY",
+  "address": "464 Mayfair Ct",
+  "city": "Bossier City",
+  "sqft": 1680,
+  "predicted": 243392,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 249900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1413 MAGNOLIA RDG|BOSSIER CITY",
+  "address": "1413 Magnolia Rdg",
+  "city": "Bossier City",
+  "sqft": 2150,
+  "predicted": 317384,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 299700,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
+ },
+ {
+  "key": "3308 BLACK LAKE CIR|BOSSIER CITY",
+  "address": "3308 Black Lake Cir",
+  "city": "Bossier City",
+  "sqft": 1170,
+  "predicted": 147143,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 169900,
+  "sold_price": null,
+  "sold_date": "2026-09-02"
+ },
+ {
+  "key": "3513 NIKKI LYNN DR|BOSSIER CITY",
+  "address": "3513 Nikki Lynn Dr",
+  "city": "Bossier City",
+  "sqft": 1258,
+  "predicted": 152359,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 120000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "908 CHISOLM TRL|BOSSIER CITY",
+  "address": "908 Chisolm Trl",
+  "city": "Bossier City",
+  "sqft": 1856,
+  "predicted": 276287,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 360000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "815 VENECIA DR|BOSSIER CITY",
+  "address": "815 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1461,
+  "predicted": 240503,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 243451,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
+ },
+ {
+  "key": "4406 ELLIS CT|BENTON",
+  "address": "4406 Ellis Ct",
+  "city": "Benton",
+  "sqft": 1882,
+  "predicted": 293783,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 315000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "4505 LAWNDALE DR|BENTON",
+  "address": "4505 Lawndale Dr",
+  "city": "Benton",
+  "sqft": 1674,
+  "predicted": 270634,
+  "predicted_at": "2026-09-05",
+  "proxy_price": 240000,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
  }
 ]
