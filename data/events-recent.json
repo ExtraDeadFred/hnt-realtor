@@ -1,111 +1,5 @@
 [
  {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "1313 EVERGREEN DR|MINDEN",
-  "address": "1313 Evergreen Dr",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 235000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1313-Evergreen-Dr_Minden_LA_71055_M86091-16681"
- },
- {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "416 GRAYWOOD DR|MINDEN",
-  "address": "416 Graywood Dr",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 450000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/416-Graywood-Dr_Minden_LA_71055_M83380-06951"
- },
- {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "1201 GRAY LAKE DR|HAUGHTON",
-  "address": "1201 Gray Lake Dr",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 115000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1201-Gray-Lake-Dr_Princeton_LA_71067_M78909-36793"
- },
- {
-  "date": "2026-08-30",
-  "event": "price_cut",
-  "key": "643 YARBOROUGH ST|BOSSIER CITY",
-  "address": "643 Yarborough St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 30400,
-  "url": "https://www.realtor.com/realestateandhomes-detail/643-Yarborough-St_Bossier-City_LA_71111_M80833-69501",
-  "old_price": 32000,
-  "cut_pct": 5.0
- },
- {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "2309 W BELLE HAVEN DR|BOSSIER CITY",
-  "address": "2309 W Belle Haven Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 255000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2309-W-Belle-Haven-Dr_Bossier-City_LA_71111_M85469-66444"
- },
- {
-  "date": "2026-08-30",
-  "event": "price_cut",
-  "key": "328 LINTWIN CIR|BENTON",
-  "address": "328 Lintwin Cir",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 68000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/328-Lintwin-Cir_Benton_LA_71006_M77419-10289",
-  "old_price": 72000,
-  "cut_pct": 5.6
- },
- {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "552 BOB WHITE LN|BENTON",
-  "address": "552 Bob White Ln",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 515000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/552-Bob-White-Ln_Benton_LA_71006_M85748-41369"
- },
- {
-  "date": "2026-08-30",
-  "event": "new",
-  "key": "14734 HWY 157|BENTON",
-  "address": "14734 Highway 157",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 778976,
-  "url": "https://www.realtor.com/realestateandhomes-detail/14734-Highway-157_Benton_LA_71006_M96760-51811"
- },
- {
-  "date": "2026-08-30",
-  "event": "off_market",
-  "key": "219 MARBLE PL|HAUGHTON",
-  "address": "219 Marble Pl",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 410000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/219-Marble-Pl_Haughton_LA_71037_M98313-39797",
-  "last_price": 410000
- },
- {
-  "date": "2026-08-30",
-  "event": "off_market",
-  "key": "5004 KENILWORTH DR|BOSSIER CITY",
-  "address": "5004 Kenilworth Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 302000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5004-Kenilworth-Dr_Bossier-City_LA_71112_M80855-02279",
-  "last_price": 302000
- },
- {
   "date": "2026-08-31",
   "event": "new",
   "key": "511 BABB CIR|MINDEN",
@@ -1901,5 +1795,39 @@
   "price": 305000,
   "url": "https://www.realtor.com/realestateandhomes-detail/307-Nandina-Dr_Bossier-City_LA_71112_M99414-36659",
   "last_price": 305000
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_cut",
+  "key": "175 PRINCETON RD|HAUGHTON",
+  "address": "175 Princeton Rd",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 290000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/175-Princeton-Rd_Princeton_LA_71067_M77298-59265",
+  "old_price": 305000,
+  "cut_pct": 4.9
+ },
+ {
+  "date": "2026-09-07",
+  "event": "new",
+  "key": "5421 DAFFODIL AVE|BOSSIER CITY",
+  "address": "5421 Daffodil Ave",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 167900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5421-Daffodil-Ave_Bossier-City_LA_71112_M79696-65605"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_cut",
+  "key": "624 SILKWOOD DR|BENTON",
+  "address": "624 Silkwood Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 750000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/624-Silkwood-Dr_Benton_LA_71006_M86744-85974",
+  "old_price": 775000,
+  "cut_pct": 3.2
  }
 ]
