@@ -283,7 +283,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 254900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-08"
  },
  {
   "key": "32000|HAUGHTON",
@@ -4782,7 +4782,7 @@
   "predicted_at": "2026-08-10",
   "proxy_price": 179900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-07-31"
  },
  {
   "key": "2468 RICHARDSON LOOP|HOMER",
@@ -6763,5 +6763,346 @@
   "proxy_price": 305000,
   "sold_price": null,
   "sold_date": "2026-09-04"
+ },
+ {
+  "key": "249|MINDEN",
+  "address": "249,000",
+  "city": "Minden",
+  "sqft": 2700,
+  "predicted": 387676,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 249000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "299|MINDEN",
+  "address": "299,900",
+  "city": "Minden",
+  "sqft": 1976,
+  "predicted": 222119,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "145|MINDEN",
+  "address": "145,000",
+  "city": "Minden",
+  "sqft": 1257,
+  "predicted": 150496,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 145000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "194|MINDEN",
+  "address": "194,500",
+  "city": "Minden",
+  "sqft": 1440,
+  "predicted": 125471,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 194500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "245|MINDEN",
+  "address": "245,000",
+  "city": "Minden",
+  "sqft": 2003,
+  "predicted": 216517,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 245000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "118 KENNY LN|STONEWALL",
+  "address": "118 Kenny Ln, Stonewall, LA 71078",
+  "city": "Stonewall",
+  "sqft": 2156,
+  "predicted": 240759,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 386500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "24812 HWY 371|SAREPTA",
+  "address": "24812 Highway 371",
+  "city": "Sarepta",
+  "sqft": 2003,
+  "predicted": 148007,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 75000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "140 BELLVIEW RD|RINGGOLD",
+  "address": "140 Bellview Rd",
+  "city": "Ringgold",
+  "sqft": 2058,
+  "predicted": 267988,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 65000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2741 MILL ST|RINGGOLD",
+  "address": "2741 Mill St",
+  "city": "Ringgold",
+  "sqft": 2098,
+  "predicted": 281219,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 128000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "942 FOREMAN RD|DOYLINE",
+  "address": "942 Foreman Rd",
+  "city": "Doyline",
+  "sqft": 1700,
+  "predicted": 168011,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 215000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1381 FRANKLIN|STONEWALL",
+  "address": "1381 Franklin, Stonewall, LA 71078",
+  "city": "Stonewall",
+  "sqft": 1725,
+  "predicted": 204027,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 152000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "121 WILLOW ST|HEFLIN",
+  "address": "121 Willow St",
+  "city": "Heflin",
+  "sqft": 2391,
+  "predicted": 210303,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 175400,
+  "sold_price": null,
+  "sold_date": "2026-09-08"
+ },
+ {
+  "key": "307 HUMMINGBIRD LN|HAUGHTON",
+  "address": "307 Hummingbird Lane",
+  "city": "Haughton",
+  "sqft": 2204,
+  "predicted": 302858,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 292990,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "219 DOGWOOD DR|ELM GROVE",
+  "address": "219 Dogwood Dr, Elm Grove, LA 71051",
+  "city": "Elm Grove",
+  "sqft": 1495,
+  "predicted": 148003,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 187600,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "RENOIR IV B PLAN|BENTON",
+  "address": "Renoir IV B Plan, Lost River Estates Community",
+  "city": "Benton",
+  "sqft": 2622,
+  "predicted": 448393,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 389990,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "CAMELLIA V B PLAN|BENTON",
+  "address": "Camellia V B Plan, Lost River Estates Community",
+  "city": "Benton",
+  "sqft": 2204,
+  "predicted": 340132,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 330990,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "BOUCHER III A PLAN|BENTON",
+  "address": "Boucher III A Plan, Lost River Estates Community",
+  "city": "Benton",
+  "sqft": 1917,
+  "predicted": 322947,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 328990,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2900 W PARK BLVD|BOSSIER CITY",
+  "address": "2900 W Park Blvd, Bossier City, LA 71111",
+  "city": "Bossier City",
+  "sqft": 1500,
+  "predicted": 216153,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 225000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1508 HILL ST|HOMER",
+  "address": "1508 Hill St, Homer, LA 71040",
+  "city": "Homer",
+  "sqft": 1100,
+  "predicted": 55323,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 88800,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2681 MAIN ST|GIBSLAND",
+  "address": "2681 Main St, Gibsland, LA 71028",
+  "city": "Gibsland",
+  "sqft": 1300,
+  "predicted": 86155,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 99500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "0 WASHINGTON ST|ARCADIA",
+  "address": "0 Washington St, Arcadia, LA 71001",
+  "city": "Arcadia",
+  "sqft": 1280,
+  "predicted": 100650,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 35000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3153 6TH ST|ARCADIA",
+  "address": "3153 6th St, Arcadia, LA 71001",
+  "city": "Arcadia",
+  "sqft": 1200,
+  "predicted": 77014,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 40000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "113 BREEZY RD|GIBSLAND",
+  "address": "113 Breezy Rd, Gibsland, LA 71028",
+  "city": "Gibsland",
+  "sqft": 2148,
+  "predicted": 216496,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 425000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2619 HWY 2|HAYNESVILLE",
+  "address": "2619 Highway 2, Haynesville, LA 71038",
+  "city": "Haynesville",
+  "sqft": 2600,
+  "predicted": 160820,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 120000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1213 GARRETT CIR|HAYNESVILLE",
+  "address": "1213 Garrett Cir, Haynesville, LA 71038",
+  "city": "Haynesville",
+  "sqft": 1179,
+  "predicted": 60440,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 110000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "913 12 CALDWELL ST|MAGNOLIA",
+  "address": "913 1/2 Caldwell St",
+  "city": "Magnolia",
+  "sqft": 1092,
+  "predicted": 60006,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 48900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "405 W CALHOUN|MAGNOLIA",
+  "address": "405 W Calhoun",
+  "city": "Magnolia",
+  "sqft": 1764,
+  "predicted": 115572,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 149900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "447 BURROW LN|COTTON VALLEY",
+  "address": "447 Burrow Ln",
+  "city": "Cotton Valley",
+  "sqft": 2194,
+  "predicted": 221132,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 300000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "115 LUCY ST|COTTON VALLEY",
+  "address": "115 Lucy St",
+  "city": "Cotton Valley",
+  "sqft": 2100,
+  "predicted": 211658,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 259000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "12507 HWY 159|SHONGALOO",
+  "address": "12507 Highway 159",
+  "city": "Shongaloo",
+  "sqft": 2300,
+  "predicted": 251149,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 245000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "216 S CLAY|MAGNOLIA",
+  "address": "216 S Clay",
+  "city": "Magnolia",
+  "sqft": 1670,
+  "predicted": 134866,
+  "predicted_at": "2026-09-09",
+  "proxy_price": 99900,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
