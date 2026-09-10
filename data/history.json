@@ -7088,5 +7088,106 @@
     "median_dom": 64
    }
   }
+ },
+ {
+  "date": "2026-09-10",
+  "cohorts": {
+   "Athens": {
+    "inventory": 1,
+    "median_price": 225000,
+    "median_ppsf": 95.1,
+    "median_dom": 218
+   },
+   "Benton": {
+    "inventory": 104,
+    "median_price": 439000,
+    "median_ppsf": 184.2,
+    "median_dom": 74
+   },
+   "Bossier City": {
+    "inventory": 427,
+    "median_price": 274627,
+    "median_ppsf": 155.0,
+    "median_dom": 55
+   },
+   "Bossier Parish": {
+    "inventory": 647,
+    "median_price": 290000,
+    "median_ppsf": 158.9,
+    "median_dom": 58
+   },
+   "Claiborne Parish": {
+    "inventory": 41,
+    "median_price": 110000,
+    "median_ppsf": 64.9,
+    "median_dom": 77
+   },
+   "Doyline": {
+    "inventory": 17,
+    "median_price": 199900,
+    "median_ppsf": 120.4,
+    "median_dom": 74
+   },
+   "Dubberly": {
+    "inventory": 3,
+    "median_price": 191450,
+    "median_ppsf": 156.6,
+    "median_dom": 48
+   },
+   "Elm Grove": {
+    "inventory": 9,
+    "median_price": 182500,
+    "median_ppsf": 120.7,
+    "median_dom": 45
+   },
+   "Haughton": {
+    "inventory": 107,
+    "median_price": 276946,
+    "median_ppsf": 165.7,
+    "median_dom": 47
+   },
+   "Haynesville": {
+    "inventory": 17,
+    "median_price": 40000,
+    "median_ppsf": 27.8,
+    "median_dom": 34
+   },
+   "Heflin": {
+    "inventory": 4,
+    "median_price": 149500,
+    "median_ppsf": 95.5,
+    "median_dom": 113
+   },
+   "Homer": {
+    "inventory": 23,
+    "median_price": 384500,
+    "median_ppsf": 185.5,
+    "median_dom": 80
+   },
+   "Minden": {
+    "inventory": 64,
+    "median_price": 184450,
+    "median_ppsf": 100.8,
+    "median_dom": 62
+   },
+   "Sibley": {
+    "inventory": 9,
+    "median_price": 208000,
+    "median_ppsf": 125.4,
+    "median_dom": 62
+   },
+   "Waterfront": {
+    "inventory": 44,
+    "median_price": 550000,
+    "median_ppsf": 195.1,
+    "median_dom": 122
+   },
+   "Webster Parish": {
+    "inventory": 97,
+    "median_price": 192450,
+    "median_ppsf": 109.4,
+    "median_dom": 64
+   }
+  }
  }
 ]

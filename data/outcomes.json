@@ -7104,5 +7104,49 @@
   "proxy_price": 99900,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "217 DEERWOOD LN|HAUGHTON",
+  "address": "217 Deerwood Ln",
+  "city": "Haughton",
+  "sqft": 1948,
+  "predicted": 314726,
+  "predicted_at": "2026-09-10",
+  "proxy_price": 249900,
+  "sold_price": null,
+  "sold_date": "2026-09-09"
+ },
+ {
+  "key": "5807 GOLD CREST DR|BOSSIER CITY",
+  "address": "5807 Gold Crest Dr",
+  "city": "Bossier City",
+  "sqft": 1525,
+  "predicted": 239590,
+  "predicted_at": "2026-09-10",
+  "proxy_price": 224999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "325 PEASON RDG|BOSSIER CITY",
+  "address": "325 Peason Rdg",
+  "city": "Bossier City",
+  "sqft": 1806,
+  "predicted": 312341,
+  "predicted_at": "2026-09-10",
+  "proxy_price": 343521,
+  "sold_price": null,
+  "sold_date": "2026-09-08"
+ },
+ {
+  "key": "120 PETERSON DR|BENTON",
+  "address": "120 Peterson Dr",
+  "city": "Benton",
+  "sqft": 1933,
+  "predicted": 320289,
+  "predicted_at": "2026-09-10",
+  "proxy_price": 314000,
+  "sold_price": null,
+  "sold_date": "2026-09-08"
  }
 ]
