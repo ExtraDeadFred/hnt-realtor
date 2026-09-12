@@ -1,8 +1,8 @@
 {
  "110 JAMES ST|HOMER": {
   "first_featured": "2026-08-08",
-  "times_featured": 3,
-  "last_featured": "2026-08-30"
+  "times_featured": 4,
+  "last_featured": "2026-09-12"
  },
  "275 LAKEVIEW DR|DOYLINE": {
   "first_featured": "2026-08-08",
@@ -46,8 +46,8 @@
  },
  "2030 DOGWOOD DR|HAYNESVILLE": {
   "first_featured": "2026-08-12",
-  "times_featured": 4,
-  "last_featured": "2026-09-02"
+  "times_featured": 5,
+  "last_featured": "2026-09-12"
  },
  "311 E AND W ST|MINDEN": {
   "first_featured": "2026-08-13",
@@ -61,13 +61,13 @@
  },
  "328 S TALTON ST|MINDEN": {
   "first_featured": "2026-08-13",
-  "times_featured": 3,
-  "last_featured": "2026-09-02"
+  "times_featured": 4,
+  "last_featured": "2026-09-12"
  },
  "1603 BISTINEAU DR|BOSSIER CITY": {
   "first_featured": "2026-08-14",
-  "times_featured": 3,
-  "last_featured": "2026-09-02"
+  "times_featured": 4,
+  "last_featured": "2026-09-12"
  },
  "323 COLLEGE ST|MINDEN": {
   "first_featured": "2026-08-14",
@@ -166,8 +166,8 @@
  },
  "4809 ORCHID CIR|BOSSIER CITY": {
   "first_featured": "2026-09-02",
-  "times_featured": 1,
-  "last_featured": "2026-09-02"
+  "times_featured": 2,
+  "last_featured": "2026-09-12"
  },
  "175 PRINCETON RD|HAUGHTON": {
   "first_featured": "2026-09-02",
@@ -220,11 +220,6 @@
   "last_featured": "2026-09-09"
  },
  "323 KELLY ST|BOSSIER CITY": {
-  "first_featured": "2026-09-09",
-  "times_featured": 1,
-  "last_featured": "2026-09-09"
- },
- "1102 BONNIE LN|MINDEN": {
   "first_featured": "2026-09-09",
   "times_featured": 1,
   "last_featured": "2026-09-09"
@@ -294,11 +289,6 @@
   "times_featured": 1,
   "last_featured": "2026-09-11"
  },
- "5704 PAMPUS LN|BOSSIER CITY": {
-  "first_featured": "2026-09-11",
-  "times_featured": 1,
-  "last_featured": "2026-09-11"
- },
  "2512 CONRAD ST|BOSSIER CITY": {
   "first_featured": "2026-09-11",
   "times_featured": 1,
@@ -328,5 +318,30 @@
   "first_featured": "2026-09-11",
   "times_featured": 1,
   "last_featured": "2026-09-11"
+ },
+ "2913 KIRK LN|BOSSIER CITY": {
+  "first_featured": "2026-09-12",
+  "times_featured": 1,
+  "last_featured": "2026-09-12"
+ },
+ "316 E MCKINLEY AVE|HAUGHTON": {
+  "first_featured": "2026-09-12",
+  "times_featured": 1,
+  "last_featured": "2026-09-12"
+ },
+ "2000 BRENT ST|BOSSIER CITY": {
+  "first_featured": "2026-09-12",
+  "times_featured": 1,
+  "last_featured": "2026-09-12"
+ },
+ "115 GOODE AVE|MINDEN": {
+  "first_featured": "2026-09-12",
+  "times_featured": 1,
+  "last_featured": "2026-09-12"
+ },
+ "2414 BARBARA ST|BOSSIER CITY": {
+  "first_featured": "2026-09-12",
+  "times_featured": 1,
+  "last_featured": "2026-09-12"
  }
 }

@@ -173,7 +173,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 74900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-09"
  },
  {
   "key": "145 LOOP RD|MINDEN",
@@ -1746,7 +1746,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 129900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-11"
  },
  {
   "key": "2110 BELLE GROVE DR|BOSSIER CITY",
@@ -7203,5 +7203,93 @@
   "proxy_price": 248634,
   "sold_price": null,
   "sold_date": "2026-09-10"
+ },
+ {
+  "key": "284 CHRISLO DR|MINDEN",
+  "address": "284 Chrislo Dr",
+  "city": "Minden",
+  "sqft": 2200,
+  "predicted": 241219,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 305000,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "560 S MAIN ST|SIBLEY",
+  "address": "560 S Main St",
+  "city": "Sibley",
+  "sqft": 1475,
+  "predicted": 157889,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 210000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "4592 HWY 163|DOYLINE",
+  "address": "4592 Highway 163",
+  "city": "Doyline",
+  "sqft": 2096,
+  "predicted": 207148,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 339000,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "405 HUMMINGBIRD LN|HAUGHTON",
+  "address": "405 Hummingbird Ln",
+  "city": "Haughton",
+  "sqft": 1417,
+  "predicted": 220623,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 245364,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "5704 PAMPUS LN|BOSSIER CITY",
+  "address": "5704 Pampus Ln",
+  "city": "Bossier City",
+  "sqft": 1148,
+  "predicted": 163646,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 99000,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "303 PEASON RDG|BOSSIER CITY",
+  "address": "303 Peason Rdg",
+  "city": "Bossier City",
+  "sqft": 3093,
+  "predicted": 493715,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 483929,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "2248 LORECO ST|BOSSIER CITY",
+  "address": "2248 Loreco St",
+  "city": "Bossier City",
+  "sqft": 1073,
+  "predicted": 135649,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 149999,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "1601 TRAFFIC ST|BOSSIER CITY",
+  "address": "1601 Traffic St",
+  "city": "Bossier City",
+  "sqft": 1131,
+  "predicted": 158790,
+  "predicted_at": "2026-09-12",
+  "proxy_price": 109900,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
  }
 ]
