@@ -7302,5 +7302,60 @@
   "proxy_price": 150000,
   "sold_price": null,
   "sold_date": "2026-09-10"
+ },
+ {
+  "key": "28 SUNNYBROOK LN|HAUGHTON",
+  "address": "28 Sunnybrook Ln",
+  "city": "Haughton",
+  "sqft": 2350,
+  "predicted": 356299,
+  "predicted_at": "2026-09-15",
+  "proxy_price": 320000,
+  "sold_price": null,
+  "sold_date": "2026-09-14"
+ },
+ {
+  "key": "3636 GREENACRES PL DR APT 81|BOSSIER CITY",
+  "address": "3636 Greenacres Place Dr Apt 81",
+  "city": "Bossier City",
+  "sqft": 1297,
+  "predicted": 247400,
+  "predicted_at": "2026-09-15",
+  "proxy_price": 162900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "113 ARBOR PL|BOSSIER CITY",
+  "address": "113 Arbor Pl",
+  "city": "Bossier City",
+  "sqft": 1413,
+  "predicted": 205696,
+  "predicted_at": "2026-09-15",
+  "proxy_price": 294900,
+  "sold_price": null,
+  "sold_date": "2026-09-14"
+ },
+ {
+  "key": "608 KELLY ST|BOSSIER CITY",
+  "address": "608 Kelly St",
+  "city": "Bossier City",
+  "sqft": 1475,
+  "predicted": 196778,
+  "predicted_at": "2026-09-15",
+  "proxy_price": 85000,
+  "sold_price": null,
+  "sold_date": "2026-09-11"
+ },
+ {
+  "key": "516 LINDEN CIR|BENTON",
+  "address": "516 Linden Cir",
+  "city": "Benton",
+  "sqft": 2149,
+  "predicted": 451290,
+  "predicted_at": "2026-09-15",
+  "proxy_price": 439900,
+  "sold_price": null,
+  "sold_date": "2026-09-14"
  }
 ]
