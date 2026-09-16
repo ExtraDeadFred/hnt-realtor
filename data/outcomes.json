@@ -7357,5 +7357,49 @@
   "proxy_price": 439900,
   "sold_price": null,
   "sold_date": "2026-09-14"
+ },
+ {
+  "key": "712 ABITA CHASE|BOSSIER CITY",
+  "address": "712 Abita Chase",
+  "city": "Bossier City",
+  "sqft": 1891,
+  "predicted": 299688,
+  "predicted_at": "2026-09-16",
+  "proxy_price": 318000,
+  "sold_price": null,
+  "sold_date": "2026-09-15"
+ },
+ {
+  "key": "2420 RIVER ST|BOSSIER CITY",
+  "address": "2420 River St",
+  "city": "Bossier City",
+  "sqft": 853,
+  "predicted": 70606,
+  "predicted_at": "2026-09-16",
+  "proxy_price": 79900,
+  "sold_price": null,
+  "sold_date": "2026-09-09"
+ },
+ {
+  "key": "1965 VALDEMAR PL|BOSSIER CITY",
+  "address": "1965 Valdemar Pl",
+  "city": "Bossier City",
+  "sqft": 1642,
+  "predicted": 268668,
+  "predicted_at": "2026-09-16",
+  "proxy_price": 284900,
+  "sold_price": null,
+  "sold_date": "2026-07-31"
+ },
+ {
+  "key": "2101 BELLE GROVE DR|BOSSIER CITY",
+  "address": "2101 Belle Grove Dr",
+  "city": "Bossier City",
+  "sqft": 2084,
+  "predicted": 290457,
+  "predicted_at": "2026-09-16",
+  "proxy_price": 242500,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
