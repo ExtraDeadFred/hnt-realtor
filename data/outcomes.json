@@ -7401,5 +7401,27 @@
   "proxy_price": 242500,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "329 BABINEAUX LN|HAUGHTON",
+  "address": "329 Babineaux Ln",
+  "city": "Haughton",
+  "sqft": 1522,
+  "predicted": 241217,
+  "predicted_at": "2026-09-17",
+  "proxy_price": 255301,
+  "sold_price": null,
+  "sold_date": "2026-09-16"
+ },
+ {
+  "key": "407 ASCOT CT|BOSSIER CITY",
+  "address": "407 Ascot Ct",
+  "city": "Bossier City",
+  "sqft": 2197,
+  "predicted": 320773,
+  "predicted_at": "2026-09-17",
+  "proxy_price": 365000,
+  "sold_price": null,
+  "sold_date": "2026-09-16"
  }
 ]
