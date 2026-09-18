@@ -7423,5 +7423,38 @@
   "proxy_price": 365000,
   "sold_price": null,
   "sold_date": "2026-09-16"
+ },
+ {
+  "key": "324 BABINEAUX LN|HAUGHTON",
+  "address": "324 Babineaux Ln",
+  "city": "Haughton",
+  "sqft": 1858,
+  "predicted": 278302,
+  "predicted_at": "2026-09-18",
+  "proxy_price": 277105,
+  "sold_price": null,
+  "sold_date": "2026-09-17"
+ },
+ {
+  "key": "1295 CAPLIS SLIGO RD|BOSSIER CITY",
+  "address": "1295 Caplis Sligo Rd",
+  "city": "Bossier City",
+  "sqft": 2490,
+  "predicted": 446748,
+  "predicted_at": "2026-09-18",
+  "proxy_price": 379900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "101 STONEBRIDGE BLVD|BOSSIER CITY",
+  "address": "101 Stonebridge Blvd",
+  "city": "Bossier City",
+  "sqft": 3074,
+  "predicted": 478776,
+  "predicted_at": "2026-09-18",
+  "proxy_price": 529000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
