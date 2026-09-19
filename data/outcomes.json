@@ -140,7 +140,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 114900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-18"
  },
  {
   "key": "1241 COUNTRY CLUB CIR|MINDEN",
@@ -1680,7 +1680,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 549900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-18"
  },
  {
   "key": "210 POYDRAS AVE|BOSSIER CITY",
@@ -7444,7 +7444,7 @@
   "predicted_at": "2026-09-18",
   "proxy_price": 379900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-16"
  },
  {
   "key": "101 STONEBRIDGE BLVD|BOSSIER CITY",
@@ -7455,6 +7455,72 @@
   "predicted_at": "2026-09-18",
   "proxy_price": 529000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-17"
+ },
+ {
+  "key": "124 LAWRENCE DR|HAUGHTON",
+  "address": "124 Lawrence Dr",
+  "city": "Haughton",
+  "sqft": 2005,
+  "predicted": 318572,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "1920 ORBIT DR|BOSSIER CITY",
+  "address": "1920 Orbit Dr",
+  "city": "Bossier City",
+  "sqft": 1256,
+  "predicted": 143506,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 145000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "1235 SCHEX DR|BOSSIER CITY",
+  "address": "1235 Schex Dr",
+  "city": "Bossier City",
+  "sqft": 1249,
+  "predicted": 132160,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 145000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "254 POYDRAS AVE|BOSSIER CITY",
+  "address": "254 Poydras Ave",
+  "city": "Bossier City",
+  "sqft": 2598,
+  "predicted": 387380,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 599000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "3524 HOLIDAY PL|BOSSIER CITY",
+  "address": "3524 Holiday Pl",
+  "city": "Bossier City",
+  "sqft": 1574,
+  "predicted": 253941,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 179900,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "3043 GRACE HARPER DR|BOSSIER CITY",
+  "address": "3043 Grace Harper Dr",
+  "city": "Bossier City",
+  "sqft": 1548,
+  "predicted": 259997,
+  "predicted_at": "2026-09-19",
+  "proxy_price": 263000,
+  "sold_price": null,
+  "sold_date": "2026-09-17"
  }
 ]
