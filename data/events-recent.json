@@ -1,232 +1,5 @@
 [
  {
-  "date": "2026-09-12",
-  "event": "price_cut",
-  "key": "127 ALMOND RD|MINDEN",
-  "address": "127 Almond Rd",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 165000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/127-Almond-Rd_Minden_LA_71055_M83684-90492",
-  "old_price": 199999,
-  "cut_pct": 17.5
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "3212 DEERFIELD DR|SHREVEPORT",
-  "address": "3212 Deerfield Dr",
-  "city": "Shreveport",
-  "parish": "Bossier",
-  "price": 270000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3212-Deerfield-Dr_Haughton_LA_71037_M78409-25898"
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "192 CULLOM DR|BOSSIER CITY",
-  "address": "192 Cullom Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 350000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/192-Cullom-Dr_Bossier-City_LA_71112_M91332-64831"
- },
- {
-  "date": "2026-09-12",
-  "event": "price_cut",
-  "key": "2320 BROADWAY DR|BOSSIER CITY",
-  "address": "2320 Broadway Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 136375,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2320-Broadway-Dr_Bossier-City_LA_71111_M79464-86189",
-  "old_price": 139375,
-  "cut_pct": 2.2
- },
- {
-  "date": "2026-09-12",
-  "event": "price_cut",
-  "key": "2325 LORECO ST|BOSSIER CITY",
-  "address": "2325 Loreco St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 75000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2325-Loreco-St_Bossier-City_LA_71112_M81693-87916",
-  "old_price": 90000,
-  "cut_pct": 16.7
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "2000 BRENT ST|BOSSIER CITY",
-  "address": "2000 Brent St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 205000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2000-Brent-St_Bossier-City_LA_71112_M78900-28286"
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "719 CREWE LN|BOSSIER CITY",
-  "address": "719 Crewe Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 323635,
-  "url": "https://www.realtor.com/realestateandhomes-detail/719-Crewe-Ln_Bossier-City_LA_71111_M97788-65634"
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "5319 BARBERRY LN|BOSSIER CITY",
-  "address": "5319 Barberry Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 319900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5319-Barberry-Ln_Bossier-City_LA_71112_M83455-16848"
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "3120 LE OAKS DR|BOSSIER CITY",
-  "address": "3120 Le Oaks Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 215000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3120-Le-Oaks-Dr_Bossier-City_LA_71111_M77394-13471"
- },
- {
-  "date": "2026-09-12",
-  "event": "new",
-  "key": "5407 COACH RD|BOSSIER CITY",
-  "address": "5407 Coach Rd",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 299900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5407-Coach-Rd_Bossier-City_LA_71111_M77487-15832"
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "284 CHRISLO DR|MINDEN",
-  "address": "284 Chrislo Dr",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 305000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/284-Chrislo-Dr_Minden_LA_71055_M85545-96608",
-  "last_price": 305000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "1102 BONNIE LN|MINDEN",
-  "address": "1102 Bonnie Ln",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 55000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1102-Bonnie-Ln_Minden_LA_71055_M85974-15175",
-  "last_price": 55000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "222 WOODHAVEN DR|MINDEN",
-  "address": "222 Woodhaven Dr",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 415000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/222-Woodhaven-Dr_Minden_LA_71055_M89765-30231",
-  "last_price": 415000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "560 S MAIN ST|SIBLEY",
-  "address": "560 S Main St",
-  "city": "Sibley",
-  "parish": "Webster",
-  "price": 210000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/560-S-Main-St_Sibley_LA_71073_M86602-45555",
-  "last_price": 210000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "4592 HWY 163|DOYLINE",
-  "address": "4592 Highway 163",
-  "city": "Doyline",
-  "parish": "Webster",
-  "price": 339000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/4592-Highway-163_Doyline_LA_71023_M85205-35536",
-  "last_price": 339000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "405 HUMMINGBIRD LN|HAUGHTON",
-  "address": "405 Hummingbird Ln",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 245364,
-  "url": "https://www.realtor.com/realestateandhomes-detail/405-Hummingbird-Ln_Princeton_LA_71067_M94491-73378",
-  "last_price": 245364
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "5704 PAMPUS LN|BOSSIER CITY",
-  "address": "5704 Pampus Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 99000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5704-Pampus-Ln_Bossier-City_LA_71112_M80639-48440",
-  "last_price": 99000
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "1809 LESLIE ST|BOSSIER CITY",
-  "address": "1809 Leslie St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 129900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1809-Leslie-St_Bossier-City_LA_71111_M80579-85889",
-  "last_price": 129900
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "303 PEASON RDG|BOSSIER CITY",
-  "address": "303 Peason Rdg",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 483929,
-  "url": "https://www.realtor.com/realestateandhomes-detail/303-Peason-Rdg_Bossier-City_LA_71112_M97825-27786",
-  "last_price": 483929
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "2248 LORECO ST|BOSSIER CITY",
-  "address": "2248 Loreco St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 149999,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2248-Loreco-St_Bossier-City_LA_71112_M77673-86069",
-  "last_price": 149999
- },
- {
-  "date": "2026-09-12",
-  "event": "off_market",
-  "key": "1601 TRAFFIC ST|BOSSIER CITY",
-  "address": "1601 Traffic St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 109900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1601-Traffic-St_Bossier-City_LA_71111_M77875-84210",
-  "last_price": 109900
- },
- {
   "date": "2026-09-13",
   "event": "price_cut",
   "key": "1201 GRAY LAKE DR|HAUGHTON",
@@ -1419,5 +1192,135 @@
   "price": 263000,
   "url": "https://www.realtor.com/realestateandhomes-detail/3043-Grace-Harper-Dr_Bossier-City_LA_71112_M98481-79813",
   "last_price": 263000
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "3212 DEERFIELD DR|HAUGHTON",
+  "address": "3212 Deerfield Dr",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 270000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3212-Deerfield-Dr_Haughton_LA_71037_M78409-25898"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "price_cut",
+  "key": "922 ANTLER DR|HAUGHTON",
+  "address": "922 Antler Dr",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 310000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/922-Antler-Dr_Haughton_LA_71037_M94693-53266",
+  "old_price": 314900,
+  "cut_pct": 1.6
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "115 RED FOX CIR|HAUGHTON",
+  "address": "115 Red Fox Cir",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 285000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/115-Red-Fox-Cir_Haughton_LA_71037_M71366-34529"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "1204 DRY CREEK|HAUGHTON",
+  "address": "1204 Dry Creek",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 355000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1204-Dry-Creek_Haughton_LA_71037_M87328-45878"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "price_cut",
+  "key": "128 SOUTHWOOD DR|BOSSIER CITY",
+  "address": "128 Southwood Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 345000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/128-Southwood-Dr_Bossier-City_LA_71111_M82229-76341",
+  "old_price": 354500,
+  "cut_pct": 2.7
+ },
+ {
+  "date": "2026-09-20",
+  "event": "price_cut",
+  "key": "750 HACKBERRY DR|BOSSIER CITY",
+  "address": "750 Hackberry Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 317900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/750-Hackberry-Dr_Bossier-City_LA_71111_M87367-61890",
+  "old_price": 324900,
+  "cut_pct": 2.2
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "1647 HOLIDAY BLVD|BOSSIER CITY",
+  "address": "1647 Holiday Blvd",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 172000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1647-Holiday-Blvd_Bossier-City_LA_71112_M78035-34034"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "price_cut",
+  "key": "339 CYCLE PLANT RD|BENTON",
+  "address": "339 Cycle Plant Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 289000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/339-Cycle-Plant-Rd_Benton_LA_71006_M98633-28202",
+  "old_price": 289900,
+  "cut_pct": 0.3
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "124 BRIMESTONE LOOP|BENTON",
+  "address": "124 Brimestone Loop",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 398500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/124-Brimestone-Loop_Benton_LA_71006_M97277-05032"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "new",
+  "key": "114 QUAIL TRL|HOMER",
+  "address": "114 Quail Trl",
+  "city": "Homer",
+  "parish": "Claiborne",
+  "price": 449950,
+  "url": "https://www.realtor.com/realestateandhomes-detail/114-Quail-Trl_Homer_LA_71040_M76014-85675"
+ },
+ {
+  "date": "2026-09-20",
+  "event": "off_market",
+  "key": "3212 DEERFIELD DR|SHREVEPORT",
+  "address": "3212 Deerfield Dr",
+  "city": "Shreveport",
+  "parish": "Bossier",
+  "price": 270000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3212-Deerfield-Dr_Haughton_LA_71037_M78409-25898",
+  "last_price": 270000
+ },
+ {
+  "date": "2026-09-20",
+  "event": "off_market",
+  "key": "166 LAKEWOOD PT DR|BOSSIER CITY",
+  "address": "166 Lakewood Point Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 629000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/166-Lakewood-Point-Dr_Bossier-City_LA_71111_M98011-86778",
+  "last_price": 629000
  }
 ]

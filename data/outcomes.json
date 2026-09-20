@@ -7522,5 +7522,27 @@
   "proxy_price": 263000,
   "sold_price": null,
   "sold_date": "2026-09-17"
+ },
+ {
+  "key": "3212 DEERFIELD DR|SHREVEPORT",
+  "address": "3212 Deerfield Dr",
+  "city": "Shreveport",
+  "sqft": 1812,
+  "predicted": 211998,
+  "predicted_at": "2026-09-20",
+  "proxy_price": 270000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "166 LAKEWOOD PT DR|BOSSIER CITY",
+  "address": "166 Lakewood Point Dr",
+  "city": "Bossier City",
+  "sqft": 2471,
+  "predicted": 451912,
+  "predicted_at": "2026-09-20",
+  "proxy_price": 629000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
  }
 ]
