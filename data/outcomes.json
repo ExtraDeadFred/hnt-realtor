@@ -7654,5 +7654,60 @@
   "proxy_price": 319900,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "604 GIRARD CT|HAUGHTON",
+  "address": "604 Girard Ct",
+  "city": "Haughton",
+  "sqft": 1858,
+  "predicted": 277562,
+  "predicted_at": "2026-09-22",
+  "proxy_price": 277386,
+  "sold_price": null,
+  "sold_date": "2026-09-21"
+ },
+ {
+  "key": "1951 BAYOU BEND DR|BOSSIER CITY",
+  "address": "1951 Bayou Bend Dr",
+  "city": "Bossier City",
+  "sqft": 2594,
+  "predicted": 419828,
+  "predicted_at": "2026-09-22",
+  "proxy_price": 350000,
+  "sold_price": null,
+  "sold_date": "2026-09-18"
+ },
+ {
+  "key": "483 PRESERVE BLVD|BOSSIER CITY",
+  "address": "483 Preserve Blvd",
+  "city": "Bossier City",
+  "sqft": 1922,
+  "predicted": 329000,
+  "predicted_at": "2026-09-22",
+  "proxy_price": 356136,
+  "sold_price": null,
+  "sold_date": "2026-09-21"
+ },
+ {
+  "key": "407 SPRINGFIELD PL|BOSSIER CITY",
+  "address": "407 Springfield Pl",
+  "city": "Bossier City",
+  "sqft": 1645,
+  "predicted": 252424,
+  "predicted_at": "2026-09-22",
+  "proxy_price": 259000,
+  "sold_price": null,
+  "sold_date": "2026-09-21"
+ },
+ {
+  "key": "791 VENECIA DR|BOSSIER CITY",
+  "address": "791 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1357,
+  "predicted": 201407,
+  "predicted_at": "2026-09-22",
+  "proxy_price": 236600,
+  "sold_price": null,
+  "sold_date": "2026-09-21"
  }
 ]
