@@ -1713,7 +1713,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 249900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-22"
  },
  {
   "key": "336 BRIARS CT|BOSSIER CITY",
@@ -4518,7 +4518,7 @@
   "predicted_at": "2026-08-05",
   "proxy_price": 314000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-22"
  },
  {
   "key": "1341 WHITEHALL DR|BOSSIER CITY",
@@ -5233,7 +5233,7 @@
   "predicted_at": "2026-08-15",
   "proxy_price": 99900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-22"
  },
  {
   "key": "829 ABITA CHASE|BOSSIER CITY",
@@ -7709,5 +7709,115 @@
   "proxy_price": 236600,
   "sold_price": null,
   "sold_date": "2026-09-21"
+ },
+ {
+  "key": "7124 HWY 531|HEFLIN",
+  "address": "7124 Highway 531",
+  "city": "Heflin",
+  "sqft": 1850,
+  "predicted": 160382,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "532 HUNTERS RUN|BOSSIER CITY",
+  "address": "532 Hunters Run",
+  "city": "Bossier City",
+  "sqft": 3009,
+  "predicted": 556730,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 488500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "522 FALLING WATER CIR|BOSSIER CITY",
+  "address": "522 Falling Water Cir",
+  "city": "Bossier City",
+  "sqft": 2651,
+  "predicted": 484119,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 433000,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
+ },
+ {
+  "key": "1211 CAROLINE DR|BOSSIER CITY",
+  "address": "1211 Caroline Dr",
+  "city": "Bossier City",
+  "sqft": 2105,
+  "predicted": 220152,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 80000,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
+ },
+ {
+  "key": "5336 BRIAN CIR|BOSSIER CITY",
+  "address": "5336 Brian Cir",
+  "city": "Bossier City",
+  "sqft": 1302,
+  "predicted": 180627,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 219900,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
+ },
+ {
+  "key": "2923 EUGENE ST|BOSSIER CITY",
+  "address": "2923 Eugene St",
+  "city": "Bossier City",
+  "sqft": 1258,
+  "predicted": 155111,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 89900,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
+ },
+ {
+  "key": "2004 CHRISTINE AVE|BOSSIER CITY",
+  "address": "2004 Christine Ave",
+  "city": "Bossier City",
+  "sqft": 1965,
+  "predicted": 301659,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 219000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1855 HWY 162|BENTON",
+  "address": "1855 Highway 162",
+  "city": "Benton",
+  "sqft": 720,
+  "predicted": 65720,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 40000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "311 S PARKRIDGE DR|BENTON",
+  "address": "311 S Parkridge Dr",
+  "city": "Benton",
+  "sqft": 1524,
+  "predicted": 189794,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 243000,
+  "sold_price": null,
+  "sold_date": "2026-09-03"
+ },
+ {
+  "key": "503 OAK RIDGE DR|BENTON",
+  "address": "503 Oak Ridge Dr",
+  "city": "Benton",
+  "sqft": 1475,
+  "predicted": 216060,
+  "predicted_at": "2026-09-23",
+  "proxy_price": 199000,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
  }
 ]
