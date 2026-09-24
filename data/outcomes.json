@@ -6091,7 +6091,7 @@
   "predicted_at": "2026-08-29",
   "proxy_price": 41000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-14"
  },
  {
   "key": "1625 SUCCESS ST|BOSSIER CITY",
@@ -7819,5 +7819,115 @@
   "proxy_price": 199000,
   "sold_price": null,
   "sold_date": "2026-09-22"
+ },
+ {
+  "key": "2512 CONRAD ST|BOSSIER CITY",
+  "address": "2512 Conrad St",
+  "city": "Bossier City",
+  "sqft": 1824,
+  "predicted": 277423,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 129000,
+  "sold_price": null,
+  "sold_date": "2026-09-22"
+ },
+ {
+  "key": "606 GLENSHIRE DR|BOSSIER CITY",
+  "address": "606 Glenshire Dr",
+  "city": "Bossier City",
+  "sqft": 2242,
+  "predicted": 333417,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 370000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "340 AVONDALE|BOSSIER CITY",
+  "address": "340 Avondale",
+  "city": "Bossier City",
+  "sqft": 2380,
+  "predicted": 401775,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 299999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "453 PLAZA CIR|BOSSIER CITY",
+  "address": "453 Plaza Cir",
+  "city": "Bossier City",
+  "sqft": 1698,
+  "predicted": 247849,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 172000,
+  "sold_price": null,
+  "sold_date": "2026-09-04"
+ },
+ {
+  "key": "5300 LANTANA LN|BOSSIER CITY",
+  "address": "5300 Lantana Ln",
+  "city": "Bossier City",
+  "sqft": 1392,
+  "predicted": 193303,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 235900,
+  "sold_price": null,
+  "sold_date": "2026-09-23"
+ },
+ {
+  "key": "229 PECAN GROVE LN|BOSSIER CITY",
+  "address": "229 Pecan Grove Ln",
+  "city": "Bossier City",
+  "sqft": 2016,
+  "predicted": 190294,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 189900,
+  "sold_price": 85000.0,
+  "sold_date": "03/24/2026"
+ },
+ {
+  "key": "241 CULLOM DR|BOSSIER CITY",
+  "address": "241 Cullom Dr",
+  "city": "Bossier City",
+  "sqft": 1910,
+  "predicted": 349432,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 349999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2214 KIRBY SMITH DR|BOSSIER CITY",
+  "address": "2214 Kirby Smith Dr",
+  "city": "Bossier City",
+  "sqft": 1062,
+  "predicted": 138696,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 135000,
+  "sold_price": null,
+  "sold_date": "2026-09-23"
+ },
+ {
+  "key": "1060 HWY 162|BENTON",
+  "address": "1060 Highway 162",
+  "city": "Benton",
+  "sqft": 3418,
+  "predicted": 678679,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 699999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1035 CROUCH RD|BENTON",
+  "address": "1035 Crouch Rd",
+  "city": "Benton",
+  "sqft": 1981,
+  "predicted": 324274,
+  "predicted_at": "2026-09-24",
+  "proxy_price": 380000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
