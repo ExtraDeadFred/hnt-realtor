@@ -118,7 +118,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-25"
  },
  {
   "key": "214 ELLIS DR|MINDEN",
@@ -272,7 +272,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 390000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-25"
  },
  {
   "key": "141 SATINWOOD CIR|HAUGHTON",
@@ -1174,7 +1174,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 425000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-25"
  },
  {
   "key": "4026 ELIZABETH LN|BENTON",
@@ -1515,7 +1515,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 557500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-25"
  },
  {
   "key": "516 BROMPTON LN|BOSSIER CITY",
@@ -7971,6 +7971,149 @@
   "predicted": 668977,
   "predicted_at": "2026-09-25",
   "proxy_price": 644000,
+  "sold_price": null,
+  "sold_date": "2026-09-24"
+ },
+ {
+  "key": "1804 DORCHEAT RD|MINDEN",
+  "address": "1804 Dorcheat Rd",
+  "city": "Minden",
+  "sqft": 2500,
+  "predicted": 281129,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 215000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "909 NELLA ST|MINDEN",
+  "address": "909 Nella St",
+  "city": "Minden",
+  "sqft": 1349,
+  "predicted": 133263,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 158000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "220 E CLOVERLEAF DR|HAUGHTON",
+  "address": "220 E Cloverleaf Dr",
+  "city": "Haughton",
+  "sqft": 2200,
+  "predicted": 302804,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 230000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "1605 S LEXINGTON DR|BOSSIER CITY",
+  "address": "1605 S Lexington Dr",
+  "city": "Bossier City",
+  "sqft": 1855,
+  "predicted": 273810,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 289500,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "1307 PECAN SQ|BOSSIER CITY",
+  "address": "1307 Pecan Sq",
+  "city": "Bossier City",
+  "sqft": 1300,
+  "predicted": 189977,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 171900,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "708 PERFECT PL|BOSSIER CITY",
+  "address": "708 Perfect Pl",
+  "city": "Bossier City",
+  "sqft": 1769,
+  "predicted": 273658,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "424 WESTWOOD DR|BOSSIER CITY",
+  "address": "424 Westwood Dr",
+  "city": "Bossier City",
+  "sqft": 1646,
+  "predicted": 252578,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 239500,
+  "sold_price": null,
+  "sold_date": "2026-09-24"
+ },
+ {
+  "key": "6006 KATELAND CIR|BOSSIER CITY",
+  "address": "6006 Kateland Cir",
+  "city": "Bossier City",
+  "sqft": 1602,
+  "predicted": 233870,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 277500,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "793 VENECIA DR|BOSSIER CITY",
+  "address": "793 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1461,
+  "predicted": 240010,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 240655,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "3243 CAROLINE DR|BOSSIER CITY",
+  "address": "3243 Caroline Dr",
+  "city": "Bossier City",
+  "sqft": 1521,
+  "predicted": 226807,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 174900,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "11 VENECIA CT|BOSSIER CITY",
+  "address": "11 Venecia Ct",
+  "city": "Bossier City",
+  "sqft": 1424,
+  "predicted": 206197,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 259900,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "1719 LAKECREST DR|BENTON",
+  "address": "1719 Lakecrest Dr",
+  "city": "Benton",
+  "sqft": 2886,
+  "predicted": 563122,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 715000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "227 MORGAN CT|BENTON",
+  "address": "227 Morgan Ct",
+  "city": "Benton",
+  "sqft": 2453,
+  "predicted": 377605,
+  "predicted_at": "2026-09-26",
+  "proxy_price": 419900,
   "sold_price": null,
   "sold_date": "2026-09-24"
  }
