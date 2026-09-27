@@ -1570,7 +1570,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 202500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-25"
  },
  {
   "key": "1334 WHITEHALL DR|BOSSIER CITY",
@@ -8116,5 +8116,38 @@
   "proxy_price": 419900,
   "sold_price": null,
   "sold_date": "2026-09-24"
+ },
+ {
+  "key": "1306 WHISPERING PINES DR|MINDEN",
+  "address": "1306 Whispering Pines Dr",
+  "city": "Minden",
+  "sqft": 2000,
+  "predicted": 214832,
+  "predicted_at": "2026-09-27",
+  "proxy_price": 305000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "6507 BARKSDALE BLVD LOT 122|BOSSIER CITY",
+  "address": "6507 Barksdale Blvd Lot 122",
+  "city": "Bossier City",
+  "sqft": 1120,
+  "predicted": 111113,
+  "predicted_at": "2026-09-27",
+  "proxy_price": 54000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "125 THOMPSON ST|BOSSIER CITY",
+  "address": "125 Thompson St",
+  "city": "Bossier City",
+  "sqft": 616,
+  "predicted": 61935,
+  "predicted_at": "2026-09-27",
+  "proxy_price": 175000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
