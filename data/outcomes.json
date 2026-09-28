@@ -8149,5 +8149,27 @@
   "proxy_price": 175000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "3113 GERMANTOWN RD|MINDEN",
+  "address": "3113 Germantown Rd",
+  "city": "Minden",
+  "sqft": 1305,
+  "predicted": 145219,
+  "predicted_at": "2026-09-28",
+  "proxy_price": 166500,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "31 CROWDER DR|BENTON",
+  "address": "31 Crowder Dr",
+  "city": "Benton",
+  "sqft": 2204,
+  "predicted": 345060,
+  "predicted_at": "2026-09-28",
+  "proxy_price": 365000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
  }
 ]
