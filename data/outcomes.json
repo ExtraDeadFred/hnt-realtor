@@ -1812,7 +1812,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 286500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-28"
  },
  {
   "key": "125 HORSEGUARDS AVE|BOSSIER CITY",
@@ -8171,5 +8171,38 @@
   "proxy_price": 365000,
   "sold_price": null,
   "sold_date": "2026-09-25"
+ },
+ {
+  "key": "933 ANTLER DR|HAUGHTON",
+  "address": "933 Antler Dr",
+  "city": "Haughton",
+  "sqft": 2175,
+  "predicted": 363808,
+  "predicted_at": "2026-09-29",
+  "proxy_price": 349999,
+  "sold_price": null,
+  "sold_date": "2026-09-28"
+ },
+ {
+  "key": "2395 TALLGRASS CIR|BOSSIER CITY",
+  "address": "2395 Tallgrass Cir",
+  "city": "Bossier City",
+  "sqft": 1922,
+  "predicted": 329000,
+  "predicted_at": "2026-09-29",
+  "proxy_price": 314900,
+  "sold_price": null,
+  "sold_date": "2026-09-28"
+ },
+ {
+  "key": "204 ST ANDREWS LN|BENTON",
+  "address": "204 St Andrews Ln",
+  "city": "Benton",
+  "sqft": 2215,
+  "predicted": 364444,
+  "predicted_at": "2026-09-29",
+  "proxy_price": 466900,
+  "sold_price": null,
+  "sold_date": "2026-09-28"
  }
 ]
