@@ -8204,5 +8204,71 @@
   "proxy_price": 466900,
   "sold_price": null,
   "sold_date": "2026-09-28"
+ },
+ {
+  "key": "311 E AND W ST|MINDEN",
+  "address": "311 E And West St",
+  "city": "Minden",
+  "sqft": 4600,
+  "predicted": 486004,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 350000,
+  "sold_price": 275000.0,
+  "sold_date": "10/02/2025"
+ },
+ {
+  "key": "4006 CRAFT ST|BOSSIER CITY",
+  "address": "4006 Craft St",
+  "city": "Bossier City",
+  "sqft": 2328,
+  "predicted": 225367,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 289000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "304 TEALWOOD DR|BOSSIER CITY",
+  "address": "304 Tealwood Dr",
+  "city": "Bossier City",
+  "sqft": 3919,
+  "predicted": 574525,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 450000,
+  "sold_price": null,
+  "sold_date": "2026-09-29"
+ },
+ {
+  "key": "408 PERFECT PL|BOSSIER CITY",
+  "address": "408 Perfect Pl",
+  "city": "Bossier City",
+  "sqft": 1796,
+  "predicted": 265511,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 300000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "212 WOODRUN PL|BOSSIER CITY",
+  "address": "212 Woodrun Pl",
+  "city": "Bossier City",
+  "sqft": 2629,
+  "predicted": 457603,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 450000,
+  "sold_price": null,
+  "sold_date": "2026-09-29"
+ },
+ {
+  "key": "5607 JAMES SCOTT CIR|BOSSIER CITY",
+  "address": "5607 James Scott Cir",
+  "city": "Bossier City",
+  "sqft": 1234,
+  "predicted": 173052,
+  "predicted_at": "2026-09-30",
+  "proxy_price": 208900,
+  "sold_price": null,
+  "sold_date": "2026-09-29"
  }
 ]
