@@ -239,7 +239,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 102000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-30"
  },
  {
   "key": "401 CANE BEND DR|HAUGHTON",
@@ -1911,7 +1911,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 420000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-30"
  },
  {
   "key": "404 BLANCHARD LOOP|BOSSIER CITY",
@@ -1933,7 +1933,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 299000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-30"
  },
  {
   "key": "2615 ORMOND PL|BOSSIER CITY",
@@ -2021,7 +2021,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 279900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-30"
  },
  {
   "key": "3635 GREENACRES PL DR UNIT 336|BOSSIER CITY",
@@ -3506,7 +3506,7 @@
   "predicted_at": "2026-07-23",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-29"
  },
  {
   "key": "3511 GLASSCOCK AVE|BOSSIER CITY",
@@ -8270,5 +8270,280 @@
   "proxy_price": 208900,
   "sold_price": null,
   "sold_date": "2026-09-29"
+ },
+ {
+  "key": "1833 OLD ARCADIA RD|MINDEN",
+  "address": "1833 Old Arcadia Rd",
+  "city": "Minden",
+  "sqft": 1943,
+  "predicted": 257186,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 229900,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "611 WESTON ST|MINDEN",
+  "address": "611 Weston St",
+  "city": "Minden",
+  "sqft": 1200,
+  "predicted": 141443,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 160000,
+  "sold_price": null,
+  "sold_date": "2026-09-24"
+ },
+ {
+  "key": "113 MILLARD FULLER DR|MINDEN",
+  "address": "113 Millard Fuller Dr",
+  "city": "Minden",
+  "sqft": 1427,
+  "predicted": 177489,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 132500,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "500 W MARSHALL ST|MINDEN",
+  "address": "500 W Marshall St",
+  "city": "Minden",
+  "sqft": 1100,
+  "predicted": 150090,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 99000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "305 PINE CONE CIR|HAUGHTON",
+  "address": "305 Pine Cone Cir",
+  "city": "Haughton",
+  "sqft": 2034,
+  "predicted": 264076,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 262500,
+  "sold_price": 148000.0,
+  "sold_date": "12/01/2025"
+ },
+ {
+  "key": "125 SITKA LOOP|HAUGHTON",
+  "address": "125 Sitka Loop",
+  "city": "Haughton",
+  "sqft": 2196,
+  "predicted": 302254,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 424900,
+  "sold_price": null,
+  "sold_date": "2026-07-23"
+ },
+ {
+  "key": "3605 WILLOW WISP CIR|HAUGHTON",
+  "address": "3605 Willow Wisp Cir",
+  "city": "Haughton",
+  "sqft": 1664,
+  "predicted": 249641,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 225500,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "816 EAGLES NEST|HAUGHTON",
+  "address": "816 Eagles Nest",
+  "city": "Haughton",
+  "sqft": 1868,
+  "predicted": 314614,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 320000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "2107 SURREY LN|BOSSIER CITY",
+  "address": "2107 Surrey Ln",
+  "city": "Bossier City",
+  "sqft": 2520,
+  "predicted": 381964,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 324900,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "209 EVANGELINE WALK|BOSSIER CITY",
+  "address": "209 Evangeline Walk",
+  "city": "Bossier City",
+  "sqft": 3621,
+  "predicted": 597922,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 800000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "1129 BOONE ST|BOSSIER CITY",
+  "address": "1129 Boone St",
+  "city": "Bossier City",
+  "sqft": 2100,
+  "predicted": 265068,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 214900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1229 WHITEHALL DR|BOSSIER CITY",
+  "address": "1229 Whitehall Dr",
+  "city": "Bossier City",
+  "sqft": 3206,
+  "predicted": 541067,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 455000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1643 HOLIDAY BLVD|BOSSIER CITY",
+  "address": "1643 Holiday Blvd",
+  "city": "Bossier City",
+  "sqft": 1050,
+  "predicted": 122264,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 146900,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "115 OVERBROOK LN|BOSSIER CITY",
+  "address": "115 Overbrook Ln",
+  "city": "Bossier City",
+  "sqft": 3850,
+  "predicted": 592535,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 975000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "136 RACHEL LN|BOSSIER CITY",
+  "address": "136 Rachel Ln",
+  "city": "Bossier City",
+  "sqft": 1464,
+  "predicted": 228734,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 245000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "265 POYDRAS AVE|BOSSIER CITY",
+  "address": "265 Poydras Ave",
+  "city": "Bossier City",
+  "sqft": 3356,
+  "predicted": 534409,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 659556,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "405 HANCOCK DR|BOSSIER CITY",
+  "address": "405 Hancock Dr",
+  "city": "Bossier City",
+  "sqft": 2049,
+  "predicted": 313684,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 289000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "339 HUNTERS HOLW|BOSSIER CITY",
+  "address": "339 Hunters Holw",
+  "city": "Bossier City",
+  "sqft": 2841,
+  "predicted": 464261,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 440000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "115 BARNES DR|BENTON",
+  "address": "115 Barnes Dr",
+  "city": "Benton",
+  "sqft": 2174,
+  "predicted": 341239,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 325500,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "905 LEE ST|BENTON",
+  "address": "905 Lee St",
+  "city": "Benton",
+  "sqft": 1744,
+  "predicted": 278454,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 256000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "113 CYPRESS LAKE CIR|BENTON",
+  "address": "113 Cypress Lake Cir",
+  "city": "Benton",
+  "sqft": 1784,
+  "predicted": 313021,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 279000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1139 HWY 162|BENTON",
+  "address": "1139 Highway 162",
+  "city": "Benton",
+  "sqft": 1817,
+  "predicted": 305043,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 370000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "849 WALSTONBURG LN|BENTON",
+  "address": "849 Walstonburg Ln",
+  "city": "Benton",
+  "sqft": 2350,
+  "predicted": 389777,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 493500,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "122 BRIMESTONE LOOP|BENTON",
+  "address": "122 Brimestone Loop",
+  "city": "Benton",
+  "sqft": 1961,
+  "predicted": 325450,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 316000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "420 MERESTONE XING|BENTON",
+  "address": "420 Merestone Xing",
+  "city": "Benton",
+  "sqft": 1917,
+  "predicted": 328540,
+  "predicted_at": "2026-10-01",
+  "proxy_price": 339800,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
  }
 ]
