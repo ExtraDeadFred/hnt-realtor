@@ -8545,5 +8545,115 @@
   "proxy_price": 339800,
   "sold_price": null,
   "sold_date": "2026-09-30"
+ },
+ {
+  "key": "118 SHILOH CEMETARY RD|MINDEN",
+  "address": "118 Shiloh Cemetary Rd",
+  "city": "Minden",
+  "sqft": 1458,
+  "predicted": 144270,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 159900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "227 MARBLE PL|HAUGHTON",
+  "address": "227 Marble Pl",
+  "city": "Haughton",
+  "sqft": 2400,
+  "predicted": 396925,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 479500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "740 CROZIER DR|BOSSIER CITY",
+  "address": "740 Crozier Dr",
+  "city": "Bossier City",
+  "sqft": 1982,
+  "predicted": 339644,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 299999,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2000 BRENT ST|BOSSIER CITY",
+  "address": "2000 Brent St",
+  "city": "Bossier City",
+  "sqft": 2194,
+  "predicted": 320335,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 205000,
+  "sold_price": null,
+  "sold_date": "2026-10-01"
+ },
+ {
+  "key": "2425 WAVERLY DR|BOSSIER CITY",
+  "address": "2425 Waverly Dr",
+  "city": "Bossier City",
+  "sqft": 1675,
+  "predicted": 207627,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 184999,
+  "sold_price": null,
+  "sold_date": "2026-10-01"
+ },
+ {
+  "key": "308 HENDRY DR|BOSSIER CITY",
+  "address": "308 Hendry Dr",
+  "city": "Bossier City",
+  "sqft": 1848,
+  "predicted": 276025,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 299900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2527 SPRUCE DR|BOSSIER CITY",
+  "address": "2527 Spruce Dr",
+  "city": "Bossier City",
+  "sqft": 1615,
+  "predicted": 201123,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 235500,
+  "sold_price": null,
+  "sold_date": "2026-10-01"
+ },
+ {
+  "key": "1001 PALMETTO RD|BENTON",
+  "address": "1001 Palmetto Rd",
+  "city": "Benton",
+  "sqft": 1873,
+  "predicted": 298303,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": "2026-09-25"
+ },
+ {
+  "key": "119 AMY LN|BENTON",
+  "address": "119 Amy Ln",
+  "city": "Benton",
+  "sqft": 1216,
+  "predicted": 106169,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 145000,
+  "sold_price": 46000.0,
+  "sold_date": "05/05/2026"
+ },
+ {
+  "key": "124 BRIMESTONE LOOP|BENTON",
+  "address": "124 Brimestone Loop",
+  "city": "Benton",
+  "sqft": 2941,
+  "predicted": 445657,
+  "predicted_at": "2026-10-02",
+  "proxy_price": 398500,
+  "sold_price": null,
+  "sold_date": null
  }
 ]

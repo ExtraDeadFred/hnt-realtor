@@ -9358,5 +9358,106 @@
     "median_dom": 81
    }
   }
+ },
+ {
+  "date": "2026-10-02",
+  "cohorts": {
+   "Athens": {
+    "inventory": 1,
+    "median_price": 225000,
+    "median_ppsf": 95.1,
+    "median_dom": 240
+   },
+   "Benton": {
+    "inventory": 91,
+    "median_price": 449900,
+    "median_ppsf": 181.9,
+    "median_dom": 86
+   },
+   "Bossier City": {
+    "inventory": 385,
+    "median_price": 275000,
+    "median_ppsf": 153.1,
+    "median_dom": 57
+   },
+   "Bossier Parish": {
+    "inventory": 593,
+    "median_price": 294500,
+    "median_ppsf": 157.9,
+    "median_dom": 58
+   },
+   "Claiborne Parish": {
+    "inventory": 46,
+    "median_price": 115000,
+    "median_ppsf": 70.6,
+    "median_dom": 56
+   },
+   "Doyline": {
+    "inventory": 15,
+    "median_price": 199900,
+    "median_ppsf": 120.4,
+    "median_dom": 68
+   },
+   "Dubberly": {
+    "inventory": 3,
+    "median_price": 189400,
+    "median_ppsf": 155.2,
+    "median_dom": 70
+   },
+   "Elm Grove": {
+    "inventory": 9,
+    "median_price": 210000,
+    "median_ppsf": 128.7,
+    "median_dom": 87
+   },
+   "Haughton": {
+    "inventory": 108,
+    "median_price": 269950,
+    "median_ppsf": 166.4,
+    "median_dom": 50
+   },
+   "Haynesville": {
+    "inventory": 18,
+    "median_price": 48000,
+    "median_ppsf": 28.2,
+    "median_dom": 56
+   },
+   "Heflin": {
+    "inventory": 3,
+    "median_price": 152000,
+    "median_ppsf": 88.1,
+    "median_dom": 119
+   },
+   "Homer": {
+    "inventory": 27,
+    "median_price": 326950,
+    "median_ppsf": 114.6,
+    "median_dom": 56
+   },
+   "Minden": {
+    "inventory": 50,
+    "median_price": 209750,
+    "median_ppsf": 102.3,
+    "median_dom": 82
+   },
+   "Sibley": {
+    "inventory": 7,
+    "median_price": 204000,
+    "median_ppsf": 118.2,
+    "median_dom": 99
+   },
+   "Waterfront": {
+    "inventory": 36,
+    "median_price": 550000,
+    "median_ppsf": 204.2,
+    "median_dom": 76
+   },
+   "Webster Parish": {
+    "inventory": 78,
+    "median_price": 204000,
+    "median_ppsf": 109.4,
+    "median_dom": 82
+   }
+  }
  }
 ]
