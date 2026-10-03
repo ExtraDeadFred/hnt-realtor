@@ -8655,5 +8655,115 @@
   "proxy_price": 398500,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "332 PEASE RD|HAUGHTON",
+  "address": "332 Pease Rd",
+  "city": "Haughton",
+  "sqft": 1792,
+  "predicted": 164243,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 200000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "520 BIG RED CIR|HAUGHTON",
+  "address": "520 Big Red Cir",
+  "city": "Haughton",
+  "sqft": 1361,
+  "predicted": 195191,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 229900,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "614 PATTON ST|BOSSIER CITY",
+  "address": "614 Patton St",
+  "city": "Bossier City",
+  "sqft": 1332,
+  "predicted": 133200,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 65000,
+  "sold_price": null,
+  "sold_date": "2026-09-10"
+ },
+ {
+  "key": "808 DURANGO DR|BOSSIER CITY",
+  "address": "808 Durango Dr",
+  "city": "Bossier City",
+  "sqft": 1745,
+  "predicted": 275856,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 330000,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "5024 BELLE CHASSE DR|BOSSIER CITY",
+  "address": "5024 Belle Chasse Dr",
+  "city": "Bossier City",
+  "sqft": 1824,
+  "predicted": 277373,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "510 COLUMBIA CIR|BOSSIER CITY",
+  "address": "510 Columbia Cir",
+  "city": "Bossier City",
+  "sqft": 1895,
+  "predicted": 292914,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 299000,
+  "sold_price": null,
+  "sold_date": "2026-09-16"
+ },
+ {
+  "key": "522 TICKFAW RIV|BOSSIER CITY",
+  "address": "522 Tickfaw Riv",
+  "city": "Bossier City",
+  "sqft": 1705,
+  "predicted": 264922,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 334300,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "3520 GLASSCOCK AVE|BOSSIER CITY",
+  "address": "3520 Glasscock Ave",
+  "city": "Bossier City",
+  "sqft": 1412,
+  "predicted": 183608,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 225000,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "1960 WILD IRIS|BOSSIER CITY",
+  "address": "1960 Wild Iris",
+  "city": "Bossier City",
+  "sqft": 1362,
+  "predicted": 191066,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 234000,
+  "sold_price": null,
+  "sold_date": "2026-09-30"
+ },
+ {
+  "key": "2104 ASHLEY WILKES LN|BOSSIER CITY",
+  "address": "2104 Ashley Wilkes Ln",
+  "city": "Bossier City",
+  "sqft": 2832,
+  "predicted": 492410,
+  "predicted_at": "2026-10-03",
+  "proxy_price": 399900,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
  }
 ]
