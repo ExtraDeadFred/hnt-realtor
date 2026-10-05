@@ -976,7 +976,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 405000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-02"
  },
  {
   "key": "20 LEGACY CT|HAUGHTON",
@@ -8765,5 +8765,16 @@
   "proxy_price": 399900,
   "sold_price": null,
   "sold_date": "2026-10-02"
+ },
+ {
+  "key": "3634 GREENACRES PL DR UNIT 249|BOSSIER CITY",
+  "address": "3634 Greenacres Place Dr Unit 249",
+  "city": "Bossier City",
+  "sqft": 1307,
+  "predicted": 224914,
+  "predicted_at": "2026-10-05",
+  "proxy_price": 164500,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
