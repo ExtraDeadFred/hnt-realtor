@@ -8776,5 +8776,60 @@
   "proxy_price": 164500,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "2192 STOCKWELL RD|BOSSIER CITY",
+  "address": "2192 Stockwell Rd",
+  "city": "Bossier City",
+  "sqft": 1718,
+  "predicted": 230102,
+  "predicted_at": "2026-10-06",
+  "proxy_price": 260000,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
+ },
+ {
+  "key": "102 LILLIAN ST|BOSSIER CITY",
+  "address": "102 Lillian St",
+  "city": "Bossier City",
+  "sqft": 868,
+  "predicted": 71872,
+  "predicted_at": "2026-10-06",
+  "proxy_price": 99900,
+  "sold_price": null,
+  "sold_date": "2026-10-05"
+ },
+ {
+  "key": "801 VENECIA DR|BOSSIER CITY",
+  "address": "801 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1593,
+  "predicted": 252838,
+  "predicted_at": "2026-10-06",
+  "proxy_price": 253650,
+  "sold_price": null,
+  "sold_date": "2026-10-05"
+ },
+ {
+  "key": "805 VENECIA DR|BOSSIER CITY",
+  "address": "805 Venecia Dr",
+  "city": "Bossier City",
+  "sqft": 1593,
+  "predicted": 252746,
+  "predicted_at": "2026-10-06",
+  "proxy_price": 254059,
+  "sold_price": null,
+  "sold_date": "2026-10-05"
+ },
+ {
+  "key": "2788 HWY 519|ATHENS",
+  "address": "2788 Highway 519",
+  "city": "Athens",
+  "sqft": 2367,
+  "predicted": 141897,
+  "predicted_at": "2026-10-06",
+  "proxy_price": 225000,
+  "sold_price": null,
+  "sold_date": "2026-10-05"
  }
 ]
