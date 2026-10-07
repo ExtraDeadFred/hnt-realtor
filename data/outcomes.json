@@ -7224,7 +7224,7 @@
   "predicted_at": "2026-09-12",
   "proxy_price": 210000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-11"
  },
  {
   "key": "4592 HWY 163|DOYLINE",
@@ -8831,5 +8831,60 @@
   "proxy_price": 225000,
   "sold_price": null,
   "sold_date": "2026-10-05"
+ },
+ {
+  "key": "1115 LOUISIANA AVE|MINDEN",
+  "address": "1115 Louisiana Ave",
+  "city": "Minden",
+  "sqft": 1700,
+  "predicted": 175958,
+  "predicted_at": "2026-10-07",
+  "proxy_price": 149000,
+  "sold_price": null,
+  "sold_date": "2026-10-05"
+ },
+ {
+  "key": "1971 HIGHPOINT PL|HAUGHTON",
+  "address": "1971 Highpoint Pl",
+  "city": "Haughton",
+  "sqft": 3091,
+  "predicted": 448765,
+  "predicted_at": "2026-10-07",
+  "proxy_price": 485000,
+  "sold_price": null,
+  "sold_date": "2026-10-06"
+ },
+ {
+  "key": "5404 COACH RD|BOSSIER CITY",
+  "address": "5404 Coach Rd",
+  "city": "Bossier City",
+  "sqft": 2700,
+  "predicted": 424211,
+  "predicted_at": "2026-10-07",
+  "proxy_price": 425000,
+  "sold_price": null,
+  "sold_date": "2026-10-06"
+ },
+ {
+  "key": "2423 BELMONT BLVD|BOSSIER CITY",
+  "address": "2423 Belmont Blvd",
+  "city": "Bossier City",
+  "sqft": 1257,
+  "predicted": 146532,
+  "predicted_at": "2026-10-07",
+  "proxy_price": 179900,
+  "sold_price": null,
+  "sold_date": "2026-10-01"
+ },
+ {
+  "key": "136 SCARBOROUGH RD|BENTON",
+  "address": "136 Scarborough Rd",
+  "city": "Benton",
+  "sqft": 1876,
+  "predicted": 284845,
+  "predicted_at": "2026-10-07",
+  "proxy_price": 509900,
+  "sold_price": null,
+  "sold_date": "2026-10-02"
  }
 ]
