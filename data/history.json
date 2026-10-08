@@ -9952,5 +9952,154 @@
     "median_dom": 81
    }
   }
+ },
+ {
+  "date": "2026-10-08",
+  "cohorts": {
+   "Arcadia": {
+    "inventory": 7,
+    "median_price": 195000,
+    "median_ppsf": 62.2,
+    "median_dom": 46
+   },
+   "Athens": {
+    "inventory": 2,
+    "median_price": 50000,
+    "median_ppsf": null,
+    "median_dom": 50
+   },
+   "Benton": {
+    "inventory": 79,
+    "median_price": 390000,
+    "median_ppsf": 181.9,
+    "median_dom": 64
+   },
+   "Bossier City": {
+    "inventory": 16,
+    "median_price": 264000,
+    "median_ppsf": 147.7,
+    "median_dom": 6
+   },
+   "Bossier Parish": {
+    "inventory": 168,
+    "median_price": 289000,
+    "median_ppsf": 153.4,
+    "median_dom": 46
+   },
+   "Claiborne Parish": {
+    "inventory": 80,
+    "median_price": 122450,
+    "median_ppsf": 80.3,
+    "median_dom": 50
+   },
+   "Cotton Valley": {
+    "inventory": 1,
+    "median_price": 412000,
+    "median_ppsf": 196.2,
+    "median_dom": null
+   },
+   "Doyline": {
+    "inventory": 16,
+    "median_price": 196250,
+    "median_ppsf": 115.5,
+    "median_dom": 45
+   },
+   "Dubach": {
+    "inventory": 1,
+    "median_price": 450000,
+    "median_ppsf": 151.6,
+    "median_dom": null
+   },
+   "Dubberly": {
+    "inventory": 5,
+    "median_price": 265000,
+    "median_ppsf": 128.0,
+    "median_dom": 66
+   },
+   "Elm Grove": {
+    "inventory": 19,
+    "median_price": 115000,
+    "median_ppsf": 94.9,
+    "median_dom": 423
+   },
+   "Gibsland": {
+    "inventory": 2,
+    "median_price": 247500,
+    "median_ppsf": 125.9,
+    "median_dom": null
+   },
+   "Haughton": {
+    "inventory": 39,
+    "median_price": 275000,
+    "median_ppsf": 150.8,
+    "median_dom": 76
+   },
+   "Haynesville": {
+    "inventory": 27,
+    "median_price": 84000,
+    "median_ppsf": 52.1,
+    "median_dom": 62
+   },
+   "Heflin": {
+    "inventory": 6,
+    "median_price": 75000,
+    "median_ppsf": 50.8,
+    "median_dom": 154
+   },
+   "Homer": {
+    "inventory": 37,
+    "median_price": 224500,
+    "median_ppsf": 122.6,
+    "median_dom": 22
+   },
+   "Minden": {
+    "inventory": 64,
+    "median_price": 130000,
+    "median_ppsf": 102.8,
+    "median_dom": 325
+   },
+   "Shongaloo": {
+    "inventory": 2,
+    "median_price": 154950,
+    "median_ppsf": 75.9,
+    "median_dom": null
+   },
+   "Shreveport": {
+    "inventory": 15,
+    "median_price": 206000,
+    "median_ppsf": 92.0,
+    "median_dom": null
+   },
+   "Sibley": {
+    "inventory": 6,
+    "median_price": 312450,
+    "median_ppsf": 113.2,
+    "median_dom": 35
+   },
+   "Simsboro": {
+    "inventory": 1,
+    "median_price": 239900,
+    "median_ppsf": 118.2,
+    "median_dom": null
+   },
+   "Stonewall": {
+    "inventory": 1,
+    "median_price": 377000,
+    "median_ppsf": 174.9,
+    "median_dom": null
+   },
+   "Waterfront": {
+    "inventory": 13,
+    "median_price": 535000,
+    "median_ppsf": 246.7,
+    "median_dom": 14
+   },
+   "Webster Parish": {
+    "inventory": 98,
+    "median_price": 149500,
+    "median_ppsf": 107.5,
+    "median_dom": 309
+   }
+  }
  }
 ]
