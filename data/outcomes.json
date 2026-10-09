@@ -525,7 +525,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 498000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-08"
  },
  {
   "key": "205 BECK ST|MINDEN",
@@ -536,7 +536,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 99900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-08"
  },
  {
   "key": "131 RAGAN LN|HAUGHTON",
@@ -646,7 +646,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 829000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-07"
  },
  {
   "key": "2805 CLEARBROOK WAY|HAUGHTON",
@@ -1966,7 +1966,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 239900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-06"
  },
  {
   "key": "527 CANTERBURY LN|BOSSIER CITY",
@@ -5761,7 +5761,7 @@
   "predicted_at": "2026-08-25",
   "proxy_price": 289000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-08"
  },
  {
   "key": "329 NEWPORT LN|BENTON",
@@ -9380,7 +9380,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 238500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-06"
  },
  {
   "key": "163 SITKA LOOP|HAUGHTON",
@@ -9435,7 +9435,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 244900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-07"
  },
  {
   "key": "1796 TURNING LEAF TRL|HAUGHTON",
@@ -12768,7 +12768,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 344900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-07"
  },
  {
   "key": "2389 TALLGRASS CIR|BOSSIER CITY",
@@ -13109,7 +13109,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 778976,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-08"
  },
  {
   "key": "605 MERIDIAN WAY|BENTON",
@@ -13284,6 +13284,281 @@
   "predicted": 350422,
   "predicted_at": "2026-10-08",
   "proxy_price": 362526,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "210 SANDERS RD|MINDEN",
+  "address": "210 Sanders Rd",
+  "city": "Minden",
+  "sqft": 2100,
+  "predicted": 236332,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 325000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "273 BASS ST|DOYLINE",
+  "address": "273 Bass St",
+  "city": "Doyline",
+  "sqft": 1710,
+  "predicted": 169000,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 197500,
+  "sold_price": 22000.0,
+  "sold_date": "02/06/2026"
+ },
+ {
+  "key": "1355 JOHNSON RD|DOYLINE",
+  "address": "1355 Johnson Rd",
+  "city": "Doyline",
+  "sqft": 1400,
+  "predicted": 150040,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 163000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1233 DRY CRK|HAUGHTON",
+  "address": "1233 Dry Crk",
+  "city": "Haughton",
+  "sqft": 2069,
+  "predicted": 282578,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 415000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2624 OAKSIDE DR|HAUGHTON",
+  "address": "2624 Oakside Dr",
+  "city": "Haughton",
+  "sqft": 1070,
+  "predicted": 128395,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 180000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2920 JAMERSON RD|HAUGHTON",
+  "address": "2920 Jamerson Rd",
+  "city": "Haughton",
+  "sqft": 2356,
+  "predicted": 357209,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 275000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2611 FAIRFIELD AVE|SHREVEPORT",
+  "address": "2611 Fairfield Ave",
+  "city": "Shreveport",
+  "sqft": 6543,
+  "predicted": 1335857,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 475000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "155 E ELMWOOD ST|SHREVEPORT",
+  "address": "155 E Elmwood St",
+  "city": "Shreveport",
+  "sqft": 1733,
+  "predicted": 189252,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 189000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "6120 HENDERSON AVE|SHREVEPORT",
+  "address": "6120 Henderson Ave",
+  "city": "Shreveport",
+  "sqft": 1087,
+  "predicted": 143026,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 9900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "840 MONROVIA ST|SHREVEPORT",
+  "address": "840 Monrovia St",
+  "city": "Shreveport",
+  "sqft": 3586,
+  "predicted": 588489,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 399000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3507 WOODLEAF DR|SHREVEPORT",
+  "address": "3507 Woodleaf Dr",
+  "city": "Shreveport",
+  "sqft": 1672,
+  "predicted": 175955,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 229500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "7023 LOUISE ST|SHREVEPORT",
+  "address": "7023 Louise St",
+  "city": "Shreveport",
+  "sqft": 1357,
+  "predicted": 117576,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 50000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1027 MANOR PL|SHREVEPORT",
+  "address": "1027 Manor Pl",
+  "city": "Shreveport",
+  "sqft": 1757,
+  "predicted": 184901,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 206000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2050 WILLOW RIDGE BLVD|SHREVEPORT",
+  "address": "2050 Willow Ridge Blvd",
+  "city": "Shreveport",
+  "sqft": 2252,
+  "predicted": 263756,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 250000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "9053 SUNDANCE LN|SHREVEPORT",
+  "address": "9053 Sundance Ln",
+  "city": "Shreveport",
+  "sqft": 2667,
+  "predicted": 271208,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 399000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2735 HOYTE DR|SHREVEPORT",
+  "address": "2735 Hoyte Dr",
+  "city": "Shreveport",
+  "sqft": 2364,
+  "predicted": 276874,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 216500,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "1605 DILG LEAGUE DR|SHREVEPORT",
+  "address": "1605 Dilg League Dr",
+  "city": "Shreveport",
+  "sqft": 2804,
+  "predicted": 311990,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 259000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2424 HIGHLAND AVE|SHREVEPORT",
+  "address": "2424 Highland Ave",
+  "city": "Shreveport",
+  "sqft": 1664,
+  "predicted": 188079,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 49000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "114 SAINT ANDREWS LN|BENTON",
+  "address": "114 Saint Andrews Ln",
+  "city": "Benton",
+  "sqft": 1972,
+  "predicted": 327276,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 347000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "142 SAINT ANDREWS LN|BENTON",
+  "address": "142 Saint Andrews Ln, Benton, LA 71006",
+  "city": "Benton",
+  "sqft": 2323,
+  "predicted": 381766,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 439000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "927 FORD RD|HOMER",
+  "address": "927 Ford Rd, Homer, LA 71040",
+  "city": "Homer",
+  "sqft": 1800,
+  "predicted": 200598,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 90000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "14343 HWY 159|SHONGALOO",
+  "address": "14343 Highway 159",
+  "city": "Shongaloo",
+  "sqft": 1737,
+  "predicted": 109356,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 129900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "216 LENTON CUT OFF RD|SHONGALOO",
+  "address": "216 Lenton Cut off Rd",
+  "city": "Shongaloo",
+  "sqft": 2340,
+  "predicted": 183018,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 180000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "196 HOUSTON DR|SIMSBORO",
+  "address": "196 Houston Dr",
+  "city": "Simsboro",
+  "sqft": 2030,
+  "predicted": 127802,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 239900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3936 COLLEGE ST|ARCADIA",
+  "address": "3936 College St",
+  "city": "Arcadia",
+  "sqft": 3580,
+  "predicted": 307346,
+  "predicted_at": "2026-10-09",
+  "proxy_price": 324900,
   "sold_price": null,
   "sold_date": null
  }
