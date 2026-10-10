@@ -1526,7 +1526,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 319900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-09"
  },
  {
   "key": "5902 PAMPUS LN|BOSSIER CITY",
@@ -8973,7 +8973,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 139900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-09"
  },
  {
   "key": "2931 JAMERSON RD|HAUGHTON",
@@ -10733,7 +10733,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 229500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-09"
  },
  {
   "key": "1519 FOX ST|BOSSIER CITY",
@@ -11954,7 +11954,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 337000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-09"
  },
  {
   "key": "213 KELLY ST|BOSSIER CITY",
@@ -12306,7 +12306,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-09"
  },
  {
   "key": "813 VENECIA DR|BOSSIER CITY",
@@ -12405,7 +12405,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 297950,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-30"
  },
  {
   "key": "2404 WAVERLY DR|BOSSIER CITY",
@@ -13561,5 +13561,16 @@
   "proxy_price": 324900,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "407 GARRISON TRL|MINDEN",
+  "address": "407 Garrison Trl",
+  "city": "Minden",
+  "sqft": 3516,
+  "predicted": 386549,
+  "predicted_at": "2026-10-10",
+  "proxy_price": 350000,
+  "sold_price": null,
+  "sold_date": "2026-10-09"
  }
 ]
