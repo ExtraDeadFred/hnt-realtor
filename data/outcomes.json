@@ -13572,5 +13572,27 @@
   "proxy_price": 350000,
   "sold_price": null,
   "sold_date": "2026-10-09"
+ },
+ {
+  "key": "125 METHODIST CAMP RD|MINDEN",
+  "address": "125 Methodist Camp Rd",
+  "city": "Minden",
+  "sqft": 1406,
+  "predicted": 152280,
+  "predicted_at": "2026-10-11",
+  "proxy_price": 115000,
+  "sold_price": null,
+  "sold_date": "2026-10-09"
+ },
+ {
+  "key": "911 NELLA ST|MINDEN",
+  "address": "911 Nella St",
+  "city": "Minden",
+  "sqft": 1700,
+  "predicted": 175176,
+  "predicted_at": "2026-10-11",
+  "proxy_price": 189000,
+  "sold_price": null,
+  "sold_date": "2026-10-09"
  }
 ]
