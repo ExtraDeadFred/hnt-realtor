@@ -1,69 +1,69 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "cohorts": {
   "Benton": {
    "inventory": 95,
    "mobile_count": 10,
    "median_price": 449900,
-   "median_ppsf": 184.4,
-   "median_dom": 85,
+   "median_ppsf": 187.5,
+   "median_dom": 86,
    "ppsf_by_decade": {
     "1940s": 132.4,
     "1950s": 96.5,
     "1960s": 195.1,
     "1970s": 268.1,
-    "1980s": 173.2,
+    "1980s": 184.1,
     "1990s": 171.6,
     "2000s": 181.6,
     "2010s": 176.0,
     "2020s": 210.0
    },
    "new_7d": 34,
-   "price_cuts_7d": 5,
+   "price_cuts_7d": 6,
    "pending_7d": 1
   },
   "Bossier City": {
-   "inventory": 388,
+   "inventory": 389,
    "mobile_count": 2,
    "median_price": 279900,
-   "median_ppsf": 153.2,
-   "median_dom": 60,
+   "median_ppsf": 153.1,
+   "median_dom": 62,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 61.5,
-    "1950s": 108.5,
+    "1950s": 109.4,
     "1960s": 115.6,
     "1970s": 121.5,
     "1980s": 139.4,
     "1990s": 151.9,
-    "2000s": 162.4,
+    "2000s": 162.5,
     "2010s": 174.3,
     "2020s": 173.2
    },
-   "new_7d": 381,
-   "price_cuts_7d": 32,
+   "new_7d": 382,
+   "price_cuts_7d": 30,
    "pending_7d": 3
   },
   "Bossier Parish": {
-   "inventory": 603,
+   "inventory": 604,
    "mobile_count": 33,
-   "median_price": 295722,
-   "median_ppsf": 159.3,
-   "median_dom": 60,
+   "median_price": 295000,
+   "median_ppsf": 159.2,
+   "median_dom": 62,
    "ppsf_by_decade": {
     "1930s": 48.4,
     "1940s": 66.6,
-    "1950s": 107.6,
+    "1950s": 108.5,
     "1960s": 116.9,
-    "1970s": 128.9,
-    "1980s": 139.9,
+    "1970s": 128.7,
+    "1980s": 140.4,
     "1990s": 151.9,
     "2000s": 163.0,
-    "2010s": 173.4,
-    "2020s": 180.6
+    "2010s": 173.2,
+    "2020s": 182.1
    },
-   "new_7d": 497,
-   "price_cuts_7d": 42,
+   "new_7d": 495,
+   "price_cuts_7d": 40,
    "pending_7d": 8
   },
   "Claiborne Parish": {
@@ -71,7 +71,7 @@
    "mobile_count": 3,
    "median_price": 112500,
    "median_ppsf": 64.8,
-   "median_dom": 65,
+   "median_dom": 66,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1940s": 55.0,
@@ -93,7 +93,7 @@
    "mobile_count": 2,
    "median_price": 214950,
    "median_ppsf": 114.9,
-   "median_dom": 76,
+   "median_dom": 77,
    "ppsf_by_decade": {
     "1920s": 109.4,
     "1950s": 173.9,
@@ -112,7 +112,7 @@
    "mobile_count": 1,
    "median_price": 189400,
    "median_ppsf": 155.2,
-   "median_dom": 78,
+   "median_dom": 80,
    "ppsf_by_decade": {
     "1850s": 163.9,
     "1960s": 146.5
@@ -126,7 +126,7 @@
    "mobile_count": 6,
    "median_price": 210000,
    "median_ppsf": 128.7,
-   "median_dom": 96,
+   "median_dom": 97,
    "ppsf_by_decade": {
     "1960s": 121.8,
     "1970s": 128.7
@@ -138,20 +138,20 @@
   "Haughton": {
    "inventory": 111,
    "mobile_count": 15,
-   "median_price": 275000,
+   "median_price": 274526,
    "median_ppsf": 166.4,
-   "median_dom": 53,
+   "median_dom": 54,
    "ppsf_by_decade": {
     "1960s": 150.1,
-    "1970s": 121.3,
+    "1970s": 110.3,
     "1980s": 118.5,
     "1990s": 151.1,
-    "2000s": 161.5,
+    "2000s": 158.4,
     "2010s": 170.7,
     "2020s": 172.7
    },
-   "new_7d": 82,
-   "price_cuts_7d": 5,
+   "new_7d": 79,
+   "price_cuts_7d": 4,
    "pending_7d": 1
   },
   "Haynesville": {
@@ -159,7 +159,7 @@
    "mobile_count": 0,
    "median_price": 48000,
    "median_ppsf": 28.2,
-   "median_dom": 65,
+   "median_dom": 66,
    "ppsf_by_decade": {
     "1920s": 70.6,
     "1940s": 25.2,
@@ -176,7 +176,7 @@
    "mobile_count": 0,
    "median_price": 152000,
    "median_ppsf": 88.1,
-   "median_dom": 128,
+   "median_dom": 129,
    "ppsf_by_decade": {
     "1950s": 179.1,
     "1960s": 69.1,
@@ -212,7 +212,7 @@
    "mobile_count": 4,
    "median_price": 225000,
    "median_ppsf": 107.3,
-   "median_dom": 72,
+   "median_dom": 74,
    "ppsf_by_decade": {
     "1920s": 51.9,
     "1930s": 59.4,
@@ -235,7 +235,7 @@
    "mobile_count": 1,
    "median_price": 208000,
    "median_ppsf": 120.0,
-   "median_dom": 93,
+   "median_dom": 94,
    "ppsf_by_decade": {
     "1960s": 38.8,
     "1970s": 125.4,
@@ -252,7 +252,7 @@
    "mobile_count": 5,
    "median_price": 550000,
    "median_ppsf": 204.2,
-   "median_dom": 75,
+   "median_dom": 76,
    "ppsf_by_decade": {
     "1920s": 109.4,
     "1950s": 186.9,
@@ -273,7 +273,7 @@
    "mobile_count": 8,
    "median_price": 222350,
    "median_ppsf": 111.7,
-   "median_dom": 76,
+   "median_dom": 77,
    "ppsf_by_decade": {
     "1850s": 163.9,
     "1920s": 80.7,

@@ -1,93 +1,5 @@
 [
  {
-  "date": "2026-10-04",
-  "event": "price_cut",
-  "key": "5685 BELLEVUE RD|HAUGHTON",
-  "address": "5685 Bellevue Rd",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 149000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5685-Bellevue-Rd_Haughton_LA_71037_M82550-58222",
-  "old_price": 155000,
-  "cut_pct": 3.9
- },
- {
-  "date": "2026-10-04",
-  "event": "new",
-  "key": "304 COYOTE RUN|HAUGHTON",
-  "address": "304 Coyote Run",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 532356,
-  "url": "https://www.realtor.com/realestateandhomes-detail/304-Coyote-Run_Haughton_LA_71037_M94891-40707"
- },
- {
-  "date": "2026-10-04",
-  "event": "new",
-  "key": "302 COYOTE RUN|HAUGHTON",
-  "address": "302 Coyote Run",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 531484,
-  "url": "https://www.realtor.com/realestateandhomes-detail/302-Coyote-Run_Haughton_LA_71037_M95765-18827"
- },
- {
-  "date": "2026-10-04",
-  "event": "new",
-  "key": "320 COYOTE RUN|HAUGHTON",
-  "address": "320 Coyote Run",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 549360,
-  "url": "https://www.realtor.com/realestateandhomes-detail/320-Coyote-Run_Haughton_LA_71037_M93396-68329"
- },
- {
-  "date": "2026-10-04",
-  "event": "price_cut",
-  "key": "713 ABITA CHASE|BOSSIER CITY",
-  "address": "713 Abita Chase",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 324500,
-  "url": "https://www.realtor.com/realestateandhomes-detail/713-Abita-Chase_Bossier-City_LA_71111_M92302-07588",
-  "old_price": 329900,
-  "cut_pct": 1.6
- },
- {
-  "date": "2026-10-04",
-  "event": "price_cut",
-  "key": "5315 HOLLYHOCK LN|BOSSIER CITY",
-  "address": "5315 Hollyhock Ln",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 160000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5315-Hollyhock-Ln_Bossier-City_LA_71112_M89272-61292",
-  "old_price": 175000,
-  "cut_pct": 8.6
- },
- {
-  "date": "2026-10-04",
-  "event": "price_cut",
-  "key": "2325 LORECO ST|BOSSIER CITY",
-  "address": "2325 Loreco St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 65000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2325-Loreco-St_Bossier-City_LA_71112_M81693-87916",
-  "old_price": 75000,
-  "cut_pct": 13.3
- },
- {
-  "date": "2026-10-04",
-  "event": "new",
-  "key": "260 CULLOM DR|BOSSIER CITY",
-  "address": "260 Cullom Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 550000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/260-Cullom-Dr_Bossier-City_LA_71112_M94963-58352"
- },
- {
   "date": "2026-10-05",
   "event": "new",
   "key": "131 SITKA LOOP|HAUGHTON",
@@ -15045,5 +14957,122 @@
   "price": 60000,
   "url": "https://www.realtor.com/realestateandhomes-detail/2414-Barbara-St_Bossier-City_LA_71112_M79078-04141",
   "last_price": 60000
+ },
+ {
+  "date": "2026-10-12",
+  "event": "new",
+  "key": "601 ALEX WAY|HAUGHTON",
+  "address": "601 Alex Way",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 229000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/601-Alex-Way_Haughton_LA_71037_M80947-86698"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "price_cut",
+  "key": "5233 TIMOTHY TRL|BOSSIER CITY",
+  "address": "5233 Timothy Trl",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 124900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5233-Timothy-Trl_Bossier-City_LA_71111_M78308-64094",
+  "old_price": 139900,
+  "cut_pct": 10.7
+ },
+ {
+  "date": "2026-10-12",
+  "event": "new",
+  "key": "2728 CAPLIS SLIGO PLANTATION DR|BOSSIER CITY",
+  "address": "2728 Caplis Sligo Plantation Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 320000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2728-Caplis-Sligo-Plantation-Dr_Bossier-City_LA_71112_M87170-43406"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "new",
+  "key": "2611 PLANTATION DR|BOSSIER CITY",
+  "address": "2611 Plantation Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 210000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2611-Plantation-Dr_Bossier-City_LA_71111_M80185-58522"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "new",
+  "key": "828 BRITTANY LN|BOSSIER CITY",
+  "address": "828 Brittany Ln",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 530000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/828-Brittany-Ln_Bossier-City_LA_71111_M86915-95567"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "pending",
+  "key": "727 CREWE LN|BOSSIER CITY",
+  "address": "727 Crewe Ln",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 319369,
+  "url": "https://www.realtor.com/realestateandhomes-detail/727-Crewe-Ln_Bossier-City_LA_71111_M97735-99333"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "price_cut",
+  "key": "4007 ELIZABETH LN|BENTON",
+  "address": "4007 Elizabeth Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 279000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4007-Elizabeth-Ln_Benton_LA_71006_M73483-66468",
+  "old_price": 289000,
+  "cut_pct": 3.5
+ },
+ {
+  "date": "2026-10-12",
+  "event": "new",
+  "key": "273 CYCLE PLANT RD|BENTON",
+  "address": "273 Cycle Plant Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 257300,
+  "url": "https://www.realtor.com/realestateandhomes-detail/273-Cycle-Plant-Rd_Benton_LA_71006_M76118-38025"
+ },
+ {
+  "date": "2026-10-12",
+  "event": "off_market",
+  "key": "8102 DOGWOOD TRL|HAUGHTON",
+  "address": "8102 Dogwood Trl",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 299900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/8102-Dogwood-Trl_Haughton_LA_71037_M77877-84664",
+  "last_price": 299900
+ },
+ {
+  "date": "2026-10-12",
+  "event": "off_market",
+  "key": "306 ELBOW SLOUGH|BOSSIER CITY",
+  "address": "306 Elbow Slough",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 516500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/306-Elbow-Slough_Bossier-City_LA_71112_M98909-41171",
+  "last_price": 516500
+ },
+ {
+  "date": "2026-10-12",
+  "event": "off_market",
+  "key": "104 BRIMESTONE LOOP|BENTON",
+  "address": "104 Brimestone Loop",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 321000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/104-Brimestone-Loop_Benton_LA_71006_M94781-23861",
+  "last_price": 321000
  }
 ]
