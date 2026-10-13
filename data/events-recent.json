@@ -1,129 +1,5 @@
 [
  {
-  "date": "2026-10-05",
-  "event": "new",
-  "key": "131 SITKA LOOP|HAUGHTON",
-  "address": "131 Sitka Loop",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 453222,
-  "url": "https://www.realtor.com/realestateandhomes-detail/131-Sitka-Loop_Haughton_LA_71037_M96291-38777"
- },
- {
-  "date": "2026-10-05",
-  "event": "new",
-  "key": "303 COYOTE RUN|HAUGHTON",
-  "address": "303 Coyote Run",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 530176,
-  "url": "https://www.realtor.com/realestateandhomes-detail/303-Coyote-Run_Haughton_LA_71037_M91848-83364"
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "1025 CRESSMONT ST|BOSSIER CITY",
-  "address": "1025 Cressmont St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 269000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1025-Cressmont-St_Bossier-City_LA_71111_M79993-93589",
-  "old_price": 275000,
-  "cut_pct": 2.2
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "3922 PKWY DR|BOSSIER CITY",
-  "address": "3922 Parkway Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 199500,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3922-Parkway-Dr_Bossier-City_LA_71112_M79010-21739",
-  "old_price": 209000,
-  "cut_pct": 4.5
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "1116 LEN ST|BOSSIER CITY",
-  "address": "1116 Len St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 144900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/1116-Len-St_Bossier-City_LA_71111_M80535-88508",
-  "old_price": 149900,
-  "cut_pct": 3.3
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "2404 WAVERLY DR|BOSSIER CITY",
-  "address": "2404 Waverly Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 219000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2404-Waverly-Dr_Bossier-City_LA_71111_M78633-08605",
-  "old_price": 225000,
-  "cut_pct": 2.7
- },
- {
-  "date": "2026-10-05",
-  "event": "pending",
-  "key": "827 VENECIA DR|BOSSIER CITY",
-  "address": "827 Venecia Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 274627,
-  "url": "https://www.realtor.com/realestateandhomes-detail/827-Venecia-Dr_Bossier-City_LA_71111_M99841-67746"
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "891 LINTON BELLEVUE RD|BENTON",
-  "address": "891 Linton Bellevue Rd",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 350000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/891-Linton-Bellevue-Rd_Benton_LA_71006_M98872-59466",
-  "old_price": 360000,
-  "cut_pct": 2.8
- },
- {
-  "date": "2026-10-05",
-  "event": "price_cut",
-  "key": "202 JAMESTOWNE BLVD|BENTON",
-  "address": "202 Jamestowne Blvd",
-  "city": "Benton",
-  "parish": "Bossier",
-  "price": 326500,
-  "url": "https://www.realtor.com/realestateandhomes-detail/202-Jamestowne-Blvd_Benton_LA_71006_M92650-18501",
-  "old_price": 328500,
-  "cut_pct": 0.6
- },
- {
-  "date": "2026-10-05",
-  "event": "off_market",
-  "key": "936 ANTLER DR|HAUGHTON",
-  "address": "936 Antler Dr",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 399000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/936-Antler-Dr_Haughton_LA_71037_M96872-13665",
-  "last_price": 399000
- },
- {
-  "date": "2026-10-05",
-  "event": "off_market",
-  "key": "3634 GREENACRES PL DR UNIT 249|BOSSIER CITY",
-  "address": "3634 Greenacres Place Dr Unit 249",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 164500,
-  "url": "https://www.realtor.com/realestateandhomes-detail/3634-Greenacres-Place-Dr-Unit-249_Bossier-City_LA_71111_M81443-68344",
-  "last_price": 164500
- },
- {
   "date": "2026-10-06",
   "event": "new",
   "key": "306 S TANGLEWOOD DR|MINDEN",
@@ -15074,5 +14950,115 @@
   "price": 321000,
   "url": "https://www.realtor.com/realestateandhomes-detail/104-Brimestone-Loop_Benton_LA_71006_M94781-23861",
   "last_price": 321000
+ },
+ {
+  "date": "2026-10-13",
+  "event": "price_cut",
+  "key": "275 JOYNER DR|HAUGHTON",
+  "address": "275 Joyner Dr",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 340000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/275-Joyner-Dr_Haughton_LA_71037_M76837-61294",
+  "old_price": 350000,
+  "cut_pct": 2.9
+ },
+ {
+  "date": "2026-10-13",
+  "event": "new",
+  "key": "1228C C SANDIDGE RD|ELM GROVE",
+  "address": "1228C C Sandidge Rd",
+  "city": "Elm Grove",
+  "parish": "Bossier",
+  "price": 215000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1228-C-C-Sandidge-Rd_Elm-Grove_LA_71051_M78803-16000"
+ },
+ {
+  "date": "2026-10-13",
+  "event": "new",
+  "key": "660 RED CHUTE LN|BOSSIER CITY",
+  "address": "660 Red Chute Ln",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 189900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/660-Red-Chute-Ln_Bossier-City_LA_71112_M89752-40781"
+ },
+ {
+  "date": "2026-10-13",
+  "event": "new",
+  "key": "1510 HOLIDAY PL|BOSSIER CITY",
+  "address": "1510 Holiday Pl",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 190000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1510-Holiday-Pl_Bossier-City_LA_71112_M80561-97124"
+ },
+ {
+  "date": "2026-10-13",
+  "event": "price_cut",
+  "key": "508 J R DR|BOSSIER CITY",
+  "address": "508 J R Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 318500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/508-J-R-Dr_Bossier-City_LA_71112_M79361-34389",
+  "old_price": 319000,
+  "cut_pct": 0.2
+ },
+ {
+  "date": "2026-10-13",
+  "event": "price_cut",
+  "key": "814 DUMAINE DR|BOSSIER CITY",
+  "address": "814 Dumaine Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 393000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/814-Dumaine-Dr_Bossier-City_LA_71111_M77240-69930",
+  "old_price": 393999,
+  "cut_pct": 0.3
+ },
+ {
+  "date": "2026-10-13",
+  "event": "back_on_market",
+  "key": "727 CREWE LN|BOSSIER CITY",
+  "address": "727 Crewe Ln",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 319369,
+  "url": "https://www.realtor.com/realestateandhomes-detail/727-Crewe-Ln_Bossier-City_LA_71111_M97735-99333"
+ },
+ {
+  "date": "2026-10-13",
+  "event": "price_cut",
+  "key": "1957 LEEWARD CV|BENTON",
+  "address": "1957 Leeward Cv",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 954900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1957-Leeward-Cv_Benton_LA_71006_M70834-42883",
+  "old_price": 999000,
+  "cut_pct": 4.4
+ },
+ {
+  "date": "2026-10-13",
+  "event": "price_cut",
+  "key": "116 BOLLING DR|HOMER",
+  "address": "116 Bolling Dr",
+  "city": "Homer",
+  "parish": "Claiborne",
+  "price": 115000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/116-Bolling-Dr_Homer_LA_71040_M76420-68287",
+  "old_price": 119997,
+  "cut_pct": 4.2
+ },
+ {
+  "date": "2026-10-13",
+  "event": "new",
+  "key": "1212 FRASIER ST|HAYNESVILLE",
+  "address": "1212 Frasier St",
+  "city": "Haynesville",
+  "parish": "Claiborne",
+  "price": 120000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1212-Frasier-St_Haynesville_LA_71038_M74538-00745"
  }
 ]
