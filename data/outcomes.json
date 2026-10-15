@@ -1548,7 +1548,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 305000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "614 CORINTH CIR|BOSSIER CITY",
@@ -7719,7 +7719,7 @@
   "predicted_at": "2026-09-23",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-22"
  },
  {
   "key": "532 HUNTERS RUN|BOSSIER CITY",
@@ -9677,7 +9677,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 170000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "617 KELLY ST|BOSSIER CITY",
@@ -11019,7 +11019,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 429900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "746 DUMAINE DR|BOSSIER CITY",
@@ -12350,7 +12350,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 635260,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-13"
  },
  {
   "key": "222 CONTI WAY|BOSSIER CITY",
@@ -12944,7 +12944,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 319369,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "707 CREWE LN|BOSSIER CITY",
@@ -13594,5 +13594,16 @@
   "proxy_price": 189000,
   "sold_price": null,
   "sold_date": "2026-10-09"
+ },
+ {
+  "key": "1312 MARK DR|MINDEN",
+  "address": "1312 Mark Dr",
+  "city": "Minden",
+  "sqft": 1605,
+  "predicted": 125576,
+  "predicted_at": "2026-10-15",
+  "proxy_price": 225000,
+  "sold_price": null,
+  "sold_date": "2026-10-14"
  }
 ]

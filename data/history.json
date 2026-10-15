@@ -10671,5 +10671,100 @@
     "median_dom": 76
    }
   }
+ },
+ {
+  "date": "2026-10-15",
+  "cohorts": {
+   "Benton": {
+    "inventory": 96,
+    "median_price": 449900,
+    "median_ppsf": 188.2,
+    "median_dom": 87
+   },
+   "Bossier City": {
+    "inventory": 396,
+    "median_price": 279900,
+    "median_ppsf": 152.3,
+    "median_dom": 62
+   },
+   "Bossier Parish": {
+    "inventory": 615,
+    "median_price": 295000,
+    "median_ppsf": 159.0,
+    "median_dom": 62
+   },
+   "Claiborne Parish": {
+    "inventory": 46,
+    "median_price": 114900,
+    "median_ppsf": 64.7,
+    "median_dom": 69
+   },
+   "Doyline": {
+    "inventory": 14,
+    "median_price": 214950,
+    "median_ppsf": 114.9,
+    "median_dom": 80
+   },
+   "Dubberly": {
+    "inventory": 3,
+    "median_price": 189400,
+    "median_ppsf": 155.2,
+    "median_dom": 82
+   },
+   "Elm Grove": {
+    "inventory": 11,
+    "median_price": 210000,
+    "median_ppsf": 128.7,
+    "median_dom": 59
+   },
+   "Haughton": {
+    "inventory": 112,
+    "median_price": 274051,
+    "median_ppsf": 166.3,
+    "median_dom": 56
+   },
+   "Haynesville": {
+    "inventory": 19,
+    "median_price": 56000,
+    "median_ppsf": 28.7,
+    "median_dom": 69
+   },
+   "Heflin": {
+    "inventory": 3,
+    "median_price": 152000,
+    "median_ppsf": 88.1,
+    "median_dom": 132
+   },
+   "Homer": {
+    "inventory": 27,
+    "median_price": 254250,
+    "median_ppsf": 97.9,
+    "median_dom": 64
+   },
+   "Minden": {
+    "inventory": 49,
+    "median_price": 225000,
+    "median_ppsf": 107.1,
+    "median_dom": 76
+   },
+   "Sibley": {
+    "inventory": 8,
+    "median_price": 208000,
+    "median_ppsf": 120.0,
+    "median_dom": 97
+   },
+   "Waterfront": {
+    "inventory": 40,
+    "median_price": 550000,
+    "median_ppsf": 204.2,
+    "median_dom": 64
+   },
+   "Webster Parish": {
+    "inventory": 77,
+    "median_price": 219800,
+    "median_ppsf": 111.1,
+    "median_dom": 79
+   }
+  }
  }
 ]
