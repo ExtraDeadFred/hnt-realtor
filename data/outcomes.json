@@ -9050,7 +9050,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 288000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "115 RED FOX CIR|HAUGHTON",
@@ -9996,7 +9996,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 49900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "115 COLQUITT ST|BOSSIER CITY",
@@ -10920,7 +10920,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 364900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "509 PARKLANE DR|BOSSIER CITY",
@@ -11074,7 +11074,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 65000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "313 JOANNES ST|BOSSIER CITY",
@@ -11547,7 +11547,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 325000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "623 KELLY ST|BOSSIER CITY",
@@ -11910,7 +11910,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 155000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "620 PERFECT PL|BOSSIER CITY",
@@ -12625,7 +12625,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 212000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "2520 CONRAD ST|BOSSIER CITY",
@@ -13087,7 +13087,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 364900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "111 OAK LEAF TRL|BENTON",
@@ -13605,5 +13605,16 @@
   "proxy_price": 225000,
   "sold_price": null,
   "sold_date": "2026-10-14"
+ },
+ {
+  "key": "175 PRINCETON RD|HAUGHTON",
+  "address": "175 Princeton Rd",
+  "city": "Haughton",
+  "sqft": 3163,
+  "predicted": 471883,
+  "predicted_at": "2026-10-16",
+  "proxy_price": 290000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
