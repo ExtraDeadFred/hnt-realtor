@@ -5101,7 +5101,7 @@
   "predicted_at": "2026-08-13",
   "proxy_price": 135000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "6209 HOLLYHOCK LN|BOSSIER CITY",
@@ -6487,7 +6487,7 @@
   "predicted_at": "2026-09-03",
   "proxy_price": 149900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "1811 COLDWATER CRK|HAUGHTON",
@@ -9446,7 +9446,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 424000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "364 CAMDEN HL|HAUGHTON",
@@ -9798,7 +9798,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 325000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "1523 VIOSCA ST|BOSSIER CITY",
@@ -10524,7 +10524,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 550000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-15"
  },
  {
   "key": "823 VENECIA DR|BOSSIER CITY",
@@ -11173,7 +11173,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 339900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "1407 EDGEMONT CIR|BOSSIER CITY",
@@ -11426,7 +11426,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 225000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "326 GASTON LN|BOSSIER CITY",
@@ -11525,7 +11525,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 235000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-08"
  },
  {
   "key": "5721 BLUEBONNETT DR|BOSSIER CITY",
@@ -11899,7 +11899,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 265000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "3915 PKWY DR|BOSSIER CITY",
@@ -12878,7 +12878,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 302742,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "3449 GRAND CANE LN|BOSSIER CITY",
@@ -13175,7 +13175,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 135000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-16"
  },
  {
   "key": "3911 LE BROOKE LN|BENTON",
@@ -13616,5 +13616,16 @@
   "proxy_price": 290000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "193 5TH AVE|SIBLEY",
+  "address": "193 5th Ave",
+  "city": "Sibley",
+  "sqft": 1659,
+  "predicted": 167375,
+  "predicted_at": "2026-10-17",
+  "proxy_price": 208000,
+  "sold_price": null,
+  "sold_date": "2026-10-15"
  }
 ]
