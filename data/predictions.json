@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "predictions": {
-  "468 BUDDY BROWN RD|MINDEN": {
-   "predicted": 402735,
-   "comp_count": 10,
-   "comp_ppsf": 144.5
-  },
   "500 RICHARDSON ST|MINDEN": {
    "predicted": 155607,
    "comp_count": 10,
    "comp_ppsf": 98.6
+  },
+  "468 BUDDY BROWN RD|MINDEN": {
+   "predicted": 402735,
+   "comp_count": 10,
+   "comp_ppsf": 144.5
   },
   "167 ALMOND CIR|MINDEN": {
    "predicted": 147445,
@@ -71,60 +71,60 @@
    "comp_count": 6,
    "comp_ppsf": 99.3
   },
-  "213 AND 215 MCDONALD ST|MINDEN": {
-   "predicted": 263419,
+  "776 METHODIST CAMP RD|MINDEN": {
+   "predicted": 219921,
    "comp_count": 10,
-   "comp_ppsf": 111.9
+   "comp_ppsf": 111.3
   },
   "724 PINE FOREST DR|MINDEN": {
    "predicted": 393389,
    "comp_count": 10,
    "comp_ppsf": 105.9
   },
-  "776 METHODIST CAMP RD|MINDEN": {
-   "predicted": 219921,
-   "comp_count": 10,
-   "comp_ppsf": 111.3
-  },
   "210 WHISPERING PINES TRL|MINDEN": {
    "predicted": 216517,
    "comp_count": 10,
    "comp_ppsf": 108.1
   },
-  "2643 GERMANTOWN RD|MINDEN": {
-   "predicted": 241289,
+  "213 AND 215 MCDONALD ST|MINDEN": {
+   "predicted": 263419,
    "comp_count": 10,
-   "comp_ppsf": 127.0
-  },
-  "511 BABB CIR|MINDEN": {
-   "predicted": 118784,
-   "comp_count": 10,
-   "comp_ppsf": 116.0
+   "comp_ppsf": 111.9
   },
   "707 MOORE ST|MINDEN": {
    "predicted": 90634,
    "comp_count": 10,
    "comp_ppsf": 96.0
   },
-  "909 HINTON ST|MINDEN": {
-   "predicted": 268566,
+  "2643 GERMANTOWN RD|MINDEN": {
+   "predicted": 241289,
    "comp_count": 10,
-   "comp_ppsf": 111.9
-  },
-  "1313 EVERGREEN DR|MINDEN": {
-   "predicted": 178051,
-   "comp_count": 10,
-   "comp_ppsf": 98.9
+   "comp_ppsf": 127.0
   },
   "205 ROY ST|MINDEN": {
    "predicted": 83266,
    "comp_count": 10,
    "comp_ppsf": 84.5
   },
+  "511 BABB CIR|MINDEN": {
+   "predicted": 118784,
+   "comp_count": 10,
+   "comp_ppsf": 116.0
+  },
+  "909 HINTON ST|MINDEN": {
+   "predicted": 268566,
+   "comp_count": 10,
+   "comp_ppsf": 111.9
+  },
   "1426 CANEY LAKE RD|MINDEN": {
    "predicted": 219581,
    "comp_count": 10,
    "comp_ppsf": 124.0
+  },
+  "1313 EVERGREEN DR|MINDEN": {
+   "predicted": 178051,
+   "comp_count": 10,
+   "comp_ppsf": 98.9
   },
   "1054 FRONTAGE RD|MINDEN": {
    "predicted": 150496,
@@ -136,38 +136,38 @@
    "comp_count": 10,
    "comp_ppsf": 103.0
   },
-  "403 FINCHER RD|MINDEN": {
-   "predicted": 210000,
-   "comp_count": 10,
-   "comp_ppsf": 105.0
-  },
   "233 ALLEN DR|MINDEN": {
    "predicted": 387676,
    "comp_count": 10,
    "comp_ppsf": 143.6
+  },
+  "403 FINCHER RD|MINDEN": {
+   "predicted": 210000,
+   "comp_count": 10,
+   "comp_ppsf": 105.0
   },
   "214 ELLIS DR|MINDEN": {
    "predicted": 129476,
    "comp_count": 10,
    "comp_ppsf": 80.4
   },
-  "328 S TALTON ST|MINDEN": {
-   "predicted": 151630,
+  "110 KIRBY PL|MINDEN": {
+   "predicted": 151181,
    "comp_count": 10,
-   "comp_ppsf": 108.3
-  },
-  "109 KRISTEN LN|MINDEN": {
-   "predicted": 204493,
-   "comp_count": 3,
-   "comp_ppsf": 85.5
+   "comp_ppsf": 115.1
   },
   "277 NORTHWOOD DR|MINDEN": {
    "predicted": 252561,
    "comp_count": 10,
    "comp_ppsf": 128.8
   },
-  "407 JOEL ST|MINDEN": {
-   "predicted": 115648,
+  "328 S TALTON ST|MINDEN": {
+   "predicted": 151630,
+   "comp_count": 10,
+   "comp_ppsf": 108.3
+  },
+  "127 ALMOND RD|MINDEN": {
+   "predicted": 123827,
    "comp_count": 3,
    "comp_ppsf": 95.1
   },
@@ -176,13 +176,8 @@
    "comp_count": 10,
    "comp_ppsf": 88.6
   },
-  "110 KIRBY PL|MINDEN": {
-   "predicted": 151181,
-   "comp_count": 10,
-   "comp_ppsf": 115.1
-  },
-  "127 ALMOND RD|MINDEN": {
-   "predicted": 123827,
+  "407 JOEL ST|MINDEN": {
+   "predicted": 115648,
    "comp_count": 3,
    "comp_ppsf": 95.1
   },
@@ -191,30 +186,30 @@
    "comp_count": 10,
    "comp_ppsf": 111.9
   },
-  "1425 SHREVEPORT RD|MINDEN": {
-   "predicted": 156632,
-   "comp_count": 10,
-   "comp_ppsf": 95.5
-  },
   "902 HINTON ST|MINDEN": {
    "predicted": 224905,
    "comp_count": 10,
    "comp_ppsf": 109.4
+  },
+  "1425 SHREVEPORT RD|MINDEN": {
+   "predicted": 156632,
+   "comp_count": 10,
+   "comp_ppsf": 95.5
   },
   "295 CALVIN LINER RD|MINDEN": {
    "predicted": 123728,
    "comp_count": 10,
    "comp_ppsf": 87.1
   },
-  "803 FULLER CEMETERY RD|MINDEN": {
-   "predicted": 210450,
-   "comp_count": 10,
-   "comp_ppsf": 119.2
-  },
   "203 CHRYSLER ST|MINDEN": {
    "predicted": 150698,
    "comp_count": 10,
    "comp_ppsf": 100.5
+  },
+  "803 FULLER CEMETERY RD|MINDEN": {
+   "predicted": 210450,
+   "comp_count": 10,
+   "comp_ppsf": 119.2
   },
   "162 KATIE LN|MINDEN": {
    "predicted": 148956,
@@ -226,15 +221,15 @@
    "comp_count": 10,
    "comp_ppsf": 103.2
   },
-  "1241 COUNTRY CLUB CIR|MINDEN": {
-   "predicted": 386190,
-   "comp_count": 10,
-   "comp_ppsf": 125.6
-  },
   "123 WASHINGTON ST|MINDEN": {
    "predicted": 194712,
    "comp_count": 10,
    "comp_ppsf": 112.9
+  },
+  "1241 COUNTRY CLUB CIR|MINDEN": {
+   "predicted": 386190,
+   "comp_count": 10,
+   "comp_ppsf": 125.6
   },
   "159 CHRISLO DR|MINDEN": {
    "predicted": 400280,
@@ -261,45 +256,45 @@
    "comp_count": 6,
    "comp_ppsf": 94.8
   },
-  "231 FRAZIER AVE|SIBLEY": {
-   "predicted": 151213,
-   "comp_count": 3,
-   "comp_ppsf": 102.8
+  "159 YELLOW PINE RD|SIBLEY": {
+   "predicted": 170639,
+   "comp_count": 6,
+   "comp_ppsf": 94.8
   },
   "155 FRAZIER AVE|SIBLEY": {
    "predicted": 134552,
    "comp_count": 6,
    "comp_ppsf": 95.4
   },
-  "159 YELLOW PINE RD|SIBLEY": {
-   "predicted": 170639,
-   "comp_count": 6,
-   "comp_ppsf": 94.8
+  "231 FRAZIER AVE|SIBLEY": {
+   "predicted": 151213,
+   "comp_count": 3,
+   "comp_ppsf": 102.8
   },
   "175 MAGNOLIA RD|DUBBERLY": {
-   "predicted": 152549,
+   "predicted": 137205,
    "comp_count": 10,
-   "comp_ppsf": 101.7
-  },
-  "6442 HWY 527|DOYLINE": {
-   "predicted": 138085,
-   "comp_count": 10,
-   "comp_ppsf": 92.1
+   "comp_ppsf": 91.5
   },
   "312 DOGWOOD DR|DOYLINE": {
    "predicted": 152241,
    "comp_count": 3,
    "comp_ppsf": 102.8
   },
-  "3644 SPURGIN RD|DOYLINE": {
-   "predicted": 208718,
+  "6442 HWY 527|DOYLINE": {
+   "predicted": 129405,
    "comp_count": 10,
-   "comp_ppsf": 112.9
+   "comp_ppsf": 86.3
+  },
+  "3644 SPURGIN RD|DOYLINE": {
+   "predicted": 182638,
+   "comp_count": 10,
+   "comp_ppsf": 98.8
   },
   "773 MAIN ST|DOYLINE": {
-   "predicted": 120142,
-   "comp_count": 10,
-   "comp_ppsf": 104.5
+   "predicted": 113487,
+   "comp_count": 9,
+   "comp_ppsf": 98.7
   },
   "3542 PARISH LINE RD|DOYLINE": {
    "predicted": 151554,
@@ -307,34 +302,19 @@
    "comp_ppsf": 83.0
   },
   "158 EDWARDS RD|DOYLINE": {
-   "predicted": 196356,
+   "predicted": 165576,
    "comp_count": 10,
-   "comp_ppsf": 106.3
+   "comp_ppsf": 89.6
   },
   "275 LAKEVIEW DR|DOYLINE": {
    "predicted": 93603,
    "comp_count": 6,
    "comp_ppsf": 86.3
   },
-  "3194 HERREN RD|DOYLINE": {
-   "predicted": 135415,
-   "comp_count": 10,
-   "comp_ppsf": 92.1
-  },
   "1330 HWY 163|DOYLINE": {
-   "predicted": 290258,
+   "predicted": 315694,
    "comp_count": 10,
-   "comp_ppsf": 113.4
-  },
-  "177 MILLER RD|DOYLINE": {
-   "predicted": 151803,
-   "comp_count": 10,
-   "comp_ppsf": 83.0
-  },
-  "135 POVERTY PT|DOYLINE": {
-   "predicted": 150647,
-   "comp_count": 10,
-   "comp_ppsf": 104.5
+   "comp_ppsf": 123.3
   },
   "240 MCDOWELL ST|DOYLINE": {
    "predicted": 194597,
@@ -347,9 +327,9 @@
    "comp_ppsf": 51.5
   },
   "522 N MAIN ST|HEFLIN": {
-   "predicted": 133821,
+   "predicted": 125162,
    "comp_count": 10,
-   "comp_ppsf": 91.5
+   "comp_ppsf": 85.6
   },
   "1381 FRANKLIN RD|HEFLIN": {
    "predicted": 196994,
@@ -371,15 +351,15 @@
    "comp_count": 10,
    "comp_ppsf": 165.4
   },
-  "103 MILL CREEK LN|HAUGHTON": {
-   "predicted": 268255,
-   "comp_count": 10,
-   "comp_ppsf": 130.5
-  },
   "437 WILDOAK DR|HAUGHTON": {
    "predicted": 157548,
    "comp_count": 7,
    "comp_ppsf": 108.2
+  },
+  "103 MILL CREEK LN|HAUGHTON": {
+   "predicted": 268255,
+   "comp_count": 10,
+   "comp_ppsf": 130.5
   },
   "1804 COLDWATER CRK|HAUGHTON": {
    "predicted": 430019,
@@ -396,15 +376,20 @@
    "comp_count": 10,
    "comp_ppsf": 148.4
   },
-  "227 MARBLE PL|HAUGHTON": {
-   "predicted": 403577,
-   "comp_count": 10,
-   "comp_ppsf": 168.2
-  },
   "5685 BELLEVUE RD|HAUGHTON": {
    "predicted": 123283,
    "comp_count": 6,
    "comp_ppsf": 89.5
+  },
+  "969 WAFER RD|HAUGHTON": {
+   "predicted": 195765,
+   "comp_count": 10,
+   "comp_ppsf": 143.4
+  },
+  "3981 SLIGO RD|HAUGHTON": {
+   "predicted": 147866,
+   "comp_count": 10,
+   "comp_ppsf": 124.9
   },
   "2803 JAMERSON RD|HAUGHTON": {
    "predicted": 160688,
@@ -416,25 +401,10 @@
    "comp_count": 10,
    "comp_ppsf": 145.0
   },
-  "969 WAFER RD|HAUGHTON": {
-   "predicted": 195765,
-   "comp_count": 10,
-   "comp_ppsf": 143.4
-  },
   "303 COYOTE RUN|HAUGHTON": {
    "predicted": 424572,
    "comp_count": 10,
    "comp_ppsf": 174.6
-  },
-  "561 WELLS RD|HAUGHTON": {
-   "predicted": 270728,
-   "comp_count": 10,
-   "comp_ppsf": 126.3
-  },
-  "3981 SLIGO RD|HAUGHTON": {
-   "predicted": 147866,
-   "comp_count": 10,
-   "comp_ppsf": 124.9
   },
   "2931 JAMERSON RD|HAUGHTON": {
    "predicted": 187628,
@@ -446,40 +416,45 @@
    "comp_count": 10,
    "comp_ppsf": 152.3
   },
-  "312 N HAMPTON ST|HAUGHTON": {
-   "predicted": 312059,
+  "561 WELLS RD|HAUGHTON": {
+   "predicted": 270728,
    "comp_count": 10,
-   "comp_ppsf": 151.5
+   "comp_ppsf": 126.3
   },
   "320 COYOTE RUN|HAUGHTON": {
    "predicted": 435855,
    "comp_count": 10,
    "comp_ppsf": 173.0
   },
-  "211 CHIMNEY LN|HAUGHTON": {
-   "predicted": 271991,
+  "312 N HAMPTON ST|HAUGHTON": {
+   "predicted": 312059,
    "comp_count": 10,
-   "comp_ppsf": 126.3
-  },
-  "426 E MCKINLEY AVE|HAUGHTON": {
-   "predicted": 205012,
-   "comp_count": 10,
-   "comp_ppsf": 107.7
+   "comp_ppsf": 151.5
   },
   "103 HARVEST LN|HAUGHTON": {
    "predicted": 317329,
    "comp_count": 10,
    "comp_ppsf": 164.4
   },
+  "227 MARBLE PL|HAUGHTON": {
+   "predicted": 403577,
+   "comp_count": 10,
+   "comp_ppsf": 168.2
+  },
+  "426 E MCKINLEY AVE|HAUGHTON": {
+   "predicted": 202179,
+   "comp_count": 10,
+   "comp_ppsf": 106.2
+  },
   "214 CORNERSTONE BLVD|HAUGHTON": {
    "predicted": 375213,
    "comp_count": 10,
    "comp_ppsf": 162.1
   },
-  "1204 DRY CREEK|HAUGHTON": {
-   "predicted": 317165,
+  "211 CHIMNEY LN|HAUGHTON": {
+   "predicted": 271991,
    "comp_count": 10,
-   "comp_ppsf": 164.4
+   "comp_ppsf": 126.3
   },
   "1369 WAFER RD|HAUGHTON": {
    "predicted": 367062,
@@ -491,203 +466,153 @@
    "comp_count": 10,
    "comp_ppsf": 151.9
   },
-  "100 MAPLEWOOD DR|HAUGHTON": {
-   "predicted": 165388,
-   "comp_count": 8,
-   "comp_ppsf": 107.7
-  },
-  "111 WINFIELD RD|HAUGHTON": {
-   "predicted": 564584,
+  "1204 DRY CREEK|HAUGHTON": {
+   "predicted": 317165,
    "comp_count": 10,
-   "comp_ppsf": 133.0
+   "comp_ppsf": 164.4
   },
   "401 CANE BEND DR|HAUGHTON": {
    "predicted": 410664,
    "comp_count": 10,
    "comp_ppsf": 146.9
   },
-  "6420 HWY 80|HAUGHTON": {
-   "predicted": 190773,
+  "111 WINFIELD RD|HAUGHTON": {
+   "predicted": 564584,
    "comp_count": 10,
-   "comp_ppsf": 143.4
-  },
-  "770 RANDY LN|HAUGHTON": {
-   "predicted": 257166,
-   "comp_count": 10,
-   "comp_ppsf": 158.7
+   "comp_ppsf": 133.0
   },
   "96 CRAWFORD RD|HAUGHTON": {
    "predicted": 206484,
    "comp_count": 10,
    "comp_ppsf": 147.5
   },
-  "5 FOX TROT CV|HAUGHTON": {
-   "predicted": 478149,
-   "comp_count": 10,
-   "comp_ppsf": 149.2
-  },
-  "106 RED FOX CIR|HAUGHTON": {
-   "predicted": 268891,
-   "comp_count": 10,
-   "comp_ppsf": 153.3
-  },
-  "110 DOGWOOD S LN|HAUGHTON": {
-   "predicted": 447359,
-   "comp_count": 10,
-   "comp_ppsf": 169.8
+  "100 MAPLEWOOD DR|HAUGHTON": {
+   "predicted": 163102,
+   "comp_count": 8,
+   "comp_ppsf": 106.2
   },
   "101 PINE LAKE DR|HAUGHTON": {
    "predicted": 327185,
    "comp_count": 10,
    "comp_ppsf": 166.3
   },
-  "7504 PECANWOOD CT|HAUGHTON": {
-   "predicted": 208852,
+  "6420 HWY 80|HAUGHTON": {
+   "predicted": 190773,
    "comp_count": 10,
-   "comp_ppsf": 146.7
+   "comp_ppsf": 143.4
+  },
+  "106 RED FOX CIR|HAUGHTON": {
+   "predicted": 268891,
+   "comp_count": 10,
+   "comp_ppsf": 153.3
+  },
+  "1201 GRAY LAKE DR|HAUGHTON": {
+   "predicted": 117987,
+   "comp_count": 8,
+   "comp_ppsf": 97.0
   },
   "3212 DEERFIELD DR|HAUGHTON": {
    "predicted": 268581,
    "comp_count": 10,
    "comp_ppsf": 148.2
   },
-  "2621 FIREFLY TRL|HAUGHTON": {
-   "predicted": 460948,
+  "110 DOGWOOD S LN|HAUGHTON": {
+   "predicted": 447359,
    "comp_count": 10,
-   "comp_ppsf": 127.8
-  },
-  "7245 HWY 157|HAUGHTON": {
-   "predicted": 264511,
-   "comp_count": 10,
-   "comp_ppsf": 158.7
-  },
-  "922 ANTLER DR|HAUGHTON": {
-   "predicted": 266611,
-   "comp_count": 10,
-   "comp_ppsf": 148.1
-  },
-  "1201 GRAY LAKE DR|HAUGHTON": {
-   "predicted": 117987,
-   "comp_count": 6,
-   "comp_ppsf": 97.0
-  },
-  "106 OLIVE ST|HAUGHTON": {
-   "predicted": 257544,
-   "comp_count": 10,
-   "comp_ppsf": 147.3
-  },
-  "338 WOOD SPGS|HAUGHTON": {
-   "predicted": 256020,
-   "comp_count": 10,
-   "comp_ppsf": 153.0
-  },
-  "2066 HIGHPOINT PL|HAUGHTON": {
-   "predicted": 317658,
-   "comp_count": 10,
-   "comp_ppsf": 164.4
+   "comp_ppsf": 169.8
   },
   "127 SITKA LOOP|HAUGHTON": {
    "predicted": 302254,
    "comp_count": 10,
    "comp_ppsf": 137.6
   },
-  "1008 GREEN WOOD CIR|HAUGHTON": {
-   "predicted": 352005,
+  "7504 PECANWOOD CT|HAUGHTON": {
+   "predicted": 208852,
    "comp_count": 10,
-   "comp_ppsf": 153.7
+   "comp_ppsf": 146.7
   },
-  "715 BIANCA ST|HAUGHTON": {
-   "predicted": 248360,
+  "5 FOX TROT CV|HAUGHTON": {
+   "predicted": 478149,
    "comp_count": 10,
-   "comp_ppsf": 160.0
+   "comp_ppsf": 149.2
   },
-  "136 SITKA LOOP|HAUGHTON": {
-   "predicted": 450726,
+  "770 RANDY LN|HAUGHTON": {
+   "predicted": 257166,
    "comp_count": 10,
-   "comp_ppsf": 181.5
+   "comp_ppsf": 158.7
   },
-  "209 MARBLE PL|HAUGHTON": {
-   "predicted": 391470,
+  "7245 HWY 157|HAUGHTON": {
+   "predicted": 264511,
    "comp_count": 10,
-   "comp_ppsf": 162.2
+   "comp_ppsf": 158.7
   },
-  "521 BRUNSWICK GDNS|HAUGHTON": {
-   "predicted": 238443,
+  "106 OLIVE ST|HAUGHTON": {
+   "predicted": 257544,
    "comp_count": 10,
-   "comp_ppsf": 145.3
+   "comp_ppsf": 147.3
+  },
+  "2621 FIREFLY TRL|HAUGHTON": {
+   "predicted": 460948,
+   "comp_count": 10,
+   "comp_ppsf": 127.8
   },
   "212 MILL CREEK LN|HAUGHTON": {
    "predicted": 408315,
    "comp_count": 10,
    "comp_ppsf": 163.8
   },
+  "922 ANTLER DR|HAUGHTON": {
+   "predicted": 266611,
+   "comp_count": 10,
+   "comp_ppsf": 148.1
+  },
+  "2066 HIGHPOINT PL|HAUGHTON": {
+   "predicted": 317658,
+   "comp_count": 10,
+   "comp_ppsf": 164.4
+  },
+  "521 BRUNSWICK GDNS|HAUGHTON": {
+   "predicted": 238443,
+   "comp_count": 10,
+   "comp_ppsf": 145.3
+  },
+  "1008 GREEN WOOD CIR|HAUGHTON": {
+   "predicted": 371322,
+   "comp_count": 10,
+   "comp_ppsf": 162.1
+  },
   "742 FIR WOOD LN|HAUGHTON": {
    "predicted": 272244,
    "comp_count": 10,
    "comp_ppsf": 126.3
+  },
+  "338 WOOD SPGS|HAUGHTON": {
+   "predicted": 256020,
+   "comp_count": 10,
+   "comp_ppsf": 153.0
   },
   "164 PARKER RD|HAUGHTON": {
    "predicted": 265574,
    "comp_count": 10,
    "comp_ppsf": 148.1
   },
-  "20 LEGACY CT|HAUGHTON": {
-   "predicted": 307674,
+  "715 BIANCA ST|HAUGHTON": {
+   "predicted": 248360,
    "comp_count": 10,
-   "comp_ppsf": 148.4
+   "comp_ppsf": 160.0
   },
-  "5876 HWY 157|HAUGHTON": {
-   "predicted": 198941,
-   "comp_count": 9,
-   "comp_ppsf": 93.5
-  },
-  "107 HICKORY HOLLOW DR|HAUGHTON": {
-   "predicted": 205711,
+  "209 MARBLE PL|HAUGHTON": {
+   "predicted": 391470,
    "comp_count": 10,
-   "comp_ppsf": 145.3
+   "comp_ppsf": 162.2
   },
-  "101 W JEFFERSON AVE|HAUGHTON": {
-   "predicted": 233234,
+  "205 LINCOLN AVE|HAUGHTON": {
+   "predicted": 286059,
    "comp_count": 10,
-   "comp_ppsf": 159.9
+   "comp_ppsf": 131.3
   },
-  "726 BIANCA ST|HAUGHTON": {
-   "predicted": 186040,
-   "comp_count": 10,
-   "comp_ppsf": 143.4
-  },
-  "545 TIMBERS E DR|HAUGHTON": {
-   "predicted": 139722,
-   "comp_count": 6,
-   "comp_ppsf": 97.0
-  },
-  "2115 HOLLOW WOOD WAY|HAUGHTON": {
-   "predicted": 874282,
-   "comp_count": 5,
-   "comp_ppsf": 158.0
-  },
-  "7429 PECANWOOD LN|HAUGHTON": {
-   "predicted": 208304,
-   "comp_count": 10,
-   "comp_ppsf": 149.9
-  },
-  "275 JOYNER DR|HAUGHTON": {
-   "predicted": 186185,
-   "comp_count": 10,
-   "comp_ppsf": 100.3
-  },
-  "604 CHABLIS LN|HAUGHTON": {
-   "predicted": 246695,
-   "comp_count": 10,
-   "comp_ppsf": 160.4
-  },
-  "157 SITKA LOOP|HAUGHTON": {
-   "predicted": 354177,
-   "comp_count": 10,
-   "comp_ppsf": 151.6
-  },
-  "302 COYOTE RUN|HAUGHTON": {
-   "predicted": 442557,
+  "136 SITKA LOOP|HAUGHTON": {
+   "predicted": 450726,
    "comp_count": 10,
    "comp_ppsf": 181.5
   },
@@ -695,6 +620,66 @@
    "predicted": 325055,
    "comp_count": 10,
    "comp_ppsf": 164.6
+  },
+  "2115 HOLLOW WOOD WAY|HAUGHTON": {
+   "predicted": 874282,
+   "comp_count": 5,
+   "comp_ppsf": 158.0
+  },
+  "107 HICKORY HOLLOW DR|HAUGHTON": {
+   "predicted": 205711,
+   "comp_count": 10,
+   "comp_ppsf": 145.3
+  },
+  "275 JOYNER DR|HAUGHTON": {
+   "predicted": 183423,
+   "comp_count": 10,
+   "comp_ppsf": 98.8
+  },
+  "101 W JEFFERSON AVE|HAUGHTON": {
+   "predicted": 233234,
+   "comp_count": 10,
+   "comp_ppsf": 159.9
+  },
+  "5876 HWY 157|HAUGHTON": {
+   "predicted": 198941,
+   "comp_count": 9,
+   "comp_ppsf": 93.5
+  },
+  "103 BENT TREE LOOP|HAUGHTON": {
+   "predicted": 252475,
+   "comp_count": 10,
+   "comp_ppsf": 157.8
+  },
+  "604 CHABLIS LN|HAUGHTON": {
+   "predicted": 246695,
+   "comp_count": 10,
+   "comp_ppsf": 160.4
+  },
+  "20 LEGACY CT|HAUGHTON": {
+   "predicted": 307674,
+   "comp_count": 10,
+   "comp_ppsf": 148.4
+  },
+  "726 BIANCA ST|HAUGHTON": {
+   "predicted": 186040,
+   "comp_count": 10,
+   "comp_ppsf": 143.4
+  },
+  "302 COYOTE RUN|HAUGHTON": {
+   "predicted": 442557,
+   "comp_count": 10,
+   "comp_ppsf": 181.5
+  },
+  "157 SITKA LOOP|HAUGHTON": {
+   "predicted": 354177,
+   "comp_count": 10,
+   "comp_ppsf": 151.6
+  },
+  "811 DALEEN RD|HAUGHTON": {
+   "predicted": 227589,
+   "comp_count": 10,
+   "comp_ppsf": 124.2
   },
   "605 JADE CIR|HAUGHTON": {
    "predicted": 275655,
@@ -706,33 +691,73 @@
    "comp_count": 10,
    "comp_ppsf": 161.1
   },
+  "7429 PECANWOOD LN|HAUGHTON": {
+   "predicted": 208304,
+   "comp_count": 10,
+   "comp_ppsf": 149.9
+  },
+  "193 BERKSHIRE PL|HAUGHTON": {
+   "predicted": 238800,
+   "comp_count": 10,
+   "comp_ppsf": 159.1
+  },
   "1761 TURNING LEAF TRL|HAUGHTON": {
    "predicted": 372740,
    "comp_count": 10,
    "comp_ppsf": 133.3
   },
-  "131 RAGAN LN|HAUGHTON": {
-   "predicted": 205377,
-   "comp_count": 10,
-   "comp_ppsf": 148.5
-  },
-  "811 DALEEN RD|HAUGHTON": {
-   "predicted": 227589,
-   "comp_count": 10,
-   "comp_ppsf": 124.2
-  },
-  "574 BRUNSWICK GDNS|HAUGHTON": {
-   "predicted": 310438,
-   "comp_count": 10,
-   "comp_ppsf": 162.5
+  "545 TIMBERS E DR|HAUGHTON": {
+   "predicted": 139722,
+   "comp_count": 6,
+   "comp_ppsf": 97.0
   },
   "304 COYOTE RUN|HAUGHTON": {
    "predicted": 443283,
    "comp_count": 10,
    "comp_ppsf": 181.5
   },
+  "574 BRUNSWICK GDNS|HAUGHTON": {
+   "predicted": 310438,
+   "comp_count": 10,
+   "comp_ppsf": 162.5
+  },
+  "131 RAGAN LN|HAUGHTON": {
+   "predicted": 205377,
+   "comp_count": 10,
+   "comp_ppsf": 148.5
+  },
   "1855 SPARROW RDG|HAUGHTON": {
    "predicted": 292582,
+   "comp_count": 10,
+   "comp_ppsf": 140.1
+  },
+  "364 CAMDEN HL|HAUGHTON": {
+   "predicted": 248360,
+   "comp_count": 10,
+   "comp_ppsf": 160.0
+  },
+  "9690 COUNTRY LIVING DR|HAUGHTON": {
+   "predicted": 144996,
+   "comp_count": 3,
+   "comp_ppsf": 108.2
+  },
+  "352 HUMMINGBIRD LN|HAUGHTON": {
+   "predicted": 222762,
+   "comp_count": 10,
+   "comp_ppsf": 150.7
+  },
+  "2220 FOREST HILLS BLVD|HAUGHTON": {
+   "predicted": 381846,
+   "comp_count": 10,
+   "comp_ppsf": 129.3
+  },
+  "209 W JACKSON AVE|HAUGHTON": {
+   "predicted": 291461,
+   "comp_count": 10,
+   "comp_ppsf": 140.1
+  },
+  "163 SITKA LOOP|HAUGHTON": {
+   "predicted": 295665,
    "comp_count": 10,
    "comp_ppsf": 140.1
   },
@@ -741,60 +766,35 @@
    "comp_count": 10,
    "comp_ppsf": 170.1
   },
-  "163 SITKA LOOP|HAUGHTON": {
-   "predicted": 295665,
-   "comp_count": 10,
-   "comp_ppsf": 140.1
-  },
-  "2220 FOREST HILLS BLVD|HAUGHTON": {
-   "predicted": 381846,
-   "comp_count": 10,
-   "comp_ppsf": 129.3
-  },
-  "352 HUMMINGBIRD LN|HAUGHTON": {
-   "predicted": 222762,
-   "comp_count": 10,
-   "comp_ppsf": 150.7
-  },
-  "209 W JACKSON AVE|HAUGHTON": {
-   "predicted": 291461,
-   "comp_count": 10,
-   "comp_ppsf": 140.1
+  "36 GOLF CLUB DR|HAUGHTON": {
+   "predicted": 1089128,
+   "comp_count": 6,
+   "comp_ppsf": 170.0
   },
   "504 BRUNSWICK GDNS|HAUGHTON": {
    "predicted": 253529,
    "comp_count": 10,
    "comp_ppsf": 162.3
   },
-  "316 COYOTE RUN|HAUGHTON": {
-   "predicted": 449274,
-   "comp_count": 10,
-   "comp_ppsf": 181.5
+  "609 HAUGHTON TRACE CT|HAUGHTON": {
+   "predicted": 156591,
+   "comp_count": 9,
+   "comp_ppsf": 93.2
   },
-  "364 CAMDEN HL|HAUGHTON": {
-   "predicted": 248360,
-   "comp_count": 10,
-   "comp_ppsf": 160.0
+  "2070 JOHNSON KORAN RD|HAUGHTON": {
+   "predicted": 227361,
+   "comp_count": 7,
+   "comp_ppsf": 93.5
   },
   "1737 TURNING LEAF TRL|HAUGHTON": {
    "predicted": 297102,
    "comp_count": 10,
    "comp_ppsf": 148.8
   },
-  "609 HAUGHTON TRACE CT|HAUGHTON": {
-   "predicted": 156591,
-   "comp_count": 9,
-   "comp_ppsf": 93.2
-  },
-  "103 BENT TREE LOOP|HAUGHTON": {
-   "predicted": 252475,
+  "316 COYOTE RUN|HAUGHTON": {
+   "predicted": 449274,
    "comp_count": 10,
-   "comp_ppsf": 157.8
-  },
-  "2070 JOHNSON KORAN RD|HAUGHTON": {
-   "predicted": 227361,
-   "comp_count": 7,
-   "comp_ppsf": 93.5
+   "comp_ppsf": 181.5
   },
   "606 CHABLIS LN|HAUGHTON": {
    "predicted": 246822,
@@ -811,17 +811,27 @@
    "comp_count": 10,
    "comp_ppsf": 163.5
   },
-  "220 BERKSHIRE PL|HAUGHTON": {
-   "predicted": 246695,
+  "1908 SPARROWRIDGE CIR|HAUGHTON": {
+   "predicted": 350468,
    "comp_count": 10,
-   "comp_ppsf": 160.4
+   "comp_ppsf": 153.7
   },
   "127 SITKA LOOP|BOSSIER CITY": {
    "predicted": 322598,
    "comp_count": 10,
    "comp_ppsf": 146.9
   },
+  "220 BERKSHIRE PL|HAUGHTON": {
+   "predicted": 246695,
+   "comp_count": 10,
+   "comp_ppsf": 160.4
+  },
   "605 GIRARD CT|HAUGHTON": {
+   "predicted": 246822,
+   "comp_count": 10,
+   "comp_ppsf": 170.1
+  },
+  "196 BERKSHIRE PL|HAUGHTON": {
    "predicted": 246822,
    "comp_count": 10,
    "comp_ppsf": 170.1
@@ -830,16 +840,6 @@
    "predicted": 248360,
    "comp_count": 10,
    "comp_ppsf": 160.0
-  },
-  "196 BERKSHIRE PL|HAUGHTON": {
-   "predicted": 246822,
-   "comp_count": 10,
-   "comp_ppsf": 170.1
-  },
-  "193 BERKSHIRE PL|HAUGHTON": {
-   "predicted": 238800,
-   "comp_count": 10,
-   "comp_ppsf": 159.1
   },
   "370 CAMDEN HILL ST|HAUGHTON": {
    "predicted": 141708,
@@ -861,20 +861,15 @@
    "comp_count": 10,
    "comp_ppsf": 151.2
   },
-  "205 LINCOLN AVE|HAUGHTON": {
-   "predicted": 286059,
+  "191 BERKSHIRE PL|HAUGHTON": {
+   "predicted": 227713,
    "comp_count": 10,
-   "comp_ppsf": 131.3
+   "comp_ppsf": 124.2
   },
   "608 CHABLIS LN|HAUGHTON": {
    "predicted": 257934,
    "comp_count": 10,
    "comp_ppsf": 141.3
-  },
-  "191 BERKSHIRE PL|HAUGHTON": {
-   "predicted": 227713,
-   "comp_count": 10,
-   "comp_ppsf": 124.2
   },
   "602 CHABLIS LN|HAUGHTON": {
    "predicted": 192528,
@@ -891,11 +886,6 @@
    "comp_count": 10,
    "comp_ppsf": 150.7
   },
-  "36 GOLF CLUB DR|HAUGHTON": {
-   "predicted": 1111592,
-   "comp_count": 5,
-   "comp_ppsf": 173.5
-  },
   "610 CHABLIS LN|HAUGHTON": {
    "predicted": 208705,
    "comp_count": 10,
@@ -906,50 +896,55 @@
    "comp_count": 10,
    "comp_ppsf": 157.0
   },
-  "2259 HWY 527|ELM GROVE": {
-   "predicted": 162872,
-   "comp_count": 5,
-   "comp_ppsf": 106.4
-  },
   "284 PINE HILL RD|ELM GROVE": {
-   "predicted": 175205,
+   "predicted": 191259,
    "comp_count": 10,
-   "comp_ppsf": 79.6
+   "comp_ppsf": 86.9
+  },
+  "2259 HWY 527|ELM GROVE": {
+   "predicted": 204392,
+   "comp_count": 10,
+   "comp_ppsf": 133.5
+  },
+  "177 WILLIAMS WAY|ELM GROVE": {
+   "predicted": 159475,
+   "comp_count": 10,
+   "comp_ppsf": 69.3
   },
   "9114 HWY 71|ELM GROVE": {
-   "predicted": 151371,
+   "predicted": 168481,
    "comp_count": 10,
-   "comp_ppsf": 62.2
+   "comp_ppsf": 69.3
+  },
+  "10480 HWY 71|ELM GROVE": {
+   "predicted": 238487,
+   "comp_count": 10,
+   "comp_ppsf": 113.6
   },
   "569 BOSSIER PT RD|ELM GROVE": {
    "predicted": 392371,
    "comp_count": 10,
    "comp_ppsf": 161.3
   },
-  "10480 HWY 71|ELM GROVE": {
-   "predicted": 211649,
-   "comp_count": 10,
-   "comp_ppsf": 100.8
-  },
-  "177 WILLIAMS WAY|ELM GROVE": {
-   "predicted": 151447,
-   "comp_count": 9,
-   "comp_ppsf": 65.8
-  },
-  "213 DOGWOOD DR|ELM GROVE": {
-   "predicted": 151208,
-   "comp_count": 5,
-   "comp_ppsf": 110.9
-  },
   "439 MERESTONE XING|BENTON": {
-   "predicted": 397701,
+   "predicted": 407086,
    "comp_count": 10,
-   "comp_ppsf": 160.6
+   "comp_ppsf": 164.4
+  },
+  "2021 SHADY GROVE DR|BOSSIER CITY": {
+   "predicted": 260309,
+   "comp_count": 10,
+   "comp_ppsf": 125.8
   },
   "116 ROLLING MEADOW LN|BOSSIER CITY": {
    "predicted": 266410,
    "comp_count": 10,
    "comp_ppsf": 148.7
+  },
+  "3513 HANOVER DR|BOSSIER CITY": {
+   "predicted": 187697,
+   "comp_count": 10,
+   "comp_ppsf": 116.1
   },
   "718 DUCKWATER LNDG|BOSSIER CITY": {
    "predicted": 503768,
@@ -968,123 +963,88 @@
   },
   "413 GLEN HBR|BOSSIER CITY": {
    "predicted": 117960,
-   "comp_count": 7,
+   "comp_count": 9,
    "comp_ppsf": 85.9
-  },
-  "134 CROSSCREEK DR|BOSSIER CITY": {
-   "predicted": 313531,
-   "comp_count": 10,
-   "comp_ppsf": 153.1
-  },
-  "617 KELLY ST|BOSSIER CITY": {
-   "predicted": 277729,
-   "comp_count": 10,
-   "comp_ppsf": 152.0
   },
   "1510 LEXINGTON DR|BOSSIER CITY": {
    "predicted": 319223,
    "comp_count": 10,
    "comp_ppsf": 156.9
   },
-  "1808 WILD ROSE|BOSSIER CITY": {
-   "predicted": 175470,
+  "617 KELLY ST|BOSSIER CITY": {
+   "predicted": 277729,
    "comp_count": 10,
-   "comp_ppsf": 136.0
+   "comp_ppsf": 152.0
   },
-  "3634 GREENACRES PL DR UNIT 261|BOSSIER CITY": {
-   "predicted": 150340,
+  "134 CROSSCREEK DR|BOSSIER CITY": {
+   "predicted": 313531,
    "comp_count": 10,
-   "comp_ppsf": 119.4
-  },
-  "101 DANA LN|BOSSIER CITY": {
-   "predicted": 384645,
-   "comp_count": 10,
-   "comp_ppsf": 159.7
+   "comp_ppsf": 153.1
   },
   "2309 W BELLE HAVEN DR|BOSSIER CITY": {
    "predicted": 270324,
    "comp_count": 10,
    "comp_ppsf": 152.6
   },
-  "1705 BENTON RD|BOSSIER CITY": {
-   "predicted": 149174,
+  "2408 TILMAN CIR|BOSSIER CITY": {
+   "predicted": 289057,
    "comp_count": 10,
-   "comp_ppsf": 118.0
+   "comp_ppsf": 148.9
   },
-  "1807 ALISON AVE|BOSSIER CITY": {
-   "predicted": 112124,
+  "3634 GREENACRES PL DR UNIT 261|BOSSIER CITY": {
+   "predicted": 150340,
    "comp_count": 10,
-   "comp_ppsf": 110.9
+   "comp_ppsf": 119.4
+  },
+  "660 RED CHUTE LN|BOSSIER CITY": {
+   "predicted": 166156,
+   "comp_count": 9,
+   "comp_ppsf": 94.2
   },
   "223 EDWARDS ST|BOSSIER CITY": {
    "predicted": 122634,
    "comp_count": 10,
    "comp_ppsf": 110.1
   },
-  "660 RED CHUTE LN|BOSSIER CITY": {
-   "predicted": 115987,
-   "comp_count": 7,
-   "comp_ppsf": 65.8
-  },
-  "3333 MAHAN DR|BOSSIER CITY": {
-   "predicted": 604857,
+  "101 DANA LN|BOSSIER CITY": {
+   "predicted": 384645,
    "comp_count": 10,
-   "comp_ppsf": 165.1
+   "comp_ppsf": 159.7
   },
   "2304 ASHDOWN DR|BOSSIER CITY": {
    "predicted": 404224,
    "comp_count": 10,
    "comp_ppsf": 161.0
   },
-  "627 KELLY ST|BOSSIER CITY": {
-   "predicted": 60564,
+  "1808 WILD ROSE|BOSSIER CITY": {
+   "predicted": 175470,
    "comp_count": 10,
-   "comp_ppsf": 74.6
-  },
-  "2302 BROWNLEE RD|BOSSIER CITY": {
-   "predicted": 302338,
-   "comp_count": 10,
-   "comp_ppsf": 154.4
-  },
-  "207 N BEACH DR|BOSSIER CITY": {
-   "predicted": 1038214,
-   "comp_count": 7,
-   "comp_ppsf": 173.5
-  },
-  "5233 TIMOTHY TRL|BOSSIER CITY": {
-   "predicted": 215278,
-   "comp_count": 10,
-   "comp_ppsf": 101.2
+   "comp_ppsf": 136.0
   },
   "1025 CRESSMONT ST|BOSSIER CITY": {
    "predicted": 285938,
    "comp_count": 10,
    "comp_ppsf": 150.3
   },
-  "1919 CAMILLE ST|BOSSIER CITY": {
-   "predicted": 263047,
+  "619 KELLY ST UNIT 5|BOSSIER CITY": {
+   "predicted": 29519,
    "comp_count": 10,
-   "comp_ppsf": 143.4
+   "comp_ppsf": 54.3
   },
-  "501 COCODRIE DR|BOSSIER CITY": {
-   "predicted": 321000,
+  "5233 TIMOTHY TRL|BOSSIER CITY": {
+   "predicted": 215278,
    "comp_count": 10,
-   "comp_ppsf": 167.0
+   "comp_ppsf": 101.2
   },
-  "4906 GENERAL RUSK DR|BOSSIER CITY": {
-   "predicted": 262726,
+  "627 KELLY ST|BOSSIER CITY": {
+   "predicted": 60564,
    "comp_count": 10,
-   "comp_ppsf": 144.8
+   "comp_ppsf": 74.6
   },
-  "405 EDGEMONT DR|BOSSIER CITY": {
-   "predicted": 303069,
-   "comp_count": 10,
-   "comp_ppsf": 150.4
-  },
-  "614 CORINTH CIR|BOSSIER CITY": {
-   "predicted": 450572,
-   "comp_count": 10,
-   "comp_ppsf": 166.9
+  "207 N BEACH DR|BOSSIER CITY": {
+   "predicted": 1038214,
+   "comp_count": 7,
+   "comp_ppsf": 173.5
   },
   "721 CREWE LN|BOSSIER CITY": {
    "predicted": 276025,
@@ -1096,235 +1056,365 @@
    "comp_count": 10,
    "comp_ppsf": 143.8
   },
-  "619 KELLY ST UNIT 5|BOSSIER CITY": {
-   "predicted": 29519,
+  "1919 CAMILLE ST|BOSSIER CITY": {
+   "predicted": 263047,
    "comp_count": 10,
-   "comp_ppsf": 54.3
+   "comp_ppsf": 143.4
   },
-  "1161 ELI CONNOR DR|BOSSIER CITY": {
-   "predicted": 319076,
+  "3333 MAHAN DR|BOSSIER CITY": {
+   "predicted": 604857,
    "comp_count": 10,
-   "comp_ppsf": 163.1
+   "comp_ppsf": 165.1
   },
-  "329 AUTUMN RIDGE DR|BOSSIER CITY": {
-   "predicted": 491640,
+  "614 CORINTH CIR|BOSSIER CITY": {
+   "predicted": 450572,
    "comp_count": 10,
-   "comp_ppsf": 159.6
+   "comp_ppsf": 166.9
+  },
+  "501 COCODRIE DR|BOSSIER CITY": {
+   "predicted": 321000,
+   "comp_count": 10,
+   "comp_ppsf": 167.0
+  },
+  "1510 HOLIDAY PL|BOSSIER CITY": {
+   "predicted": 195016,
+   "comp_count": 10,
+   "comp_ppsf": 150.4
   },
   "108 CALAIS CT|BOSSIER CITY": {
    "predicted": 450905,
    "comp_count": 10,
    "comp_ppsf": 166.9
   },
-  "2636 BROWN ST|BOSSIER CITY": {
-   "predicted": 269115,
+  "1161 ELI CONNOR DR|BOSSIER CITY": {
+   "predicted": 319076,
    "comp_count": 10,
-   "comp_ppsf": 145.1
+   "comp_ppsf": 163.1
   },
-  "18 DOVER CIR|BOSSIER CITY": {
-   "predicted": 611403,
+  "2302 BROWNLEE RD|BOSSIER CITY": {
+   "predicted": 302338,
    "comp_count": 10,
-   "comp_ppsf": 134.0
-  },
-  "5191 TARA LN|BOSSIER CITY": {
-   "predicted": 264557,
-   "comp_count": 10,
-   "comp_ppsf": 149.0
-  },
-  "6009 JASON ST|BOSSIER CITY": {
-   "predicted": 220280,
-   "comp_count": 10,
-   "comp_ppsf": 136.8
-  },
-  "5319 BARBERRY LN|BOSSIER CITY": {
-   "predicted": 280169,
-   "comp_count": 10,
-   "comp_ppsf": 152.7
-  },
-  "2408 TILMAN CIR|BOSSIER CITY": {
-   "predicted": 289057,
-   "comp_count": 10,
-   "comp_ppsf": 148.9
-  },
-  "165 MYERS RD|BOSSIER CITY": {
-   "predicted": 300292,
-   "comp_count": 10,
-   "comp_ppsf": 140.3
-  },
-  "202 KELLY ST|BOSSIER CITY": {
-   "predicted": 166063,
-   "comp_count": 10,
-   "comp_ppsf": 130.3
-  },
-  "218 BARCLAY BLVD|BOSSIER CITY": {
-   "predicted": 300038,
-   "comp_count": 10,
-   "comp_ppsf": 155.9
-  },
-  "275 FERRY LAKE DR|BOSSIER CITY": {
-   "predicted": 307403,
-   "comp_count": 10,
-   "comp_ppsf": 155.6
-  },
-  "584 CORINTH CIR|BOSSIER CITY": {
-   "predicted": 536979,
-   "comp_count": 10,
-   "comp_ppsf": 195.0
+   "comp_ppsf": 154.4
   },
   "6036 BRAEBURN CT|BOSSIER CITY": {
    "predicted": 385529,
    "comp_count": 10,
    "comp_ppsf": 151.4
   },
-  "5651 BITTERSWEET DR|BOSSIER CITY": {
-   "predicted": 235462,
+  "4906 GENERAL RUSK DR|BOSSIER CITY": {
+   "predicted": 262726,
    "comp_count": 10,
-   "comp_ppsf": 111.8
+   "comp_ppsf": 144.8
   },
-  "214 APALACHEE WAY|BOSSIER CITY": {
-   "predicted": 299452,
+  "202 KELLY ST|BOSSIER CITY": {
+   "predicted": 166063,
    "comp_count": 10,
-   "comp_ppsf": 155.6
+   "comp_ppsf": 130.3
   },
-  "2526 DOWNS CIR|BOSSIER CITY": {
-   "predicted": 232497,
+  "1807 ALISON AVE|BOSSIER CITY": {
+   "predicted": 112124,
    "comp_count": 10,
-   "comp_ppsf": 154.7
+   "comp_ppsf": 110.9
   },
-  "308 HENDRY DR|BOSSIER CITY": {
-   "predicted": 276025,
+  "5191 TARA LN|BOSSIER CITY": {
+   "predicted": 264557,
    "comp_count": 10,
-   "comp_ppsf": 149.4
+   "comp_ppsf": 149.0
   },
-  "205 TEALWOOD DR|BOSSIER CITY": {
-   "predicted": 592997,
+  "584 CORINTH CIR|BOSSIER CITY": {
+   "predicted": 536979,
    "comp_count": 10,
-   "comp_ppsf": 146.6
+   "comp_ppsf": 195.0
   },
-  "3135 LE OAKS DR|BOSSIER CITY": {
-   "predicted": 183305,
+  "18 DOVER CIR|BOSSIER CITY": {
+   "predicted": 611403,
    "comp_count": 10,
-   "comp_ppsf": 138.9
+   "comp_ppsf": 134.0
   },
-  "60 TURNBURY DR|BOSSIER CITY": {
-   "predicted": 543816,
+  "1705 BENTON RD|BOSSIER CITY": {
+   "predicted": 149174,
    "comp_count": 10,
-   "comp_ppsf": 161.0
+   "comp_ppsf": 118.0
   },
-  "1603 BISTINEAU DR|BOSSIER CITY": {
-   "predicted": 344946,
+  "165 MYERS RD|BOSSIER CITY": {
+   "predicted": 300292,
    "comp_count": 10,
-   "comp_ppsf": 180.4
-  },
-  "2501 PALMETTO DR|BOSSIER CITY": {
-   "predicted": 228379,
-   "comp_count": 10,
-   "comp_ppsf": 132.8
-  },
-  "1425 CYNTHIA LN|BOSSIER CITY": {
-   "predicted": 122184,
-   "comp_count": 10,
-   "comp_ppsf": 118.9
-  },
-  "723 CREWE LN|BOSSIER CITY": {
-   "predicted": 286928,
-   "comp_count": 10,
-   "comp_ppsf": 146.9
-  },
-  "104 BELLE MAISON CT|BOSSIER CITY": {
-   "predicted": 659468,
-   "comp_count": 10,
-   "comp_ppsf": 142.0
-  },
-  "2675 SWAN LAKE RD|BOSSIER CITY": {
-   "predicted": 324917,
-   "comp_count": 10,
-   "comp_ppsf": 144.2
-  },
-  "335 COPPICE PL|BOSSIER CITY": {
-   "predicted": 252874,
-   "comp_count": 10,
-   "comp_ppsf": 147.9
-  },
-  "5705 E TEXAS ST APT 16|BOSSIER CITY": {
-   "predicted": 118882,
-   "comp_count": 10,
-   "comp_ppsf": 113.9
-  },
-  "2327 LORECO ST|BOSSIER CITY": {
-   "predicted": 61190,
-   "comp_count": 10,
-   "comp_ppsf": 69.9
-  },
-  "2425 CHURCHILL DR|BOSSIER CITY": {
-   "predicted": 548295,
-   "comp_count": 10,
-   "comp_ppsf": 188.6
-  },
-  "115 COLQUITT ST|BOSSIER CITY": {
-   "predicted": 59903,
-   "comp_count": 10,
-   "comp_ppsf": 66.6
-  },
-  "6023 APPLEGATE CIR|BOSSIER CITY": {
-   "predicted": 350399,
-   "comp_count": 10,
-   "comp_ppsf": 177.1
-  },
-  "626 JOANNES ST|BOSSIER CITY": {
-   "predicted": 70440,
-   "comp_count": 10,
-   "comp_ppsf": 82.8
+   "comp_ppsf": 140.3
   },
   "3216 THUNDERBIRD LN|BOSSIER CITY": {
    "predicted": 204658,
    "comp_count": 10,
    "comp_ppsf": 144.2
   },
-  "119 DOVER CT|BOSSIER CITY": {
-   "predicted": 502304,
-   "comp_count": 10,
-   "comp_ppsf": 140.0
-  },
   "336 BRIARS CT|BOSSIER CITY": {
    "predicted": 520213,
    "comp_count": 10,
    "comp_ppsf": 180.9
+  },
+  "2675 SWAN LAKE RD|BOSSIER CITY": {
+   "predicted": 324917,
+   "comp_count": 10,
+   "comp_ppsf": 144.2
+  },
+  "5651 BITTERSWEET DR|BOSSIER CITY": {
+   "predicted": 235462,
+   "comp_count": 10,
+   "comp_ppsf": 111.8
+  },
+  "2636 BROWN ST|BOSSIER CITY": {
+   "predicted": 269115,
+   "comp_count": 10,
+   "comp_ppsf": 145.1
+  },
+  "715 ESAU AVE|BOSSIER CITY": {
+   "predicted": 276025,
+   "comp_count": 10,
+   "comp_ppsf": 149.4
+  },
+  "5319 BARBERRY LN|BOSSIER CITY": {
+   "predicted": 280169,
+   "comp_count": 10,
+   "comp_ppsf": 152.7
+  },
+  "2526 DOWNS CIR|BOSSIER CITY": {
+   "predicted": 232497,
+   "comp_count": 10,
+   "comp_ppsf": 154.7
+  },
+  "198 N BEACH DR|BOSSIER CITY": {
+   "predicted": 695821,
+   "comp_count": 10,
+   "comp_ppsf": 142.0
+  },
+  "275 FERRY LAKE DR|BOSSIER CITY": {
+   "predicted": 307403,
+   "comp_count": 10,
+   "comp_ppsf": 155.6
+  },
+  "205 TEALWOOD DR|BOSSIER CITY": {
+   "predicted": 592997,
+   "comp_count": 10,
+   "comp_ppsf": 146.6
+  },
+  "405 EDGEMONT DR|BOSSIER CITY": {
+   "predicted": 303069,
+   "comp_count": 10,
+   "comp_ppsf": 150.4
+  },
+  "1603 BISTINEAU DR|BOSSIER CITY": {
+   "predicted": 344946,
+   "comp_count": 10,
+   "comp_ppsf": 180.4
+  },
+  "111 KATY LN|BOSSIER CITY": {
+   "predicted": 264626,
+   "comp_count": 10,
+   "comp_ppsf": 145.7
+  },
+  "214 APALACHEE WAY|BOSSIER CITY": {
+   "predicted": 299452,
+   "comp_count": 10,
+   "comp_ppsf": 155.6
+  },
+  "60 TURNBURY DR|BOSSIER CITY": {
+   "predicted": 543816,
+   "comp_count": 10,
+   "comp_ppsf": 161.0
+  },
+  "2425 CHURCHILL DR|BOSSIER CITY": {
+   "predicted": 548295,
+   "comp_count": 10,
+   "comp_ppsf": 188.6
+  },
+  "6023 APPLEGATE CIR|BOSSIER CITY": {
+   "predicted": 350399,
+   "comp_count": 10,
+   "comp_ppsf": 177.1
+  },
+  "736 CREWE LN|BOSSIER CITY": {
+   "predicted": 318427,
+   "comp_count": 10,
+   "comp_ppsf": 162.4
   },
   "814 DUMAINE DR|BOSSIER CITY": {
    "predicted": 347370,
    "comp_count": 10,
    "comp_ppsf": 149.1
   },
+  "2519 DOWNS ST|BOSSIER CITY": {
+   "predicted": 132749,
+   "comp_count": 10,
+   "comp_ppsf": 107.2
+  },
+  "119 DOVER CT|BOSSIER CITY": {
+   "predicted": 502304,
+   "comp_count": 10,
+   "comp_ppsf": 140.0
+  },
+  "2501 PALMETTO DR|BOSSIER CITY": {
+   "predicted": 228379,
+   "comp_count": 10,
+   "comp_ppsf": 132.8
+  },
+  "329 AUTUMN RIDGE DR|BOSSIER CITY": {
+   "predicted": 491640,
+   "comp_count": 10,
+   "comp_ppsf": 159.6
+  },
+  "723 CREWE LN|BOSSIER CITY": {
+   "predicted": 286928,
+   "comp_count": 10,
+   "comp_ppsf": 146.9
+  },
+  "206 TYMARK DR|BOSSIER CITY": {
+   "predicted": 412936,
+   "comp_count": 10,
+   "comp_ppsf": 170.8
+  },
+  "104 BELLE MAISON CT|BOSSIER CITY": {
+   "predicted": 659468,
+   "comp_count": 10,
+   "comp_ppsf": 142.0
+  },
+  "2728 CAPLIS SLIGO PLANTATION DR|BOSSIER CITY": {
+   "predicted": 347598,
+   "comp_count": 10,
+   "comp_ppsf": 181.7
+  },
+  "115 COLQUITT ST|BOSSIER CITY": {
+   "predicted": 59903,
+   "comp_count": 10,
+   "comp_ppsf": 66.6
+  },
   "106 THOMPSON ST|BOSSIER CITY": {
    "predicted": 181930,
    "comp_count": 10,
    "comp_ppsf": 127.1
-  },
-  "750 HACKBERRY DR|BOSSIER CITY": {
-   "predicted": 305053,
-   "comp_count": 10,
-   "comp_ppsf": 162.4
   },
   "2224 BROWNLEE RD|BOSSIER CITY": {
    "predicted": 484218,
    "comp_count": 10,
    "comp_ppsf": 181.4
   },
+  "5705 E TEXAS ST APT 16|BOSSIER CITY": {
+   "predicted": 118882,
+   "comp_count": 10,
+   "comp_ppsf": 113.9
+  },
+  "672 DUMAINE DR|BOSSIER CITY": {
+   "predicted": 474775,
+   "comp_count": 10,
+   "comp_ppsf": 180.4
+  },
+  "218 BARCLAY BLVD|BOSSIER CITY": {
+   "predicted": 300038,
+   "comp_count": 10,
+   "comp_ppsf": 155.9
+  },
   "5763 SUMNER LN|BOSSIER CITY": {
    "predicted": 299871,
    "comp_count": 10,
    "comp_ppsf": 140.3
+  },
+  "2327 LORECO ST|BOSSIER CITY": {
+   "predicted": 61190,
+   "comp_count": 10,
+   "comp_ppsf": 69.9
+  },
+  "1925 MCCALL ST|BOSSIER CITY": {
+   "predicted": 140393,
+   "comp_count": 10,
+   "comp_ppsf": 130.6
+  },
+  "308 HENDRY DR|BOSSIER CITY": {
+   "predicted": 276025,
+   "comp_count": 10,
+   "comp_ppsf": 149.4
+  },
+  "3373 GRAND LAKE DR|BOSSIER CITY": {
+   "predicted": 247400,
+   "comp_count": 10,
+   "comp_ppsf": 190.7
+  },
+  "3135 LE OAKS DR|BOSSIER CITY": {
+   "predicted": 183305,
+   "comp_count": 10,
+   "comp_ppsf": 138.9
+  },
+  "750 HACKBERRY DR|BOSSIER CITY": {
+   "predicted": 309996,
+   "comp_count": 10,
+   "comp_ppsf": 165.1
+  },
+  "128 SOUTHWOOD DR|BOSSIER CITY": {
+   "predicted": 404813,
+   "comp_count": 10,
+   "comp_ppsf": 168.8
+  },
+  "1425 CYNTHIA LN|BOSSIER CITY": {
+   "predicted": 122184,
+   "comp_count": 10,
+   "comp_ppsf": 118.9
+  },
+  "335 COPPICE PL|BOSSIER CITY": {
+   "predicted": 252874,
+   "comp_count": 10,
+   "comp_ppsf": 147.9
+  },
+  "2491 CAPLIS SLIGO RD|BOSSIER CITY": {
+   "predicted": 531281,
+   "comp_count": 10,
+   "comp_ppsf": 187.1
+  },
+  "1407 EDGEMONT CIR|BOSSIER CITY": {
+   "predicted": 262156,
+   "comp_count": 10,
+   "comp_ppsf": 160.0
   },
   "418 HERITAGE DR|BOSSIER CITY": {
    "predicted": 332166,
    "comp_count": 10,
    "comp_ppsf": 167.3
   },
-  "239 SAINT EDMUNDS WAY|BOSSIER CITY": {
-   "predicted": 276025,
+  "404 BLANCHARD LOOP|BOSSIER CITY": {
+   "predicted": 272130,
    "comp_count": 10,
-   "comp_ppsf": 149.4
+   "comp_ppsf": 147.5
+  },
+  "798 DUMAINE DR|BOSSIER CITY": {
+   "predicted": 315079,
+   "comp_count": 10,
+   "comp_ppsf": 137.9
+  },
+  "106 VIEUX CARRE|BOSSIER CITY": {
+   "predicted": 492867,
+   "comp_count": 10,
+   "comp_ppsf": 170.5
+  },
+  "2110 BELLE GROVE DR|BOSSIER CITY": {
+   "predicted": 269164,
+   "comp_count": 10,
+   "comp_ppsf": 127.2
+  },
+  "1104 ELI CONNOR DR|BOSSIER CITY": {
+   "predicted": 281277,
+   "comp_count": 10,
+   "comp_ppsf": 151.4
+  },
+  "828 BRITTANY LN|BOSSIER CITY": {
+   "predicted": 491640,
+   "comp_count": 10,
+   "comp_ppsf": 159.6
+  },
+  "234 TIDEWATER CIR|BOSSIER CITY": {
+   "predicted": 536979,
+   "comp_count": 10,
+   "comp_ppsf": 195.0
+  },
+  "508 J R DR|BOSSIER CITY": {
+   "predicted": 292091,
+   "comp_count": 10,
+   "comp_ppsf": 149.8
   },
   "1514 TEEKELL ST|BOSSIER CITY": {
    "predicted": 137136,
@@ -1336,290 +1426,125 @@
    "comp_count": 10,
    "comp_ppsf": 154.5
   },
-  "404 BLANCHARD LOOP|BOSSIER CITY": {
-   "predicted": 272130,
-   "comp_count": 10,
-   "comp_ppsf": 147.5
-  },
-  "111 KATY LN|BOSSIER CITY": {
-   "predicted": 264626,
-   "comp_count": 10,
-   "comp_ppsf": 145.7
-  },
-  "3373 GRAND LAKE DR|BOSSIER CITY": {
-   "predicted": 247400,
-   "comp_count": 10,
-   "comp_ppsf": 190.7
-  },
-  "1506 HOLIDAY PL|BOSSIER CITY": {
-   "predicted": 279781,
-   "comp_count": 10,
-   "comp_ppsf": 153.2
-  },
-  "1510 HOLIDAY PL|BOSSIER CITY": {
-   "predicted": 195016,
-   "comp_count": 10,
-   "comp_ppsf": 150.4
-  },
-  "736 CREWE LN|BOSSIER CITY": {
-   "predicted": 318427,
-   "comp_count": 10,
-   "comp_ppsf": 162.4
-  },
-  "2519 DOWNS ST|BOSSIER CITY": {
-   "predicted": 132749,
-   "comp_count": 10,
-   "comp_ppsf": 107.2
-  },
-  "5338 HOLLYHOCK LN|BOSSIER CITY": {
-   "predicted": 228734,
-   "comp_count": 10,
-   "comp_ppsf": 156.2
-  },
-  "198 N BEACH DR|BOSSIER CITY": {
-   "predicted": 695821,
-   "comp_count": 10,
-   "comp_ppsf": 142.0
-  },
-  "115 ANDREW PL|BOSSIER CITY": {
-   "predicted": 305515,
-   "comp_count": 10,
-   "comp_ppsf": 157.4
-  },
-  "798 DUMAINE DR|BOSSIER CITY": {
-   "predicted": 315079,
-   "comp_count": 10,
-   "comp_ppsf": 137.9
-  },
-  "2217 GENERAL YORK CIR|BOSSIER CITY": {
-   "predicted": 154397,
-   "comp_count": 10,
-   "comp_ppsf": 124.9
-  },
-  "83 VICTORIAS DR|BOSSIER CITY": {
-   "predicted": 549529,
-   "comp_count": 10,
-   "comp_ppsf": 148.1
-  },
-  "103 CALAIS CT|BOSSIER CITY": {
-   "predicted": 382394,
-   "comp_count": 10,
-   "comp_ppsf": 158.1
-  },
   "105 LANCASHIRE DR|BOSSIER CITY": {
-   "predicted": 222637,
-   "comp_count": 10,
-   "comp_ppsf": 138.6
-  },
-  "1925 MCCALL ST|BOSSIER CITY": {
-   "predicted": 140393,
-   "comp_count": 10,
-   "comp_ppsf": 130.6
-  },
-  "1407 EDGEMONT CIR|BOSSIER CITY": {
-   "predicted": 262156,
-   "comp_count": 10,
-   "comp_ppsf": 160.0
-  },
-  "715 ESAU AVE|BOSSIER CITY": {
-   "predicted": 276025,
-   "comp_count": 10,
-   "comp_ppsf": 149.4
-  },
-  "2728 CAPLIS SLIGO PLANTATION DR|BOSSIER CITY": {
-   "predicted": 347598,
-   "comp_count": 10,
-   "comp_ppsf": 181.7
-  },
-  "129 ANDREW PL|BOSSIER CITY": {
    "predicted": 217370,
    "comp_count": 10,
    "comp_ppsf": 135.3
   },
-  "2491 CAPLIS SLIGO RD|BOSSIER CITY": {
-   "predicted": 531281,
+  "462 STACEY LN|BOSSIER CITY": {
+   "predicted": 346623,
    "comp_count": 10,
-   "comp_ppsf": 187.1
-  },
-  "2009 BELLE HAVEN DR|BOSSIER CITY": {
-   "predicted": 207132,
-   "comp_count": 10,
-   "comp_ppsf": 124.0
-  },
-  "128 SOUTHWOOD DR|BOSSIER CITY": {
-   "predicted": 404813,
-   "comp_count": 10,
-   "comp_ppsf": 168.8
-  },
-  "1104 ELI CONNOR DR|BOSSIER CITY": {
-   "predicted": 281277,
-   "comp_count": 10,
-   "comp_ppsf": 151.4
-  },
-  "234 TIDEWATER CIR|BOSSIER CITY": {
-   "predicted": 536979,
-   "comp_count": 10,
-   "comp_ppsf": 195.0
-  },
-  "672 DUMAINE DR|BOSSIER CITY": {
-   "predicted": 474775,
-   "comp_count": 10,
-   "comp_ppsf": 180.4
-  },
-  "221 HYPERION ST|BOSSIER CITY": {
-   "predicted": 263662,
-   "comp_count": 10,
-   "comp_ppsf": 148.1
-  },
-  "2579 BROADWAY DR|BOSSIER CITY": {
-   "predicted": 65840,
-   "comp_count": 10,
-   "comp_ppsf": 72.1
-  },
-  "106 VIEUX CARRE|BOSSIER CITY": {
-   "predicted": 492867,
-   "comp_count": 10,
-   "comp_ppsf": 170.5
-  },
-  "416 YARBOROUGH ST|BOSSIER CITY": {
-   "predicted": 107250,
-   "comp_count": 10,
-   "comp_ppsf": 114.6
-  },
-  "106 DEVEREAUX DR|BOSSIER CITY": {
-   "predicted": 278701,
-   "comp_count": 10,
-   "comp_ppsf": 134.6
-  },
-  "110 ESPLANADE CT|BOSSIER CITY": {
-   "predicted": 474033,
-   "comp_count": 10,
-   "comp_ppsf": 173.6
-  },
-  "2110 BELLE GROVE DR|BOSSIER CITY": {
-   "predicted": 269164,
-   "comp_count": 10,
-   "comp_ppsf": 127.2
-  },
-  "1208 PONTCHARTRAIN CT|BOSSIER CITY": {
-   "predicted": 324712,
-   "comp_count": 10,
-   "comp_ppsf": 164.2
-  },
-  "621 KELLY ST|BOSSIER CITY": {
-   "predicted": 105433,
-   "comp_count": 10,
-   "comp_ppsf": 102.2
-  },
-  "508 J R DR|BOSSIER CITY": {
-   "predicted": 292091,
-   "comp_count": 10,
-   "comp_ppsf": 149.8
-  },
-  "2500 MELROSE AVE|BOSSIER CITY": {
-   "predicted": 305363,
-   "comp_count": 10,
-   "comp_ppsf": 159.2
-  },
-  "1410 WILLIAMSBURG DR|BOSSIER CITY": {
-   "predicted": 192684,
-   "comp_count": 10,
-   "comp_ppsf": 148.7
-  },
-  "828 BRITTANY LN|BOSSIER CITY": {
-   "predicted": 491640,
-   "comp_count": 10,
-   "comp_ppsf": 159.6
-  },
-  "126 DOWNING CT|BOSSIER CITY": {
-   "predicted": 342408,
-   "comp_count": 10,
-   "comp_ppsf": 146.4
+   "comp_ppsf": 148.5
   },
   "3911 PKWY DR|BOSSIER CITY": {
    "predicted": 344586,
    "comp_count": 10,
    "comp_ppsf": 180.4
   },
-  "1996 WILD IRIS|BOSSIER CITY": {
-   "predicted": 146492,
-   "comp_count": 10,
-   "comp_ppsf": 101.6
-  },
-  "1808 EMBERWOOD CIR|BOSSIER CITY": {
-   "predicted": 357857,
-   "comp_count": 10,
-   "comp_ppsf": 152.0
-  },
-  "421 EDWARDS ST|BOSSIER CITY": {
-   "predicted": 103180,
-   "comp_count": 10,
-   "comp_ppsf": 109.4
-  },
-  "1913 CHRISTINE AVE|BOSSIER CITY": {
-   "predicted": 259493,
-   "comp_count": 10,
-   "comp_ppsf": 168.0
-  },
-  "1819 ALISON AVE|BOSSIER CITY": {
-   "predicted": 302298,
-   "comp_count": 10,
-   "comp_ppsf": 151.1
-  },
-  "228 TIDEWATER CIR|BOSSIER CITY": {
-   "predicted": 450905,
-   "comp_count": 10,
-   "comp_ppsf": 166.9
-  },
-  "419 HALF MOON LN|BOSSIER CITY": {
-   "predicted": 256459,
-   "comp_count": 10,
-   "comp_ppsf": 145.6
-  },
-  "2300 BROOKHAVEN DR|BOSSIER CITY": {
-   "predicted": 302338,
-   "comp_count": 10,
-   "comp_ppsf": 154.4
-  },
   "205 SUMMERTREE CT|BOSSIER CITY": {
    "predicted": 535556,
    "comp_count": 10,
    "comp_ppsf": 159.1
   },
-  "313 JOANNES ST|BOSSIER CITY": {
-   "predicted": 52144,
+  "5338 HOLLYHOCK LN|BOSSIER CITY": {
+   "predicted": 228734,
    "comp_count": 10,
-   "comp_ppsf": 62.7
+   "comp_ppsf": 156.2
   },
-  "743 DUCKWATER LNDG|BOSSIER CITY": {
-   "predicted": 542356,
+  "626 JOANNES ST|BOSSIER CITY": {
+   "predicted": 70440,
    "comp_count": 10,
-   "comp_ppsf": 162.7
+   "comp_ppsf": 82.8
   },
-  "39 VICTORIAS DR|BOSSIER CITY": {
-   "predicted": 594940,
+  "1208 PONTCHARTRAIN CT|BOSSIER CITY": {
+   "predicted": 324712,
    "comp_count": 10,
-   "comp_ppsf": 171.0
+   "comp_ppsf": 164.2
   },
-  "342 ANTIETAM DR|BOSSIER CITY": {
-   "predicted": 306079,
+  "2217 GENERAL YORK CIR|BOSSIER CITY": {
+   "predicted": 154397,
    "comp_count": 10,
-   "comp_ppsf": 153.1
+   "comp_ppsf": 124.9
+  },
+  "129 ANDREW PL|BOSSIER CITY": {
+   "predicted": 217370,
+   "comp_count": 10,
+   "comp_ppsf": 135.3
   },
   "713 ABITA CHASE|BOSSIER CITY": {
    "predicted": 350486,
    "comp_count": 10,
    "comp_ppsf": 176.7
   },
-  "206 TYMARK DR|BOSSIER CITY": {
-   "predicted": 412936,
+  "83 VICTORIAS DR|BOSSIER CITY": {
+   "predicted": 549529,
    "comp_count": 10,
-   "comp_ppsf": 170.8
+   "comp_ppsf": 148.1
   },
-  "1612 HILL ST|BOSSIER CITY": {
-   "predicted": 39928,
+  "110 ESPLANADE CT|BOSSIER CITY": {
+   "predicted": 474033,
    "comp_count": 10,
-   "comp_ppsf": 44.4
+   "comp_ppsf": 173.6
+  },
+  "1808 EMBERWOOD CIR|BOSSIER CITY": {
+   "predicted": 357857,
+   "comp_count": 10,
+   "comp_ppsf": 152.0
+  },
+  "4938 SWAN LAKE RD|BOSSIER CITY": {
+   "predicted": 207000,
+   "comp_count": 10,
+   "comp_ppsf": 128.6
+  },
+  "115 ANDREW PL|BOSSIER CITY": {
+   "predicted": 305515,
+   "comp_count": 10,
+   "comp_ppsf": 157.4
+  },
+  "419 HALF MOON LN|BOSSIER CITY": {
+   "predicted": 256459,
+   "comp_count": 10,
+   "comp_ppsf": 145.6
+  },
+  "106 DEVEREAUX DR|BOSSIER CITY": {
+   "predicted": 278701,
+   "comp_count": 10,
+   "comp_ppsf": 134.6
+  },
+  "221 HYPERION ST|BOSSIER CITY": {
+   "predicted": 263662,
+   "comp_count": 10,
+   "comp_ppsf": 148.1
+  },
+  "2009 BELLE HAVEN DR|BOSSIER CITY": {
+   "predicted": 207132,
+   "comp_count": 10,
+   "comp_ppsf": 124.0
+  },
+  "103 CALAIS CT|BOSSIER CITY": {
+   "predicted": 382394,
+   "comp_count": 10,
+   "comp_ppsf": 158.1
+  },
+  "2300 BROOKHAVEN DR|BOSSIER CITY": {
+   "predicted": 302338,
+   "comp_count": 10,
+   "comp_ppsf": 154.4
+  },
+  "220 WALNUT LN|BOSSIER CITY": {
+   "predicted": 435939,
+   "comp_count": 10,
+   "comp_ppsf": 167.0
+  },
+  "1356 QUINCY DR|BOSSIER CITY": {
+   "predicted": 259429,
+   "comp_count": 10,
+   "comp_ppsf": 125.8
+  },
+  "500 PERFECT PL|BOSSIER CITY": {
+   "predicted": 314016,
+   "comp_count": 10,
+   "comp_ppsf": 158.6
   },
   "173 SOUTHWOOD DR|BOSSIER CITY": {
    "predicted": 344001,
@@ -1631,455 +1556,520 @@
    "comp_count": 10,
    "comp_ppsf": 187.5
   },
-  "267 POYDRAS AVE|BOSSIER CITY": {
-   "predicted": 489286,
+  "621 KELLY ST|BOSSIER CITY": {
+   "predicted": 105433,
    "comp_count": 10,
-   "comp_ppsf": 170.5
-  },
-  "302 BEVLY LAKE DR|BOSSIER CITY": {
-   "predicted": 546164,
-   "comp_count": 10,
-   "comp_ppsf": 192.0
-  },
-  "217 APALACHEE WAY|BOSSIER CITY": {
-   "predicted": 300004,
-   "comp_count": 10,
-   "comp_ppsf": 159.2
-  },
-  "1331 PECAN SQ|BOSSIER CITY": {
-   "predicted": 136627,
-   "comp_count": 10,
-   "comp_ppsf": 127.5
-  },
-  "926 CHISOLM TRL|BOSSIER CITY": {
-   "predicted": 266681,
-   "comp_count": 10,
-   "comp_ppsf": 135.6
-  },
-  "509 PARKLANE DR|BOSSIER CITY": {
-   "predicted": 300817,
-   "comp_count": 10,
-   "comp_ppsf": 155.9
-  },
-  "623 KELLY ST|BOSSIER CITY": {
-   "predicted": 79286,
-   "comp_count": 10,
-   "comp_ppsf": 71.8
+   "comp_ppsf": 102.2
   },
   "1519 FOX ST|BOSSIER CITY": {
    "predicted": 252075,
    "comp_count": 10,
    "comp_ppsf": 154.3
   },
-  "107 LAKEWOOD PT DR|BOSSIER CITY": {
-   "predicted": 659745,
+  "421 EDWARDS ST|BOSSIER CITY": {
+   "predicted": 103180,
    "comp_count": 10,
-   "comp_ppsf": 171.1
+   "comp_ppsf": 109.4
   },
-  "4938 SWAN LAKE RD|BOSSIER CITY": {
-   "predicted": 208500,
+  "1612 HILL ST|BOSSIER CITY": {
+   "predicted": 39928,
    "comp_count": 10,
-   "comp_ppsf": 129.5
+   "comp_ppsf": 44.4
   },
-  "462 STACEY LN|BOSSIER CITY": {
-   "predicted": 346623,
+  "623 KELLY ST|BOSSIER CITY": {
+   "predicted": 79286,
    "comp_count": 10,
-   "comp_ppsf": 148.5
+   "comp_ppsf": 71.8
   },
-  "5315 HOLLYHOCK LN|BOSSIER CITY": {
-   "predicted": 187461,
+  "267 POYDRAS AVE|BOSSIER CITY": {
+   "predicted": 489286,
    "comp_count": 10,
-   "comp_ppsf": 133.9
+   "comp_ppsf": 170.5
   },
-  "2615 ORMOND PL|BOSSIER CITY": {
-   "predicted": 247025,
+  "239 SAINT EDMUNDS WAY|BOSSIER CITY": {
+   "predicted": 276025,
    "comp_count": 10,
-   "comp_ppsf": 136.1
+   "comp_ppsf": 149.4
   },
-  "823 VENECIA DR|BOSSIER CITY": {
-   "predicted": 183444,
+  "2500 MELROSE AVE|BOSSIER CITY": {
+   "predicted": 305363,
    "comp_count": 10,
-   "comp_ppsf": 138.9
-  },
-  "532 HUNTERS RUN|BOSSIER CITY": {
-   "predicted": 555464,
-   "comp_count": 10,
-   "comp_ppsf": 184.6
-  },
-  "6005 HOLLYHOCK LN|BOSSIER CITY": {
-   "predicted": 195952,
-   "comp_count": 10,
-   "comp_ppsf": 131.0
-  },
-  "504 YARBOROUGH ST|BOSSIER CITY": {
-   "predicted": 116438,
-   "comp_count": 10,
-   "comp_ppsf": 114.6
-  },
-  "3301 COLONIAL DR|BOSSIER CITY": {
-   "predicted": 286100,
-   "comp_count": 10,
-   "comp_ppsf": 158.4
-  },
-  "220 WALNUT LN|BOSSIER CITY": {
-   "predicted": 435939,
-   "comp_count": 10,
-   "comp_ppsf": 167.0
-  },
-  "125 ANDREW PL|BOSSIER CITY": {
-   "predicted": 245493,
-   "comp_count": 10,
-   "comp_ppsf": 160.7
-  },
-  "1647 HOLIDAY BLVD|BOSSIER CITY": {
-   "predicted": 142635,
-   "comp_count": 10,
-   "comp_ppsf": 119.3
+   "comp_ppsf": 159.2
   },
   "342 PEASON RDG|BOSSIER CITY": {
    "predicted": 559159,
    "comp_count": 10,
    "comp_ppsf": 193.8
   },
-  "702 PERFECT PL|BOSSIER CITY": {
-   "predicted": 247476,
-   "comp_count": 10,
-   "comp_ppsf": 150.2
-  },
-  "105 ESPLANADE CT|BOSSIER CITY": {
-   "predicted": 548699,
-   "comp_count": 10,
-   "comp_ppsf": 136.7
-  },
-  "4404 SUN VALLEY DR|BOSSIER CITY": {
-   "predicted": 344586,
-   "comp_count": 10,
-   "comp_ppsf": 180.4
-  },
-  "2302 TALLGRASS CIR|BOSSIER CITY": {
-   "predicted": 300817,
-   "comp_count": 10,
-   "comp_ppsf": 155.9
-  },
-  "1356 QUINCY DR|BOSSIER CITY": {
-   "predicted": 259429,
-   "comp_count": 10,
-   "comp_ppsf": 125.8
-  },
-  "1404 HOLIDAY PL|BOSSIER CITY": {
-   "predicted": 265070,
-   "comp_count": 10,
-   "comp_ppsf": 148.5
-  },
-  "614 BLOOMINGTON LN|BOSSIER CITY": {
-   "predicted": 317562,
-   "comp_count": 10,
-   "comp_ppsf": 159.7
-  },
-  "110 OAKLAWN DR|BOSSIER CITY": {
-   "predicted": 387346,
-   "comp_count": 10,
-   "comp_ppsf": 151.4
-  },
-  "1928 VALDEMAR PL|BOSSIER CITY": {
-   "predicted": 262581,
-   "comp_count": 10,
-   "comp_ppsf": 156.3
-  },
-  "784 CROZIER DR|BOSSIER CITY": {
-   "predicted": 278414,
-   "comp_count": 10,
-   "comp_ppsf": 150.4
-  },
-  "208 S YOUREE ST|BOSSIER CITY": {
-   "predicted": 182611,
-   "comp_count": 10,
-   "comp_ppsf": 138.9
-  },
-  "214 S YOUREE ST|BOSSIER CITY": {
-   "predicted": 452935,
-   "comp_count": 10,
-   "comp_ppsf": 162.0
-  },
-  "717 CREWE LN|BOSSIER CITY": {
-   "predicted": 324132,
-   "comp_count": 10,
-   "comp_ppsf": 147.1
-  },
   "237 PEREGRINE WAY|BOSSIER CITY": {
    "predicted": 507935,
    "comp_count": 10,
    "comp_ppsf": 182.7
   },
-  "5420 PAMPUS LN|BOSSIER CITY": {
-   "predicted": 138888,
+  "3119 MALVERN ST|BOSSIER CITY": {
+   "predicted": 259756,
    "comp_count": 10,
-   "comp_ppsf": 95.9
+   "comp_ppsf": 150.1
   },
-  "433 HANCOCK DR|BOSSIER CITY": {
-   "predicted": 301506,
+  "416 YARBOROUGH ST|BOSSIER CITY": {
+   "predicted": 107250,
    "comp_count": 10,
-   "comp_ppsf": 153.5
+   "comp_ppsf": 114.6
+  },
+  "509 PARKLANE DR|BOSSIER CITY": {
+   "predicted": 300817,
+   "comp_count": 10,
+   "comp_ppsf": 155.9
+  },
+  "1819 ALISON AVE|BOSSIER CITY": {
+   "predicted": 302298,
+   "comp_count": 10,
+   "comp_ppsf": 151.1
+  },
+  "823 VENECIA DR|BOSSIER CITY": {
+   "predicted": 183444,
+   "comp_count": 10,
+   "comp_ppsf": 138.9
   },
   "704 CALCASIEU PASS|BOSSIER CITY": {
    "predicted": 553107,
    "comp_count": 10,
    "comp_ppsf": 152.7
   },
-  "642 CALEDONIA DR|BOSSIER CITY": {
-   "predicted": 529690,
+  "5315 HOLLYHOCK LN|BOSSIER CITY": {
+   "predicted": 187461,
    "comp_count": 10,
-   "comp_ppsf": 185.9
+   "comp_ppsf": 133.9
   },
-  "305 NIGHTFALL CT|BOSSIER CITY": {
-   "predicted": 503882,
+  "1506 HOLIDAY PL|BOSSIER CITY": {
+   "predicted": 279781,
    "comp_count": 10,
-   "comp_ppsf": 164.5
+   "comp_ppsf": 153.2
   },
-  "2611 PLANTATION DR|BOSSIER CITY": {
-   "predicted": 167115,
+  "313 JOANNES ST|BOSSIER CITY": {
+   "predicted": 52144,
    "comp_count": 10,
-   "comp_ppsf": 114.9
+   "comp_ppsf": 62.7
   },
-  "606 GLENSHIRE DR|BOSSIER CITY": {
-   "predicted": 333417,
+  "784 CROZIER DR|BOSSIER CITY": {
+   "predicted": 278414,
    "comp_count": 10,
-   "comp_ppsf": 148.7
+   "comp_ppsf": 150.4
   },
-  "400 PLAZA CIR|BOSSIER CITY": {
-   "predicted": 299557,
+  "302 BEVLY LAKE DR|BOSSIER CITY": {
+   "predicted": 546164,
    "comp_count": 10,
-   "comp_ppsf": 157.2
+   "comp_ppsf": 192.0
   },
-  "1431 FOX ST|BOSSIER CITY": {
-   "predicted": 251397,
+  "926 CHISOLM TRL|BOSSIER CITY": {
+   "predicted": 266681,
    "comp_count": 10,
-   "comp_ppsf": 147.1
+   "comp_ppsf": 135.6
   },
-  "1981 VALDEMAR PL|BOSSIER CITY": {
-   "predicted": 253797,
+  "3301 COLONIAL DR|BOSSIER CITY": {
+   "predicted": 286100,
    "comp_count": 10,
-   "comp_ppsf": 153.3
+   "comp_ppsf": 158.4
   },
-  "121 CARRIAGE SQUARE DR|BOSSIER CITY": {
-   "predicted": 168527,
+  "1404 HOLIDAY PL|BOSSIER CITY": {
+   "predicted": 265070,
    "comp_count": 10,
-   "comp_ppsf": 137.3
+   "comp_ppsf": 148.5
   },
-  "5138 HEATHERTON DR|BOSSIER CITY": {
-   "predicted": 185305,
+  "228 TIDEWATER CIR|BOSSIER CITY": {
+   "predicted": 450905,
    "comp_count": 10,
-   "comp_ppsf": 137.1
+   "comp_ppsf": 166.9
   },
-  "105 CALAIS CT|BOSSIER CITY": {
-   "predicted": 556638,
+  "1331 PECAN SQ|BOSSIER CITY": {
+   "predicted": 136627,
    "comp_count": 10,
-   "comp_ppsf": 148.1
-  },
-  "4021 GLEN ST|BOSSIER CITY": {
-   "predicted": 459753,
-   "comp_count": 10,
-   "comp_ppsf": 187.3
-  },
-  "310 COTTON POINTE|BOSSIER CITY": {
-   "predicted": 205033,
-   "comp_count": 10,
-   "comp_ppsf": 159.9
-  },
-  "715 CREWE LN|BOSSIER CITY": {
-   "predicted": 299452,
-   "comp_count": 10,
-   "comp_ppsf": 155.6
-  },
-  "519 CANTERBURY LN|BOSSIER CITY": {
-   "predicted": 482645,
-   "comp_count": 10,
-   "comp_ppsf": 155.7
-  },
-  "203 PAISLEY LN|BOSSIER CITY": {
-   "predicted": 292396,
-   "comp_count": 10,
-   "comp_ppsf": 154.5
-  },
-  "310 BROWNLEE CIR|BOSSIER CITY": {
-   "predicted": 247026,
-   "comp_count": 10,
-   "comp_ppsf": 150.2
-  },
-  "220 NORCROSS ST|BOSSIER CITY": {
-   "predicted": 553434,
-   "comp_count": 10,
-   "comp_ppsf": 184.6
-  },
-  "408 PERFECT PL|BOSSIER CITY": {
-   "predicted": 265511,
-   "comp_count": 10,
-   "comp_ppsf": 147.8
-  },
-  "605 KELLY ST|BOSSIER CITY": {
-   "predicted": 39928,
-   "comp_count": 10,
-   "comp_ppsf": 44.4
-  },
-  "227 PICCADILLY CIR|BOSSIER CITY": {
-   "predicted": 534179,
-   "comp_count": 10,
-   "comp_ppsf": 136.2
-  },
-  "589 CORINTH CIR|BOSSIER CITY": {
-   "predicted": 537392,
-   "comp_count": 10,
-   "comp_ppsf": 177.9
-  },
-  "2114 PINE ST|BOSSIER CITY": {
-   "predicted": 306232,
-   "comp_count": 10,
-   "comp_ppsf": 153.1
-  },
-  "3120 LE OAKS DR|BOSSIER CITY": {
-   "predicted": 149714,
-   "comp_count": 10,
-   "comp_ppsf": 122.2
-  },
-  "3922 PKWY DR|BOSSIER CITY": {
-   "predicted": 266410,
-   "comp_count": 10,
-   "comp_ppsf": 148.7
-  },
-  "5407 COACH RD|BOSSIER CITY": {
-   "predicted": 376987,
-   "comp_count": 10,
-   "comp_ppsf": 127.7
-  },
-  "335 PEASON RDG|BOSSIER CITY": {
-   "predicted": 339986,
-   "comp_count": 10,
-   "comp_ppsf": 171.4
-  },
-  "3235 SARAH ST|BOSSIER CITY": {
-   "predicted": 122929,
-   "comp_count": 10,
-   "comp_ppsf": 113.9
-  },
-  "224 ADAIR ST|BOSSIER CITY": {
-   "predicted": 154726,
-   "comp_count": 10,
-   "comp_ppsf": 135.3
-  },
-  "574 CORINTH CIR|BOSSIER CITY": {
-   "predicted": 537425,
-   "comp_count": 10,
-   "comp_ppsf": 165.3
-  },
-  "518 YALE PL|BOSSIER CITY": {
-   "predicted": 260647,
-   "comp_count": 10,
-   "comp_ppsf": 155.1
-  },
-  "354 HUNTERS HOLW|BOSSIER CITY": {
-   "predicted": 332166,
-   "comp_count": 10,
-   "comp_ppsf": 167.3
-  },
-  "319 JOHN WESLEY BLVD|BOSSIER CITY": {
-   "predicted": 136298,
-   "comp_count": 10,
-   "comp_ppsf": 117.5
-  },
-  "2320 BROADWAY DR|BOSSIER CITY": {
-   "predicted": 131060,
-   "comp_count": 10,
-   "comp_ppsf": 126.9
-  },
-  "217 LANCASHIRE DR|BOSSIER CITY": {
-   "predicted": 300272,
-   "comp_count": 10,
-   "comp_ppsf": 148.6
-  },
-  "434 STACEY LN|BOSSIER CITY": {
-   "predicted": 302524,
-   "comp_count": 10,
-   "comp_ppsf": 151.2
-  },
-  "507 FALL WINDS|BOSSIER CITY": {
-   "predicted": 563618,
-   "comp_count": 10,
-   "comp_ppsf": 159.8
-  },
-  "746 DUMAINE DR|BOSSIER CITY": {
-   "predicted": 364493,
-   "comp_count": 10,
-   "comp_ppsf": 154.3
-  },
-  "138 DOWNING CT|BOSSIER CITY": {
-   "predicted": 346326,
-   "comp_count": 10,
-   "comp_ppsf": 149.1
-  },
-  "175 RYE CIR|BOSSIER CITY": {
-   "predicted": 499953,
-   "comp_count": 10,
-   "comp_ppsf": 201.2
-  },
-  "12 CHEZ MOI DR|BOSSIER CITY": {
-   "predicted": 484847,
-   "comp_count": 10,
-   "comp_ppsf": 157.3
-  },
-  "744 CROZIER DR|BOSSIER CITY": {
-   "predicted": 276025,
-   "comp_count": 10,
-   "comp_ppsf": 149.4
-  },
-  "598 WHITEFIELD LN|BOSSIER CITY": {
-   "predicted": 170936,
-   "comp_count": 10,
-   "comp_ppsf": 127.7
-  },
-  "532 PARKLANE DR|BOSSIER CITY": {
-   "predicted": 489567,
-   "comp_count": 10,
-   "comp_ppsf": 151.3
-  },
-  "340 AVONDALE LN|BOSSIER CITY": {
-   "predicted": 361681,
-   "comp_count": 10,
-   "comp_ppsf": 157.3
+   "comp_ppsf": 127.5
   },
   "2518 CONRAD ST|BOSSIER CITY": {
    "predicted": 242741,
    "comp_count": 10,
    "comp_ppsf": 133.4
   },
-  "1607 DONALD DR|BOSSIER CITY": {
-   "predicted": 231259,
+  "1034 MAIZE ST|BOSSIER CITY": {
+   "predicted": 409102,
    "comp_count": 10,
-   "comp_ppsf": 147.5
+   "comp_ppsf": 167.2
   },
-  "3517 GRAND CANE LN|BOSSIER CITY": {
-   "predicted": 222913,
+  "138 DOWNING CT|BOSSIER CITY": {
+   "predicted": 346326,
    "comp_count": 10,
-   "comp_ppsf": 170.3
+   "comp_ppsf": 149.1
   },
-  "2604 ROSEDALE PL|BOSSIER CITY": {
-   "predicted": 182124,
+  "532 HUNTERS RUN|BOSSIER CITY": {
+   "predicted": 555464,
    "comp_count": 10,
-   "comp_ppsf": 131.6
+   "comp_ppsf": 184.6
+  },
+  "125 ANDREW PL|BOSSIER CITY": {
+   "predicted": 245493,
+   "comp_count": 10,
+   "comp_ppsf": 160.7
+  },
+  "2615 ORMOND PL|BOSSIER CITY": {
+   "predicted": 247025,
+   "comp_count": 10,
+   "comp_ppsf": 136.1
+  },
+  "105 ESPLANADE CT|BOSSIER CITY": {
+   "predicted": 548699,
+   "comp_count": 10,
+   "comp_ppsf": 136.7
+  },
+  "342 ANTIETAM DR|BOSSIER CITY": {
+   "predicted": 306079,
+   "comp_count": 10,
+   "comp_ppsf": 153.1
+  },
+  "743 DUCKWATER LNDG|BOSSIER CITY": {
+   "predicted": 542356,
+   "comp_count": 10,
+   "comp_ppsf": 162.7
+  },
+  "1410 WILLIAMSBURG DR|BOSSIER CITY": {
+   "predicted": 192684,
+   "comp_count": 10,
+   "comp_ppsf": 148.7
+  },
+  "107 LAKEWOOD PT DR|BOSSIER CITY": {
+   "predicted": 659745,
+   "comp_count": 10,
+   "comp_ppsf": 171.1
+  },
+  "220 NORCROSS ST|BOSSIER CITY": {
+   "predicted": 553434,
+   "comp_count": 10,
+   "comp_ppsf": 184.6
+  },
+  "214 S YOUREE ST|BOSSIER CITY": {
+   "predicted": 452935,
+   "comp_count": 10,
+   "comp_ppsf": 162.0
+  },
+  "110 OAKLAWN DR|BOSSIER CITY": {
+   "predicted": 387346,
+   "comp_count": 10,
+   "comp_ppsf": 151.4
+  },
+  "1996 WILD IRIS|BOSSIER CITY": {
+   "predicted": 146492,
+   "comp_count": 10,
+   "comp_ppsf": 101.6
+  },
+  "126 DOWNING CT|BOSSIER CITY": {
+   "predicted": 342408,
+   "comp_count": 10,
+   "comp_ppsf": 146.4
+  },
+  "39 VICTORIAS DR|BOSSIER CITY": {
+   "predicted": 594940,
+   "comp_count": 10,
+   "comp_ppsf": 171.0
+  },
+  "717 CREWE LN|BOSSIER CITY": {
+   "predicted": 324132,
+   "comp_count": 10,
+   "comp_ppsf": 147.1
+  },
+  "614 BLOOMINGTON LN|BOSSIER CITY": {
+   "predicted": 317562,
+   "comp_count": 10,
+   "comp_ppsf": 159.7
+  },
+  "1981 VALDEMAR PL|BOSSIER CITY": {
+   "predicted": 253797,
+   "comp_count": 10,
+   "comp_ppsf": 153.3
+  },
+  "2302 TALLGRASS CIR|BOSSIER CITY": {
+   "predicted": 300817,
+   "comp_count": 10,
+   "comp_ppsf": 155.9
+  },
+  "702 PERFECT PL|BOSSIER CITY": {
+   "predicted": 247476,
+   "comp_count": 10,
+   "comp_ppsf": 150.2
+  },
+  "606 GLENSHIRE DR|BOSSIER CITY": {
+   "predicted": 333417,
+   "comp_count": 10,
+   "comp_ppsf": 148.7
   },
   "213 KELLY ST|BOSSIER CITY": {
    "predicted": 57584,
    "comp_count": 10,
    "comp_ppsf": 73.6
   },
-  "2214 WAKEFIELD AVE|BOSSIER CITY": {
-   "predicted": 277714,
+  "519 CANTERBURY LN|BOSSIER CITY": {
+   "predicted": 482645,
    "comp_count": 10,
-   "comp_ppsf": 149.8
+   "comp_ppsf": 155.7
   },
-  "500 PERFECT PL|BOSSIER CITY": {
-   "predicted": 314016,
+  "2611 PLANTATION DR|BOSSIER CITY": {
+   "predicted": 167115,
    "comp_count": 10,
-   "comp_ppsf": 158.6
+   "comp_ppsf": 114.9
+  },
+  "1647 HOLIDAY BLVD|BOSSIER CITY": {
+   "predicted": 142635,
+   "comp_count": 10,
+   "comp_ppsf": 119.3
+  },
+  "1913 CHRISTINE AVE|BOSSIER CITY": {
+   "predicted": 259493,
+   "comp_count": 10,
+   "comp_ppsf": 168.0
+  },
+  "5138 HEATHERTON DR|BOSSIER CITY": {
+   "predicted": 185305,
+   "comp_count": 10,
+   "comp_ppsf": 137.1
+  },
+  "433 HANCOCK DR|BOSSIER CITY": {
+   "predicted": 301506,
+   "comp_count": 10,
+   "comp_ppsf": 153.5
+  },
+  "507 FALL WINDS|BOSSIER CITY": {
+   "predicted": 563618,
+   "comp_count": 10,
+   "comp_ppsf": 159.8
+  },
+  "1928 VALDEMAR PL|BOSSIER CITY": {
+   "predicted": 262581,
+   "comp_count": 10,
+   "comp_ppsf": 156.3
+  },
+  "574 CORINTH CIR|BOSSIER CITY": {
+   "predicted": 537425,
+   "comp_count": 10,
+   "comp_ppsf": 165.3
+  },
+  "105 CALAIS CT|BOSSIER CITY": {
+   "predicted": 556638,
+   "comp_count": 10,
+   "comp_ppsf": 148.1
+  },
+  "310 COTTON POINTE|BOSSIER CITY": {
+   "predicted": 205033,
+   "comp_count": 10,
+   "comp_ppsf": 159.9
+  },
+  "642 CALEDONIA DR|BOSSIER CITY": {
+   "predicted": 529690,
+   "comp_count": 10,
+   "comp_ppsf": 185.9
+  },
+  "1431 FOX ST|BOSSIER CITY": {
+   "predicted": 251397,
+   "comp_count": 10,
+   "comp_ppsf": 147.1
+  },
+  "217 APALACHEE WAY|BOSSIER CITY": {
+   "predicted": 300004,
+   "comp_count": 10,
+   "comp_ppsf": 159.2
+  },
+  "3495 GRAND CANE LN|BOSSIER CITY": {
+   "predicted": 249950,
+   "comp_count": 10,
+   "comp_ppsf": 192.7
+  },
+  "354 HUNTERS HOLW|BOSSIER CITY": {
+   "predicted": 332166,
+   "comp_count": 10,
+   "comp_ppsf": 167.3
+  },
+  "227 PICCADILLY CIR|BOSSIER CITY": {
+   "predicted": 534179,
+   "comp_count": 10,
+   "comp_ppsf": 136.2
+  },
+  "208 S YOUREE ST|BOSSIER CITY": {
+   "predicted": 182611,
+   "comp_count": 10,
+   "comp_ppsf": 138.9
+  },
+  "434 STACEY LN|BOSSIER CITY": {
+   "predicted": 302524,
+   "comp_count": 10,
+   "comp_ppsf": 151.2
+  },
+  "504 YARBOROUGH ST|BOSSIER CITY": {
+   "predicted": 116438,
+   "comp_count": 10,
+   "comp_ppsf": 114.6
+  },
+  "5407 COACH RD|BOSSIER CITY": {
+   "predicted": 376987,
+   "comp_count": 10,
+   "comp_ppsf": 127.7
+  },
+  "2579 BROADWAY DR|BOSSIER CITY": {
+   "predicted": 65840,
+   "comp_count": 10,
+   "comp_ppsf": 72.1
+  },
+  "3922 PKWY DR|BOSSIER CITY": {
+   "predicted": 266410,
+   "comp_count": 10,
+   "comp_ppsf": 148.7
+  },
+  "310 BROWNLEE CIR|BOSSIER CITY": {
+   "predicted": 247026,
+   "comp_count": 10,
+   "comp_ppsf": 150.2
+  },
+  "5420 PAMPUS LN|BOSSIER CITY": {
+   "predicted": 138888,
+   "comp_count": 10,
+   "comp_ppsf": 95.9
+  },
+  "4021 GLEN ST|BOSSIER CITY": {
+   "predicted": 451729,
+   "comp_count": 10,
+   "comp_ppsf": 182.9
+  },
+  "3235 SARAH ST|BOSSIER CITY": {
+   "predicted": 122929,
+   "comp_count": 10,
+   "comp_ppsf": 113.9
+  },
+  "532 PARKLANE DR|BOSSIER CITY": {
+   "predicted": 489567,
+   "comp_count": 10,
+   "comp_ppsf": 151.3
+  },
+  "408 PERFECT PL|BOSSIER CITY": {
+   "predicted": 265511,
+   "comp_count": 10,
+   "comp_ppsf": 147.8
+  },
+  "518 YALE PL|BOSSIER CITY": {
+   "predicted": 260647,
+   "comp_count": 10,
+   "comp_ppsf": 155.1
+  },
+  "121 CARRIAGE SQUARE DR|BOSSIER CITY": {
+   "predicted": 168527,
+   "comp_count": 10,
+   "comp_ppsf": 137.3
+  },
+  "319 JOHN WESLEY BLVD|BOSSIER CITY": {
+   "predicted": 136298,
+   "comp_count": 10,
+   "comp_ppsf": 117.5
+  },
+  "3120 LE OAKS DR|BOSSIER CITY": {
+   "predicted": 149714,
+   "comp_count": 10,
+   "comp_ppsf": 122.2
+  },
+  "203 PAISLEY LN|BOSSIER CITY": {
+   "predicted": 292396,
+   "comp_count": 10,
+   "comp_ppsf": 154.5
+  },
+  "217 LANCASHIRE DR|BOSSIER CITY": {
+   "predicted": 300272,
+   "comp_count": 10,
+   "comp_ppsf": 148.6
+  },
+  "715 CREWE LN|BOSSIER CITY": {
+   "predicted": 300038,
+   "comp_count": 10,
+   "comp_ppsf": 155.9
+  },
+  "224 ADAIR ST|BOSSIER CITY": {
+   "predicted": 154726,
+   "comp_count": 10,
+   "comp_ppsf": 135.3
+  },
+  "605 KELLY ST|BOSSIER CITY": {
+   "predicted": 39928,
+   "comp_count": 10,
+   "comp_ppsf": 44.4
+  },
+  "305 NIGHTFALL CT|BOSSIER CITY": {
+   "predicted": 503882,
+   "comp_count": 10,
+   "comp_ppsf": 164.5
+  },
+  "216 CULLOM DR|BOSSIER CITY": {
+   "predicted": 319239,
+   "comp_count": 10,
+   "comp_ppsf": 163.1
+  },
+  "175 RYE CIR|BOSSIER CITY": {
+   "predicted": 499953,
+   "comp_count": 10,
+   "comp_ppsf": 201.2
+  },
+  "400 PLAZA CIR|BOSSIER CITY": {
+   "predicted": 299557,
+   "comp_count": 10,
+   "comp_ppsf": 157.2
+  },
+  "176 N CANAL DR|BOSSIER CITY": {
+   "predicted": 388031,
+   "comp_count": 10,
+   "comp_ppsf": 130.8
+  },
+  "746 DUMAINE DR|BOSSIER CITY": {
+   "predicted": 364493,
+   "comp_count": 10,
+   "comp_ppsf": 154.3
+  },
+  "744 CROZIER DR|BOSSIER CITY": {
+   "predicted": 276025,
+   "comp_count": 10,
+   "comp_ppsf": 149.4
+  },
+  "2114 PINE ST|BOSSIER CITY": {
+   "predicted": 306232,
+   "comp_count": 10,
+   "comp_ppsf": 153.1
+  },
+  "340 AVONDALE LN|BOSSIER CITY": {
+   "predicted": 361681,
+   "comp_count": 10,
+   "comp_ppsf": 157.3
+  },
+  "340 HUNTERS HOLLOW DR|BOSSIER CITY": {
+   "predicted": 482646,
+   "comp_count": 10,
+   "comp_ppsf": 157.3
+  },
+  "601 KELLY ST|BOSSIER CITY": {
+   "predicted": 39928,
+   "comp_count": 10,
+   "comp_ppsf": 44.4
+  },
+  "2604 ROSEDALE PL|BOSSIER CITY": {
+   "predicted": 182124,
+   "comp_count": 10,
+   "comp_ppsf": 131.6
+  },
+  "2320 BROADWAY DR|BOSSIER CITY": {
+   "predicted": 131060,
+   "comp_count": 10,
+   "comp_ppsf": 126.9
+  },
+  "12 CHEZ MOI DR|BOSSIER CITY": {
+   "predicted": 484847,
+   "comp_count": 10,
+   "comp_ppsf": 157.3
+  },
+  "2410 STOCKWELL RD|BOSSIER CITY": {
+   "predicted": 221537,
+   "comp_count": 10,
+   "comp_ppsf": 133.0
   },
   "110 OVERBROOK LN|BOSSIER CITY": {
    "predicted": 555046,
@@ -2091,95 +2081,120 @@
    "comp_count": 10,
    "comp_ppsf": 146.8
   },
-  "1106 CAROLINE DR|BOSSIER CITY": {
-   "predicted": 262640,
+  "1359 QUINCY DR|BOSSIER CITY": {
+   "predicted": 280169,
    "comp_count": 10,
-   "comp_ppsf": 155.1
+   "comp_ppsf": 152.7
   },
-  "1318 PKWY CIR|BOSSIER CITY": {
-   "predicted": 278127,
+  "598 WHITEFIELD LN|BOSSIER CITY": {
+   "predicted": 170936,
    "comp_count": 10,
-   "comp_ppsf": 147.2
+   "comp_ppsf": 127.7
   },
-  "1034 MAIZE ST|BOSSIER CITY": {
-   "predicted": 409102,
+  "1607 DONALD DR|BOSSIER CITY": {
+   "predicted": 231259,
    "comp_count": 10,
-   "comp_ppsf": 167.2
-  },
-  "216 CULLOM DR|BOSSIER CITY": {
-   "predicted": 319239,
-   "comp_count": 10,
-   "comp_ppsf": 163.1
-  },
-  "601 KELLY ST|BOSSIER CITY": {
-   "predicted": 39928,
-   "comp_count": 10,
-   "comp_ppsf": 44.4
-  },
-  "719 CREWE LN|BOSSIER CITY": {
-   "predicted": 323773,
-   "comp_count": 10,
-   "comp_ppsf": 146.9
-  },
-  "4217 LOGAN ST|BOSSIER CITY": {
-   "predicted": 176475,
-   "comp_count": 10,
-   "comp_ppsf": 131.3
-  },
-  "323 OAKLAND PL|BOSSIER CITY": {
-   "predicted": 257915,
-   "comp_count": 10,
-   "comp_ppsf": 146.8
-  },
-  "806 SAINT CHARLES ST|BOSSIER CITY": {
-   "predicted": 112309,
-   "comp_count": 10,
-   "comp_ppsf": 118.2
-  },
-  "628 KELLY ST|BOSSIER CITY": {
-   "predicted": 74923,
-   "comp_count": 10,
-   "comp_ppsf": 79.2
-  },
-  "6254 W OXBOW LOOP UNIT 1|BOSSIER CITY": {
-   "predicted": 289544,
-   "comp_count": 10,
-   "comp_ppsf": 154.0
-  },
-  "643 YARBOROUGH ST|BOSSIER CITY": {
-   "predicted": 60384,
-   "comp_count": 10,
-   "comp_ppsf": 68.0
-  },
-  "517 TUPELO DR|BOSSIER CITY": {
-   "predicted": 331190,
-   "comp_count": 10,
-   "comp_ppsf": 143.1
-  },
-  "4908 DAHLIA DR|BOSSIER CITY": {
-   "predicted": 190071,
-   "comp_count": 10,
-   "comp_ppsf": 138.8
-  },
-  "317 KELLY ST|BOSSIER CITY": {
-   "predicted": 154990,
-   "comp_count": 10,
-   "comp_ppsf": 121.5
-  },
-  "3495 GRAND CANE LN|BOSSIER CITY": {
-   "predicted": 249950,
-   "comp_count": 10,
-   "comp_ppsf": 192.7
+   "comp_ppsf": 147.5
   },
   "5524 HICKORY RIDGE DR|BOSSIER CITY": {
    "predicted": 307236,
    "comp_count": 10,
    "comp_ppsf": 136.5
   },
+  "6254 W OXBOW LOOP UNIT 1|BOSSIER CITY": {
+   "predicted": 289544,
+   "comp_count": 10,
+   "comp_ppsf": 154.0
+  },
+  "806 SAINT CHARLES ST|BOSSIER CITY": {
+   "predicted": 112309,
+   "comp_count": 10,
+   "comp_ppsf": 118.2
+  },
+  "2214 WAKEFIELD AVE|BOSSIER CITY": {
+   "predicted": 277714,
+   "comp_count": 10,
+   "comp_ppsf": 149.8
+  },
+  "643 YARBOROUGH ST|BOSSIER CITY": {
+   "predicted": 60384,
+   "comp_count": 10,
+   "comp_ppsf": 68.0
+  },
+  "335 PEASON RDG|BOSSIER CITY": {
+   "predicted": 339986,
+   "comp_count": 10,
+   "comp_ppsf": 171.4
+  },
+  "323 OAKLAND PL|BOSSIER CITY": {
+   "predicted": 257915,
+   "comp_count": 10,
+   "comp_ppsf": 146.8
+  },
+  "2607 SWITCHGRASS DR|BOSSIER CITY": {
+   "predicted": 331999,
+   "comp_count": 10,
+   "comp_ppsf": 167.3
+  },
+  "719 CREWE LN|BOSSIER CITY": {
+   "predicted": 323773,
+   "comp_count": 10,
+   "comp_ppsf": 146.9
+  },
+  "4908 DAHLIA DR|BOSSIER CITY": {
+   "predicted": 190071,
+   "comp_count": 10,
+   "comp_ppsf": 138.8
+  },
+  "3517 GRAND CANE LN|BOSSIER CITY": {
+   "predicted": 222913,
+   "comp_count": 10,
+   "comp_ppsf": 170.3
+  },
+  "628 KELLY ST|BOSSIER CITY": {
+   "predicted": 74923,
+   "comp_count": 10,
+   "comp_ppsf": 79.2
+  },
+  "317 KELLY ST|BOSSIER CITY": {
+   "predicted": 154990,
+   "comp_count": 10,
+   "comp_ppsf": 121.5
+  },
+  "1229 WHITEHALL DR|BOSSIER CITY": {
+   "predicted": 541067,
+   "comp_count": 10,
+   "comp_ppsf": 168.8
+  },
+  "249 PEREGRINE WAY|BOSSIER CITY": {
+   "predicted": 528946,
+   "comp_count": 10,
+   "comp_ppsf": 185.9
+  },
+  "617 LABARRE LN|BOSSIER CITY": {
+   "predicted": 256740,
+   "comp_count": 10,
+   "comp_ppsf": 146.8
+  },
+  "1318 PKWY CIR|BOSSIER CITY": {
+   "predicted": 278127,
+   "comp_count": 10,
+   "comp_ppsf": 147.2
+  },
   "257 SAINT EDMUNDS WAY|BOSSIER CITY": {
    "predicted": 276025,
    "comp_count": 10,
    "comp_ppsf": 149.4
+  },
+  "819 ABITA CHASE|BOSSIER CITY": {
+   "predicted": 329000,
+   "comp_count": 10,
+   "comp_ppsf": 171.2
+  },
+  "589 CORINTH CIR|BOSSIER CITY": {
+   "predicted": 537392,
+   "comp_count": 10,
+   "comp_ppsf": 177.9
   },
   "5721 BLUEBONNETT DR|BOSSIER CITY": {
    "predicted": 250133,
@@ -2191,205 +2206,170 @@
    "comp_count": 10,
    "comp_ppsf": 158.6
   },
-  "340 HUNTERS HOLLOW DR|BOSSIER CITY": {
-   "predicted": 482646,
+  "1106 CAROLINE DR|BOSSIER CITY": {
+   "predicted": 262640,
    "comp_count": 10,
-   "comp_ppsf": 157.3
+   "comp_ppsf": 155.1
   },
-  "30 FAIRMONT CIR|BOSSIER CITY": {
-   "predicted": 579070,
+  "517 TUPELO DR|BOSSIER CITY": {
+   "predicted": 331190,
    "comp_count": 10,
-   "comp_ppsf": 146.6
-  },
-  "3119 MALVERN ST|BOSSIER CITY": {
-   "predicted": 259756,
-   "comp_count": 10,
-   "comp_ppsf": 150.1
-  },
-  "2522 BROOKHAVEN DR|BOSSIER CITY": {
-   "predicted": 259428,
-   "comp_count": 10,
-   "comp_ppsf": 157.5
-  },
-  "2607 SWITCHGRASS DR|BOSSIER CITY": {
-   "predicted": 331999,
-   "comp_count": 10,
-   "comp_ppsf": 167.3
-  },
-  "4735 REBOUCHE RD|BOSSIER CITY": {
-   "predicted": 302311,
-   "comp_count": 10,
-   "comp_ppsf": 147.2
-  },
-  "620 PERFECT PL|BOSSIER CITY": {
-   "predicted": 300004,
-   "comp_count": 10,
-   "comp_ppsf": 159.2
-  },
-  "348 PRIEN LAKE LOOP|BOSSIER CITY": {
-   "predicted": 339986,
-   "comp_count": 10,
-   "comp_ppsf": 171.4
-  },
-  "1129 BOONE ST|BOSSIER CITY": {
-   "predicted": 265068,
-   "comp_count": 10,
-   "comp_ppsf": 126.2
-  },
-  "607 KELLY ST|BOSSIER CITY": {
-   "predicted": 39928,
-   "comp_count": 10,
-   "comp_ppsf": 44.4
-  },
-  "5411 SAGE DR|BOSSIER CITY": {
-   "predicted": 300025,
-   "comp_count": 10,
-   "comp_ppsf": 152.2
-  },
-  "2001 NORMAND AVE|BOSSIER CITY": {
-   "predicted": 154225,
-   "comp_count": 10,
-   "comp_ppsf": 136.7
-  },
-  "2410 STOCKWELL RD|BOSSIER CITY": {
-   "predicted": 221537,
-   "comp_count": 10,
-   "comp_ppsf": 133.0
-  },
-  "520 CANTERBURY LN|BOSSIER CITY": {
-   "predicted": 624295,
-   "comp_count": 10,
-   "comp_ppsf": 169.7
-  },
-  "1229 WHITEHALL DR|BOSSIER CITY": {
-   "predicted": 541067,
-   "comp_count": 10,
-   "comp_ppsf": 168.8
-  },
-  "809 VENECIA DR|BOSSIER CITY": {
-   "predicted": 279781,
-   "comp_count": 10,
-   "comp_ppsf": 153.2
-  },
-  "1359 QUINCY DR|BOSSIER CITY": {
-   "predicted": 280169,
-   "comp_count": 10,
-   "comp_ppsf": 152.7
-  },
-  "106 FAIRMONT DR|BOSSIER CITY": {
-   "predicted": 556080,
-   "comp_count": 10,
-   "comp_ppsf": 136.7
+   "comp_ppsf": 143.1
   },
   "2610 PLANTATION DR|BOSSIER CITY": {
-   "predicted": 207129,
+   "predicted": 187116,
    "comp_count": 10,
-   "comp_ppsf": 128.6
-  },
-  "2481 CHURCHILL DR|BOSSIER CITY": {
-   "predicted": 636004,
-   "comp_count": 10,
-   "comp_ppsf": 169.7
-  },
-  "249 PEREGRINE WAY|BOSSIER CITY": {
-   "predicted": 528946,
-   "comp_count": 10,
-   "comp_ppsf": 185.9
-  },
-  "2000 ALISON AVE|BOSSIER CITY": {
-   "predicted": 142039,
-   "comp_count": 10,
-   "comp_ppsf": 119.3
+   "comp_ppsf": 116.1
   },
   "5016 TENSAS DR|BOSSIER CITY": {
    "predicted": 190349,
    "comp_count": 10,
    "comp_ppsf": 138.8
   },
-  "819 ABITA CHASE|BOSSIER CITY": {
-   "predicted": 329000,
+  "30 FAIRMONT CIR|BOSSIER CITY": {
+   "predicted": 579070,
    "comp_count": 10,
-   "comp_ppsf": 171.2
-  },
-  "176 N CANAL DR|BOSSIER CITY": {
-   "predicted": 388031,
-   "comp_count": 10,
-   "comp_ppsf": 130.8
-  },
-  "2325 LORECO ST|BOSSIER CITY": {
-   "predicted": 30389,
-   "comp_count": 10,
-   "comp_ppsf": 33.8
-  },
-  "2608 DOUGLAS DR|BOSSIER CITY": {
-   "predicted": 239228,
-   "comp_count": 10,
-   "comp_ppsf": 157.1
-  },
-  "2404 WAVERLY DR|BOSSIER CITY": {
-   "predicted": 242539,
-   "comp_count": 10,
-   "comp_ppsf": 148.6
-  },
-  "617 LABARRE LN|BOSSIER CITY": {
-   "predicted": 256740,
-   "comp_count": 10,
-   "comp_ppsf": 146.8
-  },
-  "200 EVANGELINE WALK|BOSSIER CITY": {
-   "predicted": 739984,
-   "comp_count": 10,
-   "comp_ppsf": 142.0
-  },
-  "3635 GREENACRES PL DR UNIT 336|BOSSIER CITY": {
-   "predicted": 320189,
-   "comp_count": 10,
-   "comp_ppsf": 146.0
+   "comp_ppsf": 146.6
   },
   "116 LILLIAN ST|BOSSIER CITY": {
    "predicted": 203522,
    "comp_count": 10,
    "comp_ppsf": 137.7
   },
-  "3469 GRAND CANE LN|BOSSIER CITY": {
-   "predicted": 247400,
+  "4217 LOGAN ST|BOSSIER CITY": {
+   "predicted": 176475,
    "comp_count": 10,
-   "comp_ppsf": 190.7
+   "comp_ppsf": 131.3
   },
-  "901 MANY ST|BOSSIER CITY": {
-   "predicted": 63854,
+  "6005 HOLLYHOCK LN|BOSSIER CITY": {
+   "predicted": 195952,
    "comp_count": 10,
-   "comp_ppsf": 83.1
+   "comp_ppsf": 131.0
+  },
+  "5814 CASPIANA LN|BOSSIER CITY": {
+   "predicted": 485168,
+   "comp_count": 10,
+   "comp_ppsf": 180.6
   },
   "1414 NOTTOWAY PL|BOSSIER CITY": {
    "predicted": 486344,
    "comp_count": 10,
    "comp_ppsf": 197.1
   },
-  "3301 DANBURY CT|BOSSIER CITY": {
-   "predicted": 139380,
+  "208 AFTON PL|BOSSIER CITY": {
+   "predicted": 243420,
+   "comp_count": 10,
+   "comp_ppsf": 158.9
+  },
+  "2001 NORMAND AVE|BOSSIER CITY": {
+   "predicted": 154225,
+   "comp_count": 10,
+   "comp_ppsf": 136.7
+  },
+  "607 KELLY ST|BOSSIER CITY": {
+   "predicted": 39928,
+   "comp_count": 10,
+   "comp_ppsf": 44.4
+  },
+  "106 FAIRMONT DR|BOSSIER CITY": {
+   "predicted": 556080,
+   "comp_count": 10,
+   "comp_ppsf": 136.7
+  },
+  "4735 REBOUCHE RD|BOSSIER CITY": {
+   "predicted": 302311,
+   "comp_count": 10,
+   "comp_ppsf": 147.2
+  },
+  "348 PRIEN LAKE LOOP|BOSSIER CITY": {
+   "predicted": 339986,
+   "comp_count": 10,
+   "comp_ppsf": 171.4
+  },
+  "520 CANTERBURY LN|BOSSIER CITY": {
+   "predicted": 624295,
+   "comp_count": 10,
+   "comp_ppsf": 169.7
+  },
+  "119 CARRIAGE SQUARE DR|BOSSIER CITY": {
+   "predicted": 138467,
    "comp_count": 10,
    "comp_ppsf": 114.2
+  },
+  "2325 LORECO ST|BOSSIER CITY": {
+   "predicted": 30389,
+   "comp_count": 10,
+   "comp_ppsf": 33.8
+  },
+  "200 EVANGELINE WALK|BOSSIER CITY": {
+   "predicted": 739984,
+   "comp_count": 10,
+   "comp_ppsf": 142.0
+  },
+  "2522 BROOKHAVEN DR|BOSSIER CITY": {
+   "predicted": 259428,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
+  },
+  "3635 GREENACRES PL DR UNIT 336|BOSSIER CITY": {
+   "predicted": 320189,
+   "comp_count": 10,
+   "comp_ppsf": 146.0
+  },
+  "3469 GRAND CANE LN|BOSSIER CITY": {
+   "predicted": 247400,
+   "comp_count": 10,
+   "comp_ppsf": 190.7
+  },
+  "2404 WAVERLY DR|BOSSIER CITY": {
+   "predicted": 242539,
+   "comp_count": 10,
+   "comp_ppsf": 148.6
+  },
+  "2481 CHURCHILL DR|BOSSIER CITY": {
+   "predicted": 636004,
+   "comp_count": 10,
+   "comp_ppsf": 169.7
+  },
+  "809 VENECIA DR|BOSSIER CITY": {
+   "predicted": 279781,
+   "comp_count": 10,
+   "comp_ppsf": 153.2
+  },
+  "4843 SAN ANTONE DR|BOSSIER CITY": {
+   "predicted": 142820,
+   "comp_count": 10,
+   "comp_ppsf": 114.3
+  },
+  "620 PERFECT PL|BOSSIER CITY": {
+   "predicted": 300004,
+   "comp_count": 10,
+   "comp_ppsf": 159.2
+  },
+  "1129 BOONE ST|BOSSIER CITY": {
+   "predicted": 265068,
+   "comp_count": 10,
+   "comp_ppsf": 126.2
+  },
+  "901 MANY ST|BOSSIER CITY": {
+   "predicted": 63854,
+   "comp_count": 10,
+   "comp_ppsf": 83.1
   },
   "215 PAISLEY LN|BOSSIER CITY": {
    "predicted": 268762,
    "comp_count": 10,
    "comp_ppsf": 154.5
   },
+  "3501 NIKKI LYNN DR|BOSSIER CITY": {
+   "predicted": 220007,
+   "comp_count": 10,
+   "comp_ppsf": 136.8
+  },
   "2109 CHRISTINE AVE|BOSSIER CITY": {
    "predicted": 237814,
    "comp_count": 10,
    "comp_ppsf": 157.1
-  },
-  "3513 HANOVER DR|BOSSIER CITY": {
-   "predicted": 201247,
-   "comp_count": 10,
-   "comp_ppsf": 124.5
-  },
-  "2621 TRICHEL ST|BOSSIER CITY": {
-   "predicted": 66930,
-   "comp_count": 10,
-   "comp_ppsf": 83.1
   },
   "3471 GRAND CANE LN|BOSSIER CITY": {
    "predicted": 245474,
@@ -2401,20 +2381,100 @@
    "comp_count": 10,
    "comp_ppsf": 163.1
   },
-  "2021 SHADY GROVE DR|BOSSIER CITY": {
-   "predicted": 260309,
+  "222 JASMINE WALK|BOSSIER CITY": {
+   "predicted": 310326,
    "comp_count": 10,
-   "comp_ppsf": 125.8
+   "comp_ppsf": 165.1
+  },
+  "4605 BIRDWELL LN|BOSSIER CITY": {
+   "predicted": 164685,
+   "comp_count": 10,
+   "comp_ppsf": 144.5
+  },
+  "5411 SAGE DR|BOSSIER CITY": {
+   "predicted": 300025,
+   "comp_count": 10,
+   "comp_ppsf": 152.2
   },
   "489 PRESERVE BLVD|BOSSIER CITY": {
    "predicted": 519319,
    "comp_count": 10,
    "comp_ppsf": 167.9
   },
+  "326 GASTON LN|BOSSIER CITY": {
+   "predicted": 242539,
+   "comp_count": 10,
+   "comp_ppsf": 148.6
+  },
+  "2000 ALISON AVE|BOSSIER CITY": {
+   "predicted": 142039,
+   "comp_count": 10,
+   "comp_ppsf": 119.3
+  },
+  "923 CHISOLM TRL|BOSSIER CITY": {
+   "predicted": 316202,
+   "comp_count": 10,
+   "comp_ppsf": 156.9
+  },
+  "2608 DOUGLAS DR|BOSSIER CITY": {
+   "predicted": 239228,
+   "comp_count": 10,
+   "comp_ppsf": 157.1
+  },
+  "2621 TRICHEL ST|BOSSIER CITY": {
+   "predicted": 66930,
+   "comp_count": 10,
+   "comp_ppsf": 83.1
+  },
+  "3301 DANBURY CT|BOSSIER CITY": {
+   "predicted": 139380,
+   "comp_count": 10,
+   "comp_ppsf": 114.2
+  },
+  "3080 DUBLIN WAY|BOSSIER CITY": {
+   "predicted": 185716,
+   "comp_count": 10,
+   "comp_ppsf": 137.1
+  },
   "2524 BROADWAY DR|BOSSIER CITY": {
    "predicted": 152946,
    "comp_count": 10,
    "comp_ppsf": 120.8
+  },
+  "613 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 28000,
+   "comp_count": 10,
+   "comp_ppsf": 54.3
+  },
+  "313 CHANCELLORSVILLE CT|BOSSIER CITY": {
+   "predicted": 261049,
+   "comp_count": 10,
+   "comp_ppsf": 146.9
+  },
+  "5317 JONQUIL ST|BOSSIER CITY": {
+   "predicted": 116451,
+   "comp_count": 10,
+   "comp_ppsf": 110.7
+  },
+  "1610 HILL ST|BOSSIER CITY": {
+   "predicted": 114604,
+   "comp_count": 10,
+   "comp_ppsf": 114.6
+  },
+  "142 DOWNING CT|BOSSIER CITY": {
+   "predicted": 435530,
+   "comp_count": 10,
+   "comp_ppsf": 163.1
+  },
+  "260 CULLOM DR|BOSSIER CITY": {
+   "predicted": 536153,
+   "comp_count": 10,
+   "comp_ppsf": 196.0
+  },
+  "3449 GRAND CANE LN|BOSSIER CITY": {
+   "predicted": 254219,
+   "comp_count": 10,
+   "comp_ppsf": 160.4
   },
   "1905 MILES ST|BOSSIER CITY": {
    "predicted": 302298,
@@ -2431,295 +2491,230 @@
    "comp_count": 10,
    "comp_ppsf": 146.1
   },
-  "613 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 28000,
+  "210 POYDRAS AVE|BOSSIER CITY": {
+   "predicted": 355661,
    "comp_count": 10,
-   "comp_ppsf": 54.3
-  },
-  "313 CHANCELLORSVILLE CT|BOSSIER CITY": {
-   "predicted": 261049,
-   "comp_count": 10,
-   "comp_ppsf": 146.9
-  },
-  "326 GASTON LN|BOSSIER CITY": {
-   "predicted": 242539,
-   "comp_count": 10,
-   "comp_ppsf": 148.6
-  },
-  "119 CARRIAGE SQUARE DR|BOSSIER CITY": {
-   "predicted": 138467,
-   "comp_count": 10,
-   "comp_ppsf": 114.2
-  },
-  "1610 HILL ST|BOSSIER CITY": {
-   "predicted": 114604,
-   "comp_count": 10,
-   "comp_ppsf": 114.6
-  },
-  "4605 BIRDWELL LN|BOSSIER CITY": {
-   "predicted": 164685,
-   "comp_count": 10,
-   "comp_ppsf": 144.5
-  },
-  "611 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 62739,
-   "comp_count": 10,
-   "comp_ppsf": 100.5
-  },
-  "5317 JONQUIL ST|BOSSIER CITY": {
-   "predicted": 116451,
-   "comp_count": 10,
-   "comp_ppsf": 110.7
-  },
-  "3080 DUBLIN WAY|BOSSIER CITY": {
-   "predicted": 185716,
-   "comp_count": 10,
-   "comp_ppsf": 137.1
-  },
-  "142 DOWNING CT|BOSSIER CITY": {
-   "predicted": 435530,
-   "comp_count": 10,
-   "comp_ppsf": 163.1
-  },
-  "3217 IMPALA DR|BOSSIER CITY": {
-   "predicted": 189977,
-   "comp_count": 10,
-   "comp_ppsf": 146.1
-  },
-  "1802 POLLYANNA ST|BOSSIER CITY": {
-   "predicted": 275282,
-   "comp_count": 10,
-   "comp_ppsf": 148.6
-  },
-  "3449 GRAND CANE LN|BOSSIER CITY": {
-   "predicted": 254219,
-   "comp_count": 10,
-   "comp_ppsf": 160.4
-  },
-  "742 CREWE LN|BOSSIER CITY": {
-   "predicted": 264267,
-   "comp_count": 10,
-   "comp_ppsf": 156.8
-  },
-  "5893 BAYOU DR UNIT 4|BOSSIER CITY": {
-   "predicted": 247597,
-   "comp_count": 10,
-   "comp_ppsf": 149.2
-  },
-  "923 CHISOLM TRL|BOSSIER CITY": {
-   "predicted": 316202,
-   "comp_count": 10,
-   "comp_ppsf": 156.9
-  },
-  "5814 CASPIANA LN|BOSSIER CITY": {
-   "predicted": 485168,
-   "comp_count": 10,
-   "comp_ppsf": 180.6
-  },
-  "2520 CONRAD ST|BOSSIER CITY": {
-   "predicted": 233578,
-   "comp_count": 10,
-   "comp_ppsf": 146.0
+   "comp_ppsf": 138.5
   },
   "4815 GENERAL BRAGG DR|BOSSIER CITY": {
    "predicted": 141438,
    "comp_count": 10,
    "comp_ppsf": 130.6
   },
-  "260 CULLOM DR|BOSSIER CITY": {
-   "predicted": 536153,
+  "1802 POLLYANNA ST|BOSSIER CITY": {
+   "predicted": 275282,
    "comp_count": 10,
-   "comp_ppsf": 196.0
+   "comp_ppsf": 148.6
   },
-  "1712 BRADLEY ST|BOSSIER CITY": {
-   "predicted": 150692,
+  "742 CREWE LN|BOSSIER CITY": {
+   "predicted": 264267,
    "comp_count": 10,
-   "comp_ppsf": 122.2
-  },
-  "678 DUMAINE DR|BOSSIER CITY": {
-   "predicted": 537793,
-   "comp_count": 10,
-   "comp_ppsf": 198.6
-  },
-  "4509 BIRDWELL LN|BOSSIER CITY": {
-   "predicted": 60774,
-   "comp_count": 10,
-   "comp_ppsf": 70.3
-  },
-  "4911 LONGSTREET PL|BOSSIER CITY": {
-   "predicted": 221054,
-   "comp_count": 10,
-   "comp_ppsf": 132.4
-  },
-  "222 CONTI WAY|BOSSIER CITY": {
-   "predicted": 515514,
-   "comp_count": 10,
-   "comp_ppsf": 188.5
-  },
-  "738 CREWE LN|BOSSIER CITY": {
-   "predicted": 258615,
-   "comp_count": 10,
-   "comp_ppsf": 157.5
-  },
-  "615 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 28000,
-   "comp_count": 10,
-   "comp_ppsf": 54.3
-  },
-  "3709 SABINE PASS DR|BOSSIER CITY": {
-   "predicted": 228226,
-   "comp_count": 10,
-   "comp_ppsf": 145.3
-  },
-  "210 POYDRAS AVE|BOSSIER CITY": {
-   "predicted": 355661,
-   "comp_count": 10,
-   "comp_ppsf": 138.5
-  },
-  "112 VIEUX CARRE|BOSSIER CITY": {
-   "predicted": 391780,
-   "comp_count": 10,
-   "comp_ppsf": 139.3
-  },
-  "719 PERFECT PL|BOSSIER CITY": {
-   "predicted": 307918,
-   "comp_count": 10,
-   "comp_ppsf": 136.5
-  },
-  "202 NORCROSS ST|BOSSIER CITY": {
-   "predicted": 332227,
-   "comp_count": 10,
-   "comp_ppsf": 148.7
-  },
-  "207 NORWELL LN|BOSSIER CITY": {
-   "predicted": 331437,
-   "comp_count": 10,
-   "comp_ppsf": 173.9
-  },
-  "3007 OLIVER ST|BOSSIER CITY": {
-   "predicted": 128141,
-   "comp_count": 10,
-   "comp_ppsf": 123.9
-  },
-  "797 VENECIA DR|BOSSIER CITY": {
-   "predicted": 250367,
-   "comp_count": 10,
-   "comp_ppsf": 140.0
-  },
-  "619 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 26500,
-   "comp_count": 10,
-   "comp_ppsf": 51.4
-  },
-  "4225 TOLEDO BEND DR|BOSSIER CITY": {
-   "predicted": 280131,
-   "comp_count": 10,
-   "comp_ppsf": 180.5
-  },
-  "621 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 28000,
-   "comp_count": 10,
-   "comp_ppsf": 54.3
-  },
-  "617 MONTGOMERY ST|BOSSIER CITY": {
-   "predicted": 26500,
-   "comp_count": 10,
-   "comp_ppsf": 51.4
-  },
-  "449 STACEY LN|BOSSIER CITY": {
-   "predicted": 344946,
-   "comp_count": 10,
-   "comp_ppsf": 180.4
-  },
-  "740 CROZIER DR|BOSSIER CITY": {
-   "predicted": 339644,
-   "comp_count": 10,
-   "comp_ppsf": 171.4
-  },
-  "301 BOSTICK CT|BOSSIER CITY": {
-   "predicted": 380566,
-   "comp_count": 10,
-   "comp_ppsf": 139.9
-  },
-  "106 OXFORD CIR|BOSSIER CITY": {
-   "predicted": 420423,
-   "comp_count": 10,
-   "comp_ppsf": 143.8
-  },
-  "219 12 COLQUITT ST|BOSSIER CITY": {
-   "predicted": 54338,
-   "comp_count": 10,
-   "comp_ppsf": 69.3
+   "comp_ppsf": 156.8
   },
   "571 WHITEFIELD LN|BOSSIER CITY": {
    "predicted": 154088,
    "comp_count": 10,
    "comp_ppsf": 136.7
   },
-  "2110 SWEET BAY CIR|BOSSIER CITY": {
-   "predicted": 249397,
+  "3709 SABINE PASS DR|BOSSIER CITY": {
+   "predicted": 228226,
    "comp_count": 10,
-   "comp_ppsf": 150.7
+   "comp_ppsf": 145.3
+  },
+  "3217 IMPALA DR|BOSSIER CITY": {
+   "predicted": 189977,
+   "comp_count": 10,
+   "comp_ppsf": 146.1
+  },
+  "615 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 28000,
+   "comp_count": 10,
+   "comp_ppsf": 54.3
+  },
+  "738 CREWE LN|BOSSIER CITY": {
+   "predicted": 258615,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
+  },
+  "222 CONTI WAY|BOSSIER CITY": {
+   "predicted": 515514,
+   "comp_count": 10,
+   "comp_ppsf": 188.5
+  },
+  "202 NORCROSS ST|BOSSIER CITY": {
+   "predicted": 332227,
+   "comp_count": 10,
+   "comp_ppsf": 148.7
+  },
+  "4509 BIRDWELL LN|BOSSIER CITY": {
+   "predicted": 60774,
+   "comp_count": 10,
+   "comp_ppsf": 70.3
+  },
+  "678 DUMAINE DR|BOSSIER CITY": {
+   "predicted": 537793,
+   "comp_count": 10,
+   "comp_ppsf": 198.6
+  },
+  "207 NORWELL LN|BOSSIER CITY": {
+   "predicted": 331437,
+   "comp_count": 10,
+   "comp_ppsf": 173.9
+  },
+  "5893 BAYOU DR UNIT 4|BOSSIER CITY": {
+   "predicted": 247597,
+   "comp_count": 10,
+   "comp_ppsf": 149.2
+  },
+  "2520 CONRAD ST|BOSSIER CITY": {
+   "predicted": 233578,
+   "comp_count": 10,
+   "comp_ppsf": 146.0
+  },
+  "611 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 62739,
+   "comp_count": 10,
+   "comp_ppsf": 100.5
+  },
+  "621 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 28000,
+   "comp_count": 10,
+   "comp_ppsf": 54.3
+  },
+  "3007 OLIVER ST|BOSSIER CITY": {
+   "predicted": 128141,
+   "comp_count": 10,
+   "comp_ppsf": 123.9
+  },
+  "449 STACEY LN|BOSSIER CITY": {
+   "predicted": 344946,
+   "comp_count": 10,
+   "comp_ppsf": 180.4
+  },
+  "4911 LONGSTREET PL|BOSSIER CITY": {
+   "predicted": 221054,
+   "comp_count": 10,
+   "comp_ppsf": 132.4
+  },
+  "617 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 26500,
+   "comp_count": 10,
+   "comp_ppsf": 51.4
+  },
+  "619 MONTGOMERY ST|BOSSIER CITY": {
+   "predicted": 26500,
+   "comp_count": 10,
+   "comp_ppsf": 51.4
+  },
+  "1712 BRADLEY ST|BOSSIER CITY": {
+   "predicted": 150692,
+   "comp_count": 10,
+   "comp_ppsf": 122.2
+  },
+  "112 VIEUX CARRE|BOSSIER CITY": {
+   "predicted": 391780,
+   "comp_count": 10,
+   "comp_ppsf": 139.3
+  },
+  "106 OXFORD CIR|BOSSIER CITY": {
+   "predicted": 420423,
+   "comp_count": 10,
+   "comp_ppsf": 143.8
+  },
+  "797 VENECIA DR|BOSSIER CITY": {
+   "predicted": 250367,
+   "comp_count": 10,
+   "comp_ppsf": 140.0
+  },
+  "219 12 COLQUITT ST|BOSSIER CITY": {
+   "predicted": 54338,
+   "comp_count": 10,
+   "comp_ppsf": 69.3
   },
   "2503 WAVERLY DR|BOSSIER CITY": {
    "predicted": 196111,
    "comp_count": 10,
    "comp_ppsf": 133.4
   },
+  "2110 SWEET BAY CIR|BOSSIER CITY": {
+   "predicted": 249397,
+   "comp_count": 10,
+   "comp_ppsf": 150.7
+  },
+  "4225 TOLEDO BEND DR|BOSSIER CITY": {
+   "predicted": 280131,
+   "comp_count": 10,
+   "comp_ppsf": 180.5
+  },
   "4206 TOLEDO BEND DR|BOSSIER CITY": {
    "predicted": 180488,
    "comp_count": 10,
    "comp_ppsf": 138.7
   },
-  "2101 BELLE GROVE DR|BOSSIER CITY": {
-   "predicted": 290457,
+  "301 BOSTICK CT|BOSSIER CITY": {
+   "predicted": 380566,
    "comp_count": 10,
-   "comp_ppsf": 139.4
+   "comp_ppsf": 139.9
   },
   "813 VENECIA DR|BOSSIER CITY": {
    "predicted": 252838,
    "comp_count": 10,
    "comp_ppsf": 158.7
   },
+  "740 CROZIER DR|BOSSIER CITY": {
+   "predicted": 339644,
+   "comp_count": 10,
+   "comp_ppsf": 171.4
+  },
+  "2101 BELLE GROVE DR|BOSSIER CITY": {
+   "predicted": 290457,
+   "comp_count": 10,
+   "comp_ppsf": 139.4
+  },
+  "217 PAISLEY LN|BOSSIER CITY": {
+   "predicted": 317417,
+   "comp_count": 10,
+   "comp_ppsf": 161.9
+  },
   "3415 HORSESHOE TRL|BOSSIER CITY": {
    "predicted": 139038,
    "comp_count": 10,
    "comp_ppsf": 114.2
-  },
-  "916 CHISOLM TRL|BOSSIER CITY": {
-   "predicted": 255536,
-   "comp_count": 10,
-   "comp_ppsf": 146.7
   },
   "2513 ROSEDALE PL|BOSSIER CITY": {
    "predicted": 141650,
    "comp_count": 10,
    "comp_ppsf": 121.5
   },
+  "916 CHISOLM TRL|BOSSIER CITY": {
+   "predicted": 255536,
+   "comp_count": 10,
+   "comp_ppsf": 146.7
+  },
   "819 VENECIA DR|BOSSIER CITY": {
    "predicted": 268933,
    "comp_count": 10,
    "comp_ppsf": 150.9
-  },
-  "208 AFTON PL|BOSSIER CITY": {
-   "predicted": 243420,
-   "comp_count": 10,
-   "comp_ppsf": 158.9
   },
   "795 VENECIA DR|BOSSIER CITY": {
    "predicted": 183444,
    "comp_count": 10,
    "comp_ppsf": 138.9
   },
+  "1529 DEBRA ST|BOSSIER CITY": {
+   "predicted": 91255,
+   "comp_count": 10,
+   "comp_ppsf": 97.5
+  },
+  "719 PERFECT PL|BOSSIER CITY": {
+   "predicted": 307918,
+   "comp_count": 10,
+   "comp_ppsf": 136.5
+  },
   "232 TIDEWATER CIR|BOSSIER CITY": {
    "predicted": 502375,
    "comp_count": 10,
    "comp_ppsf": 177.2
-  },
-  "217 PAISLEY LN|BOSSIER CITY": {
-   "predicted": 317417,
-   "comp_count": 10,
-   "comp_ppsf": 161.9
   },
   "2913 KIRK LN|BOSSIER CITY": {
    "predicted": 292091,
@@ -2741,11 +2736,6 @@
    "comp_count": 10,
    "comp_ppsf": 74.7
   },
-  "1529 DEBRA ST|BOSSIER CITY": {
-   "predicted": 91255,
-   "comp_count": 10,
-   "comp_ppsf": 97.5
-  },
   "817 VENECIA DR|BOSSIER CITY": {
    "predicted": 252838,
    "comp_count": 10,
@@ -2761,115 +2751,450 @@
    "comp_count": 10,
    "comp_ppsf": 157.5
   },
-  "2389 TALLGRASS CIR|BOSSIER CITY": {
-   "predicted": 395462,
+  "827 VENECIA DR|BOSSIER CITY": {
+   "predicted": 266104,
    "comp_count": 10,
-   "comp_ppsf": 165.7
+   "comp_ppsf": 149.3
   },
   "1629 NIKKI LYNN DR|BOSSIER CITY": {
    "predicted": 249342,
    "comp_count": 10,
    "comp_ppsf": 159.5
   },
-  "827 VENECIA DR|BOSSIER CITY": {
-   "predicted": 266104,
+  "2389 TALLGRASS CIR|BOSSIER CITY": {
+   "predicted": 395462,
    "comp_count": 10,
-   "comp_ppsf": 149.3
-  },
-  "218 PAISLEY LN|BOSSIER CITY": {
-   "predicted": 276025,
-   "comp_count": 10,
-   "comp_ppsf": 149.4
+   "comp_ppsf": 165.7
   },
   "707 CREWE LN|BOSSIER CITY": {
-   "predicted": 299452,
+   "predicted": 300038,
    "comp_count": 10,
-   "comp_ppsf": 155.6
+   "comp_ppsf": 155.9
   },
   "3424 GRAND CANE LN|BOSSIER CITY": {
    "predicted": 274912,
    "comp_count": 10,
    "comp_ppsf": 177.4
   },
+  "218 PAISLEY LN|BOSSIER CITY": {
+   "predicted": 276025,
+   "comp_count": 10,
+   "comp_ppsf": 149.4
+  },
   "446 BLANCHARD LOOP|BOSSIER CITY": {
    "predicted": 378845,
    "comp_count": 10,
    "comp_ppsf": 128.8
+  },
+  "273 CYCLE PLANT RD|BENTON": {
+   "predicted": 135381,
+   "comp_count": 10,
+   "comp_ppsf": 123.1
+  },
+  "210 BAY HILLS DR|BENTON": {
+   "predicted": 376604,
+   "comp_count": 10,
+   "comp_ppsf": 180.6
+  },
+  "230 OLD PALMETTO RD|BENTON": {
+   "predicted": 373977,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
+  },
+  "2696 CYPRESS VILLAGE DR|BENTON": {
+   "predicted": 755265,
+   "comp_count": 4,
+   "comp_ppsf": 215.8
   },
   "145 CYPRESS GROVE CIR|BENTON": {
    "predicted": 336285,
    "comp_count": 10,
    "comp_ppsf": 172.4
   },
+  "101 E POINTE DR|BENTON": {
+   "predicted": 292857,
+   "comp_count": 5,
+   "comp_ppsf": 119.0
+  },
+  "297 JAMES ST|BENTON": {
+   "predicted": 477827,
+   "comp_count": 4,
+   "comp_ppsf": 189.8
+  },
   "135 PEACE LN|BENTON": {
-   "predicted": 169471,
+   "predicted": 253333,
+   "comp_count": 5,
+   "comp_ppsf": 119.0
+  },
+  "550 LINTON BELLEVUE RD|BENTON": {
+   "predicted": 397017,
    "comp_count": 10,
-   "comp_ppsf": 79.6
+   "comp_ppsf": 186.9
+  },
+  "223 MORGAN CT|BENTON": {
+   "predicted": 363213,
+   "comp_count": 10,
+   "comp_ppsf": 164.2
+  },
+  "42 TURTLE CREEK DR|BENTON": {
+   "predicted": 380122,
+   "comp_count": 10,
+   "comp_ppsf": 164.3
+  },
+  "1001 TREY AVE|BENTON": {
+   "predicted": 140625,
+   "comp_count": 9,
+   "comp_ppsf": 104.2
+  },
+  "552 BOB WHITE LN|BENTON": {
+   "predicted": 607766,
+   "comp_count": 10,
+   "comp_ppsf": 184.8
+  },
+  "274 CATTAIL TRL|BENTON": {
+   "predicted": 1096452,
+   "comp_count": 10,
+   "comp_ppsf": 228.4
+  },
+  "891 LINTON BELLEVUE RD|BENTON": {
+   "predicted": 380944,
+   "comp_count": 10,
+   "comp_ppsf": 164.3
+  },
+  "2804 CYPRESS VILLAGE DR|BENTON": {
+   "predicted": 723789,
+   "comp_count": 3,
+   "comp_ppsf": 268.1
+  },
+  "200 ROANOKE CIR|BENTON": {
+   "predicted": 295015,
+   "comp_count": 10,
+   "comp_ppsf": 160.3
   },
   "120 GRAY CIR|BENTON": {
    "predicted": 298781,
    "comp_count": 10,
    "comp_ppsf": 159.3
   },
+  "1233 BIG PINE KEY LN|BENTON": {
+   "predicted": 709324,
+   "comp_count": 10,
+   "comp_ppsf": 186.7
+  },
   "2310 HWY 160|BENTON": {
    "predicted": 444631,
    "comp_count": 10,
    "comp_ppsf": 171.0
   },
-  "310 MERRILL LN|BENTON": {
-   "predicted": 125479,
+  "178 PADGETT RD|BENTON": {
+   "predicted": 182632,
    "comp_count": 10,
-   "comp_ppsf": 62.2
+   "comp_ppsf": 98.8
+  },
+  "4903 WILLOW CHASE DR|BENTON": {
+   "predicted": 675035,
+   "comp_count": 10,
+   "comp_ppsf": 184.2
+  },
+  "605 MERIDIAN WAY|BENTON": {
+   "predicted": 448484,
+   "comp_count": 10,
+   "comp_ppsf": 210.0
+  },
+  "191 PADGETT RD|BENTON": {
+   "predicted": 212445,
+   "comp_count": 10,
+   "comp_ppsf": 101.2
+  },
+  "310 MERRILL LN|BENTON": {
+   "predicted": 174892,
+   "comp_count": 10,
+   "comp_ppsf": 86.8
+  },
+  "1034 CATTLEMANS TRL|BENTON": {
+   "predicted": 408360,
+   "comp_count": 10,
+   "comp_ppsf": 191.7
+  },
+  "4614 PARKRIDGE DR|BENTON": {
+   "predicted": 314074,
+   "comp_count": 10,
+   "comp_ppsf": 175.5
+  },
+  "837 WALSTONBURG LN|BENTON": {
+   "predicted": 375310,
+   "comp_count": 10,
+   "comp_ppsf": 162.3
   },
   "328 LINTWIN CIR|BENTON": {
    "predicted": 115131,
-   "comp_count": 3,
+   "comp_count": 5,
    "comp_ppsf": 108.2
+  },
+  "3903 LE BROOKE LN|BENTON": {
+   "predicted": 310336,
+   "comp_count": 10,
+   "comp_ppsf": 176.3
+  },
+  "213 ROANOKE CIR|BENTON": {
+   "predicted": 316727,
+   "comp_count": 10,
+   "comp_ppsf": 176.9
+  },
+  "857 WALSTONBURG LN|BENTON": {
+   "predicted": 345060,
+   "comp_count": 10,
+   "comp_ppsf": 156.6
+  },
+  "63 TURTLE CREEK DR|BENTON": {
+   "predicted": 344903,
+   "comp_count": 10,
+   "comp_ppsf": 156.6
+  },
+  "419 KINGSTON PLANTATION BLVD|BENTON": {
+   "predicted": 730181,
+   "comp_count": 10,
+   "comp_ppsf": 180.1
+  },
+  "37 TURTLE CREEK DR|BENTON": {
+   "predicted": 406442,
+   "comp_count": 10,
+   "comp_ppsf": 191.7
+  },
+  "4007 ELIZABETH LN|BENTON": {
+   "predicted": 296281,
+   "comp_count": 10,
+   "comp_ppsf": 156.1
+  },
+  "43 TURTLE CREEK DR|BENTON": {
+   "predicted": 372717,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
   },
   "412 KINGSTON PLANTATION BLVD|BENTON": {
    "predicted": 402604,
    "comp_count": 10,
    "comp_ppsf": 144.7
   },
+  "217 DANIELLE DR|BENTON": {
+   "predicted": 373662,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
+  },
+  "1310 BAY RIDGE DR|BENTON": {
+   "predicted": 623225,
+   "comp_count": 10,
+   "comp_ppsf": 181.5
+  },
+  "114 ST ANDREWS LN|BENTON": {
+   "predicted": 326751,
+   "comp_count": 10,
+   "comp_ppsf": 165.7
+  },
+  "624 SILKWOOD DR|BENTON": {
+   "predicted": 556392,
+   "comp_count": 10,
+   "comp_ppsf": 179.5
+  },
+  "106 LOLA CIR|BENTON": {
+   "predicted": 349621,
+   "comp_count": 10,
+   "comp_ppsf": 168.9
+  },
+  "49 TURTLE CREEK DR|BENTON": {
+   "predicted": 451749,
+   "comp_count": 10,
+   "comp_ppsf": 209.9
+  },
+  "143 NEW BETHEL BOOKER RD|BENTON": {
+   "predicted": 136488,
+   "comp_count": 10,
+   "comp_ppsf": 123.1
+  },
+  "210 COUNTRY CLUB DR|BENTON": {
+   "predicted": 457511,
+   "comp_count": 10,
+   "comp_ppsf": 175.8
+  },
+  "107 COLONEL BURT DR|BENTON": {
+   "predicted": 584570,
+   "comp_count": 10,
+   "comp_ppsf": 179.5
+  },
+  "200 COLONEL BURT DR|BENTON": {
+   "predicted": 799820,
+   "comp_count": 10,
+   "comp_ppsf": 199.0
+  },
+  "205 OLD PALMETTO RD|BENTON": {
+   "predicted": 609428,
+   "comp_count": 10,
+   "comp_ppsf": 181.5
+  },
+  "807 WALSTONBURG LN|BENTON": {
+   "predicted": 381766,
+   "comp_count": 10,
+   "comp_ppsf": 164.3
+  },
+  "1001 DALE DR|BENTON": {
+   "predicted": 177018,
+   "comp_count": 10,
+   "comp_ppsf": 112.5
+  },
+  "111 OAK LEAF TRL|BENTON": {
+   "predicted": 973825,
+   "comp_count": 3,
+   "comp_ppsf": 233.6
+  },
+  "3911 LE BROOKE LN|BENTON": {
+   "predicted": 270023,
+   "comp_count": 10,
+   "comp_ppsf": 158.2
+  },
+  "339 CYCLE PLANT RD|BENTON": {
+   "predicted": 206166,
+   "comp_count": 10,
+   "comp_ppsf": 90.4
+  },
+  "142 ST ANDREWS LN|BENTON": {
+   "predicted": 381766,
+   "comp_count": 10,
+   "comp_ppsf": 164.3
+  },
+  "400 CROUCH RD|BENTON": {
+   "predicted": 721907,
+   "comp_count": 10,
+   "comp_ppsf": 175.5
+  },
+  "1215 BAY RIDGE DR|BENTON": {
+   "predicted": 1132936,
+   "comp_count": 3,
+   "comp_ppsf": 233.6
+  },
+  "1330 PALMETTO RD|BENTON": {
+   "predicted": 174299,
+   "comp_count": 10,
+   "comp_ppsf": 136.8
+  },
+  "202 JAMESTOWNE BLVD|BENTON": {
+   "predicted": 313365,
+   "comp_count": 10,
+   "comp_ppsf": 176.9
+  },
+  "129 RUNNING DEER LN|BENTON": {
+   "predicted": 104396,
+   "comp_count": 9,
+   "comp_ppsf": 85.9
+  },
   "4424 ELLIS CT|BENTON": {
    "predicted": 272141,
    "comp_count": 10,
    "comp_ppsf": 160.0
+  },
+  "200 SAM WILLEN DR|BENTON": {
+   "predicted": 621677,
+   "comp_count": 10,
+   "comp_ppsf": 193.9
+  },
+  "505 SIMPSON ST|BENTON": {
+   "predicted": 155943,
+   "comp_count": 10,
+   "comp_ppsf": 125.2
+  },
+  "4026 ELIZABETH LN|BENTON": {
+   "predicted": 393652,
+   "comp_count": 10,
+   "comp_ppsf": 186.9
+  },
+  "155 JONES LN|BENTON": {
+   "predicted": 394774,
+   "comp_count": 10,
+   "comp_ppsf": 186.9
+  },
+  "124 BRIMESTONE LOOP|BENTON": {
+   "predicted": 445657,
+   "comp_count": 10,
+   "comp_ppsf": 151.5
+  },
+  "711 JULESBURG LN|BENTON": {
+   "predicted": 378327,
+   "comp_count": 10,
+   "comp_ppsf": 152.4
+  },
+  "79 TURTLE CREEK DR|BENTON": {
+   "predicted": 347528,
+   "comp_count": 10,
+   "comp_ppsf": 158.4
+  },
+  "149 LOLA CIR|BENTON": {
+   "predicted": 196349,
+   "comp_count": 10,
+   "comp_ppsf": 122.0
   },
   "110 ST ANDREWS LN|BENTON": {
    "predicted": 304273,
    "comp_count": 10,
    "comp_ppsf": 165.7
   },
-  "725 JULESBURG LN|BENTON": {
-   "predicted": 425195,
-   "comp_count": 10,
-   "comp_ppsf": 197.0
+  "1957 LEEWARD CV|BENTON": {
+   "predicted": 930225,
+   "comp_count": 4,
+   "comp_ppsf": 227.6
   },
-  "445 MERESTONE XING|BENTON": {
-   "predicted": 345789,
+  "35 TURTLE CREEK DR|BENTON": {
+   "predicted": 367028,
    "comp_count": 10,
-   "comp_ppsf": 156.9
+   "comp_ppsf": 165.6
+  },
+  "725 JULESBURG LN|BENTON": {
+   "predicted": 457496,
+   "comp_count": 10,
+   "comp_ppsf": 212.0
+  },
+  "53 TURTLE CREEK DR|BENTON": {
+   "predicted": 373820,
+   "comp_count": 10,
+   "comp_ppsf": 157.5
   },
   "301 OLD PLAIN DEALING RD|BENTON": {
    "predicted": 277815,
    "comp_count": 10,
    "comp_ppsf": 159.7
   },
-  "440 N LOST RIVER DR|BENTON": {
-   "predicted": 498137,
+  "445 MERESTONE XING|BENTON": {
+   "predicted": 345789,
    "comp_count": 10,
-   "comp_ppsf": 169.4
+   "comp_ppsf": 156.9
   },
-  "443 MERESTONE XING|BENTON": {
-   "predicted": 350422,
+  "76 TURTLE CREEK DR|BENTON": {
+   "predicted": 450280,
    "comp_count": 10,
-   "comp_ppsf": 158.5
+   "comp_ppsf": 209.9
+  },
+  "440 N LOST RIVER DR|BENTON": {
+   "predicted": 444908,
+   "comp_count": 10,
+   "comp_ppsf": 151.3
+  },
+  "269 HURRICANE BLUFF DR|BENTON": {
+   "predicted": 342576,
+   "comp_count": 10,
+   "comp_ppsf": 171.3
+  },
+  "75 TURTLE CREEK DR|BENTON": {
+   "predicted": 413653,
+   "comp_count": 10,
+   "comp_ppsf": 173.8
   },
   "440 MERESTONE XING|BENTON": {
-   "predicted": 394651,
+   "predicted": 384902,
    "comp_count": 10,
-   "comp_ppsf": 166.4
+   "comp_ppsf": 162.3
+  },
+  "443 MERESTONE XING|BENTON": {
+   "predicted": 357182,
+   "comp_count": 10,
+   "comp_ppsf": 161.5
   },
   "803 ZIMMERMAN ST|HOMER": {
    "predicted": 130224,
@@ -2881,15 +3206,15 @@
    "comp_count": 10,
    "comp_ppsf": 113.8
   },
-  "1637 AIRPORT LOOP|HOMER": {
-   "predicted": 751535,
-   "comp_count": 3,
-   "comp_ppsf": 245.2
-  },
   "749 BEVERLY DR|HOMER": {
    "predicted": 259137,
    "comp_count": 10,
    "comp_ppsf": 99.1
+  },
+  "1637 AIRPORT LOOP|HOMER": {
+   "predicted": 751535,
+   "comp_count": 3,
+   "comp_ppsf": 245.2
   },
   "1445 MARITZKY RD|HOMER": {
    "predicted": 192633,
@@ -2921,15 +3246,15 @@
    "comp_count": 3,
    "comp_ppsf": 236.4
   },
-  "110 JAMES ST|HOMER": {
-   "predicted": 45358,
-   "comp_count": 10,
-   "comp_ppsf": 48.9
-  },
   "625 W 4TH ST|HOMER": {
    "predicted": 106379,
    "comp_count": 10,
    "comp_ppsf": 88.6
+  },
+  "110 JAMES ST|HOMER": {
+   "predicted": 45358,
+   "comp_count": 10,
+   "comp_ppsf": 48.9
   },
   "211 JAMES ST|HOMER": {
    "predicted": 48865,
@@ -2961,35 +3286,30 @@
    "comp_count": 10,
    "comp_ppsf": 64.7
   },
-  "2276 MAIN ST|HAYNESVILLE": {
-   "predicted": 133353,
-   "comp_count": 9,
-   "comp_ppsf": 62.8
-  },
-  "2366 DAWSON ST|HAYNESVILLE": {
-   "predicted": 50378,
-   "comp_count": 7,
-   "comp_ppsf": 48.8
-  },
   "1335 THOMAS ST|HAYNESVILLE": {
    "predicted": 103544,
    "comp_count": 8,
    "comp_ppsf": 64.7
+  },
+  "2276 MAIN ST|HAYNESVILLE": {
+   "predicted": 133353,
+   "comp_count": 9,
+   "comp_ppsf": 62.8
   },
   "1937 BAILEY AVE|HAYNESVILLE": {
    "predicted": 99815,
    "comp_count": 7,
    "comp_ppsf": 64.8
   },
+  "2366 DAWSON ST|HAYNESVILLE": {
+   "predicted": 50378,
+   "comp_count": 7,
+   "comp_ppsf": 48.8
+  },
   "8243 HWY 534|HAYNESVILLE": {
    "predicted": 129893,
    "comp_count": 10,
    "comp_ppsf": 61.9
-  },
-  "9886 HWY 79|HAYNESVILLE": {
-   "predicted": 103830,
-   "comp_count": 10,
-   "comp_ppsf": 63.7
   },
   "1212 FRASIER ST|HAYNESVILLE": {
    "predicted": 137649,
@@ -3000,6 +3320,11 @@
    "predicted": 45433,
    "comp_count": 6,
    "comp_ppsf": 40.6
+  },
+  "9886 HWY 79|HAYNESVILLE": {
+   "predicted": 103830,
+   "comp_count": 10,
+   "comp_ppsf": 63.7
   },
   "2232 STADIUM DR|HAYNESVILLE": {
    "predicted": 22500,

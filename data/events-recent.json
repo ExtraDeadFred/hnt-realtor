@@ -1,148 +1,5 @@
 [
  {
-  "date": "2026-10-11",
-  "event": "new",
-  "key": "900 WATTERMAN ST|MINDEN",
-  "address": "900 Watterman St",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 249900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/900-Watterman-St_Minden_LA_71055_M85701-36506"
- },
- {
-  "date": "2026-10-11",
-  "event": "price_cut",
-  "key": "318 PACE RD|DUBBERLY",
-  "address": "318 Pace Rd",
-  "city": "Dubberly",
-  "parish": "Webster",
-  "price": 249900,
-  "url": "https://www.realtor.com/realestateandhomes-detail/318-Pace-Dr_Dubberly_LA_71024_M88131-41143",
-  "old_price": 265000,
-  "cut_pct": 5.7
- },
- {
-  "date": "2026-10-11",
-  "event": "new",
-  "key": "2070 JOHNSON KORAN RD|HAUGHTON",
-  "address": "2070 Johnson Koran Rd",
-  "city": "Haughton",
-  "parish": "Bossier",
-  "price": 88000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2070-Johnson-Koran-Rd_Haughton_LA_71037_M85918-34639"
- },
- {
-  "date": "2026-10-11",
-  "event": "price_cut",
-  "key": "517 TUPELO DR|BOSSIER CITY",
-  "address": "517 Tupelo Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 389000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/517-Tupelo-Dr_Bossier-City_LA_71111_M72610-82966",
-  "old_price": 399900,
-  "cut_pct": 2.7
- },
- {
-  "date": "2026-10-11",
-  "event": "price_cut",
-  "key": "5524 HICKORY RIDGE DR|BOSSIER CITY",
-  "address": "5524 Hickory Ridge Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 299000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/5524-Hickory-Ridge-Dr_Bossier-City_LA_71111_M83864-99297",
-  "old_price": 309000,
-  "cut_pct": 3.2
- },
- {
-  "date": "2026-10-11",
-  "event": "new",
-  "key": "2009 BELLE HAVEN DR|BOSSIER CITY",
-  "address": "2009 Belle Haven Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 310000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2009-Belle-Haven-Dr_Bossier-City_LA_71111_M73491-75160"
- },
- {
-  "date": "2026-10-11",
-  "event": "price_cut",
-  "key": "518 YALE PL|BOSSIER CITY",
-  "address": "518 Yale Pl",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 170000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/518-Yale-Pl_Bossier-City_LA_71111_M79698-51935",
-  "old_price": 185000,
-  "cut_pct": 8.1
- },
- {
-  "date": "2026-10-11",
-  "event": "new",
-  "key": "645 W 4TH ST|HOMER",
-  "address": "645 W 4th St",
-  "city": "Homer",
-  "parish": "Claiborne",
-  "price": 79000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/645-W-4th-St_Homer_LA_71040_M90250-03545"
- },
- {
-  "date": "2026-10-11",
-  "event": "off_market",
-  "key": "125 METHODIST CAMP RD|MINDEN",
-  "address": "125 Methodist Camp Rd",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 115000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/125-Methodist-Camp-Rd_Minden_LA_71055_M85632-42306",
-  "last_price": 115000
- },
- {
-  "date": "2026-10-11",
-  "event": "off_market",
-  "key": "911 NELLA ST|MINDEN",
-  "address": "911 Nella St",
-  "city": "Minden",
-  "parish": "Webster",
-  "price": 189000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/911-Nella-St_Minden_LA_71055_M86493-33667",
-  "last_price": 189000
- },
- {
-  "date": "2026-10-11",
-  "event": "off_market",
-  "key": "305 BEVLY DR UNIT 3|BOSSIER CITY",
-  "address": "305 Bevly Dr Unit 3",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 370000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/305-Bevly-Lake-Dr_Bossier-City_LA_71111_M87185-38844",
-  "last_price": 370000
- },
- {
-  "date": "2026-10-11",
-  "event": "off_market",
-  "key": "2728 CAPLIS SLIGO PLANTATION DR|BOSSIER CITY",
-  "address": "2728 Caplis Sligo Plantation Dr",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 320000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2728-Caplis-Sligo-Plantation-Dr_Bossier-City_LA_71112_M87170-43406",
-  "last_price": 320000
- },
- {
-  "date": "2026-10-11",
-  "event": "off_market",
-  "key": "2414 BARBARA ST|BOSSIER CITY",
-  "address": "2414 Barbara St",
-  "city": "Bossier City",
-  "parish": "Bossier",
-  "price": 60000,
-  "url": "https://www.realtor.com/realestateandhomes-detail/2414-Barbara-St_Bossier-City_LA_71112_M79078-04141",
-  "last_price": 60000
- },
- {
   "date": "2026-10-12",
   "event": "new",
   "key": "601 ALEX WAY|HAUGHTON",
@@ -2608,5 +2465,1023 @@
   "price": 390000,
   "url": "https://www.realtor.com/realestateandhomes-detail/269-Hurricane-Bluff-Dr_Benton_LA_71006_M89857-81968",
   "last_price": 390000
+ },
+ {
+  "date": "2026-10-19",
+  "event": "price_cut",
+  "key": "6442 HWY 527|DOYLINE",
+  "address": "6442 Highway 527",
+  "city": "Doyline",
+  "parish": "Webster",
+  "price": 225000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/6442-Highway-527_Doyline_LA_71023_M73813-94091",
+  "old_price": 230000,
+  "cut_pct": 2.2
+ },
+ {
+  "date": "2026-10-19",
+  "event": "price_cut",
+  "key": "609 HAUGHTON TRACE CT|HAUGHTON",
+  "address": "609 Haughton Trace Ct",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 175000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/609-Haughton-Trace-Ct_Haughton_LA_71037_M79377-18727",
+  "old_price": 180000,
+  "cut_pct": 2.8
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1908 SPARROWRIDGE CIR|HAUGHTON",
+  "address": "1908 Sparrowridge Cir",
+  "city": "Haughton",
+  "parish": "Bossier",
+  "price": 390000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1908-Sparrowridge-Cir_Haughton_LA_71037_M81618-88842"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "price_cut",
+  "key": "4021 GLEN ST|BOSSIER CITY",
+  "address": "4021 Glen St",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 284999,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4021-Glen-St_Bossier-City_LA_71112_M84681-07614",
+  "old_price": 289999,
+  "cut_pct": 1.7
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "4843 SAN ANTONE DR|BOSSIER CITY",
+  "address": "4843 San Antone Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 155000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4843-San-Antone-Dr_Bossier-City_LA_71111_M74387-74011"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "3501 NIKKI LYNN DR|BOSSIER CITY",
+  "address": "3501 Nikki Lynn Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 172000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3501-Nikki-Lynn-Dr_Bossier-City_LA_71112_M80083-10388"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "222 JASMINE WALK|BOSSIER CITY",
+  "address": "222 Jasmine Walk",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 395000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/222-Jasmine-Walk_Bossier-City_LA_71111_M81614-06951"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "219 BAY HILLS DR|BENTON",
+  "address": "219 Bay Hills Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 1200000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/219-Bay-Hills-Dr_Benton_LA_71006_M77583-07304"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "273 CYCLE PLANT RD|BENTON",
+  "address": "273 Cycle Plant Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 257300,
+  "url": "https://www.realtor.com/realestateandhomes-detail/273-Cycle-Plant-Rd_Benton_LA_71006_M76118-38025"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "210 BAY HILLS DR|BENTON",
+  "address": "210 Bay Hills Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 345000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/210-Bay-Hills-Dr_Benton_LA_71006_M77525-31083"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "230 OLD PALMETTO RD|BENTON",
+  "address": "230 Old Palmetto Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 450000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/230-Old-Palmetto-Rd_Benton_LA_71006_M77451-89692"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "14546 HWY 157|BENTON",
+  "address": "14546 Highway 157",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 375000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/14546-Highway-157_Benton_LA_71006_M92567-56639"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "2696 CYPRESS VILLAGE DR|BENTON",
+  "address": "2696 Cypress Village Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 949900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2696-Cypress-Village-Dr_Benton_LA_71006_M75049-16625"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "145 CYPRESS GROVE CIR|BENTON",
+  "address": "145 Cypress Grove Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 299900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/145-Cypress-Grove-Cir_Benton_LA_71006_M77256-10948"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "101 E POINTE DR|BENTON",
+  "address": "101 E Pointe Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 179000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/101-E-Pointe-Dr_Benton_LA_71006_M80561-74564"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "758 W LAKESHORE DR|BENTON",
+  "address": "758 W Lakeshore Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 375000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/758-W-Lakeshore-Dr_Benton_LA_71006_M77578-18751"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "297 JAMES ST|BENTON",
+  "address": "297 James St",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 675000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/297-James-St_Benton_LA_71006_M77507-05052"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "251 JESSIE JONES DR|BENTON",
+  "address": "251 Jessie Jones Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 600000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/251-Jessie-Jones-Dr_Benton_LA_71006_M78276-21957"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "135 PEACE LN|BENTON",
+  "address": "135 Peace Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 230000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/135-Peace-Ln_Benton_LA_71006_M87468-98226"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "550 LINTON BELLEVUE RD|BENTON",
+  "address": "550 Linton Bellevue Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 539995,
+  "url": "https://www.realtor.com/realestateandhomes-detail/550-Linton-Bellevue-Rd_Benton_LA_71006_M82541-53811"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "223 MORGAN CT|BENTON",
+  "address": "223 Morgan Ct",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 420000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/223-Morgan-Ct_Benton_LA_71006_M75035-20666"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "42 TURTLE CREEK DR|BENTON",
+  "address": "42 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 494982,
+  "url": "https://www.realtor.com/realestateandhomes-detail/42-Turtle-Creek-Dr_Benton_LA_71006_M92588-62934"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1001 TREY AVE|BENTON",
+  "address": "1001 Trey Ave",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 99000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1001-Trey-Ave_Benton_LA_71006_M77984-42724"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "552 BOB WHITE LN|BENTON",
+  "address": "552 Bob White Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 499900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/552-Bob-White-Ln_Benton_LA_71006_M85748-41369"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "274 CATTAIL TRL|BENTON",
+  "address": "274 Cattail Trl",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 799000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/274-Cattail-Trl_Benton_LA_71006_M71623-18068"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "891 LINTON BELLEVUE RD|BENTON",
+  "address": "891 Linton Bellevue Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 350000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/891-Linton-Bellevue-Rd_Benton_LA_71006_M98872-59466"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "2804 CYPRESS VILLAGE DR|BENTON",
+  "address": "2804 Cypress Village Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 497900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2804-Cypress-Village-Dr_Benton_LA_71006_M79028-95065"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "200 ROANOKE CIR|BENTON",
+  "address": "200 Roanoke Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 345000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/200-Roanoke-Cir_Benton_LA_71006_M93643-75100"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "120 GRAY CIR|BENTON",
+  "address": "120 Gray Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 289900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/120-Gray-Cir_Benton_LA_71006_M77890-88972"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1233 BIG PINE KEY LN|BENTON",
+  "address": "1233 Big Pine Key Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 990000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1233-Big-Pine-Key-Ln_Benton_LA_71006_M88250-03576"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "2310 HWY 160|BENTON",
+  "address": "2310 Highway 160",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 299000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/2310-Highway-160_Benton_LA_71006_M77161-82664"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "178 PADGETT RD|BENTON",
+  "address": "178 Padgett Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 265000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/178-Padgett-Rd_Benton_LA_71006_M76103-84654"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "4903 WILLOW CHASE DR|BENTON",
+  "address": "4903 Willow Chase Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 525000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4903-Willow-Chase-Dr_Benton_LA_71006_M76254-90416"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "947 JUDY LN|BENTON",
+  "address": "947 Judy Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 1135000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/947-Judy-Ln_Benton_LA_71006_M85678-72638"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "605 MERIDIAN WAY|BENTON",
+  "address": "605 Meridian Way",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 414000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/605-Meridian-Way_Benton_LA_71006_M92258-93087"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "191 PADGETT RD|BENTON",
+  "address": "191 Padgett Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 250000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/191-Padgett-Rd_Benton_LA_71006_M95404-68637"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "310 MERRILL LN|BENTON",
+  "address": "310 Merrill Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 190000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/310-Merrill-Ln_Benton_LA_71006_M98145-77638"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1034 CATTLEMANS TRL|BENTON",
+  "address": "1034 Cattlemans Trl",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 387400,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1034-Cattlemans-Trl_Benton_LA_71006_M76064-34464"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "4614 PARKRIDGE DR|BENTON",
+  "address": "4614 Parkridge Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 310000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4614-Parkridge-Dr_Benton_LA_71006_M77763-44020"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "837 WALSTONBURG LN|BENTON",
+  "address": "837 Walstonburg Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 485600,
+  "url": "https://www.realtor.com/realestateandhomes-detail/837-Walstonburg-Ln_Benton_LA_71006_M97109-48370"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1663 SPENCER CIR|BENTON",
+  "address": "1663 Spencer Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 499000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1663-Spencer-Cir_Benton_LA_71006_M86540-31497"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "328 LINTWIN CIR|BENTON",
+  "address": "328 Lintwin Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 68000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/328-Lintwin-Cir_Benton_LA_71006_M77419-10289"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "3903 LE BROOKE LN|BENTON",
+  "address": "3903 Le Brooke Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 284900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3903-Le-Brooke-Ln_Benton_LA_71006_M83100-82715"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "213 ROANOKE CIR|BENTON",
+  "address": "213 Roanoke Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 340000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/213-Roanoke-Cir_Benton_LA_71006_M72332-44756"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "441 N LOST RIVER DR|BENTON",
+  "address": "441 N Lost River Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 319000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/441-N-Lost-River-Dr_Benton_LA_71006_M97152-59848"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "857 WALSTONBURG LN|BENTON",
+  "address": "857 Walstonburg Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 463900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/857-Walstonburg-Ln_Benton_LA_71006_M93537-84159"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "63 TURTLE CREEK DR|BENTON",
+  "address": "63 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 449900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/63-Turtle-Creek-Dr_Benton_LA_71006_M98915-20946"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "5081 WESTRILEE DR|BENTON",
+  "address": "5081 Westrilee Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 1950000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/5081-Westrilee-Dr_Benton_LA_71006_M79128-07806"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "419 KINGSTON PLANTATION BLVD|BENTON",
+  "address": "419 Kingston Plantation Blvd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 699000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/419-Kingston-Plantation-Blvd_Benton_LA_71006_M87449-60397"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "37 TURTLE CREEK DR|BENTON",
+  "address": "37 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 453680,
+  "url": "https://www.realtor.com/realestateandhomes-detail/37-Turtle-Creek-Dr_Benton_LA_71006_M92754-10082"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "4007 ELIZABETH LN|BENTON",
+  "address": "4007 Elizabeth Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 279000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4007-Elizabeth-Ln_Benton_LA_71006_M73483-66468"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "43 TURTLE CREEK DR|BENTON",
+  "address": "43 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 506324,
+  "url": "https://www.realtor.com/realestateandhomes-detail/43-Turtle-Creek-Dr_Benton_LA_71006_M98375-72510"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "412 KINGSTON PLANTATION BLVD|BENTON",
+  "address": "412 Kingston Plantation Blvd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 531000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/412-Kingston-Plantation-Blvd_Benton_LA_71006_M86806-40083"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "217 DANIELLE DR|BENTON",
+  "address": "217 Danielle Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 394900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/217-Danielle-Dr_Benton_LA_71006_M77332-70918"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1310 BAY RIDGE DR|BENTON",
+  "address": "1310 Bay Ridge Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 589000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1310-Bay-Ridge-Dr_Benton_LA_71006_M77173-00216"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "114 ST ANDREWS LN|BENTON",
+  "address": "114 St Andrews Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 347000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/114-St-Andrews-Ln_Benton_LA_71006_M89087-09607"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "624 SILKWOOD DR|BENTON",
+  "address": "624 Silkwood Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 750000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/624-Silkwood-Dr_Benton_LA_71006_M86744-85974"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "106 LOLA CIR|BENTON",
+  "address": "106 Lola Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 299000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/106-Lola-Cir_Benton_LA_71006_M88252-55817"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "49 TURTLE CREEK DR|BENTON",
+  "address": "49 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 460528,
+  "url": "https://www.realtor.com/realestateandhomes-detail/49-Turtle-Creek-Dr_Benton_LA_71006_M95323-91395"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "143 NEW BETHEL BOOKER RD|BENTON",
+  "address": "143 New Bethel Booker Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 107000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/143-New-Bethel-Booker-Rd_Benton_LA_71006_M78756-57757"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1245 BIG PINE KEY LN|BENTON",
+  "address": "1245 Big Pine Key Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 1100000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1245-Big-Pine-Key-Ln_Benton_LA_71006_M84983-13081"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "210 COUNTRY CLUB DR|BENTON",
+  "address": "210 Country Club Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 350000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/210-Country-Club-Dr_Benton_LA_71006_M77713-50384"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "147 WILSON LOOP|BENTON",
+  "address": "147 Wilson Loop",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 850000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/147-Wilson-Loop_Benton_LA_71006_M98487-48298"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "107 COLONEL BURT DR|BENTON",
+  "address": "107 Colonel Burt Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 654000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/107-Colonel-Burt-Dr_Benton_LA_71006_M87448-48599"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "200 COLONEL BURT DR|BENTON",
+  "address": "200 Colonel Burt Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 729900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/200-Colonel-Burt-Dr_Benton_LA_71006_M86312-62006"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "205 OLD PALMETTO RD|BENTON",
+  "address": "205 Old Palmetto Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 469900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/205-Old-Palmetto-Rd_Benton_LA_71006_M77447-05235"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "807 WALSTONBURG LN|BENTON",
+  "address": "807 Walstonburg Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 487900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/807-Walstonburg-Ln_Benton_LA_71006_M97528-61384"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1001 DALE DR|BENTON",
+  "address": "1001 Dale Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 199900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1001-Dale-Dr_Benton_LA_71006_M76299-12008"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "111 OAK LEAF TRL|BENTON",
+  "address": "111 Oak Leaf Trl",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 825000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/111-Oak-Leaf-Trl_Benton_LA_71006_M78772-93362"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "3911 LE BROOKE LN|BENTON",
+  "address": "3911 Le Brooke Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 295000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/3911-Le-Brooke-Ln_Benton_LA_71006_M83110-14363"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "339 CYCLE PLANT RD|BENTON",
+  "address": "339 Cycle Plant Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 289000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/339-Cycle-Plant-Rd_Benton_LA_71006_M98633-28202"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "142 ST ANDREWS LN|BENTON",
+  "address": "142 St Andrews Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 439000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/142-St-Andrews-Ln_Benton_LA_71006_M94509-74087"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "400 CROUCH RD|BENTON",
+  "address": "400 Crouch Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 2999999,
+  "url": "https://www.realtor.com/realestateandhomes-detail/400-Crouch-Rd_Benton_LA_71006_M77395-48410"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1215 BAY RIDGE DR|BENTON",
+  "address": "1215 Bay Ridge Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 990000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1215-Bay-Ridge-Dr_Benton_LA_71006_M77530-52806"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1330 PALMETTO RD|BENTON",
+  "address": "1330 Palmetto Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 119000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1330-Palmetto-Rd_Benton_LA_71006_M79999-97271"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "202 JAMESTOWNE BLVD|BENTON",
+  "address": "202 Jamestowne Blvd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 326500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/202-Jamestowne-Blvd_Benton_LA_71006_M92650-18501"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "129 RUNNING DEER LN|BENTON",
+  "address": "129 Running Deer Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 175000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/129-Running-Deer-Ln_Benton_LA_71006_M85966-79212"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "4424 ELLIS CT|BENTON",
+  "address": "4424 Ellis Ct",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 295000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4424-Ellis-Ct_Benton_LA_71006_M87427-24440"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "200 SAM WILLEN DR|BENTON",
+  "address": "200 Sam Willen Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 565000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/200-Sam-Willen-Dr_Benton_LA_71006_M98031-35456"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "505 SIMPSON ST|BENTON",
+  "address": "505 Simpson St",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 165000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/505-Simpson-St_Benton_LA_71006_M76316-63507"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "4026 ELIZABETH LN|BENTON",
+  "address": "4026 Elizabeth Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 289000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4026-Elizabeth-Ln_Benton_LA_71006_M74813-40645"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "155 JONES LN|BENTON",
+  "address": "155 Jones Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 399000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/155-Jones-Ln_Benton_LA_71006_M92105-86335"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "124 BRIMESTONE LOOP|BENTON",
+  "address": "124 Brimestone Loop",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 398500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/124-Brimestone-Loop_Benton_LA_71006_M97277-05032"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "711 JULESBURG LN|BENTON",
+  "address": "711 Julesburg Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 486500,
+  "url": "https://www.realtor.com/realestateandhomes-detail/711-Julesburg-Ln_Benton_LA_71006_M90946-73985"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "79 TURTLE CREEK DR|BENTON",
+  "address": "79 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 469516,
+  "url": "https://www.realtor.com/realestateandhomes-detail/79-Turtle-Creek-Dr_Benton_LA_71006_M92418-23636"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "149 LOLA CIR|BENTON",
+  "address": "149 Lola Cir",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 254900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/149-Lola-Cir_Benton_LA_71006_M89304-79216"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "110 ST ANDREWS LN|BENTON",
+  "address": "110 St Andrews Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 299900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/110-St-Andrews-Ln_Benton_LA_71006_M85258-83061"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "1957 LEEWARD CV|BENTON",
+  "address": "1957 Leeward Cv",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 954900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/1957-Leeward-Cv_Benton_LA_71006_M70834-42883"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "35 TURTLE CREEK DR|BENTON",
+  "address": "35 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 474224,
+  "url": "https://www.realtor.com/realestateandhomes-detail/35-Turtle-Creek-Dr_Benton_LA_71006_M99488-47621"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "725 JULESBURG LN|BENTON",
+  "address": "725 Julesburg Ln",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 449900,
+  "url": "https://www.realtor.com/realestateandhomes-detail/725-Julesburg-Ln_Benton_LA_71006_M90386-94406"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "53 TURTLE CREEK DR|BENTON",
+  "address": "53 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 507822,
+  "url": "https://www.realtor.com/realestateandhomes-detail/53-Turtle-Creek-Dr_Benton_LA_71006_M91080-13141"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "301 OLD PLAIN DEALING RD|BENTON",
+  "address": "301 Old Plain Dealing Rd",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 150000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/301-Old-Plain-Dealing-Rd_Benton_LA_71006_M76271-91594"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "445 MERESTONE XING|BENTON",
+  "address": "445 Merestone Xing",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 348224,
+  "url": "https://www.realtor.com/realestateandhomes-detail/445-Merestone-Xing_Benton_LA_71006_M98172-45454"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "76 TURTLE CREEK DR|BENTON",
+  "address": "76 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 459030,
+  "url": "https://www.realtor.com/realestateandhomes-detail/76-Turtle-Creek-Dr_Benton_LA_71006_M95651-97788"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "440 N LOST RIVER DR|BENTON",
+  "address": "440 N Lost River Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 399999,
+  "url": "https://www.realtor.com/realestateandhomes-detail/440-N-Lost-River-Dr_Benton_LA_71006_M92968-52339"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "269 HURRICANE BLUFF DR|BENTON",
+  "address": "269 Hurricane Bluff Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 390000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/269-Hurricane-Bluff-Dr_Benton_LA_71006_M89857-81968"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "new",
+  "key": "75 TURTLE CREEK DR|BENTON",
+  "address": "75 Turtle Creek Dr",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 499800,
+  "url": "https://www.realtor.com/realestateandhomes-detail/75-Turtle-Creek-Dr_Benton_LA_71006_M99424-60512"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "440 MERESTONE XING|BENTON",
+  "address": "440 Merestone Xing",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 371834,
+  "url": "https://www.realtor.com/realestateandhomes-detail/440-Merestone-Xing_Benton_LA_71006_M94955-97371"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "back_on_market",
+  "key": "443 MERESTONE XING|BENTON",
+  "address": "443 Merestone Xing",
+  "city": "Benton",
+  "parish": "Bossier",
+  "price": 362526,
+  "url": "https://www.realtor.com/realestateandhomes-detail/443-Merestone-Xing_Benton_LA_71006_M98506-09076"
+ },
+ {
+  "date": "2026-10-19",
+  "event": "off_market",
+  "key": "6009 JASON ST|BOSSIER CITY",
+  "address": "6009 Jason St",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 202000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/6009-Jason-St_Bossier-City_LA_71111_M80284-27179",
+  "last_price": 202000
+ },
+ {
+  "date": "2026-10-19",
+  "event": "off_market",
+  "key": "4404 SUN VALLEY DR|BOSSIER CITY",
+  "address": "4404 Sun Valley Dr",
+  "city": "Bossier City",
+  "parish": "Bossier",
+  "price": 185000,
+  "url": "https://www.realtor.com/realestateandhomes-detail/4404-Sun-Valley-Dr_Bossier-City_LA_71112_M80947-30109",
+  "last_price": 185000
  }
 ]
