@@ -943,7 +943,7 @@
   "predicted_at": "2026-07-06",
   "proxy_price": 219500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-14"
  },
  {
   "key": "206 SHADOW RIDGE DR|BOSSIER CITY",
@@ -2362,7 +2362,7 @@
   "predicted_at": "2026-07-08",
   "proxy_price": 275000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-09-28"
  },
  {
   "key": "178 HICKORY RIDGE RD|HAYNESVILLE",
@@ -8995,7 +8995,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 180000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-19"
  },
  {
   "key": "304 COYOTE RUN|HAUGHTON",
@@ -10128,7 +10128,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 135000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-19"
  },
  {
   "key": "105 ESPLANADE CT|BOSSIER CITY",
@@ -12174,7 +12174,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 354900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-19"
  },
  {
   "key": "215 PAISLEY LN|BOSSIER CITY",
@@ -13241,7 +13241,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 348224,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-19"
  },
  {
   "key": "104 BRIMESTONE LOOP|BENTON",
@@ -14100,5 +14100,16 @@
   "proxy_price": 390000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "1381 FRANKLIN RD|HEFLIN",
+  "address": "1381 Franklin Rd",
+  "city": "Heflin",
+  "sqft": 1725,
+  "predicted": 196994,
+  "predicted_at": "2026-10-20",
+  "proxy_price": 152000,
+  "sold_price": null,
+  "sold_date": "2026-10-15"
  }
 ]
