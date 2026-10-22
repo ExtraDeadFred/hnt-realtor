@@ -97,6 +97,16 @@ $prompt = "Today is $(Get-Date -Format 'dddd, MMMM d, yyyy').`n`n" +
 # Backoff between attempts. A usage-limit rejection returns instantly and is
 # still there 60s later, so the last gap is long enough to outlast a short cap.
 $backoff = @(60, 420)
+# The default 32k output cap includes thinking; on heavy days the brief ran
+# past it, the CLI auto-continued in a new message, and -p returned only that
+# last fragment (the 09-10 / 09-24 / 10-22 briefs that began mid-email).
+# Raise the cap, and bound thinking so the email (~8k tokens) always fits
+# even if this CLI version ignores the higher cap.
+$env:CLAUDE_CODE_MAX_OUTPUT_TOKENS = "64000"
+$env:MAX_THINKING_TOKENS = "16000"
+# Full model ID, not the "sonnet" alias: on CLI 2.1.126 the alias still
+# resolved to claude-sonnet-4-6, so pin the exact version.
+$briefModel = "claude-sonnet-5-5"
 foreach ($attempt in 1..3) {
     try {
         # PS 5.1: pipe prompt via stdin (claude warns on empty stdin); force
@@ -106,7 +116,7 @@ foreach ($attempt in 1..3) {
         $OutputEncoding = [System.Text.Encoding]::UTF8
         [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
         $ErrorActionPreference = "Continue"
-        $raw = ($prompt | claude -p --model sonnet 2>$stderrLog | Out-String)
+        $raw = ($prompt | claude -p --model $briefModel 2>$stderrLog | Out-String)
         $claudeExit = $LASTEXITCODE
         $ErrorActionPreference = "Stop"
         $OutputEncoding = $prevOut
@@ -122,9 +132,20 @@ foreach ($attempt in 1..3) {
                 Add-Content $stderrLog -Encoding utf8
         }
         elseif ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
-            $emailHtml = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
-            $pulseText = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
-            break
+            $html = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
+            $pulse = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
+            # A continuation fragment starts mid-document (e.g. "<li>..." or
+            # bare text) — reject it and retry rather than send half a brief.
+            if ($html -notmatch '^\s*<(!DOCTYPE|html|body|div|table)') {
+                $start = $html.Substring(0, [Math]::Min(80, $html.Length))
+                Write-Warning "claude attempt $attempt returned a partial email (starts: $start)"
+                "[attempt $attempt] partial email, starts: $start`n" | Add-Content $stderrLog -Encoding utf8
+            }
+            else {
+                $emailHtml = $html
+                $pulseText = $pulse
+                break
+            }
         }
         else {
             Write-Warning "claude attempt $attempt returned output without the expected markers"
