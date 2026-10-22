@@ -214,9 +214,15 @@ def main():
     # Small pre-trimmed slice for the daily brief. events.jsonl grows without
     # bound (600KB+ already) and having the brief read all of it was slow and
     # burned tokens for no benefit — it only ever needs the last week.
+    # One compact line per event, without url/key/parish (the brief links
+    # deals from opportunities.json, not from here): keeps a full week
+    # under the Read tool's single-read limit instead of ~10 chunked reads.
     week_ago = (date.today() - timedelta(days=7)).isoformat()
-    save_json(DATA / "events-recent.json",
-              [e for e in all_events if e.get("date", "") >= week_ago])
+    recent = [{k: v for k, v in e.items() if k not in ("url", "key", "parish")}
+              for e in all_events if e.get("date", "") >= week_ago]
+    (DATA / "events-recent.json").write_text(
+        "[\n" + ",\n".join(json.dumps(e, separators=(",", ":")) for e in recent) + "\n]",
+        encoding="utf-8")
 
     snap = DATA / "snapshots" / f"{date.today().isoformat()}.json.gz"
     snap.parent.mkdir(parents=True, exist_ok=True)
