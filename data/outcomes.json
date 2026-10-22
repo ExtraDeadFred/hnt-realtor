@@ -1845,7 +1845,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 195000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-21"
  },
  {
   "key": "131 CULLOM DR|BOSSIER CITY",
@@ -9655,7 +9655,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 76000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-21"
  },
  {
   "key": "413 GLEN HBR|BOSSIER CITY",
@@ -11767,7 +11767,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 257935,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-21"
  },
  {
   "key": "1410 WILLIAMSBURG DR|BOSSIER CITY",
@@ -12999,7 +12999,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 68000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-19"
  },
  {
   "key": "114 ST ANDREWS LN|BENTON",
@@ -14111,5 +14111,27 @@
   "proxy_price": 152000,
   "sold_price": null,
   "sold_date": "2026-10-15"
+ },
+ {
+  "key": "284 PINE HILL RD|ELM GROVE",
+  "address": "284 Pine Hill Rd",
+  "city": "Elm Grove",
+  "sqft": 2200,
+  "predicted": 191259,
+  "predicted_at": "2026-10-22",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-10-20"
+ },
+ {
+  "key": "1331 PECAN SQ|BOSSIER CITY",
+  "address": "1331 Pecan Sq",
+  "city": "Bossier City",
+  "sqft": 1072,
+  "predicted": 140002,
+  "predicted_at": "2026-10-22",
+  "proxy_price": 159950,
+  "sold_price": null,
+  "sold_date": "2026-10-21"
  }
 ]
