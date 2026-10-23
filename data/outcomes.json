@@ -41,7 +41,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 389900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-22"
  },
  {
   "key": "213 215 MCDONALD ST|MINDEN",
@@ -514,7 +514,7 @@
   "predicted_at": "2026-07-05",
   "proxy_price": 140000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-22"
  },
  {
   "key": "201 WOODHAVEN DR|MINDEN",
@@ -9765,7 +9765,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 299000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-22"
  },
  {
   "key": "1208 PONTCHARTRAIN CT|BOSSIER CITY",
@@ -12317,7 +12317,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 248345,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-22"
  },
  {
   "key": "5003 GENERAL POLK DR|BOSSIER CITY",
@@ -13285,7 +13285,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 362526,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-21"
  },
  {
   "key": "210 SANDERS RD|MINDEN",
@@ -14133,5 +14133,27 @@
   "proxy_price": 159950,
   "sold_price": null,
   "sold_date": "2026-10-21"
+ },
+ {
+  "key": "7429 PECANWOOD LN|HAUGHTON",
+  "address": "7429 Pecanwood Ln",
+  "city": "Haughton",
+  "sqft": 1390,
+  "predicted": 208304,
+  "predicted_at": "2026-10-23",
+  "proxy_price": 210000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2302 BROWNLEE RD|BOSSIER CITY",
+  "address": "2302 Brownlee Rd",
+  "city": "Bossier City",
+  "sqft": 1958,
+  "predicted": 302338,
+  "predicted_at": "2026-10-23",
+  "proxy_price": 275000,
+  "sold_price": 150000.0,
+  "sold_date": "06/03/2026"
  }
 ]
