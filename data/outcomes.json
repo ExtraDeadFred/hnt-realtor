@@ -9028,7 +9028,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 355000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "6420 HWY 80|HAUGHTON",
@@ -10260,7 +10260,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 229900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "433 HANCOCK DR|BOSSIER CITY",
@@ -11338,7 +11338,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 322918,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "1905 MILES ST|BOSSIER CITY",
@@ -11745,7 +11745,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 295000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "1425 CYNTHIA LN|BOSSIER CITY",
@@ -12834,7 +12834,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 379900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "797 VENECIA DR|BOSSIER CITY",
@@ -14155,5 +14155,16 @@
   "proxy_price": 275000,
   "sold_price": 150000.0,
   "sold_date": "06/03/2026"
+ },
+ {
+  "key": "233 ALLEN DR|MINDEN",
+  "address": "233 Allen Dr",
+  "city": "Minden",
+  "sqft": 2700,
+  "predicted": 387676,
+  "predicted_at": "2026-10-24",
+  "proxy_price": 249000,
+  "sold_price": null,
+  "sold_date": "2026-10-23"
  }
 ]
