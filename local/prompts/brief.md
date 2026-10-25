@@ -54,10 +54,19 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
    `verify_condition` flag means the price is so far below comps that the
    home almost certainly has condition/title problems — present those as
    "cheap for a reason, worth a drive-by" rather than as bargains. If there
-   are no deals, say so honestly — never pad.
-2. **Market movement** — a short section from the last few days of events:
+   are no deals, say so honestly — never pad. Catherine works mostly in
+   Webster and Claiborne parishes and Haughton; the selection already
+   reserves about half the slots for those areas, so list those deals first.
+2. **New construction** — only when `new_builds` in `opportunities.json` is
+   non-empty (a couple of days a week). These are for her **buyers** who want
+   a newly built home, not investment picks: never call them deals or
+   underpriced. For each: address (linked), city, price, beds/baths, sqft,
+   year built, days on market, and $/sqft compared with that town's median
+   in `market-stats.json` (new builds usually run above it, say so plainly).
+   One line on what kind of buyer it suits. Keep the section short.
+3. **Market movement** — a short section from the last few days of events:
    notable new listings, meaningful price cuts (name them), what went pending.
-3. **Facebook post drafts** — 3 or 4 drafts Catherine can copy-paste, each in
+4. **Facebook post drafts** — 3 or 4 drafts Catherine can copy-paste, each in
    a bordered box with a label saying what kind of post it is.
 
    **Voice — this matters most.** These are Louisiana people. Professional but
@@ -90,16 +99,21 @@ Then output EXACTLY this structure (the markers matter — a script parses them)
    - **Monday**: lead with a start-the-week market snapshot post — where the
      market stands, what's moving.
    - **Friday**: lead with a week-in-review post for **Webster and Claiborne
-     parishes specifically** (that's where Catherine works most): what went
-     pending, what left the market, what's new — from the last ~7 days of
-     `data/events.jsonl`. Since Louisiana doesn't publish sale prices, say
-     "went under contract" or "found its buyer," never invent a sold price.
+     parishes and Haughton specifically** (that's where Catherine works
+     most): what went pending, what left the market, what's new — from
+     `data/events-recent.json` (the last 7 days). Since Louisiana doesn't
+     publish sale prices, say "went under contract" or "found its buyer,"
+     never invent a sold price.
+   - On new-construction days, a buyer-facing post may talk about new
+     construction in general ("several new builds just came on in
+     Haughton…"), but never by address — those are other agents' and
+     builders' listings.
 
-   Weight all posts toward Webster and Claiborne parishes when there's a
-   choice. Each post ends with the required signature line above and, when
-   it fits naturally, a link to
+   Weight all posts toward Webster and Claiborne parishes and Haughton when
+   there's a choice. Each post ends with the required signature line above
+   and, when it fits naturally, a link to
    https://extradeadfred.github.io/hnt-realtor/market.html.
-4. Keep the whole email scannable in under a minute. Use the site's feel:
+5. Keep the whole email scannable in under a minute. Use the site's feel:
    navy #1B2A4A headings, gold #C8903A accents, system fonts.
 
 ## Pulse paragraph

@@ -167,6 +167,7 @@ def main():
     pool = analyze.score_deals(current, predictions, cfg, all_events)
     history = load_json(DATA / "deal-history.json", {})
     deals = analyze.select_daily_deals(pool, all_events, history, cfg)
+    deals["new_builds"] = analyze.select_new_builds(current, history, cfg)
     history = analyze.update_history(history, deals, {l["key"] for l in current})
     save_json(DATA / "deal-history.json", history)
     print(f"deal pool {deals['pool_size']} -> sent {len(deals['deals'])}: " + ", ".join(

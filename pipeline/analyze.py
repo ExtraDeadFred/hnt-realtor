@@ -211,6 +211,22 @@ def score_deals(listings, predictions, cfg, events=None):
     return deals
 
 
+def _in_focus(listing, d):
+    """In Catherine's main working areas (config deals.focus_*)."""
+    return (listing.get("parish") in d.get("focus_parishes", [])
+            or listing.get("city") in d.get("focus_cities", []))
+
+
+def _days_since_featured(key, history, today):
+    rec = history.get(key)
+    if not rec or not rec.get("last_featured"):
+        return None
+    try:
+        return (today - date.fromisoformat(rec["last_featured"])).days
+    except (ValueError, TypeError):
+        return None
+
+
 def select_daily_deals(deals, events, history, cfg):
     """Choose which of the qualifying deals to actually send today.
 
@@ -252,13 +268,7 @@ def select_daily_deals(deals, events, history, cfg):
             fresh_reason[e["key"]] = e["event"]
 
     def days_since_featured(deal):
-        rec = history.get(deal["key"])
-        if not rec or not rec.get("last_featured"):
-            return None
-        try:
-            return (today - date.fromisoformat(rec["last_featured"])).days
-        except (ValueError, TypeError):
-            return None
+        return _days_since_featured(deal["key"], history, today)
 
     picked, used = [], set()
 
@@ -268,12 +278,33 @@ def select_daily_deals(deals, events, history, cfg):
                                           .get("times_featured", 0))})
         used.add(deal["key"])
 
-    # 1. fresh activity first — new listings and this week's price cuts
-    for deal in deals:
+    # 1. fresh activity first — new listings and this week's price cuts,
+    #    her focus areas ahead of the rest (stable sort keeps score order)
+    for deal in sorted(deals, key=lambda x: not _in_focus(x, d)):
         if len(picked) >= min(d.get("fresh_slots", 4), top_n):
             break
         if deal["key"] in fresh_reason and deal["key"] not in used:
             take(deal, fresh_reason[deal["key"]])
+
+    # 1b. top up her focus areas to focus_min from deals outside the cooldown
+    focus_min = min(d.get("focus_min", 0), top_n)
+    for deal in deals:
+        if len(picked) >= top_n or sum(_in_focus(x, d) for x in picked) >= focus_min:
+            break
+        if deal["key"] in used or not _in_focus(deal, d):
+            continue
+        since = days_since_featured(deal)
+        if since is None or since >= cooldown:
+            take(deal, "top_score" if since is None else "resurfacing")
+
+    # 1c. her areas ran dry inside the cooldown? bring back benched focus
+    #     deals, longest-unseen first, rather than drift back to Bossier City
+    short = focus_min - sum(_in_focus(x, d) for x in picked)
+    if short > 0 and len(picked) < top_n:
+        benched = [x for x in deals if x["key"] not in used and _in_focus(x, d)]
+        benched.sort(key=lambda x: (-(days_since_featured(x) or 0), -x["score"]))
+        for deal in benched[: min(short, top_n - len(picked))]:
+            take(deal, "still_available")
 
     # 2. best scores that haven't been featured inside the cooldown window
     for deal in deals:
@@ -299,10 +330,61 @@ def select_daily_deals(deals, events, history, cfg):
             "deals": picked}
 
 
+def select_new_builds(listings, history, cfg):
+    """A few new-construction homes for her buyers on the configured weekdays.
+
+    Not investments (new builds rarely score as underpriced), so they bypass
+    the deal model. Rotates through the market with its own cooldown, her
+    focus areas first, freshest listings first within each group.
+    """
+    nb = cfg.get("new_builds") or {}
+    today = date.today()
+    if today.strftime("%A") not in nb.get("weekdays", []):
+        return []
+    d = cfg["deals"]
+    eligible_types = d.get("eligible_types")
+    min_year = today.year - nb.get("max_age_years", 1)
+    candidates = [
+        l for l in listings
+        if l.get("status") == "active"
+        and (l.get("year_built") or 0) >= min_year
+        and (l.get("price") or 0) >= d["min_price"]
+        and (not eligible_types or l.get("home_type") is None
+             or l["home_type"] in eligible_types)]
+    cooldown = nb.get("cooldown_days", 14)
+
+    def since(l):
+        return _days_since_featured(l["key"], history, today)
+
+    rested = [l for l in candidates if since(l) is None or since(l) >= cooldown]
+    if rested:
+        rested.sort(key=lambda l: (not _in_focus(l, d), l.get("days_on_market") or 0))
+        chosen = rested
+    else:  # everything shown recently: longest-unseen first
+        chosen = sorted(candidates, key=lambda l: -(since(l) or 0))
+    # one per town first so a single big subdivision can't fill every slot
+    count, picks, towns = nb.get("count", 2), [], set()
+    for l in chosen:
+        if len(picks) < count and l["city"] not in towns:
+            picks.append(l)
+            towns.add(l["city"])
+    picks += [l for l in chosen if l not in picks][: count - len(picks)]
+    out = []
+    for l in picks:
+        out.append({
+            **{f: l.get(f) for f in ("key", "address", "city", "parish", "zip",
+                                     "price", "beds", "baths", "sqft", "year_built",
+                                     "days_on_market", "subdivision", "url",
+                                     "own_listing")},
+            "ppsf": round(l["price"] / l["sqft"], 1) if l.get("sqft") else None,
+        })
+    return out
+
+
 def update_history(history, selection, live_keys):
     """Record what we featured today; forget listings that left the market."""
     today = date.today().isoformat()
-    for deal in selection["deals"]:
+    for deal in selection["deals"] + selection.get("new_builds", []):
         rec = history.setdefault(deal["key"], {"first_featured": today,
                                                "times_featured": 0})
         rec["last_featured"] = today

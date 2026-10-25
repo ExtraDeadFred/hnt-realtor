@@ -55,6 +55,20 @@ deals:
   cooldown_days: 10
   fresh_slots: 4
   fresh_event_days: 2
+  # Catherine works mostly in Webster & Claiborne parishes and Haughton, but
+  # Bossier City dominates the pool (~105 of ~170). Keep at least focus_min
+  # of the daily picks from her areas whenever enough qualify.
+  focus_parishes: [Webster, Claiborne]
+  focus_cities: [Haughton]
+  focus_min: 5
+
+# New construction for her buyers (not scored as investments): a short
+# rotating list on these weekdays, her focus areas first.
+new_builds:
+  weekdays: [Tuesday, Thursday]
+  count: 2
+  max_age_years: 1     # built this year or last
+  cooldown_days: 14
 
 stats:
   # Held out of headline median price/$-per-sqft (still counted in inventory)

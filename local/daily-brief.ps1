@@ -77,6 +77,38 @@ $ErrorActionPreference = "Continue"
 git checkout -- data/enrichment_cache.db *> $null
 git pull --ff-only *> $null
 $pullExit = $LASTEXITCODE
+
+# GitHub runs the 2:07am scheduled job hours late (median start ~8am Central
+# by October), so the brief kept reading yesterday's data. If today's data
+# isn't in yet, start the workflow on demand (no queue delay) and wait for
+# its commit. Its own freshness check makes the later cron run a no-op.
+function Get-DataDate($ref) {
+    try { (git show "${ref}:data/market-stats.json" 2>$null | Out-String | ConvertFrom-Json).updated } catch { $null }
+}
+$todayUtc = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd")  # the runner dates data in UTC
+if ((Get-DataDate "HEAD") -ne $todayUtc) {
+    $ghExit = 1
+    if (Get-Command gh -ErrorAction SilentlyContinue) {
+        gh workflow run market-data.yml *> $null
+        $ghExit = $LASTEXITCODE
+    }
+    if ($ghExit -eq 0) {
+        Write-Host "Today's data not in yet — triggered the data workflow, waiting..."
+        $deadline = (Get-Date).AddMinutes(20)
+        while ((Get-Date) -lt $deadline) {
+            Start-Sleep -Seconds 30
+            git fetch -q *> $null
+            if ((Get-DataDate "origin/master") -eq $todayUtc) { break }
+        }
+        git pull --ff-only *> $null
+        $pullExit = $LASTEXITCODE
+        if ((Get-DataDate "HEAD") -ne $todayUtc) {
+            Write-Warning "Today's data still not available after 20 min — using the latest data on hand"
+        }
+    } else {
+        Write-Warning "Could not trigger the data workflow (gh missing or exit $ghExit) — using the latest data on hand"
+    }
+}
 $ErrorActionPreference = "Stop"
 if ($pullExit -ne 0) {
     Write-Warning "git pull failed (exit $pullExit) — continuing with existing data"
@@ -134,6 +166,9 @@ foreach ($attempt in 1..3) {
         elseif ($raw -match "===EMAIL_HTML===\s*([\s\S]*?)\s*===PULSE_TEXT===\s*([\s\S]*)$") {
             $html = $Matches[1] -replace '^\s*```html?\s*', '' -replace '\s*```\s*$', ''
             $pulse = $Matches[2].Trim() -replace '^\s*```\s*', '' -replace '\s*```\s*$', ''
+            # Claude sometimes "closes" the pulse with a second marker (10-05,
+            # 10-19); never let a marker reach the public site.
+            $pulse = ($pulse -replace '(?m)^\s*===[A-Z_]+===\s*$', '').Trim()
             # A continuation fragment starts mid-document (e.g. "<li>..." or
             # bare text) — reject it and retry rather than send half a brief.
             if ($html -notmatch '^\s*<(!DOCTYPE|html|body|div|table)') {
