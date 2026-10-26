@@ -7,9 +7,36 @@ sqft (living area), year built, beds, baths.
 
 import csv
 import re
+from datetime import date, datetime
 from pathlib import Path
 
 from normalize import canon_key, classify_home_type
+
+# A sale belongs to an outcome only if it closed around when the listing left
+# the market. Listings drop off the portals ~1 day before closing; allow a
+# little slack before and a long tail after for slow closings.
+SALE_WINDOW_DAYS = (-30, 180)
+
+
+def parse_date(s):
+    """MLS exports use MM/DD/YYYY, APIs and our own files use ISO."""
+    if isinstance(s, date):
+        return s
+    s = str(s or "")[:10]
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except ValueError:
+            pass
+    return None
+
+
+def sale_in_window(sold_date, left_market):
+    sold, left = parse_date(sold_date), parse_date(left_market)
+    if not (sold and left):
+        return False
+    lo, hi = SALE_WINDOW_DAYS
+    return lo <= (sold - left).days <= hi
 
 _COLUMN_ALIASES = {
     "address": ["address", "street address", "property address", "full address"],
@@ -79,11 +106,27 @@ def load_solds(folder="ingest/mls-solds"):
 
 
 def apply_to_outcomes(outcomes, solds):
-    """Replace provisional (proxy) outcome prices with true sold prices."""
-    by_key = {s["key"]: s for s in solds}
+    """Replace provisional (proxy) outcome prices with true sold prices.
+
+    Matching on address alone paired relisted homes (flips, resales) with
+    their PREVIOUS sale — all 33 "true solds" before this fix were wrong. The
+    sale must close within SALE_WINDOW_DAYS of the listing leaving the market,
+    and earlier matches are re-checked against the same rule.
+    """
+    by_key = {}
+    for s in solds:
+        by_key.setdefault(s["key"], []).append(s)
     for o in outcomes:
-        s = by_key.get(o["key"])
-        if s and not o.get("sold_price"):
+        left = o.get("predicted_at")
+        if o.get("sold_date") and not sale_in_window(o["sold_date"], left):
+            o["sold_price"] = o["sold_date"] = None
+        if o.get("sold_price"):
+            continue
+        cands = [s for s in by_key.get(o["key"], [])
+                 if sale_in_window(s.get("sold_date"), left)]
+        if cands:
+            s = min(cands, key=lambda s: abs((parse_date(s["sold_date"])
+                                              - parse_date(left)).days))
             o["sold_price"] = s["price"]
-            o["sold_date"] = s.get("sold_date")
+            o["sold_date"] = parse_date(s["sold_date"]).isoformat()
     return outcomes

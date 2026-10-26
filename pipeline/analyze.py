@@ -115,10 +115,17 @@ def _find_comps(subject, pool, cfg):
     return comps[:10]
 
 
-def predict_prices(listings, solds, cfg):
+def predict_prices(listings, solds, cfg, calibration=None):
     """Predicted value = median $/sqft of comps × sqft. Sold records (from MLS
-    CSVs) are preferred comps; active/pending listings fill the gap."""
+    CSVs) are preferred comps; active/pending listings fill the gap.
+
+    `calibration` (from town_calibration) scales each town's estimate by how
+    far past estimates there missed real sales. `predicted_raw` keeps the
+    uncorrected value: calibration is always learned from raw estimates, so
+    the correction can't feed back on itself.
+    """
     pool = solds + listings
+    calibration = calibration or {}
     predictions = {}
     for l in listings:
         if not (l.get("sqft") and l.get("price")):
@@ -127,12 +134,44 @@ def predict_prices(listings, solds, cfg):
         if len(comps) < 3:
             continue
         ppsf = median([_ppsf(c) for c in comps])
+        raw = ppsf * l["sqft"]
+        factor = calibration.get(l["city"], {}).get("factor", 1.0)
         predictions[l["key"]] = {
-            "predicted": round(ppsf * l["sqft"]),
+            "predicted": round(raw * factor),
+            "predicted_raw": round(raw),
+            "calibration": factor,
             "comp_count": len(comps),
             "comp_ppsf": round(ppsf, 1),
         }
     return predictions
+
+
+def _true_pairs(outcomes):
+    """(outcome, raw estimate) for outcomes with a real MLS sale price."""
+    return [(o, o.get("predicted_raw") or o["predicted"]) for o in outcomes
+            if o.get("sold_price") and (o.get("predicted_raw") or o.get("predicted"))]
+
+
+def town_calibration(outcomes, cfg):
+    """Per-town correction learned from real sales: median(sold ÷ raw
+    estimate), shrunk toward 1.0 by k pseudo-sales so a town with few sales
+    barely moves. Self-updating: every MLS export adds matched sales.
+
+    Validated Oct 2026 on a time split (train on listings that left the
+    market before a cutoff, test after): median miss 13.3% -> 12.7%.
+    """
+    m = cfg["model"]
+    k = m.get("calibration_k", 20)
+    lo, hi = m.get("calibration_clamp", [0.8, 1.2])
+    by_city = {}
+    for o, raw in _true_pairs(outcomes):
+        by_city.setdefault(o["city"], []).append(o["sold_price"] / raw)
+    out = {}
+    for city, ratios in sorted(by_city.items()):
+        n = len(ratios)
+        factor = (n * median(ratios) + k * 1.0) / (n + k)
+        out[city] = {"factor": round(min(max(factor, lo), hi), 3), "n": n}
+    return out
 
 
 def _recent_price_cuts(events, days):
@@ -407,47 +446,78 @@ def update_outcomes(outcomes, events, predictions, listings_prev):
         outcomes.append({
             "key": e["key"], "address": e["address"], "city": e["city"],
             "sqft": old.get("sqft"), "predicted": pred["predicted"],
+            "predicted_raw": pred.get("predicted_raw", pred["predicted"]),
             "predicted_at": e["date"], "proxy_price": e["last_price"],
             "sold_price": None, "sold_date": None,
         })
     return outcomes
 
 
+def _accuracy(signed, min_n=1):
+    """Summary of signed errors (estimate ÷ actual − 1)."""
+    if len(signed) < min_n:
+        return None
+    errs = [abs(e) for e in signed]
+    return {
+        "n": len(errs),
+        # median is the AVM-standard headline: robust to distressed/teardown
+        # sales that no size-based model can price
+        "median_err_pct": round(100 * median(errs), 1),
+        "lean_pct": round(100 * median(signed), 1),  # + = estimates run high
+        "within_10pct": round(100 * sum(1 for e in errs if e <= 0.10) / len(errs), 1),
+    }
+
+
+def _by_city(pairs, min_n=10):
+    """pairs of (city, signed error) -> per-town accuracy for towns with min_n."""
+    groups = {}
+    for city, e in pairs:
+        groups.setdefault(city, []).append(e)
+    return {c: _accuracy(v) for c, v in sorted(groups.items()) if len(v) >= min_n}
+
+
 def backtest(solds, cfg, max_n=1000):
     """Leave-one-out accuracy against real MLS sales: predict each sold home
-    from the other solds' $/sqft and compare to its actual close price."""
-    errs = []
-    for s in solds[:max_n]:
+    from the other solds' $/sqft and compare to its actual close price.
+    Uses the most recent max_n sales so the number tracks today's market."""
+    from ingest_mls import parse_date
+    recent = sorted(solds, key=lambda s: parse_date(s.get("sold_date")) or date.min,
+                    reverse=True)
+    pairs = []
+    for s in recent[:max_n]:
         if not (s.get("sqft") and s.get("price")):
             continue
         comps = _find_comps(s, solds, cfg)
         if len(comps) < 3:
             continue
         predicted = median([_ppsf(c) for c in comps]) * s["sqft"]
-        errs.append(abs(predicted - s["price"]) / s["price"])
-    if not errs:
+        pairs.append((s["city"], predicted / s["price"] - 1))
+    if not pairs:
         return None
+    errs = [abs(e) for _, e in pairs]
     return {
-        "n": len(errs),
-        # median is the AVM-standard headline: robust to distressed/teardown
-        # sales that no size-based model can price
-        "median_err_pct": round(100 * median(errs), 1),
+        **_accuracy([e for _, e in pairs]),
         "mape_pct": round(100 * sum(errs) / len(errs), 1),
-        "within_10pct": round(100 * sum(1 for e in errs if e <= 0.10) / len(errs), 1),
+        "by_city": _by_city(pairs),
     }
 
 
 def model_metrics(outcomes):
-    """Rolling accuracy vs actual (MLS) or proxy (last list) prices."""
+    """Rolling accuracy vs actual (MLS) or proxy (last list) prices, plus the
+    live estimates' accuracy against real sales alone, overall and by town."""
     errs = []
     for o in outcomes:
         actual = o.get("sold_price") or o.get("proxy_price")
         if actual and o.get("predicted"):
             errs.append(abs(o["predicted"] - actual) / actual)
+    true = [(o["city"], o["predicted"] / o["sold_price"] - 1)
+            for o in outcomes if o.get("sold_price") and o.get("predicted")]
     return {
         "updated": date.today().isoformat(),
         "n_outcomes": len(errs),
-        "n_true_solds": sum(1 for o in outcomes if o.get("sold_price")),
+        "n_true_solds": len(true),
         "mape_pct": round(100 * sum(errs) / len(errs), 1) if errs else None,
         "within_10pct": round(100 * sum(1 for e in errs if e <= 0.10) / len(errs), 1) if errs else None,
+        "live_vs_sold": _accuracy([e for _, e in true]),
+        "live_by_city": _by_city(true),
     }

@@ -40,6 +40,10 @@ model:
   min_comps: 5          # widen search to parish if fewer comps than this
   comp_year_window: 20  # ± years built
   comp_sqft_window: 0.30  # ± fraction of sqft
+  # Per-town correction learned from real sales (sold ÷ estimate), shrunk
+  # toward 1.0 by this many pseudo-sales so thin towns barely move
+  calibration_k: 20
+  calibration_clamp: [0.8, 1.2]
 
 deals:
   underpriced_spread_pct: 12   # predicted vs list spread to flag "underpriced"

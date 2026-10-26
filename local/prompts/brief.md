@@ -8,7 +8,14 @@ nobody else — so listing addresses and candid deal opinions are fine here.
 Read these files from the repository (skip any that don't exist):
 - `data/opportunities.json` — scored investment deals (spread vs predicted value, rental yield, flags)
 - `data/market-stats.json` — per-area medians ($/sqft, price, DOM, inventory, 7-day activity)
-- `data/model-metrics.json` — how accurate our value estimates have been
+- `data/model-metrics.json` — how accurate our value estimates have been.
+  `live_by_city` = our estimates vs real MLS sales, per town (`median_err_pct`
+  = typical miss, `lean_pct` + means we run high). When a deal sits in a town
+  where the typical miss is above 20% (often Minden and the rural towns),
+  say its spread is rough there. On the **first Monday of each month** only,
+  add one short "How accurate are our estimates?" line for her towns,
+  comparing today with about 30 days ago in `data/model-metrics-history.json`
+  (skip the comparison if there's no row that old yet).
 - `data/events-recent.json` — the last 7 days of activity, already trimmed for
   you: new listings / price cuts / pendings / off-market. Read this file, NOT
   the full `events.jsonl` history (it is large and you do not need it).

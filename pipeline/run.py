@@ -151,7 +151,8 @@ def main():
             confirmed = 0
             for o in outcomes:
                 ev = sold_events.get(o["key"])
-                if ev and not o.get("sold_date"):
+                if ev and not o.get("sold_date") and \
+                        ingest_mls.sale_in_window(ev.get("sold_date"), o.get("predicted_at")):
                     o["sold_date"] = ev["sold_date"]
                     if ev.get("sold_price"):
                         o["sold_price"] = ev["sold_price"]
@@ -162,7 +163,8 @@ def main():
             print(f"sold-event confirmation failed: {e}")
 
     all_events = load_events() + events
-    predictions = analyze.predict_prices(current, solds, cfg)
+    calibration = analyze.town_calibration(outcomes, cfg)
+    predictions = analyze.predict_prices(current, solds, cfg, calibration)
     stats = analyze.market_stats(current, all_events, cfg)
     pool = analyze.score_deals(current, predictions, cfg, all_events)
     history = load_json(DATA / "deal-history.json", {})
@@ -191,6 +193,18 @@ def main():
             print(f"enrichment failed (deals sent without it): {e}")
     metrics = analyze.model_metrics(outcomes)
     metrics["backtest"] = analyze.backtest(solds, cfg)
+    metrics["calibration"] = calibration
+
+    # Accuracy over time, one row per day, so improvement (or drift) by town
+    # is visible as MLS exports add matched sales
+    acc_hist = load_json(DATA / "model-metrics-history.json", [])
+    acc_hist = [h for h in acc_hist if h["date"] != metrics["updated"]]
+    acc_hist.append({"date": metrics["updated"],
+                     "live_vs_sold": metrics["live_vs_sold"],
+                     "live_by_city": metrics["live_by_city"],
+                     "backtest": {k: v for k, v in (metrics["backtest"] or {}).items()
+                                  if k != "by_city"}})
+    save_json(DATA / "model-metrics-history.json", acc_hist)
 
     save_json(DATA / "listings.json", current)
     save_json(DATA / "market-stats.json", stats)
