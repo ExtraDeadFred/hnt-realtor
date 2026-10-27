@@ -1,13 +1,83 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "n_outcomes": 1288,
- "n_true_solds": 33,
- "mape_pct": 35.9,
- "within_10pct": 36.1,
+ "n_true_solds": 1,
+ "mape_pct": 33.8,
+ "within_10pct": 36.5,
+ "live_vs_sold": {
+  "n": 1,
+  "median_err_pct": 17.0,
+  "lean_pct": -17.0,
+  "within_10pct": 0.0
+ },
+ "live_by_city": {},
  "backtest": {
   "n": 999,
-  "median_err_pct": 12.6,
-  "mape_pct": 34.9,
-  "within_10pct": 44.0
+  "median_err_pct": 12.8,
+  "lean_pct": 0.1,
+  "within_10pct": 43.3,
+  "mape_pct": 36.1,
+  "by_city": {
+   "Benton": {
+    "n": 122,
+    "median_err_pct": 11.7,
+    "lean_pct": 0.4,
+    "within_10pct": 45.9
+   },
+   "Bossier City": {
+    "n": 515,
+    "median_err_pct": 11.0,
+    "lean_pct": -0.6,
+    "within_10pct": 47.6
+   },
+   "Doyline": {
+    "n": 12,
+    "median_err_pct": 48.9,
+    "lean_pct": 8.5,
+    "within_10pct": 16.7
+   },
+   "Haughton": {
+    "n": 168,
+    "median_err_pct": 9.9,
+    "lean_pct": -0.6,
+    "within_10pct": 50.6
+   },
+   "Homer": {
+    "n": 14,
+    "median_err_pct": 45.7,
+    "lean_pct": 18.1,
+    "within_10pct": 14.3
+   },
+   "Minden": {
+    "n": 73,
+    "median_err_pct": 24.5,
+    "lean_pct": 3.9,
+    "within_10pct": 21.9
+   },
+   "Plain Dealing": {
+    "n": 17,
+    "median_err_pct": 7.8,
+    "lean_pct": -0.4,
+    "within_10pct": 52.9
+   },
+   "Princeton": {
+    "n": 25,
+    "median_err_pct": 8.6,
+    "lean_pct": 1.2,
+    "within_10pct": 52.0
+   },
+   "Springhill": {
+    "n": 17,
+    "median_err_pct": 35.8,
+    "lean_pct": 1.0,
+    "within_10pct": 17.6
+   }
+  }
+ },
+ "calibration": {
+  "Benton": {
+   "factor": 1.01,
+   "n": 1
+  }
  }
 }

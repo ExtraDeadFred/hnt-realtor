@@ -1668,8 +1668,8 @@
   "predicted": 234729,
   "predicted_at": "2026-07-07",
   "proxy_price": 279900,
-  "sold_price": 236000.0,
-  "sold_date": "12/26/2025"
+  "sold_price": null,
+  "sold_date": "2026-10-15"
  },
  {
   "key": "120 CARONDELET CT|BOSSIER CITY",
@@ -1899,8 +1899,8 @@
   "predicted": 331437,
   "predicted_at": "2026-07-07",
   "proxy_price": 310000,
-  "sold_price": 272325.0,
-  "sold_date": "08/29/2025"
+  "sold_price": null,
+  "sold_date": "2026-10-23"
  },
  {
   "key": "1207 METAIRIE LN|BOSSIER CITY",
@@ -1944,7 +1944,7 @@
   "predicted_at": "2026-07-07",
   "proxy_price": 149900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-26"
  },
  {
   "key": "4221 EVELYN ST|BOSSIER CITY",
@@ -2812,8 +2812,8 @@
   "predicted": 168949,
   "predicted_at": "2026-07-15",
   "proxy_price": 124900,
-  "sold_price": 35000.0,
-  "sold_date": "07/30/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "402 5TH ST|BENTON",
@@ -2977,8 +2977,8 @@
   "predicted": 325527,
   "predicted_at": "2026-07-17",
   "proxy_price": 285000,
-  "sold_price": 179000.0,
-  "sold_date": "04/20/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1111 CREOLE DR|BOSSIER CITY",
@@ -2988,8 +2988,8 @@
   "predicted": 316011,
   "predicted_at": "2026-07-17",
   "proxy_price": 330000,
-  "sold_price": 315000.0,
-  "sold_date": "02/10/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "611 MANASSAS CIR|BOSSIER CITY",
@@ -4870,7 +4870,7 @@
   "predicted_at": "2026-08-11",
   "proxy_price": 206500,
   "sold_price": null,
-  "sold_date": "2026-06-11"
+  "sold_date": null
  },
  {
   "key": "740 CREWE LN|BOSSIER CITY",
@@ -5056,8 +5056,8 @@
   "predicted": 304987,
   "predicted_at": "2026-08-13",
   "proxy_price": 299900,
-  "sold_price": 345000.0,
-  "sold_date": "07/11/2025"
+  "sold_price": null,
+  "sold_date": "2026-08-12"
  },
  {
   "key": "121 SITKA LOOP|HAUGHTON",
@@ -5375,8 +5375,8 @@
   "predicted": 262432,
   "predicted_at": "2026-08-18",
   "proxy_price": 271000,
-  "sold_price": 264995.0,
-  "sold_date": "07/22/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "101 GANTRY PL|BOSSIER CITY",
@@ -5661,8 +5661,8 @@
   "predicted": 343279,
   "predicted_at": "2026-08-22",
   "proxy_price": 299900,
-  "sold_price": 165500.0,
-  "sold_date": "09/19/2025"
+  "sold_price": null,
+  "sold_date": "2026-08-21"
  },
  {
   "key": "109 CAIDEN DR|BENTON",
@@ -5694,8 +5694,8 @@
   "predicted": 91282,
   "predicted_at": "2026-08-24",
   "proxy_price": 137900,
-  "sold_price": 108000.0,
-  "sold_date": "11/10/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "631 HAUGHTON TRACE CT|HAUGHTON",
@@ -6266,8 +6266,8 @@
   "predicted": 487062,
   "predicted_at": "2026-09-01",
   "proxy_price": 443000,
-  "sold_price": 310000.0,
-  "sold_date": "07/21/2025"
+  "sold_price": null,
+  "sold_date": "2026-08-31"
  },
  {
   "key": "1713 CAPLIS SLIGO RD|BOSSIER CITY",
@@ -6310,8 +6310,8 @@
   "predicted": 304079,
   "predicted_at": "2026-09-01",
   "proxy_price": 289500,
-  "sold_price": 200000.0,
-  "sold_date": "03/18/2026"
+  "sold_price": null,
+  "sold_date": "2026-08-31"
  },
  {
   "key": "614 GLENSHIRE DR|BOSSIER CITY",
@@ -6332,8 +6332,8 @@
   "predicted": 145493,
   "predicted_at": "2026-09-01",
   "proxy_price": 167900,
-  "sold_price": 50000.0,
-  "sold_date": "05/12/2026"
+  "sold_price": null,
+  "sold_date": "2026-10-02"
  },
  {
   "key": "402 HALIFAX CIR|BENTON",
@@ -6376,8 +6376,8 @@
   "predicted": 178051,
   "predicted_at": "2026-09-02",
   "proxy_price": 235000,
-  "sold_price": 225000.0,
-  "sold_date": "07/18/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "5640 HWY 157|HAUGHTON",
@@ -7389,7 +7389,7 @@
   "predicted_at": "2026-09-16",
   "proxy_price": 284900,
   "sold_price": null,
-  "sold_date": "2026-07-31"
+  "sold_date": null
  },
  {
   "key": "2101 BELLE GROVE DR|BOSSIER CITY",
@@ -7883,8 +7883,8 @@
   "predicted": 190294,
   "predicted_at": "2026-09-24",
   "proxy_price": 189900,
-  "sold_price": 85000.0,
-  "sold_date": "03/24/2026"
+  "sold_price": null,
+  "sold_date": "2026-09-23"
  },
  {
   "key": "241 CULLOM DR|BOSSIER CITY",
@@ -8213,8 +8213,8 @@
   "predicted": 486004,
   "predicted_at": "2026-09-30",
   "proxy_price": 350000,
-  "sold_price": 275000.0,
-  "sold_date": "10/02/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "4006 CRAFT ST|BOSSIER CITY",
@@ -8323,8 +8323,8 @@
   "predicted": 264076,
   "predicted_at": "2026-10-01",
   "proxy_price": 262500,
-  "sold_price": 148000.0,
-  "sold_date": "12/01/2025"
+  "sold_price": null,
+  "sold_date": "2026-09-30"
  },
  {
   "key": "125 SITKA LOOP|HAUGHTON",
@@ -8335,7 +8335,7 @@
   "predicted_at": "2026-10-01",
   "proxy_price": 424900,
   "sold_price": null,
-  "sold_date": "2026-07-23"
+  "sold_date": null
  },
  {
   "key": "3605 WILLOW WISP CIR|HAUGHTON",
@@ -8642,8 +8642,8 @@
   "predicted": 106169,
   "predicted_at": "2026-10-02",
   "proxy_price": 145000,
-  "sold_price": 46000.0,
-  "sold_date": "05/05/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "124 BRIMESTONE LOOP|BENTON",
@@ -8896,7 +8896,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 165000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "1425 SHREVEPORT RD|MINDEN",
@@ -9083,7 +9083,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 124900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-26"
  },
  {
   "key": "2621 FIREFLY TRL|HAUGHTON",
@@ -9247,8 +9247,8 @@
   "predicted": 297102,
   "predicted_at": "2026-10-08",
   "proxy_price": 346800,
-  "sold_price": 329000.0,
-  "sold_date": "07/07/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "545 TIMBERS E DR|HAUGHTON",
@@ -9336,7 +9336,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 364900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-26"
  },
  {
   "key": "1855 SPARROW RDG|HAUGHTON",
@@ -9874,8 +9874,8 @@
   "predicted": 611403,
   "predicted_at": "2026-10-08",
   "proxy_price": 695000,
-  "sold_price": 675000.0,
-  "sold_date": "09/12/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "198 N BEACH DR|BOSSIER CITY",
@@ -10358,8 +10358,8 @@
   "predicted": 185305,
   "predicted_at": "2026-10-08",
   "proxy_price": 239000,
-  "sold_price": 220000.0,
-  "sold_date": "06/29/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "5191 TARA LN|BOSSIER CITY",
@@ -10468,8 +10468,8 @@
   "predicted": 435939,
   "predicted_at": "2026-10-08",
   "proxy_price": 305000,
-  "sold_price": 190000.0,
-  "sold_date": "06/24/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1612 HILL ST|BOSSIER CITY",
@@ -11095,8 +11095,8 @@
   "predicted": 300025,
   "predicted_at": "2026-10-08",
   "proxy_price": 279900,
-  "sold_price": 259000.0,
-  "sold_date": "10/23/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1802 POLLYANNA ST|BOSSIER CITY",
@@ -11414,8 +11414,8 @@
   "predicted": 277714,
   "predicted_at": "2026-10-08",
   "proxy_price": 202900,
-  "sold_price": 94000.0,
-  "sold_date": "03/02/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "5215 FOXGLOVE DR|BOSSIER CITY",
@@ -11667,8 +11667,8 @@
   "predicted": 131037,
   "predicted_at": "2026-10-08",
   "proxy_price": 148000,
-  "sold_price": 131456.0,
-  "sold_date": "04/30/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "4911 LONGSTREET PL|BOSSIER CITY",
@@ -12086,7 +12086,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 439000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-23"
  },
  {
   "key": "628 KELLY ST|BOSSIER CITY",
@@ -12240,7 +12240,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 358000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-26"
  },
  {
   "key": "611 MONTGOMERY ST|BOSSIER CITY",
@@ -12635,8 +12635,8 @@
   "predicted": 233578,
   "predicted_at": "2026-10-08",
   "proxy_price": 229000,
-  "sold_price": 125000.0,
-  "sold_date": "06/09/2026"
+  "sold_price": null,
+  "sold_date": "2026-10-20"
  },
  {
   "key": "819 VENECIA DR|BOSSIER CITY",
@@ -12679,8 +12679,8 @@
   "predicted": 91255,
   "predicted_at": "2026-10-08",
   "proxy_price": 132500,
-  "sold_price": 115000.0,
-  "sold_date": "08/28/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "2114 PINE ST|BOSSIER CITY",
@@ -12745,8 +12745,8 @@
   "predicted": 90183,
   "predicted_at": "2026-10-08",
   "proxy_price": 119500,
-  "sold_price": 20000.0,
-  "sold_date": "09/11/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1819 ALISON AVE|BOSSIER CITY",
@@ -13306,8 +13306,8 @@
   "predicted": 169000,
   "predicted_at": "2026-10-09",
   "proxy_price": 197500,
-  "sold_price": 22000.0,
-  "sold_date": "02/06/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1355 JOHNSON RD|DOYLINE",
@@ -13779,8 +13779,8 @@
   "predicted": 723789,
   "predicted_at": "2026-10-18",
   "proxy_price": 497900,
-  "sold_price": 300000.0,
-  "sold_date": "05/01/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "274 CATTAIL TRL|BENTON",
@@ -13944,8 +13944,8 @@
   "predicted": 556392,
   "predicted_at": "2026-10-18",
   "proxy_price": 750000,
-  "sold_price": 740000.0,
-  "sold_date": "03/20/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "143 NEW BETHEL BOOKER RD|BENTON",
@@ -14010,8 +14010,8 @@
   "predicted": 174299,
   "predicted_at": "2026-10-18",
   "proxy_price": 119000,
-  "sold_price": 85000.0,
-  "sold_date": "07/31/2025"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "1957 LEEWARD CV|BENTON",
@@ -14153,8 +14153,8 @@
   "predicted": 302338,
   "predicted_at": "2026-10-23",
   "proxy_price": 275000,
-  "sold_price": 150000.0,
-  "sold_date": "06/03/2026"
+  "sold_price": null,
+  "sold_date": null
  },
  {
   "key": "233 ALLEN DR|MINDEN",

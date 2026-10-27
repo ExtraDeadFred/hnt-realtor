@@ -1,0 +1,19 @@
+[
+ {
+  "date": "2026-10-27",
+  "live_vs_sold": {
+   "n": 1,
+   "median_err_pct": 17.0,
+   "lean_pct": -17.0,
+   "within_10pct": 0.0
+  },
+  "live_by_city": {},
+  "backtest": {
+   "n": 999,
+   "median_err_pct": 12.8,
+   "lean_pct": 0.1,
+   "within_10pct": 43.3,
+   "mape_pct": 36.1
+  }
+ }
+]
