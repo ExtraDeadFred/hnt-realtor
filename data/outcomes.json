@@ -3495,7 +3495,7 @@
   "predicted_at": "2026-07-23",
   "proxy_price": 349900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-28"
  },
  {
   "key": "3144 PETITE DR|BOSSIER CITY",
@@ -12779,7 +12779,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 390000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-28"
  },
  {
   "key": "229 THOMPSON ST|BOSSIER CITY",
@@ -14166,5 +14166,29 @@
   "proxy_price": 249000,
   "sold_price": null,
   "sold_date": "2026-10-23"
+ },
+ {
+  "key": "231 FRAZIER AVE|SIBLEY",
+  "address": "231 Frazier Ave",
+  "city": "Sibley",
+  "sqft": 1471,
+  "predicted": 143666,
+  "predicted_raw": 143666,
+  "predicted_at": "2026-10-29",
+  "proxy_price": 139900,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "2115 SWEET BAY CIR|BOSSIER CITY",
+  "address": "2115 Sweet Bay Cir",
+  "city": "Bossier City",
+  "sqft": 1958,
+  "predicted": 319095,
+  "predicted_raw": 319095,
+  "predicted_at": "2026-10-29",
+  "proxy_price": 304000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
