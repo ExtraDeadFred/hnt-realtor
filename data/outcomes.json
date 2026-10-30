@@ -9523,7 +9523,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 276946,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-29"
  },
  {
   "key": "604 CHABLIS LN|HAUGHTON",
@@ -10711,7 +10711,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 345000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-29"
  },
  {
   "key": "809 VENECIA DR|BOSSIER CITY",
@@ -11371,7 +11371,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 189900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-29"
  },
  {
   "key": "257 SAINT EDMUNDS WAY|BOSSIER CITY",
@@ -12647,7 +12647,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 266342,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-29"
  },
  {
   "key": "176 N CANAL DR|BOSSIER CITY",
@@ -14190,5 +14190,29 @@
   "proxy_price": 304000,
   "sold_price": null,
   "sold_date": null
+ },
+ {
+  "key": "511 BABB CIR|MINDEN",
+  "address": "511 Babb Cir",
+  "city": "Minden",
+  "sqft": 1024,
+  "predicted": 118784,
+  "predicted_raw": 118784,
+  "predicted_at": "2026-10-30",
+  "proxy_price": 70000,
+  "sold_price": null,
+  "sold_date": "2026-10-28"
+ },
+ {
+  "key": "220 SE 5TH AVE|SIBLEY",
+  "address": "220 SE 5th Ave",
+  "city": "Sibley",
+  "sqft": 1850,
+  "predicted": 186645,
+  "predicted_raw": 186645,
+  "predicted_at": "2026-10-30",
+  "proxy_price": 285000,
+  "sold_price": null,
+  "sold_date": "2026-10-20"
  }
 ]

@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29",
- "n_outcomes": 1290,
+ "updated": "2026-10-30",
+ "n_outcomes": 1292,
  "n_true_solds": 1,
  "mape_pct": 33.8,
- "within_10pct": 36.6,
+ "within_10pct": 36.5,
  "live_vs_sold": {
   "n": 1,
   "median_err_pct": 17.0,
