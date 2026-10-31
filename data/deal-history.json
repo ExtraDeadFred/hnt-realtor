@@ -26,8 +26,8 @@
  },
  "213 AND 215 MCDONALD ST|MINDEN": {
   "first_featured": "2026-08-13",
-  "times_featured": 8,
-  "last_featured": "2026-10-21"
+  "times_featured": 9,
+  "last_featured": "2026-10-31"
  },
  "328 S TALTON ST|MINDEN": {
   "first_featured": "2026-08-13",
@@ -101,8 +101,8 @@
  },
  "707 MOORE ST|MINDEN": {
   "first_featured": "2026-09-11",
-  "times_featured": 5,
-  "last_featured": "2026-10-21"
+  "times_featured": 6,
+  "last_featured": "2026-10-31"
  },
  "1637 AIRPORT LOOP|HOMER": {
   "first_featured": "2026-09-17",
@@ -136,13 +136,13 @@
  },
  "2172 AIRPORT LOOP|HOMER": {
   "first_featured": "2026-09-30",
-  "times_featured": 3,
-  "last_featured": "2026-10-21"
+  "times_featured": 4,
+  "last_featured": "2026-10-31"
  },
  "1445 MARITZKY RD|HOMER": {
   "first_featured": "2026-09-30",
-  "times_featured": 4,
-  "last_featured": "2026-10-25"
+  "times_featured": 5,
+  "last_featured": "2026-10-31"
  },
  "203 CHRYSLER ST|MINDEN": {
   "first_featured": "2026-09-30",
@@ -221,13 +221,13 @@
  },
  "218 BENOIST CIR|BOSSIER CITY": {
   "first_featured": "2026-10-10",
-  "times_featured": 2,
-  "last_featured": "2026-10-20"
+  "times_featured": 3,
+  "last_featured": "2026-10-31"
  },
  "301 OLD PLAIN DEALING RD|BENTON": {
   "first_featured": "2026-10-10",
-  "times_featured": 2,
-  "last_featured": "2026-10-21"
+  "times_featured": 3,
+  "last_featured": "2026-10-31"
  },
  "3216 THUNDERBIRD LN|BOSSIER CITY": {
   "first_featured": "2026-10-10",
@@ -638,5 +638,25 @@
   "first_featured": "2026-10-30",
   "times_featured": 1,
   "last_featured": "2026-10-30"
+ },
+ "200 COLONEL BURT DR|BENTON": {
+  "first_featured": "2026-10-31",
+  "times_featured": 1,
+  "last_featured": "2026-10-31"
+ },
+ "1229 WHITEHALL DR|BOSSIER CITY": {
+  "first_featured": "2026-10-31",
+  "times_featured": 1,
+  "last_featured": "2026-10-31"
+ },
+ "2608 DOUGLAS DR|BOSSIER CITY": {
+  "first_featured": "2026-10-31",
+  "times_featured": 1,
+  "last_featured": "2026-10-31"
+ },
+ "9890 HWY 79|HAYNESVILLE": {
+  "first_featured": "2026-10-31",
+  "times_featured": 1,
+  "last_featured": "2026-10-31"
  }
 }

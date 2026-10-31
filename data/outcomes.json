@@ -2725,7 +2725,7 @@
   "predicted_at": "2026-07-14",
   "proxy_price": 389999,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "4036 FALSE RIVER DR|BOSSIER CITY",
@@ -3429,7 +3429,7 @@
   "predicted_at": "2026-07-22",
   "proxy_price": 253885,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "5416 SHASTA DR|BOSSIER CITY",
@@ -9116,7 +9116,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 99900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "7245 HWY 157|HAUGHTON",
@@ -9149,7 +9149,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 259000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "96 CRAWFORD RD|HAUGHTON",
@@ -9303,7 +9303,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "338 WOOD SPGS|HAUGHTON",
@@ -9556,7 +9556,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 250890,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "191 BERKSHIRE PL|HAUGHTON",
@@ -9666,7 +9666,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 159000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "1503 TERESA PL|BOSSIER CITY",
@@ -10535,7 +10535,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 229161,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "2607 SWITCHGRASS DR|BOSSIER CITY",
@@ -10821,7 +10821,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 250000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "784 CROZIER DR|BOSSIER CITY",
@@ -11800,7 +11800,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 260000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "112 VIEUX CARRE|BOSSIER CITY",
@@ -11976,7 +11976,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 371100,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "923 CHISOLM TRL|BOSSIER CITY",
@@ -12515,7 +12515,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 279900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "2410 STOCKWELL RD|BOSSIER CITY",
@@ -14214,5 +14214,41 @@
   "proxy_price": 285000,
   "sold_price": null,
   "sold_date": "2026-10-20"
+ },
+ {
+  "key": "175 MAGNOLIA RD|DUBBERLY",
+  "address": "175 Magnolia Rd",
+  "city": "Dubberly",
+  "sqft": 1500,
+  "predicted": 137205,
+  "predicted_raw": 137205,
+  "predicted_at": "2026-10-31",
+  "proxy_price": 219800,
+  "sold_price": null,
+  "sold_date": "2026-10-30"
+ },
+ {
+  "key": "2066 HIGHPOINT PL|HAUGHTON",
+  "address": "2066 Highpoint Pl",
+  "city": "Haughton",
+  "sqft": 1932,
+  "predicted": 314014,
+  "predicted_raw": 314014,
+  "predicted_at": "2026-10-31",
+  "proxy_price": 340000,
+  "sold_price": null,
+  "sold_date": "2026-10-30"
+ },
+ {
+  "key": "501 COCODRIE DR|BOSSIER CITY",
+  "address": "501 Cocodrie Dr",
+  "city": "Bossier City",
+  "sqft": 1922,
+  "predicted": 325000,
+  "predicted_raw": 325000,
+  "predicted_at": "2026-10-31",
+  "proxy_price": 399900,
+  "sold_price": null,
+  "sold_date": "2026-10-30"
  }
 ]
