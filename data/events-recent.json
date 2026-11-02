@@ -1,10 +1,4 @@
 [
-{"date":"2026-10-25","event":"new","address":"5602 Highway 157","city":"Haughton","price":130000},
-{"date":"2026-10-25","event":"price_cut","address":"507 Fall Winds","city":"Bossier City","price":589000,"old_price":615000,"cut_pct":4.2},
-{"date":"2026-10-25","event":"price_cut","address":"119 Carriage Square Dr","city":"Bossier City","price":146565,"old_price":148000,"cut_pct":1.0},
-{"date":"2026-10-25","event":"new","address":"2610 Waverly Dr","city":"Bossier City","price":184999},
-{"date":"2026-10-25","event":"price_cut","address":"1001 Trey Ave","city":"Benton","price":79000,"old_price":92000,"cut_pct":14.1},
-{"date":"2026-10-25","event":"off_market","address":"1905 Miles St","city":"Bossier City","price":229000,"last_price":229000},
 {"date":"2026-10-26","event":"price_cut","address":"107 Hickory Hollow Dr","city":"Haughton","price":238900,"old_price":240000,"cut_pct":0.5},
 {"date":"2026-10-26","event":"price_cut","address":"175 Rye Cir","city":"Bossier City","price":384900,"old_price":395000,"cut_pct":2.6},
 {"date":"2026-10-26","event":"new","address":"6018 Sandalwood Dr","city":"Bossier City","price":249900},
@@ -147,5 +141,17 @@
 {"date":"2026-11-01","event":"off_market","address":"101 Pine Lake Dr","city":"Haughton","price":149000,"last_price":149000},
 {"date":"2026-11-01","event":"off_market","address":"2224 Brownlee Rd","city":"Bossier City","price":299900,"last_price":299900},
 {"date":"2026-11-01","event":"off_market","address":"105 Lancashire Dr","city":"Bossier City","price":228000,"last_price":228000},
-{"date":"2026-11-01","event":"off_market","address":"313 Chancellorsville Ct","city":"Bossier City","price":269000,"last_price":269000}
+{"date":"2026-11-01","event":"off_market","address":"313 Chancellorsville Ct","city":"Bossier City","price":269000,"last_price":269000},
+{"date":"2026-11-02","event":"price_cut","address":"1001 Jefferson St","city":"Minden","price":259000,"old_price":265000,"cut_pct":2.3},
+{"date":"2026-11-02","event":"price_cut","address":"6005 Hollyhock Ln","city":"Bossier City","price":249900,"old_price":254900,"cut_pct":2.0},
+{"date":"2026-11-02","event":"off_market","address":"7504 Pecanwood Ct","city":"Haughton","price":199000,"last_price":199000},
+{"date":"2026-11-02","event":"off_market","address":"1612 Hill St","city":"Bossier City","price":26000,"last_price":26000},
+{"date":"2026-11-02","event":"off_market","address":"302 Bevly Lake Dr","city":"Bossier City","price":515000,"last_price":515000},
+{"date":"2026-11-02","event":"off_market","address":"12 Chez Moi Dr","city":"Bossier City","price":450000,"last_price":450000},
+{"date":"2026-11-02","event":"off_market","address":"605 Kelly St","city":"Bossier City","price":24500,"last_price":24500},
+{"date":"2026-11-02","event":"off_market","address":"607 Kelly St","city":"Bossier City","price":24500,"last_price":24500},
+{"date":"2026-11-02","event":"off_market","address":"601 Kelly St","city":"Bossier City","price":24500,"last_price":24500},
+{"date":"2026-11-02","event":"off_market","address":"1610 Hill St","city":"Bossier City","price":27000,"last_price":27000},
+{"date":"2026-11-02","event":"off_market","address":"1330 Palmetto Rd","city":"Benton","price":119000,"last_price":119000},
+{"date":"2026-11-02","event":"off_market","address":"143 New Bethel Booker Rd","city":"Benton","price":107000,"last_price":107000}
 ]
