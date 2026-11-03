@@ -5431,7 +5431,7 @@
   "predicted_at": "2026-08-19",
   "proxy_price": 296900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-29"
  },
  {
   "key": "3367 GRAND LAKE DR|BOSSIER CITY",
@@ -9259,7 +9259,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 169900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-21"
  },
  {
   "key": "770 RANDY LN|HAUGHTON",
@@ -10579,7 +10579,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 244500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "60 TURNBURY DR|BOSSIER CITY",
@@ -10843,7 +10843,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 179000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-10-30"
  },
  {
   "key": "601 KELLY ST|BOSSIER CITY",
@@ -13021,7 +13021,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 295000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-02"
  },
  {
   "key": "120 GRAY CIR|BENTON",
@@ -13065,7 +13065,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 299900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-02"
  },
  {
   "key": "310 MERRILL LN|BENTON",
@@ -14250,5 +14250,17 @@
   "proxy_price": 399900,
   "sold_price": null,
   "sold_date": "2026-10-30"
+ },
+ {
+  "key": "106 THOMPSON ST|BOSSIER CITY",
+  "address": "106 Thompson St",
+  "city": "Bossier City",
+  "sqft": 1431,
+  "predicted": 181930,
+  "predicted_raw": 181930,
+  "predicted_at": "2026-11-03",
+  "proxy_price": 80000,
+  "sold_price": null,
+  "sold_date": "2026-11-02"
  }
 ]
