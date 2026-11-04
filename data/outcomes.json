@@ -459,7 +459,7 @@
   "predicted_at": "2026-07-04",
   "proxy_price": 247628,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-03"
  },
  {
   "key": "3237 PINE HAVEN LN|HAUGHTON",
@@ -8929,7 +8929,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 212000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-02"
  },
  {
   "key": "214 CORNERSTONE BLVD|HAUGHTON",
@@ -10513,7 +10513,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 400000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-02"
  },
  {
   "key": "247 PICCADILLY CIR|BOSSIER CITY",
@@ -14262,5 +14262,29 @@
   "proxy_price": 80000,
   "sold_price": null,
   "sold_date": "2026-11-02"
+ },
+ {
+  "key": "3542 PARISH LINE RD|DOYLINE",
+  "address": "3542 Parish Line Rd",
+  "city": "Doyline",
+  "sqft": 1826,
+  "predicted": 151554,
+  "predicted_raw": 151554,
+  "predicted_at": "2026-11-04",
+  "proxy_price": 489900,
+  "sold_price": null,
+  "sold_date": "2026-10-30"
+ },
+ {
+  "key": "569 BOSSIER PT RD|ELM GROVE",
+  "address": "569 Bossier Point Rd",
+  "city": "Elm Grove",
+  "sqft": 2432,
+  "predicted": 422933,
+  "predicted_raw": 422933,
+  "predicted_at": "2026-11-04",
+  "proxy_price": 150000,
+  "sold_price": null,
+  "sold_date": null
  }
 ]
