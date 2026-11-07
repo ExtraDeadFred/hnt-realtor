@@ -6388,7 +6388,7 @@
   "predicted_at": "2026-09-02",
   "proxy_price": 116000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "507 SECRET CV|BOSSIER CITY",
@@ -9908,7 +9908,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 699900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "138 DOWNING CT|BOSSIER CITY",
@@ -10018,7 +10018,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 390000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "4021 GLEN ST|BOSSIER CITY",
@@ -10304,7 +10304,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 249900,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "3301 COLONIAL DR|BOSSIER CITY",
@@ -10546,7 +10546,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 305000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "2604 ROSEDALE PL|BOSSIER CITY",
@@ -11459,7 +11459,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 169000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-05"
  },
  {
   "key": "105 LANCASHIRE DR|BOSSIER CITY",
@@ -12746,7 +12746,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 119500,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "1819 ALISON AVE|BOSSIER CITY",
@@ -12856,7 +12856,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 228775,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "1629 NIKKI LYNN DR|BOSSIER CITY",
@@ -12988,7 +12988,7 @@
   "predicted_at": "2026-10-08",
   "proxy_price": 230000,
   "sold_price": null,
-  "sold_date": null
+  "sold_date": "2026-11-06"
  },
  {
   "key": "328 LINTWIN CIR|BENTON",
@@ -14284,6 +14284,18 @@
   "predicted_raw": 422933,
   "predicted_at": "2026-11-04",
   "proxy_price": 150000,
+  "sold_price": null,
+  "sold_date": null
+ },
+ {
+  "key": "3636 GREENACRES BLVD|BOSSIER CITY",
+  "address": "3636 Greenacres Blvd",
+  "city": "Bossier City",
+  "sqft": 865,
+  "predicted": 56817,
+  "predicted_raw": 56817,
+  "predicted_at": "2026-11-07",
+  "proxy_price": 144000,
   "sold_price": null,
   "sold_date": null
  }
