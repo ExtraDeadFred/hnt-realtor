@@ -13462,5 +13462,106 @@
     "median_dom": 96
    }
   }
+ },
+ {
+  "date": "2026-11-13",
+  "cohorts": {
+   "Athens": {
+    "inventory": 2,
+    "median_price": 37000,
+    "median_ppsf": null,
+    "median_dom": 2
+   },
+   "Benton": {
+    "inventory": 98,
+    "median_price": 449950,
+    "median_ppsf": 188.8,
+    "median_dom": 76
+   },
+   "Bossier City": {
+    "inventory": 374,
+    "median_price": 275000,
+    "median_ppsf": 152.6,
+    "median_dom": 60
+   },
+   "Bossier Parish": {
+    "inventory": 588,
+    "median_price": 295000,
+    "median_ppsf": 159.4,
+    "median_dom": 64
+   },
+   "Claiborne Parish": {
+    "inventory": 50,
+    "median_price": 115000,
+    "median_ppsf": 64.8,
+    "median_dom": 98
+   },
+   "Doyline": {
+    "inventory": 16,
+    "median_price": 212450,
+    "median_ppsf": 135.2,
+    "median_dom": 109
+   },
+   "Dubberly": {
+    "inventory": 2,
+    "median_price": 147500,
+    "median_ppsf": 152.1,
+    "median_dom": 85
+   },
+   "Elm Grove": {
+    "inventory": 8,
+    "median_price": 207250,
+    "median_ppsf": 129.5,
+    "median_dom": 108
+   },
+   "Haughton": {
+    "inventory": 108,
+    "median_price": 268158,
+    "median_ppsf": 165.8,
+    "median_dom": 64
+   },
+   "Haynesville": {
+    "inventory": 19,
+    "median_price": 56000,
+    "median_ppsf": 28.7,
+    "median_dom": 98
+   },
+   "Heflin": {
+    "inventory": 3,
+    "median_price": 235000,
+    "median_ppsf": 130.6,
+    "median_dom": 103
+   },
+   "Homer": {
+    "inventory": 29,
+    "median_price": 215000,
+    "median_ppsf": 97.9,
+    "median_dom": 82
+   },
+   "Minden": {
+    "inventory": 51,
+    "median_price": 224900,
+    "median_ppsf": 107.1,
+    "median_dom": 76
+   },
+   "Sibley": {
+    "inventory": 8,
+    "median_price": 260000,
+    "median_ppsf": 115.5,
+    "median_dom": 98
+   },
+   "Waterfront": {
+    "inventory": 38,
+    "median_price": 550000,
+    "median_ppsf": 203.1,
+    "median_dom": 76
+   },
+   "Webster Parish": {
+    "inventory": 80,
+    "median_price": 224950,
+    "median_ppsf": 112.3,
+    "median_dom": 98
+   }
+  }
  }
 ]
