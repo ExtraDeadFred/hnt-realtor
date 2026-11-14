@@ -13563,5 +13563,112 @@
     "median_dom": 98
    }
   }
+ },
+ {
+  "date": "2026-11-14",
+  "cohorts": {
+   "Athens": {
+    "inventory": 2,
+    "median_price": 37000,
+    "median_ppsf": 30.4,
+    "median_dom": 3
+   },
+   "Benton": {
+    "inventory": 97,
+    "median_price": 449950,
+    "median_ppsf": 188.2,
+    "median_dom": 76
+   },
+   "Bossier City": {
+    "inventory": 370,
+    "median_price": 275000,
+    "median_ppsf": 151.2,
+    "median_dom": 60
+   },
+   "Bossier Parish": {
+    "inventory": 585,
+    "median_price": 295000,
+    "median_ppsf": 159.1,
+    "median_dom": 63
+   },
+   "Claiborne Parish": {
+    "inventory": 50,
+    "median_price": 115000,
+    "median_ppsf": 64.7,
+    "median_dom": 99
+   },
+   "Cotton Valley": {
+    "inventory": 1,
+    "median_price": 95000,
+    "median_ppsf": 88.3,
+    "median_dom": 0
+   },
+   "Doyline": {
+    "inventory": 16,
+    "median_price": 212450,
+    "median_ppsf": 135.2,
+    "median_dom": 110
+   },
+   "Dubberly": {
+    "inventory": 2,
+    "median_price": 147500,
+    "median_ppsf": 152.1,
+    "median_dom": 86
+   },
+   "Elm Grove": {
+    "inventory": 8,
+    "median_price": 207250,
+    "median_ppsf": 129.5,
+    "median_dom": 110
+   },
+   "Haughton": {
+    "inventory": 109,
+    "median_price": 268315,
+    "median_ppsf": 165.8,
+    "median_dom": 63
+   },
+   "Haynesville": {
+    "inventory": 20,
+    "median_price": 58000,
+    "median_ppsf": 36.6,
+    "median_dom": 99
+   },
+   "Heflin": {
+    "inventory": 3,
+    "median_price": 235000,
+    "median_ppsf": 130.6,
+    "median_dom": 104
+   },
+   "Homer": {
+    "inventory": 28,
+    "median_price": 215000,
+    "median_ppsf": 97.0,
+    "median_dom": 70
+   },
+   "Minden": {
+    "inventory": 50,
+    "median_price": 224900,
+    "median_ppsf": 106.0,
+    "median_dom": 78
+   },
+   "Sibley": {
+    "inventory": 8,
+    "median_price": 260000,
+    "median_ppsf": 115.5,
+    "median_dom": 99
+   },
+   "Waterfront": {
+    "inventory": 37,
+    "median_price": 542500,
+    "median_ppsf": 200.5,
+    "median_dom": 75
+   },
+   "Webster Parish": {
+    "inventory": 79,
+    "median_price": 224900,
+    "median_ppsf": 112.2,
+    "median_dom": 99
+   }
+  }
  }
 ]
